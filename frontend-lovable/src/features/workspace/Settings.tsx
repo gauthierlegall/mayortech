@@ -1,17 +1,18 @@
 import {useEffect,useState,lazy,Suspense,type CSSProperties} from 'react';
-import {Check,Palette,Building2,Users,Plug,ShieldCheck,History,RefreshCw,LayoutGrid,Cpu} from 'lucide-react';
+import {Check,Palette,Building2,Users,Plug,ShieldCheck,History,RefreshCw,LayoutGrid,Cpu,Network} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {useWorkspace} from './context';
 import {applyWorkspaceAppearance,getWorkspaceAppearance,saveWorkspaceAppearance,workspacePalettes} from './appearance-adapter';
 import {SourcePreview} from './SourcePreview';
 import {OrganizationModulesSettings} from './OrganizationModulesSettings';
 import {ConnectorsSettings} from './ConnectorsSettings';
+import {StructureEnrolementSettings} from './StructureEnrolementSettings';
 
 const ConnectionManager=lazy(()=>import('./Connections').then(module=>({default:module.ConnectionManager})));
 const MemberAccessManager=lazy(()=>import('./MemberAccessManager').then(module=>({default:module.MemberAccessManager})));
 const OrganizationRequests=lazy(()=>import('./OrganizationRequests').then(module=>({default:module.OrganizationRequests})));
 const ProjectAccessManager=lazy(()=>import('./ProjectAccessManager').then(module=>({default:module.ProjectAccessManager})));
-const tabs=[{id:'appearance',name:'Apparence',icon:Palette},{id:'organization',name:'Organisation',icon:Building2},{id:'modules',name:'Modules & Périmètre',icon:LayoutGrid},{id:'connectors',name:'Connecteurs & Interopérabilité',icon:Cpu},{id:'members',name:'Membres',icon:Users},{id:'roles',name:'Rôles et droits',icon:ShieldCheck},{id:'audit',name:'Journal',icon:History},{id:'connections',name:'Connexions',icon:Plug}] as const;
+const tabs=[{id:'appearance',name:'Apparence',icon:Palette},{id:'organization',name:'Organisation',icon:Building2},{id:'structure',name:'Structure & Enrôlement',icon:Network},{id:'modules',name:'Modules & Périmètre',icon:LayoutGrid},{id:'connectors',name:'Connecteurs & Interopérabilité',icon:Cpu},{id:'members',name:'Membres',icon:Users},{id:'roles',name:'Rôles et droits',icon:ShieldCheck},{id:'audit',name:'Journal',icon:History},{id:'connections',name:'Connexions',icon:Plug}] as const;
 type Tab=typeof tabs[number]['id'];
 const labels:Record<string,string>={organization:'Organisation',members:'Membres',roles:'Rôles et droits',audit:'Journal',workspace:'Chantiers',mail:'Messagerie',read:'Consulter',write:'Modifier',flags:'Classer les messages'};
 const events:Record<string,string>={'organization.updated':'Organisation modifiée','project.created':'Chantier créé','source.ingested':'Courriel ajouté','source.assigned':'Courriel rattaché','candidate.accepted':'Information confirmée','candidate.rejected':'Proposition écartée','candidate.corrected':'Information corrigée','candidate.replaced':'Information remplacée','note.added':'Note ajoutée','summary.created':'Récapitulatif préparé','summary.approved':'Récapitulatif validé','native_page.saved':'Notes enregistrées','page.saved':'Notes enregistrées','workspace.note_imported':'Notes du document enregistrées','document.stored':'Document conservé'};
@@ -32,9 +33,9 @@ export function Settings(){
  useEffect(()=>{applyWorkspaceAppearance();const changed=()=>setTab(selectedTab());window.addEventListener('hashchange',changed);return()=>window.removeEventListener('hashchange',changed);},[]);
  useEffect(()=>{
   let active=true;setData(null);setError('');setFeedback('');
-  if(tab==='appearance'||tab==='connections'||tab==='members'||tab==='modules'||tab==='connectors'){setLoading(false);return()=>{active=false;};}
+  if(tab==='appearance'||tab==='connections'||tab==='members'||tab==='modules'||tab==='connectors'||tab==='structure'){setLoading(false);return()=>{active=false;};}
   setLoading(true);
-  const load={organization:()=>api.organization(),members:()=>api.organizationMembers(),roles:()=>api.organizationRoles(),audit:()=>api.organizationAudit(),connections:()=>api.settings()}[tab];
+  const load={organization:()=>api.organization(),members:()=>api.organizationMembers(),roles:()=>api.organizationRoles(),audit:()=>api.organizationAudit(),connections:()=>api.settings()}[tab as 'organization'|'members'|'roles'|'audit'|'connections'];
   Promise.resolve().then(load).then(value=>{if(active)setData(value);}).catch(cause=>{if(active)setError(cause instanceof Error?cause.message:'Les paramètres ne peuvent pas être chargés. Réessayez.');}).finally(()=>{if(active)setLoading(false);});
   return()=>{active=false;};
  },[api,tab,retry]);
@@ -49,6 +50,7 @@ export function Settings(){
    {error&&<div className="source-callout" role="alert"><p>{error}</p><Button variant="outline" onClick={()=>setRetry(value=>value+1)}><RefreshCw/>Réessayer</Button></div>}
    {tab==='appearance'&&<><h2>Couleur d’accent</h2><p>La couleur de votre espace de travail, sur cet appareil.</p><div className="palette-options">{workspacePalettes.map(p=><Button key={p.id} variant="outline" className={`palette-choice${appearance.color===p.id?' selected':''}`} aria-pressed={appearance.color===p.id} onClick={()=>changeAppearance({color:p.id})}><span className="swatch" style={{backgroundColor:p.accent} as CSSProperties} aria-hidden="true"/>{p.name}{appearance.color===p.id&&<Check aria-hidden="true"/>}</Button>)}</div><h2 className="mt-10">Espacement</h2><fieldset className="settings-density density-options"><legend className="sr-only">Espacement de l’interface</legend>{[{id:'compact',name:'Compact'},{id:'comfortable',name:'Confortable'}].map(item=><label key={item.id}><input type="radio" name="density" value={item.id} checked={appearance.density===item.id} onChange={()=>changeAppearance({density:item.id as 'compact'|'comfortable'})}/>{item.name}</label>)}</fieldset><p className="settings-note" role="status">Les changements s’appliquent immédiatement et sont conservés sur cet appareil.</p></>}
     {data&&tab==='organization'&&<><h2>Organisation</h2><form className="form-stack max-w-lg" onSubmit={async event=>{event.preventDefault();if(!data.can_manage||saving)return;const values=new FormData(event.currentTarget);setSaving(true);setFeedback('');try{const saved=await api.saveOrganization({name:String(values.get('name')??'').trim(),service:String(values.get('service')??'').trim(),expected_revision:data.revision});setData(saved);setFeedback('');void refresh().catch(()=>{});}catch(cause){setFeedback(cause instanceof Error?cause.message:'La modification n’a pas pu être enregistrée. Votre texte reste visible.');}finally{setSaving(false);}}}><label>Nom de l’organisation<input name="name" defaultValue={data.name??''} required maxLength={200} readOnly={!data.can_manage}/></label><label>Service<input name="service" defaultValue={data.service??''} required maxLength={200} readOnly={!data.can_manage}/></label>{data.can_manage?<Button type="submit" disabled={saving}>{saving?'Enregistrement…':'Enregistrer'}</Button>:<p className="settings-note">Ces informations sont gérées par l’administrateur de l’espace.</p>}{feedback&&<p className="settings-feedback" role="alert">{feedback}</p>}</form></>}
+    {tab==='structure'&&<StructureEnrolementSettings/>}
     {tab==='modules'&&<OrganizationModulesSettings/>}
     {tab==='connectors'&&<ConnectorsSettings/>}
    {tab==='members'&&<Suspense fallback={<p role="status">Chargement des membres…</p>}><OrganizationRequests onChanged={()=>setMembersRevision(value=>value+1)}/><MemberAccessManager key={membersRevision}/></Suspense>}
