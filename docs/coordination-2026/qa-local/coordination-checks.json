@@ -1,0 +1,212 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "checks": [
+    {
+      "name": "project-scoped conversation answers from the current source context",
+      "passed": true
+    },
+    {
+      "name": "1920-conversation-source.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "chat source opens and returns to the conversation",
+      "passed": true
+    },
+    {
+      "name": "a second question keeps the same project conversation",
+      "passed": true
+    },
+    {
+      "name": "1920-conversation.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop chat header and composer stay inside the bounded grid",
+      "passed": true
+    },
+    {
+      "name": "conversation messages persist after a browser reload",
+      "passed": true
+    },
+    {
+      "name": "a second browser visitor cannot see this conversation",
+      "passed": true
+    },
+    {
+      "name": "project Assistant reopens the same personally scoped conversation",
+      "passed": true
+    },
+    {
+      "name": "1920-project-conversation.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390-conversation.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 composer is actually reachable without masked grid overflow",
+      "passed": false
+    },
+    {
+      "name": "390 new conversation is available on mobile",
+      "passed": true
+    },
+    {
+      "name": "320-conversation.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320 composer is actually reachable without masked grid overflow",
+      "passed": false
+    },
+    {
+      "name": "320 new conversation is available on mobile",
+      "passed": true
+    },
+    {
+      "name": "1920-agenda.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "calendar assignment mutation acknowledged",
+      "passed": true
+    },
+    {
+      "name": "calendar assignment feedback is visible within its dialog",
+      "passed": true
+    },
+    {
+      "name": "calendar assignment persists without changing original event dates",
+      "passed": true
+    },
+    {
+      "name": "390-agenda.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390-agenda-assignment.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320-agenda.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320-agenda-assignment.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "only the original calendar assignment was restored",
+      "passed": true
+    },
+    {
+      "name": "server onboarding resumes the first unfinished step",
+      "passed": true
+    },
+    {
+      "name": "skip is persisted without claiming completed configuration",
+      "passed": true
+    },
+    {
+      "name": "skipped onboarding can be resumed",
+      "passed": true
+    },
+    {
+      "name": "initial onboarding progress restored after recipe",
+      "passed": true
+    },
+    {
+      "name": "1920-onboarding.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920-connections.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920-notifications.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920-planning-filled.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390-onboarding.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390-connections.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390-notifications.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390-planning-filled.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320-onboarding.png no horizontal page overflow",
+      "passed": false
+    },
+    {
+      "name": "320-connections.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320-notifications.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320-planning-filled.png no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript errors in coordination flows",
+      "passed": true
+    },
+    {
+      "name": "no HTTP errors in coordination flows",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "screens": [
+    "1920-conversation-source.png",
+    "1920-conversation.png",
+    "1920-project-conversation.png",
+    "390-conversation.png",
+    "390-conversation-composer.png",
+    "320-conversation.png",
+    "320-conversation-composer.png",
+    "1920-agenda.png",
+    "390-agenda.png",
+    "390-agenda-assignment.png",
+    "320-agenda.png",
+    "320-agenda-assignment.png",
+    "1920-onboarding.png",
+    "1920-connections.png",
+    "1920-notifications.png",
+    "1920-planning-filled.png",
+    "390-onboarding.png",
+    "390-connections.png",
+    "390-notifications.png",
+    "390-planning-filled.png",
+    "320-onboarding.png",
+    "320-connections.png",
+    "320-notifications.png",
+    "320-planning-filled.png"
+  ],
+  "bugs": [
+    "390 composer is actually reachable without masked grid overflow",
+    "320 composer is actually reachable without masked grid overflow",
+    "320-onboarding.png no horizontal page overflow"
+  ],
+  "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+  "calendar_event_id": "cdd8ccc1-0832-48f2-aafe-e68fddebc97c"
+}

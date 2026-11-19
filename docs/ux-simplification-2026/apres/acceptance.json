@@ -1,0 +1,353 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "checks": [
+    {
+      "name": "no password in anonymous session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "anonymous session authenticated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four primary project tabs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "technical reference removed from header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three sourced actions in the native database",
+      "passed": true,
+      "detail": [
+        {
+          "id": "wc3Z3m8_fJ",
+          "rows": [
+            {
+              "id": "fSJHEEiTMa",
+              "title": "Confirmer le cheminement piéton avec le service scolaire"
+            },
+            {
+              "id": "YFbO5UqjPy",
+              "title": "Prévoir une visite du parvis avec l’entreprise"
+            },
+            {
+              "id": "TKuWd2649J",
+              "title": "Vérifier la livraison des barrières avant vendredi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-kanban: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "list and kanban keep the same native rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-table: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "automatic action database hidden in notes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-notes: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-documents: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "downloaded original PDF",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "project email filters remain locked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-project-mail: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "global mailbox includes other projects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all six folders in the left rail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-mailbox: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mail favourite flag persisted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mail archive reversible without losing source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-composer: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "draft survives reload on this device",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "demo drafts isolated from another visitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-appearance: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "palette blue applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "palette violet applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "palette slate applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "palette teal applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "palette earth applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "palette forest applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "appearance persists after reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-settings-organization: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-settings-members: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "members shows only a real current access",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-settings-roles: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "permissions have actual grants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-settings-audit: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-settings-connections: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-kanban: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-table: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-page: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-documents: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-exchanges: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-mail-list: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-mail-reader: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: mail back restores list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-appearance: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: navigation closes and restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-kanban: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-table: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-page: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-documents: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-exchanges: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-mail-list: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-mail-reader: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: mail back restores list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-appearance: no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: navigation closes and restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no third party browser requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "screens": [
+    "1920-kanban.png",
+    "1920-table.png",
+    "1920-notes.png",
+    "1920-documents.png",
+    "1920-project-mail.png",
+    "1920-mailbox.png",
+    "1920-composer.png",
+    "1920-appearance.png",
+    "1920-settings-organization.png",
+    "1920-settings-members.png",
+    "1920-settings-roles.png",
+    "1920-settings-audit.png",
+    "1920-settings-connections.png",
+    "390-kanban.png",
+    "390-table.png",
+    "390-page.png",
+    "390-documents.png",
+    "390-exchanges.png",
+    "390-mail-list.png",
+    "390-mail-reader.png",
+    "390-appearance.png",
+    "320-kanban.png",
+    "320-table.png",
+    "320-page.png",
+    "320-documents.png",
+    "320-exchanges.png",
+    "320-mail-list.png",
+    "320-mail-reader.png",
+    "320-appearance.png"
+  ],
+  "draft_posts": [],
+  "project_id": "fe2923c8-7f13-4a40-bcd4-51514b923be7"
+}

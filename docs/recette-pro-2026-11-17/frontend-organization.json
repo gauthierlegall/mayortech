@@ -1,0 +1,95 @@
+{
+  "scope": "Actual built frontend with explicitly simulated session, organization APIs and IdP page; no real signup, MFA, organization or provider connection tested.",
+  "checks": [
+    {
+      "name": "No signup action is invented when server signup capability is false",
+      "passed": true
+    },
+    {
+      "name": "Signup uses IdP rather than a local password or OTP form",
+      "passed": true
+    },
+    {
+      "name": "Signup and login controls fit a 320px viewport",
+      "passed": true
+    },
+    {
+      "name": "Signup sends its explicit intent to the same-origin broker",
+      "passed": true
+    },
+    {
+      "name": "FHD organization choice remains a readable focused page",
+      "passed": true
+    },
+    {
+      "name": "No bootstrap, dossiers, members or messages are requested before organization choice",
+      "passed": true
+    },
+    {
+      "name": "Join errors preserve the available choice and never display raw provider details",
+      "passed": true
+    },
+    {
+      "name": "Real organization request waits for an administrator without loading business data",
+      "passed": true
+    },
+    {
+      "name": "Organization choice fits mobile viewport",
+      "passed": true
+    },
+    {
+      "name": "A returned session for a different account cannot load any dossier",
+      "passed": true
+    },
+    {
+      "name": "Test organization opens only after verified session refresh and does not replay join",
+      "passed": true
+    },
+    {
+      "name": "Test membership does not gain an administrator-only project creation action",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript error or real identity-provider traffic",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "1920-01-inscription.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "b90cb50e6642c9b91ca43fd16a7ccd57eb0d217def188989a351bebf7c2d20cf"
+    },
+    {
+      "file": "1920-02-organisations.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "279a571296ff7b7aa6b41eeb8c8235d53b73a36c3812d359f845be7cb597776d"
+    },
+    {
+      "file": "390-03-organisations.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "523ed608467d44a53ee139de10fb2fad558f2b4b6bb2d66d2074568fe16a1811"
+    },
+    {
+      "file": "1920-04-espace-test.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "7fcb82ef727d606be2781d63d73da36c2c335e74dd17abb67640807c14689e65"
+    }
+  ],
+  "js_errors": [],
+  "external_requests": [],
+  "local_server_stopped": true,
+  "passed": true
+}

@@ -1,0 +1,161 @@
+{
+  "scope": "Actual packaged frontend and real public_demo API/SQLite/Yjs; fictional QA writes only. No real mail/identity/MFA/provider qualification.",
+  "base_url": "https://travaux.kerforge.com",
+  "remote": true,
+  "tls_verification": true,
+  "local_tls_exception": null,
+  "checks": [
+    {
+      "name": "Public demonstration is authenticated anonymously before any QA mutation",
+      "passed": true
+    },
+    {
+      "name": "Actual server mode is public_demo",
+      "passed": true
+    },
+    {
+      "name": "Packaged application is served",
+      "passed": true
+    },
+    {
+      "name": "Real mail sending and external connections remain disabled",
+      "passed": true
+    },
+    {
+      "name": "Public mail reader uses an explicitly fictional message",
+      "passed": true
+    },
+    {
+      "name": "Published public-mode mail splitter changes actual width",
+      "passed": true
+    },
+    {
+      "name": "No decorative saved label or 400ms status poll",
+      "passed": true
+    },
+    {
+      "name": "Current frontend question intent is accepted by public backend",
+      "passed": true
+    },
+    {
+      "name": "Public assistant answers with actual retained source citations",
+      "passed": true
+    },
+    {
+      "name": "Public assistant fits mobile viewport",
+      "passed": true
+    },
+    {
+      "name": "QA edits target a newly created fictional public project",
+      "passed": true
+    },
+    {
+      "name": "Public UI exposes no document upload field",
+      "passed": true
+    },
+    {
+      "name": "Small fictional document upload is refused",
+      "passed": true
+    },
+    {
+      "name": "Fictional MIME import is refused",
+      "passed": true
+    },
+    {
+      "name": "Fictional external connection setup is refused",
+      "passed": true
+    },
+    {
+      "name": "Sending remains blocked by public ACL or unavailable transport",
+      "passed": true,
+      "observed": {
+        "status": 403,
+        "code": "forbidden"
+      }
+    },
+    {
+      "name": "Real Yjs write targets its native database and receives a revision hash",
+      "passed": true
+    },
+    {
+      "name": "Native note and action survive an actual SDK remount once",
+      "passed": true
+    },
+    {
+      "name": "Public recap uses the actual saved fictional native note",
+      "passed": true
+    },
+    {
+      "name": "Public action UI reads the real native row",
+      "passed": true
+    },
+    {
+      "name": "Public recap UI displays the actual generated version",
+      "passed": true
+    },
+    {
+      "name": "Mobile public reader has no active splitter or horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No browser exception or external-origin request",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "1920-01-public-mail.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "236b67abec2ffc00f298a65be2f16f9d4715181f1d88d1a65158b991e9f2485a"
+    },
+    {
+      "file": "1920-02-public-assistant.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "d76011095c8073ed1339b40479b0f883c92a40b296441d7a2f89fcc3e1c5369f"
+    },
+    {
+      "file": "390-03-public-assistant.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "a5e1447e051a1312958328a829b9a32ef3c9975df0628e92b4ce71fb9f252f45"
+    },
+    {
+      "file": "1920-04-public-native-action.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "4a0fe8b396f9132621c0ad5f280070360f9622ebe81de508fd66a58f4ddd9722"
+    },
+    {
+      "file": "1920-05-public-recap.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "e2894caa731de8b7b70de6557b7312b0aa18e9e851b3e129ef1684bd43f642ee"
+    },
+    {
+      "file": "390-06-public-mail.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "0304f93c231725303340b52f635424c4c5918f2e72706291a1c646da2a8149a1"
+    }
+  ],
+  "js_errors": [],
+  "external_requests": [],
+  "fictional_project_id": "4b44c45f-a5ab-42b1-ad52-c9e303bf3efa",
+  "passed": true,
+  "tls_trust_source": "NODE_OPTIONS=--use-system-ca; existing Windows trust store; no installed CA, no ignoreHTTPSerrors, no TLS verification disable.",
+  "release_reported_by_deployer": "20261117T203341Z-ee169c"
+}

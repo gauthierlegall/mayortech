@@ -1,0 +1,28 @@
+{
+  "containers": [
+    {
+      "name": "/travaux-mairie-worker-1",
+      "image": "travaux-mairie:0.8.1-20261116T102001Z-234aeb",
+      "state": "running",
+      "health": "healthy",
+      "memory": 268435456,
+      "nanocpus": 250000000,
+      "readonly": true,
+      "network_mode": "none",
+      "port_bindings": {}
+    },
+    {
+      "name": "/travaux-mairie-app-1",
+      "image": "travaux-mairie:0.8.1-20261116T102001Z-234aeb",
+      "state": "running",
+      "health": "healthy",
+      "memory": 805306368,
+      "nanocpus": 750000000,
+      "readonly": true,
+      "network_mode": "caddy_net",
+      "port_bindings": {}
+    }
+  ],
+  "current": "20261116T102001Z-234aeb",
+  "caddy_domain_logs": []
+}

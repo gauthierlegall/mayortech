@@ -1,0 +1,15 @@
+.workbook-project-context{display:grid;gap:1rem;margin-block:1rem}
+.workbook-project-context dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:1rem;margin:0}
+.workbook-project-context dt{color:var(--muted-foreground);font-size:.8rem}
+.workbook-project-context dd{margin:0;overflow-wrap:anywhere}
+.workbook-context-text h3{font-size:.9rem;margin-bottom:.35rem}
+.workbook-context-text p{white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.workbook-project-context summary{width:fit-content;cursor:pointer;font-weight:600}
+.workbook-project-context details>*:not(summary){margin-top:.75rem;overflow-wrap:anywhere}
+.workbook-project-context details a{text-decoration:underline;text-underline-offset:.15em}
+.workbook-situation{display:grid;gap:.85rem;padding:1rem 1.15rem;border:1px solid var(--border);border-radius:.65rem;background:var(--muted)}
+.workbook-situation h3{margin:0;font-size:.98rem;font-weight:650}
+.workbook-situation dl{grid-template-columns:repeat(auto-fit,minmax(min(100%,125px),1fr));gap:.75rem}
+.workbook-situation p{margin:0;overflow-wrap:anywhere}
+.workbook-situation-excerpts{display:grid;gap:.7rem}
+.workbook-situation-excerpts strong{display:block;margin-bottom:.15rem;font-size:.8rem}

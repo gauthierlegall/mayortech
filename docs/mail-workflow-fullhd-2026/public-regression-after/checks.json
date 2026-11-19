@@ -1,0 +1,51 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "checks": [
+    {
+      "name": "unsaved-folder backtracking keeps the selected folder",
+      "passed": true
+    },
+    {
+      "name": "unsaved-folder returning to review offers a fresh completion",
+      "passed": true
+    },
+    {
+      "name": "unsaved-folder prior completion is cleared",
+      "passed": true
+    },
+    {
+      "name": "unsaved-folder example can finish again",
+      "passed": true
+    },
+    {
+      "name": "completed-example backtracking keeps the selected folder",
+      "passed": true
+    },
+    {
+      "name": "completed-example returning to review offers a fresh completion",
+      "passed": true
+    },
+    {
+      "name": "completed-example prior completion is cleared",
+      "passed": true
+    },
+    {
+      "name": "completed-example example can finish again",
+      "passed": true
+    },
+    {
+      "name": "no integration mutations",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "mutations": []
+}

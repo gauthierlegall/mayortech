@@ -1,0 +1,30 @@
+# A installer dans le Caddy de l'hote, pas dans les conteneurs applicatifs.
+# TRAVAUX_PUBLIC_HOST est le hostname exact, sans https:// ni chemin.
+# Aucun access log : les callbacks OIDC/OAuth contiennent des codes ephemeres.
+{
+    admin off
+    # Les erreurs du proxy ne doivent pas conserver le contexte des callbacks.
+    log default {
+        format filter {
+            wrap json
+            fields {
+                request delete
+                resp_headers delete
+                uri delete
+                url delete
+            }
+        }
+    }
+}
+
+{$TRAVAUX_PUBLIC_HOST} {
+    encode zstd gzip
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        Referrer-Policy "no-referrer"
+        -Server
+    }
+    reverse_proxy 127.0.0.1:8765 {
+        header_up Host {http.request.host}
+    }
+}

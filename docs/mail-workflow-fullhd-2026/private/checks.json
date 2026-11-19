@@ -1,0 +1,764 @@
+{
+  "kind": "real-private-api-in-process-with-fictitious-exchange-reader",
+  "real_exchange_connected": false,
+  "real_provider_network_opened": false,
+  "tls_network_test": false,
+  "browser_assets_substituted": false,
+  "checks": [
+    {
+      "name": "private authenticated session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private onboarding dismissed without connecting account",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "01-1920-provider.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "02-1920-account-empty.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "password stays masked in the filled Full HD screenshot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "03-1920-account-filled.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "04-1920-account-before-test.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "probe failed after exactly one persisted profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "05-1920-test-failure.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retry reused the profile without recreating it",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "password absent from browser persistent storage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "06-1920-folders-verified.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "draft folder selection survives account-step backtrack and successful re-probe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "06b-1920-folders-after-backtrack.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent concurrent calendar selection committed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selection got an actual stale revision response",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "local folder choice survived conflict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "07-1920-scope-conflict.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "folder choice survived account refresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "calendar selected concurrently was preserved by mail-only save",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "account is ready before first manual collection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "08-1920-review-before-import.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bounded first sync kept remaining-work state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "partial collection does not claim completeness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "09-1920-import-partial.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "explicit continuation used the updated connection revision",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual API pipeline retained two fictional originals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mail state records real successful fixture sync without send capability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "10-1920-import-complete.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two actual imported fixture messages visible in mailbox",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "navigation unread badge refreshed after import",
+      "passed": true,
+      "detail": {
+        "expected_from_api": 9,
+        "actual": "9"
+      }
+    },
+    {
+      "name": "11-1920-mailbox-imported.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imported original can be read in the real mail reader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "navigation unread badge refreshed after reading an imported message",
+      "passed": true,
+      "detail": {
+        "expected_from_api": 8,
+        "actual_navigation": "8"
+      }
+    },
+    {
+      "name": "12-1920-imported-message.png is exactly Full HD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only one create request throughout failure and retries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no real external browser requests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "api_calls": [
+    {
+      "method": "GET",
+      "path": "/api/v1/session",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bootstrap",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a56390b5-d259-4c37-9560-8c74befb56b7/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/212993e1-362e-4c3d-9cad-66be6988ad61/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/members",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/86c3b33c-96bf-420d-b6cc-1db655e8f81a/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a8a9571f-ec65-4cf9-92a8-4e67687df8d0/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/messages?folder=all&limit=200&offset=0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/summaries",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/643c3463-785d-4045-a04a-88a2b8becfff/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a56390b5-d259-4c37-9560-8c74befb56b7",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a8a9571f-ec65-4cf9-92a8-4e67687df8d0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/86c3b33c-96bf-420d-b6cc-1db655e8f81a",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/36eace8f-b2fd-469d-9531-5f7c19af141d/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/36eace8f-b2fd-469d-9531-5f7c19af141d",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/643c3463-785d-4045-a04a-88a2b8becfff",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/212993e1-362e-4c3d-9cad-66be6988ad61",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/audit",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/f5b618e8-1aeb-42aa-b8d6-9b3085850b4b",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/f5b618e8-1aeb-42aa-b8d6-9b3085850b4b/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/onboarding",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/integrations",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections",
+      "status": 201,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/probe",
+      "status": 409,
+      "payload": {
+        "expected_revision": 0
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/probe",
+      "status": 200,
+      "payload": {
+        "expected_revision": 0
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/probe",
+      "status": 200,
+      "payload": {
+        "expected_revision": 1
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/selection",
+      "status": 409,
+      "payload": {
+        "folder_ids": [
+          "inbox"
+        ],
+        "calendar_ids": [],
+        "expected_revision": 2
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/integrations",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/selection",
+      "status": 200,
+      "payload": {
+        "folder_ids": [
+          "inbox"
+        ],
+        "calendar_ids": [
+          "cal-a"
+        ],
+        "expected_revision": 3
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mail-backfills?connection_id=21f23958-4823-466a-bf4f-4f5cb13e67cb",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/sync-mail",
+      "status": 200,
+      "payload": {
+        "expected_revision": 4
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/session",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bootstrap",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/members",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/212993e1-362e-4c3d-9cad-66be6988ad61/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a56390b5-d259-4c37-9560-8c74befb56b7/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/summaries",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/643c3463-785d-4045-a04a-88a2b8becfff/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a8a9571f-ec65-4cf9-92a8-4e67687df8d0/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/36eace8f-b2fd-469d-9531-5f7c19af141d/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/messages?folder=all&limit=200&offset=0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/212993e1-362e-4c3d-9cad-66be6988ad61",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/86c3b33c-96bf-420d-b6cc-1db655e8f81a/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/86c3b33c-96bf-420d-b6cc-1db655e8f81a",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/643c3463-785d-4045-a04a-88a2b8becfff",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a8a9571f-ec65-4cf9-92a8-4e67687df8d0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/36eace8f-b2fd-469d-9531-5f7c19af141d",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a56390b5-d259-4c37-9560-8c74befb56b7",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/audit",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/f5b618e8-1aeb-42aa-b8d6-9b3085850b4b/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/f5b618e8-1aeb-42aa-b8d6-9b3085850b4b",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/21f23958-4823-466a-bf4f-4f5cb13e67cb/sync-mail",
+      "status": 200,
+      "payload": {
+        "expected_revision": 5
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/session",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bootstrap",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/members",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/643c3463-785d-4045-a04a-88a2b8becfff/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a8a9571f-ec65-4cf9-92a8-4e67687df8d0/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/86c3b33c-96bf-420d-b6cc-1db655e8f81a/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a56390b5-d259-4c37-9560-8c74befb56b7/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/summaries",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/212993e1-362e-4c3d-9cad-66be6988ad61/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/643c3463-785d-4045-a04a-88a2b8becfff",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/212993e1-362e-4c3d-9cad-66be6988ad61",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/36eace8f-b2fd-469d-9531-5f7c19af141d/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a8a9571f-ec65-4cf9-92a8-4e67687df8d0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/36eace8f-b2fd-469d-9531-5f7c19af141d",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/messages?folder=all&limit=200&offset=0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a56390b5-d259-4c37-9560-8c74befb56b7",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/86c3b33c-96bf-420d-b6cc-1db655e8f81a",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/audit",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/f5b618e8-1aeb-42aa-b8d6-9b3085850b4b/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/f5b618e8-1aeb-42aa-b8d6-9b3085850b4b",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/folders",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/messages?folder=inbox&q=&limit=50&offset=0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mail/ee6c40b9-5d84-4ad7-8d90-36dd71634e85",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/mailbox/messages/ee6c40b9-5d84-4ad7-8d90-36dd71634e85",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/folders",
+      "status": 200,
+      "payload": {}
+    }
+  ],
+  "errors": [],
+  "external_browser_requests": [],
+  "screenshots": [
+    "01-1920-provider.png",
+    "02-1920-account-empty.png",
+    "03-1920-account-filled.png",
+    "04-1920-account-before-test.png",
+    "05-1920-test-failure.png",
+    "06-1920-folders-verified.png",
+    "06b-1920-folders-after-backtrack.png",
+    "07-1920-scope-conflict.png",
+    "08-1920-review-before-import.png",
+    "09-1920-import-partial.png",
+    "10-1920-import-complete.png",
+    "11-1920-mailbox-imported.png",
+    "12-1920-imported-message.png"
+  ],
+  "asset_origin": "http://127.0.0.1:8766",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "purpose": "Full HD workflow screenshots; actual API in-process, fictitious Exchange reader, no institutional TLS claim",
+  "asset_mode": "packaged-product",
+  "application_version": "0.8.1",
+  "client_entry": "/web/product/assets/index-BAatJxwh.js",
+  "navigation_unread": {
+    "expected_from_api": 9,
+    "actual": "9"
+  },
+  "after_reader_unread": {
+    "expected_from_api": 8,
+    "actual_navigation": "8"
+  },
+  "passed": true
+}

@@ -1,0 +1,279 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "checks": [
+    {
+      "name": "Lovable MayorTech shell used",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no password for anonymous demo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native actions imported exactly once",
+      "passed": true,
+      "detail": [
+        {
+          "id": "1ODG_vMicj",
+          "rows": [
+            {
+              "id": "24qemoC73J",
+              "title": "Confirmer le cheminement piéton avec le service scolaire"
+            },
+            {
+              "id": "qGptFcgPji",
+              "title": "Prévoir une visite du parvis avec l’entreprise"
+            },
+            {
+              "id": "6LmV12eCI6",
+              "title": "Vérifier la livraison des barrières avant vendredi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "four project views",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no generated technical reference above title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-kanban no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same rows between native list and kanban",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-list no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "managed automatic actions hidden in notes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "last note saved before navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "global mailbox all projects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all six mailbox folders in sidebar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-mailbox no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "real favourite mail flag stored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-composer no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "draft preserved through reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "draft never shared with another visitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-documents no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original PDF downloadable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "summary includes the latest saved native note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-appearance no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color forest applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color blue applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color violet applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color slate applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color teal applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color earth applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "color choice persisted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-permissions no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-page no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-kanban no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-table no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-documents no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-exchanges no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-mail no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: mail focus restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: navigation focus restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-appearance no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-page no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-kanban no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-table no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-documents no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-exchanges no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-mail no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: mail focus restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: navigation focus restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-appearance no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all browser requests stay on this host",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no HTTP failures during normal workflow",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "draft_server_writes": [],
+  "http_errors": [],
+  "project_id": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41",
+  "native_page_id": "c5198229-d77a-426c-a864-053beb6fa204"
+}

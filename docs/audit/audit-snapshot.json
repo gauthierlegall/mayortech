@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-11-14T15:37:41.810918+00:00",
+  "inputs": {
+    "pyproject.toml": "d51f27820056f9ea0bb681659623b6f6530bfe8bab2bec4fc00a2e5476206ebb",
+    "uv.lock": "6faa94b8d04da01b84758fcc928e4fcd2fedfe20aec31b80917286f4f6178c37"
+  },
+  "lock_package_entries_including_project": 63,
+  "installed_distributions_including_project": 62,
+  "installed_lock_mismatches": [],
+  "pip_audit_version": "2.10.1",
+  "pip_audit_service": "pypi",
+  "supply_chain_collector_sha256": "fd75cffad628980a6da521b5d3a40fb5dd16c5bb9ad63a25245e5208d08abff7",
+  "dependency_code_copied": false,
+  "license_notices_copied": true,
+  "docker_build_performed": false,
+  "container_layers_pulled": false
+}

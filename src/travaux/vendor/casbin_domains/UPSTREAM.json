@@ -1,0 +1,37 @@
+{
+  "component": "PyCasbin RBAC with domains model",
+  "source_repository": "https://github.com/apache/casbin-pycasbin",
+  "requested_repository": "https://github.com/casbin/pycasbin",
+  "release_tag": "v2.8.0",
+  "commit": "f858158e85eb9abdf308fd356d0246b89922b11b",
+  "distribution": "pycasbin==2.8.0",
+  "python_import": "casbin",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "original_path": "examples/rbac_with_domains_model.conf",
+      "url": "https://raw.githubusercontent.com/apache/casbin-pycasbin/f858158e85eb9abdf308fd356d0246b89922b11b/examples/rbac_with_domains_model.conf",
+      "source_page": "https://github.com/apache/casbin-pycasbin/blob/f858158e85eb9abdf308fd356d0246b89922b11b/examples/rbac_with_domains_model.conf",
+      "sha256": "61dd2bd62fd2276924d7f4d2cdb208535bd5939654203efa2f947f1b9681532f",
+      "bytes": 261
+    },
+    {
+      "original_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/apache/casbin-pycasbin/f858158e85eb9abdf308fd356d0246b89922b11b/LICENSE",
+      "source_page": "https://github.com/apache/casbin-pycasbin/blob/f858158e85eb9abdf308fd356d0246b89922b11b/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ],
+  "model_modifications": "None; literal copy of all14upstream lines.",
+  "model_sha256": "61dd2bd62fd2276924d7f4d2cdb208535bd5939654203efa2f947f1b9681532f",
+  "wheel_sha256": "1a9e370de553c677c4dff75a5d6f3b0eb354b73b20d7df77ff4ee61a71267a3a",
+  "sdist_sha256": "2615c8940d58caf03c9206246d9499209fd520448c682d2f2ca101c41d9b0aee",
+  "notice": "The inspected v2.8.0 wheel includes LICENSE and no NOTICE. The later Apache HEAD NOTICE is retained only in the research snapshot, not represented as a release notice.",
+  "policy": "No alice/bob/example policy copied into runtime; application supplies tenant-scoped policy server-side.",
+  "limitations": [
+    "No authentication, membership storage or UI supplied by this model.",
+    "Organisation must come from the authenticated server session; resource tenant ownership still checked by repository queries.",
+    "The allow-only model has default refusal when no matching rule exists; it does not implement an explicit deny override."
+  ]
+}

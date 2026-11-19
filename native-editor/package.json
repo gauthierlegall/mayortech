@@ -1,0 +1,31 @@
+{
+  "name": "travaux-affine-native-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 18765",
+    "build": "node scripts/security-patch.mjs && vite build && node scripts/licenses.mjs --dist",
+    "test": "node scripts/security-patch.mjs && node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@blocksuite/affine": "0.22.4",
+    "@blocksuite/affine-block-database": "0.22.4",
+    "@blocksuite/data-view": "0.22.4",
+    "@blocksuite/store": "0.22.4",
+    "@preact/signals-core": "1.14.5",
+    "react": "18.3.1",
+    "rxjs": "7.8.2",
+    "y-protocols": "1.0.7",
+    "yjs": "13.6.33"
+  },
+  "devDependencies": {
+    "@vanilla-extract/vite-plugin": "5.2.6",
+    "vite": "7.3.7"
+  },
+  "overrides": {
+    "vitest": "4.1.12",
+    "minimatch": "11.0.1",
+    "katex": "0.18.2"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "storyline_id": "lovable-travaux-v1",
+  "manifest_hash": "bbeb8eb65fba682e7bc239bbb70c71dd656da99eff7039332ad77751f04351e9",
+  "projects": {
+    "portail": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+    "voirie": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+    "gymnase": "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1",
+    "parc": "06cbde91-6553-4b05-b2b3-0e7ce82e4a58"
+  },
+  "mail_sources": {
+    "m1": "291da2e3-0ce9-47e7-be2a-6f205428380e",
+    "m2": "42a077e3-7747-4268-9720-c295994ab37c",
+    "m3": "4787cc23-6764-402b-9244-46137f00df79",
+    "m4": "68fe811f-68e1-4eaf-989c-353a99b5b932",
+    "m5": "2eab11fa-e947-4354-a2a6-6fad25a7ae35",
+    "m7": "61c1f4cd-ad92-4f04-ab10-dcf47b66dd8f",
+    "m8": "aa096725-786f-4424-85dc-33afd532b60d",
+    "m9": "f6561a3d-2943-4c65-8d69-257430563bd0",
+    "m10": "41f8050d-16df-4b70-9f71-97da0d382ff1",
+    "m6": "ac041f71-6091-4e7b-8242-2ef3b41b435d"
+  },
+  "document_catalog": [
+    {
+      "document_id": "b280918f-a624-481d-8a01-8007bc3ab4e7",
+      "source_id": "3b7f6369-bcd3-4703-ab47-53d646092b5a",
+      "mail_source_id": "291da2e3-0ce9-47e7-be2a-6f205428380e",
+      "filename": "devis-portail-v1.pdf",
+      "family": "AF-2026-184",
+      "version": 1,
+      "status": "validated",
+      "status_label": "Validé",
+      "sha256": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+      "amount": {
+        "amount": "4850.00",
+        "currency": "EUR",
+        "basis": "HT"
+      },
+      "evidence": {
+        "version": {
+          "source_id": "3b7f6369-bcd3-4703-ab47-53d646092b5a",
+          "quote": "Devis AF-2026-184 - Version 1"
+        },
+        "status": {
+          "source_id": "42a077e3-7747-4268-9720-c295994ab37c",
+          "quote": "Nous confirmons le devis initial de 4 850,00 € HT."
+        },
+        "amount": {
+          "source_id": "3b7f6369-bcd3-4703-ab47-53d646092b5a",
+          "quote": "Montant total : 4 850,00 EUR HT"
+        }
+      }
+    },
+    {
+      "document_id": "0c855437-04df-4520-b507-469615ab2326",
+      "source_id": "7f7a6972-30e4-4897-a22b-789ad93f141f",
+      "mail_source_id": "ac041f71-6091-4e7b-8242-2ef3b41b435d",
+      "filename": "devis-portail-v2.pdf",
+      "family": "AF-2026-184",
+      "version": 2,
+      "status": "under_review",
+      "status_label": "En examen",
+      "sha256": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce",
+      "amount": {
+        "amount": "5120.00",
+        "currency": "EUR",
+        "basis": "HT"
+      },
+      "evidence": {
+        "version": {
+          "source_id": "7f7a6972-30e4-4897-a22b-789ad93f141f",
+          "quote": "Devis AF-2026-184 - Version 2"
+        },
+        "status": {
+          "source_id": "7f7a6972-30e4-4897-a22b-789ad93f141f",
+          "quote": "Etat : En examen - ne remplace pas le devis valide"
+        },
+        "amount": {
+          "source_id": "7f7a6972-30e4-4897-a22b-789ad93f141f",
+          "quote": "Montant total : 5 120,00 EUR HT"
+        }
+      }
+    }
+  ],
+  "catalog_source_id": "3134499a-a42f-4989-8e54-03775dd27257",
+  "confirmed_actions": [
+    {
+      "description": "Devis AF-2026-184 validé dans le courriel du 5 novembre.",
+      "due": "2026-11-05",
+      "owner": "Thomas Le Gall",
+      "priority": "Normale",
+      "status": "Terminé",
+      "title": "Valider le devis initial",
+      "candidate_id": "df5748c8-8c0c-4039-8900-9a85cb40905f",
+      "source_id": "42a077e3-7747-4268-9720-c295994ab37c",
+      "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+      "field": "action.15596836ea66"
+    },
+    {
+      "description": "Prévoir un cheminement provisoire pour les élèves.",
+      "due": "2026-11-17",
+      "owner": "Marie Kervella",
+      "priority": "Haute",
+      "status": "En cours",
+      "title": "Préparer la sécurisation de l’entrée",
+      "candidate_id": "86fc7303-e087-45fb-bae7-04af31c99a3d",
+      "source_id": "68fe811f-68e1-4eaf-989c-353a99b5b932",
+      "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+      "field": "action.a12c2fb32d6b"
+    },
+    {
+      "description": "Faire valider la déviation par le service voirie.",
+      "due": "2026-11-16",
+      "owner": "Marie Kervella",
+      "priority": "Haute",
+      "status": "À faire",
+      "title": "Confirmer le plan de circulation",
+      "candidate_id": "b7849f55-91e5-417e-bdb6-74ca18f956a0",
+      "source_id": "61c1f4cd-ad92-4f04-ab10-dcf47b66dd8f",
+      "project_id": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+      "field": "action.c8d85ed608e6"
+    },
+    {
+      "description": "Relever les points lumineux avec Élec Armor.",
+      "due": "2026-11-20",
+      "owner": "Thomas Le Gall",
+      "priority": "Normale",
+      "status": "À faire",
+      "title": "Organiser la visite technique",
+      "candidate_id": "6de30e38-8da5-47fb-831a-5f863d00b0fc",
+      "source_id": "aa096725-786f-4424-85dc-33afd532b60d",
+      "project_id": "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1",
+      "field": "action.f69f8945b179"
+    },
+    {
+      "description": "Attendre le rapport de portance du laboratoire.",
+      "due": "2026-11-18",
+      "owner": "Lucie Prigent",
+      "priority": "Normale",
+      "status": "En attente",
+      "title": "Recevoir les résultats des essais",
+      "candidate_id": "bfc371e1-f62b-4e59-a986-59cf483102c5",
+      "source_id": "f6561a3d-2943-4c65-8d69-257430563bd0",
+      "project_id": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+      "field": "action.5724b9134032"
+    },
+    {
+      "description": "Confirmer l’accès le vendredi 20 novembre pour la visite préparatoire d’Armor Fermetures ; cette tâche ne confirme pas que l’accès est déjà accordé.",
+      "due": "2026-11-20",
+      "owner": "Thomas Le Gall",
+      "priority": "Haute",
+      "status": "À faire",
+      "title": "Confirmer l’accès vendredi",
+      "candidate_id": "d7e5169b-d006-4d08-a631-6f4227ceb82e",
+      "source_id": "ac041f71-6091-4e7b-8242-2ef3b41b435d",
+      "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+      "field": "action.46dbd3b5279e"
+    }
+  ],
+  "pending_candidates": [
+    "5261a2a8-0744-4e2b-b8e3-48538e4b8cb7",
+    "3d5b7b13-d98e-481a-a672-6e5dbf68eed4"
+  ],
+  "summary_ids": {
+    "portail_initial": "9f4d83d0-3d37-421c-9218-37fb19f7ff64",
+    "voirie": "728a2630-4641-4753-890f-cd43fa2fa30b",
+    "gymnase": "e1f94468-a087-479b-a0b7-5c832103d787",
+    "parc": "50be9db9-fdab-4404-ad89-834e2a19f336",
+    "portail_current": "5859c9e8-a223-489f-8944-daaab0a63a4f"
+  },
+  "native_seed": {
+    "98d50277-8cda-49c8-8db4-3cd571fdb79b": {
+      "paragraphs": [
+        "Préserver un cheminement provisoire pour les élèves. Informer la direction de l’école avant l’intervention. Ne pas annoncer le report comme confirmé avant relecture du courriel de l’entreprise."
+      ],
+      "actions": [
+        {
+          "description": "Devis AF-2026-184 validé dans le courriel du 5 novembre.",
+          "due": "2026-11-05",
+          "owner": "Thomas Le Gall",
+          "priority": "Normale",
+          "status": "Terminé",
+          "title": "Valider le devis initial",
+          "candidate_id": "df5748c8-8c0c-4039-8900-9a85cb40905f",
+          "source_id": "42a077e3-7747-4268-9720-c295994ab37c",
+          "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+          "field": "action.15596836ea66"
+        },
+        {
+          "description": "Prévoir un cheminement provisoire pour les élèves.",
+          "due": "2026-11-17",
+          "owner": "Marie Kervella",
+          "priority": "Haute",
+          "status": "En cours",
+          "title": "Préparer la sécurisation de l’entrée",
+          "candidate_id": "86fc7303-e087-45fb-bae7-04af31c99a3d",
+          "source_id": "68fe811f-68e1-4eaf-989c-353a99b5b932",
+          "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+          "field": "action.a12c2fb32d6b"
+        },
+        {
+          "description": "Confirmer l’accès le vendredi 20 novembre pour la visite préparatoire d’Armor Fermetures ; cette tâche ne confirme pas que l’accès est déjà accordé.",
+          "due": "2026-11-20",
+          "owner": "Thomas Le Gall",
+          "priority": "Haute",
+          "status": "À faire",
+          "title": "Confirmer l’accès vendredi",
+          "candidate_id": "d7e5169b-d006-4d08-a631-6f4227ceb82e",
+          "source_id": "ac041f71-6091-4e7b-8242-2ef3b41b435d",
+          "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+          "field": "action.46dbd3b5279e"
+        }
+      ]
+    },
+    "a06c2a34-8075-4cb9-ba61-e2798a45a9fa": {
+      "paragraphs": [
+        "Maintenir les accès riverains pendant la préparation de la déviation. Le rapport de portance reste attendu."
+      ],
+      "actions": [
+        {
+          "description": "Faire valider la déviation par le service voirie.",
+          "due": "2026-11-16",
+          "owner": "Marie Kervella",
+          "priority": "Haute",
+          "status": "À faire",
+          "title": "Confirmer le plan de circulation",
+          "candidate_id": "b7849f55-91e5-417e-bdb6-74ca18f956a0",
+          "source_id": "61c1f4cd-ad92-4f04-ab10-dcf47b66dd8f",
+          "project_id": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+          "field": "action.c8d85ed608e6"
+        },
+        {
+          "description": "Attendre le rapport de portance du laboratoire.",
+          "due": "2026-11-18",
+          "owner": "Lucie Prigent",
+          "priority": "Normale",
+          "status": "En attente",
+          "title": "Recevoir les résultats des essais",
+          "candidate_id": "bfc371e1-f62b-4e59-a986-59cf483102c5",
+          "source_id": "f6561a3d-2943-4c65-8d69-257430563bd0",
+          "project_id": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+          "field": "action.5724b9134032"
+        }
+      ]
+    },
+    "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1": {
+      "paragraphs": [
+        "Organiser l’accès du prestataire au gymnase pour le relevé des luminaires. Le chantier est en préparation."
+      ],
+      "actions": [
+        {
+          "description": "Relever les points lumineux avec Élec Armor.",
+          "due": "2026-11-20",
+          "owner": "Thomas Le Gall",
+          "priority": "Normale",
+          "status": "À faire",
+          "title": "Organiser la visite technique",
+          "candidate_id": "6de30e38-8da5-47fb-831a-5f863d00b0fc",
+          "source_id": "aa096725-786f-4424-85dc-33afd532b60d",
+          "project_id": "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1",
+          "field": "action.f69f8945b179"
+        }
+      ]
+    },
+    "06cbde91-6553-4b05-b2b3-0e7ce82e4a58": {
+      "paragraphs": [
+        "Le chantier est terminé dans ce scénario fictif ; conserver le retour de réception dans le dossier."
+      ],
+      "actions": []
+    }
+  }
+}

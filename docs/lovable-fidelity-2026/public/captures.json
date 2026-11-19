@@ -1,0 +1,98 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "errors": [],
+  "http_errors": [],
+  "pages": [
+    {
+      "name": "1920-projects",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "name": "1920-project",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "name": "1920-actions-table",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "name": "1920-actions-kanban",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "name": "1920-documents",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "name": "1920-mail",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "name": "390-projects",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "name": "390-project",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "name": "390-actions-table",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "name": "390-actions-kanban",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "name": "390-documents",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "name": "390-mail",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "name": "320-projects",
+      "width": 320,
+      "scroll_width": 320
+    },
+    {
+      "name": "320-project",
+      "width": 320,
+      "scroll_width": 320
+    },
+    {
+      "name": "320-actions-table",
+      "width": 320,
+      "scroll_width": 320
+    },
+    {
+      "name": "320-actions-kanban",
+      "width": 320,
+      "scroll_width": 320
+    },
+    {
+      "name": "320-documents",
+      "width": 320,
+      "scroll_width": 320
+    },
+    {
+      "name": "320-mail",
+      "width": 320,
+      "scroll_width": 320
+    }
+  ],
+  "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b"
+}

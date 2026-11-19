@@ -1,0 +1,343 @@
+{
+  "kind": "real-private-api-in-process-with-fictitious-exchange-reader",
+  "real_exchange_connected": false,
+  "real_provider_network_opened": false,
+  "tls_network_test": false,
+  "browser_assets_substituted": false,
+  "checks": [
+    {
+      "name": "private authenticated session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private onboarding dismissed without connecting account",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "probe failed after exactly one persisted profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retry reused the profile without recreating it",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "password absent from browser persistent storage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private long mailbox wraps at 320 without overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent concurrent calendar selection committed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selection got an actual stale revision response",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "local folder choice survived conflict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "folder choice survived account refresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "calendar selected concurrently was preserved by mail-only save",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "account is ready before first manual collection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bounded first sync kept remaining-work state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "partial collection does not claim completeness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "explicit continuation used the updated connection revision",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual API pipeline retained two fictional originals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mail state records real successful fixture sync without send capability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only one create request throughout failure and retries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no real external browser requests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "api_calls": [
+    {
+      "method": "GET",
+      "path": "/api/v1/session",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bootstrap",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/230fc6fb-039d-4e11-a6bf-555e08871f64/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/16239e21-ab7d-446d-981d-fa05ee9625c9/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/members",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/51c44ddf-48ee-4bc6-97df-c54ad5becf9d/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/messages?folder=all&limit=200&offset=0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/fe3d59a2-b35e-4921-ad62-78151a11c84c/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/summaries",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/230fc6fb-039d-4e11-a6bf-555e08871f64",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/ef96db31-7b53-4f37-8938-7d68a768f47a/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a31fec42-37f6-4d7f-9fa5-3d2e9f5057f8",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a31fec42-37f6-4d7f-9fa5-3d2e9f5057f8/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/51c44ddf-48ee-4bc6-97df-c54ad5becf9d",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/fe3d59a2-b35e-4921-ad62-78151a11c84c",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/ef96db31-7b53-4f37-8938-7d68a768f47a",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/16239e21-ab7d-446d-981d-fa05ee9625c9",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/audit",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/4048461b-2296-4b47-aee6-f0a6fc2fd3d7/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/4048461b-2296-4b47-aee6-f0a6fc2fd3d7",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/integrations",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/onboarding",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections",
+      "status": 201,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/7342192e-bf87-42ff-99e5-729da26e9472/probe",
+      "status": 409,
+      "payload": {
+        "expected_revision": 0
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/7342192e-bf87-42ff-99e5-729da26e9472/probe",
+      "status": 200,
+      "payload": {
+        "expected_revision": 0
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/integrations/connections/7342192e-bf87-42ff-99e5-729da26e9472/selection",
+      "status": 409,
+      "payload": {
+        "folder_ids": [
+          "inbox"
+        ],
+        "calendar_ids": [],
+        "expected_revision": 1
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/integrations",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/integrations/connections/7342192e-bf87-42ff-99e5-729da26e9472/selection",
+      "status": 200,
+      "payload": {
+        "folder_ids": [
+          "inbox"
+        ],
+        "calendar_ids": [
+          "cal-a"
+        ],
+        "expected_revision": 2
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mail-backfills?connection_id=7342192e-bf87-42ff-99e5-729da26e9472",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/7342192e-bf87-42ff-99e5-729da26e9472/sync-mail",
+      "status": 200,
+      "payload": {
+        "expected_revision": 3
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/7342192e-bf87-42ff-99e5-729da26e9472/sync-mail",
+      "status": 200,
+      "payload": {
+        "expected_revision": 4
+      }
+    }
+  ],
+  "errors": [],
+  "external_browser_requests": [],
+  "screenshots": [
+    "1920-private-probe-failure.png",
+    "320-private-long-mailbox.png",
+    "1920-private-selection-conflict.png",
+    "1920-private-summary.png",
+    "1920-private-import-more.png"
+  ],
+  "asset_origin": "http://127.0.0.1:8766",
+  "asset_mode": "packaged-product",
+  "passed": true
+}

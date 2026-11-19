@@ -1,0 +1,196 @@
+{
+  "version": "0.8.0",
+  "date": "2026-11-16",
+  "public_url": "https://travaux.kerforge.com",
+  "public_release": "20261116T094932Z-306a53",
+  "frontend_base": "Lovable v2 identity preserved; guided mail setup and explicit project/owner planning added",
+  "python_application_and_deployment_tests_passed": 396,
+  "deployment_tests_rechecked_after_frontend_build": 55,
+  "frontend_and_domain_node_tests_passed": 97,
+  "native_module_node_tests_passed": 27,
+  "typescript_product_check": "passed",
+  "frontend_production_build": "passed",
+  "native_runtime": "unchanged from verified 0.7 build",
+  "ruff": "passed",
+  "lock_check": "passed",
+  "local_browser_checks": {
+    "mail_example": 26,
+    "private_api_with_fictitious_exchange_reader": 20,
+    "planning": 27,
+    "isolated_uncertain_creation_and_unmount": 3
+  },
+  "public_browser_checks": {
+    "mail_example": 26,
+    "planning": 28,
+    "contract": 27
+  },
+  "screenshots": {
+    "mail-connection-2026/public/1920-account.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "a165acac96aecab525a95e116958d858732056c6376407176724a504178d7bf4"
+    },
+    "mail-connection-2026/public/1920-provider.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "851cc3c5a9f940dba03db16ec850958d5b3286534ad07e1f09c2e367309db0fc"
+    },
+    "mail-connection-2026/public/1920-summary.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "906c71d4937fc05ef00657924f7411ce8392c872a7973ad99edc69d36fab5f6a"
+    },
+    "mail-connection-2026/public/320-account.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "a7fbe17518ee4c7701f6b14add447ef729f3009e6e64ba7dfb179abc5b9d1cdf"
+    },
+    "mail-connection-2026/public/320-mail-entry.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "3d938ce0cea8910606cdad295cb2f206312405fe3666082d6fa944633cdd125f"
+    },
+    "mail-connection-2026/public/320-provider.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "918cba054da2a815116592b14dc5a7838b64c3edbc3bc0d4df07a794a175c271"
+    },
+    "mail-connection-2026/public/320-summary.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "4d37f3266419ea2dbd29dfbff5d7d7d485bd5e3e4df66b1ef2274eec01a046db"
+    },
+    "mail-connection-2026/public/390-account.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "6033b31a7df7221219912bad5ede306adc70887c6c1cbd057c7c38e0b28bd74c"
+    },
+    "mail-connection-2026/public/390-provider.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "8ba6a5334cf0bde5844be23ed146dc271533ef6ec255dec5e1d8b774ba050cf1"
+    },
+    "mail-connection-2026/public/390-summary.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "d96dc0f6a4b941d7f809f82e4db6a61781275f8e45f48609ac3149eb61c29c59"
+    },
+    "planning-consistency-2026/public/1920-empty-choice.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "f086d9be14f4fc9290ca375ce83991c70051e523265f183706906085457bccac"
+    },
+    "planning-consistency-2026/public/1920-locked-project.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "d3904f3c938e8adfbfaa1878a74ed03b2b62177cdf0f6dc06c382a6b04d3c50f"
+    },
+    "planning-consistency-2026/public/1920-planning-form.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "ff7fc7415b7e5e8e43c7d3ec3158c0963dd040d5fe0b2f367831216952e8767b"
+    },
+    "planning-consistency-2026/public/320-planning-form.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "b50239c046adb56f6f87a08d7cde115c02d3c08668d815904762ffce44a1196a"
+    },
+    "planning-consistency-2026/public/390-planning-form.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "f1526080f13c7078e8c8d8d377e2d2984ee4870b7f831781f049becbed6572ee"
+    },
+    "mail-connection-2026/private-browser/1920-private-import-more.png": {
+      "pixels": [
+        1920,
+        1371
+      ],
+      "sha256": "e7dfb796a146ac1d4778b49a0c58eb27bec047cc2b5d728d5348f2aa73f25f9d"
+    },
+    "mail-connection-2026/private-browser/1920-private-probe-failure.png": {
+      "pixels": [
+        1920,
+        1177
+      ],
+      "sha256": "b8818894d8239a9b8316ba6bbcc0cc0c0e15d3c47e9aae275e282e709a4f8305"
+    },
+    "mail-connection-2026/private-browser/1920-private-selection-conflict.png": {
+      "pixels": [
+        1920,
+        1208
+      ],
+      "sha256": "6870addec9d07805acb37700433929fba45236112d8d3ad548b5bded7af88f9e"
+    },
+    "mail-connection-2026/private-browser/1920-private-summary.png": {
+      "pixels": [
+        1920,
+        1239
+      ],
+      "sha256": "29825b62435d2b81428b6beec6e29bcd680bc6f59dedb82cff4e033322343974"
+    },
+    "mail-connection-2026/private-browser/320-private-long-mailbox.png": {
+      "pixels": [
+        320,
+        1803
+      ],
+      "sha256": "cf51521d9717d7492bf713fbd65ed5eee95184305a11e3000877b481537d3372"
+    }
+  },
+  "responsive_widths_tested": [
+    1920,
+    390,
+    320
+  ],
+  "public_connection_mutations": 0,
+  "public_planning_put_patch_delete": 0,
+  "public_demo_without_password": true,
+  "public_demo_database_separated_from_former_private_database": true,
+  "real_municipal_data_used": false,
+  "real_exchange_connected": false,
+  "real_caldav_connected": false,
+  "real_mail_transport_connected": false,
+  "mistral_connected": false,
+  "telegram_connected": false,
+  "individual_identity_provider_connected": false,
+  "physical_mobile_device_tested": false,
+  "certifies_rgpd_or_rgaa": false,
+  "public_evidence": "mail-connection-2026/README.md",
+  "planning_evidence": "planning-consistency-2026/README.md",
+  "limitations": [
+    "Exchange EWS is the only implemented mailbox provider; Gmail/IMAP and Microsoft 365 OAuth are unavailable.",
+    "Public setup uses explicit fictional values in memory and never asks for a password or creates a connection.",
+    "Private browser checks use the real application API and a fictitious Exchange reader, not a real institutional server.",
+    "No automatic mailbox polling or email sending is enabled; each bounded read is an explicit action.",
+    "The native SDK retains its documented Zod 3 backport and the upstream npm advisory remains reported."
+  ]
+}

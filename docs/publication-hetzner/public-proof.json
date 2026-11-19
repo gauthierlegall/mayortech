@@ -1,0 +1,32 @@
+{
+  "base_url": "https://travaux.kerforge.com",
+  "fictitious_data_only": true,
+  "checks": {
+    "api_requires_authentication": true,
+    "https_validated": true,
+    "secure_session_login": true,
+    "native_page_database_saved_in_real_backend": true,
+    "native_reload_same_row_id": true,
+    "summary_uses_native_page_and_database_context": true,
+    "mail_in_same_session": true,
+    "logout_revokes_session": true
+  },
+  "errors": [],
+  "external_requests": [],
+  "project_id": "b9d16287-89c2-45e7-b303-c9c4b32d7886",
+  "mobile": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "sidebarRight": 0,
+      "sidebarInert": true
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "sidebarRight": 0,
+      "sidebarInert": true
+    }
+  ],
+  "summary_id": "de53131d-ad79-46cc-b83e-07b116900154"
+}

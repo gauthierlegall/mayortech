@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/AppFlowy-IO/AppFlowy-SelfHost-Commercial",
+  "commit": "e39869a2bae964e951832e577407e35a548b48c8",
+  "checked_on": "2026-11-14",
+  "license": "AppFlowy Self-Hosted Commercial License; internal business use; separate agreement for OEM/resale",
+  "image_digests": "not pulled or verified; record after approved installation",
+  "mcp_catalog_repository": "https://github.com/AppFlowy-IO/appflowy-ai-plugins",
+  "mcp_catalog_commit": "318a8c81cab86418fa3e71cc8e03b7cb874378a6",
+  "mcp_catalog_version": "25",
+  "mcp_catalog_tools_integrity_digest": "d801992edde4b28e327e76568c864970d0e6b9836f3a9b480a997a3067b94db9"
+}

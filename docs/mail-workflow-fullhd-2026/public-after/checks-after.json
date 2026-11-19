@@ -1,0 +1,195 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "at_utc": "2026-11-16T10:22:52.270086+00:00",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "screenshots": [
+    {
+      "file": "01-messagerie.png",
+      "caption": "Point de départ : Relier ma messagerie dans la Messagerie publiée.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "02-fournisseur.png",
+      "caption": "Le site propose un parcours de démonstration avec un compte fictif.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "03-microsoft-indisponible.png",
+      "caption": "Microsoft 365 est sélectionnable pour information ; la connexion reste indisponible.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "04-compte-fictif.png",
+      "caption": "Étape Compte : adresse fictive, aucun test réseau ni identifiant réel.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "05-dossiers-avant-choix.png",
+      "caption": "Sans dossier coché, la progression est bloquée avec le bouton désactivé.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "06-dossier-selectionne.png",
+      "caption": "La réception fictive est sélectionnée ; le parcours peut continuer.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "07-recapitulatif.png",
+      "caption": "Récapitulatif des accès de l’exemple avant sa fin.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "08-fin-exemple.png",
+      "caption": "Fin explicite : aucun compte relié, aucun mail importé.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "09-reprise-compte.png",
+      "caption": "Retour dans Compte après un exemple terminé : vérifier titre et données présentées.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "10-reprise-recapitulatif.png",
+      "caption": "Second passage dans Terminer : vérifier que l’exemple est à nouveau terminable.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    },
+    {
+      "file": "11-second-exemple-termine.png",
+      "caption": "Le second passage se termine à nouveau, sans perdre le choix du dossier.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll_y": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "01-messagerie.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "real account connections are disabled for this example",
+      "passed": true
+    },
+    {
+      "name": "02-fournisseur.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "03-microsoft-indisponible.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "account step requests no actual password",
+      "passed": true
+    },
+    {
+      "name": "04-compte-fictif.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "05-dossiers-avant-choix.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "06-dossier-selectionne.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "07-recapitulatif.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "08-fin-exemple.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "demo completed without connection mutations",
+      "passed": true
+    },
+    {
+      "name": "actual connection state unchanged",
+      "passed": true
+    },
+    {
+      "name": "09-reprise-compte.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "re-entering the account step preserves the selected folder",
+      "passed": true
+    },
+    {
+      "name": "10-reprise-recapitulatif.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "second run offers a new completion",
+      "passed": true
+    },
+    {
+      "name": "11-second-exemple-termine.png no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "no application JS or HTTP errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "integration_mutations": [],
+  "findings": [],
+  "capabilities": {
+    "public_demo": true,
+    "can_manage": false,
+    "external_connections_enabled": false,
+    "real_connections_count": 0
+  },
+  "replay_finish_button_count": 1,
+  "main_limitation": "The published public_demo disables actual mailbox connection. No real credentials were supplied or provider contacted."
+}

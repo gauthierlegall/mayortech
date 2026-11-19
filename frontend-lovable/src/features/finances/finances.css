@@ -1,0 +1,161 @@
+/* Finances Commission & Arbitration UI styles (Lot 2 MayorTech) */
+.finances-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px 0 40px;
+  max-width: 1100px;
+}
+
+.finances-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.finances-heading h2 {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.finances-heading p {
+  color: var(--muted-foreground);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.transmissions-layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.transmissions-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.transmission-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--background);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.transmission-list-item:hover {
+  border-color: var(--ring);
+  background: var(--accent, #f0f9ff);
+}
+
+.transmission-list-item.selected {
+  border-color: #0284c7;
+  background: #f0f9ff;
+  box-shadow: 0 0 0 1px #0284c7;
+}
+
+.transmission-detail-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.variants-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.variant-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  background: var(--muted, #f8fafc);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.variant-card.recommended {
+  border-color: #0284c7;
+  background: #f0f9ff;
+}
+
+.variant-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.decision-form-box {
+  background: var(--muted, #f8fafc);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.decision-radios {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.decision-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--background);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.decision-radio-label:has(input:checked) {
+  border-color: #0284c7;
+  background: #f0f9ff;
+  color: #0369a1;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .transmissions-layout {
+    grid-template-columns: 1fr;
+  }
+  .variants-comparison-grid {
+    grid-template-columns: 1fr;
+  }
+  .decision-radios {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,348 @@
+/* Culture & Événementiel UI styles (Lot 2 MayorTech) */
+.culture-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px 0 40px;
+  max-width: 1100px;
+}
+
+.culture-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.culture-heading h2 {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.culture-heading p {
+  color: var(--muted-foreground);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.culture-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.culture-card {
+  background: var(--card, #ffffff);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.culture-card.full-width {
+  grid-column: 1 / -1;
+}
+
+.culture-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+
+.culture-card-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Reservation styles & Conflict Banner */
+.conflict-alert {
+  background: #fef2f2;
+  border: 1px solid #f87171;
+  color: #991b1b;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.conflict-alert svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.success-banner {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #166534;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-banner {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 13px;
+  color: var(--foreground);
+}
+
+.reservation-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.reservation-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reservation-field label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.reservation-field input,
+.reservation-field select,
+.reservation-field textarea {
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.reservations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.reservation-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--muted, #f8fafc);
+  font-size: 13px;
+}
+
+.reservation-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.reservation-item-info strong {
+  font-weight: 600;
+}
+
+.reservation-item-info span {
+  color: var(--muted-foreground);
+  font-size: 12px;
+}
+
+/* Budget Variants & Telemetry */
+.variant-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+}
+
+.variant-tab-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.variant-tab-btn.active {
+  background: var(--accent, #e0f2fe);
+  color: var(--accent-foreground, #0369a1);
+  border-color: #bae6fd;
+  font-weight: 600;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.budget-table th,
+.budget-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.budget-table th {
+  font-weight: 600;
+  color: var(--muted-foreground);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.budget-table td.numeric,
+.budget-table th.numeric {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-family: monospace, sans-serif;
+}
+
+.budget-totals-bento {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  background: var(--muted, #f8fafc);
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-top: 12px;
+}
+
+.budget-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.budget-metric span {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted-foreground);
+}
+
+.budget-metric strong {
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.budget-metric.highlight strong {
+  color: #0369a1;
+}
+
+/* Transmission & Arbitrage Status */
+.transmission-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  background: var(--card);
+}
+
+.transmission-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.transmission-status-pill.transmis {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.transmission-status-pill.complements_requis {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.transmission-status-pill.avis_rendu {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.opinion-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.opinion-badge.favorable {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.opinion-badge.favorable_avec_reserves {
+  background: #fef3c7;
+  color: #854d0e;
+}
+
+.opinion-badge.defavorable {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.opinion-badge.demande_complements {
+  background: #f3e8ff;
+  color: #6b21a8;
+}
+
+@media (max-width: 768px) {
+  .culture-bento-grid {
+    grid-template-columns: 1fr;
+  }
+  .reservation-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .budget-totals-bento {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .culture-panel {
+    padding: 10px 0;
+  }
+  .budget-table th, .budget-table td {
+    padding: 6px 4px;
+    font-size: 12px;
+  }
+}

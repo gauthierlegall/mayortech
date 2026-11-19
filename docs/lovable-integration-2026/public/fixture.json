@@ -1,0 +1,13 @@
+{
+  "release": "20261115T113918Z-45ce06",
+  "fixture": {
+    "project_id": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41",
+    "source_ids": [
+      "674e811f-3bfd-430f-a101-49313337ce3a",
+      "838873de-0bf6-48f4-b517-7b5ebcb47dd8",
+      "31756d4e-80f7-4ce9-9fd1-3cc389935911"
+    ],
+    "projects": 6
+  },
+  "real_mailbox_connected": false
+}

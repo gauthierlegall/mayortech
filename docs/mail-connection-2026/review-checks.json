@@ -1,0 +1,18 @@
+{
+  "kind": "isolated local UI fixture, intercepted integration API only",
+  "real_provider_access": false,
+  "checks": [
+    {
+      "name": "uncommitted ambiguous create allows explicit restart with empty password, no automatic request",
+      "passed": true
+    },
+    {
+      "name": "response-lost committed account resumed, no duplicate create, one probe",
+      "passed": true
+    },
+    {
+      "name": "unmounted wizard prevents late probe and never stores password in browser storage",
+      "passed": true
+    }
+  ]
+}

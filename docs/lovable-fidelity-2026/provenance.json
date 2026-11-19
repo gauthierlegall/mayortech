@@ -1,0 +1,337 @@
+{
+  "date": "2026-11-15T18:13:36.760431+00:00",
+  "reference": {
+    "type": "Original ZIP components and seed, local render with an in-memory context; no Supabase or external provider",
+    "url": "http://127.0.0.1:18768/",
+    "source_manifest": "work/lovable-reference-client/SOURCE.json",
+    "native_editor_opened": false,
+    "fonts": {
+      "original_request": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;650;700;750&display=swap",
+      "local_substitution": "@fontsource-variable/dm-sans@5.2.8, all weights including650/750, no CDN request",
+      "primary_color": {
+        "css": "oklch(.55 .17 255)",
+        "canvas_srgb": [
+          21,
+          112,
+          209,
+          255
+        ],
+        "hex": "#1570d1"
+      }
+    },
+    "original_file_sha256": {
+      "src/features/workspace/Actions.tsx": "3852f19c5ba710c79bba1abbe8c7879c85a0b5f1e7d9774b4cf93de75b7e8e15",
+      "src/features/workspace/BlockEditor.tsx": "124f0365736ea2821ed4c393519705d781eee0293b68607595902f994b31fddf",
+      "src/features/workspace/Documents.tsx": "e0a91a7de6c143330e4e3b3b79647e008ae1547796748be29e395f93c17636d3",
+      "src/features/workspace/Mail.tsx": "69c6bd7b36bca50bf79bfecf670da9940631fd3b08a2b6e1e88c6e73ca659235",
+      "src/features/workspace/ProjectDetail.tsx": "c28ffe7105cca3fa0e64c6b6d6ba34e3af5d611974b2d7b7fe1c6dab4c126189",
+      "src/features/workspace/Projects.tsx": "50bfcdae1aabf235041c535b236a0d0d7b985f1a7a3c8a17f1e9afe9cb2c754b",
+      "src/features/workspace/Settings.tsx": "239f95667c49502c02709a940021c4cd3f2cced9264507872d394015449d1e1e",
+      "src/features/workspace/Shell.tsx": "6274389c9cc696a6503debc77eb8a142257b292705b8aef99896f8c64058dbda",
+      "src/features/workspace/model.ts": "b495e4cb6bfb046d1f75bbc718f21af6ded7e1572c126867675cf2a72d668a9d",
+      "src/styles.css": "60a1e6c6c5d1923689af676d185a08e6db9c3b3295f68481bda457a6f9659c9e",
+      "src/components/ui/button.tsx": "e39813b666ba434660ec088356a0349246b6803a4e99961295d0c82bab1ab862",
+      "src/components/ui/dialog.tsx": "e3a6de153fb15597ea95be9c4549211a297c060267787915599e3d680d476bd9",
+      "src/lib/utils.ts": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27",
+      "src/assets/ecole-portail.jpg": "0847fab32fef52dd0ad9d6219fbc070d0ba65763eaf50f7691af9f8c75f1944b",
+      "public/documents/devis-portail-v1.pdf": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+      "public/documents/devis-portail-v2.pdf": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce"
+    }
+  },
+  "current": {
+    "type": "Published application, read-only browser inspection",
+    "url": "https://travaux.kerforge.com/",
+    "session_profile": {
+      "demo": true,
+      "public_demo": true,
+      "auth_required": false
+    },
+    "project_id": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41",
+    "url_after_context_message_click": "https://travaux.kerforge.com/#/mail/838873de-0bf6-48f4-b517-7b5ebcb47dd8"
+  },
+  "screens": [
+    {
+      "file": "original-1920-projects-initial.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "fae4a8e14642860ecbab583749ab9556750527d0f738d41ef9f17501e5421f9f"
+    },
+    {
+      "file": "original-1920-create-project.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Open original creation form; nothing submitted",
+      "sha256": "32653f13f59511a75d2b6fccf04ad9055fc4f8c5f90e81792059c550c708fc4c"
+    },
+    {
+      "file": "original-1920-project-initial.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "2c3ab4e15a4421bd474550d9a8f6ecab7d426e3409d6f5b457f7a39afa76ad27"
+    },
+    {
+      "file": "original-1920-project-received.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Original receiveMail updates the isolated memory seed",
+      "sha256": "2e751ca0406cf25d6a076b3243dc822f7559303c6735a534c24047344090cc76"
+    },
+    {
+      "file": "original-1920-assistant.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Ask one original suggested question; canned original answer, no LLM",
+      "sha256": "f5685a3786047f8295de4fd72354303d8ddd951cb6fedd238835dab10184fc1e"
+    },
+    {
+      "file": "original-1920-actions-table.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Original project Actions tab",
+      "sha256": "18a64d7b339acf8171bed77561e98786eea71212738b7c2db87b62f4b5fb3ce9"
+    },
+    {
+      "file": "original-1920-actions-kanban.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Original native React Kanban, not the integrated database",
+      "sha256": "f277b2ff7d188a3460a3dd606afe89dff59c4236e065bae6cf9bd30c65cb5f1d"
+    },
+    {
+      "file": "original-1920-documents-versions.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Original quote versions after the fictional revised mail",
+      "sha256": "5f2655c7fa7d64220556da7b1e91848a2c3df5ecc8e2b15ef798865e795c9395"
+    },
+    {
+      "file": "original-1920-document-preview.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Open original fictional PDF iframe",
+      "sha256": "8a3403075da1a4b93d3847cb95cfbac3cbe9a37dfef2588da9a9077c7fc90306"
+    },
+    {
+      "file": "original-1920-project-mail.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Original received mail with its project/attachment/actions",
+      "sha256": "b7baed912aeab366ac593a6db91ae79a2becfc2b62bba7dfe18a74d3bb077c77"
+    },
+    {
+      "file": "original-1920-settings-appearance.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/parametres",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "c416d8793196e62aaaa1b832ded927c6a14494f7d39be0c0adff98c6fafde1d8"
+    },
+    {
+      "file": "original-1920-settings-members.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/parametres",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Original simulated member controls, never real access",
+      "sha256": "5eb82ecabf8d53f5a7ba8e796a11f955de23ec142cd33d60cb86163656f43818"
+    },
+    {
+      "file": "original-390-project-received.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "",
+      "sha256": "7735c774385bc53ea62a02b875c6b09c3bda5f887220dba6f99834ec99374350"
+    },
+    {
+      "file": "original-390-actions-table.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "",
+      "sha256": "9596eaae95988c6c882dbaf0b582e982fd4e4283f1a6224bf60ca775f7c7ed08"
+    },
+    {
+      "file": "original-390-project-mail.png",
+      "kind": "original",
+      "url": "http://127.0.0.1:18768/#/chantiers/portail",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "",
+      "sha256": "b6d9681e4ee7824c5d76bb7e2b1fdad8acfa3ec038a6637199e2173b70a5571e"
+    },
+    {
+      "file": "published-1920-projects.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "8665acf072a857e519214da0e1930a15d8d353bd367000bd99c502e66242eecf"
+    },
+    {
+      "file": "published-1920-create-project.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "Open only; never submit",
+      "sha256": "750e11bbc3564f568410f7baa501158edf538c1dcee17f868b7597e9a27173f9"
+    },
+    {
+      "file": "published-1920-project.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=page",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "119827d14c8818d70d4cf54f6aac4bbbfa3e2cffafe4279159efa3977269202c"
+    },
+    {
+      "file": "published-1920-actions-table.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=table",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "d578bef34ed1035cd24cd31e957672ee4f0b86c9767788194b353280fa5df092"
+    },
+    {
+      "file": "published-1920-documents.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=documents",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "bddd9984b860d4357ac5e6cf5f38ef79c5500fedafce1ad05ae17d0f4b253a72"
+    },
+    {
+      "file": "published-1920-project-mail.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=exchanges&mail=31756d4e-80f7-4ce9-9fd1-3cc389935911",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "81a117bd33061007ae92107176fa51e570cbb472703b97e6f7690060bfe183ef"
+    },
+    {
+      "file": "published-1920-settings-members.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/parametres?section=members",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "interaction": "",
+      "sha256": "1231af44fba9a50284d33fc893221048d123e96d213a14213ebae5ca78cd0ab8"
+    },
+    {
+      "file": "published-390-project.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=page",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "",
+      "sha256": "7a6abfb348a4bf44d796af27ef2e66b04158b82b28c07a34b5363ff0e8f5f8e7"
+    },
+    {
+      "file": "published-390-actions-table.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=table",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "",
+      "sha256": "2df79a299b35c4d2ee6172aec608417128ebd72d22ec25da098ed19c0df98fd9"
+    },
+    {
+      "file": "published-390-project-mail.png",
+      "kind": "published",
+      "url": "https://travaux.kerforge.com/#/chantiers/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41?view=exchanges&mail=31756d4e-80f7-4ce9-9fd1-3cc389935911",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "",
+      "sha256": "b3400cddd236284a6d872fbeb524d4897b4fd1e97721585dce40656fd4fa64d7"
+    }
+  ],
+  "errors": [],
+  "external_reference_requests": [],
+  "current_mutations_blocked": [
+    "POST https://travaux.kerforge.com/api/v1/projects/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41/page",
+    "POST https://travaux.kerforge.com/api/v1/projects/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41/page",
+    "POST https://travaux.kerforge.com/api/v1/projects/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41/page",
+    "POST https://travaux.kerforge.com/api/v1/projects/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41/page"
+  ]
+}

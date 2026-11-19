@@ -1,0 +1,23 @@
+Subject: [TRV-2026-014] =?utf-8?q?Pi=C3=A8ce?= fictive
+From: equipe@entreprise-fictive.invalid
+To: responsable@commune-fictive.invalid
+Date: Sat, 14 Nov 2026 10:00:00 +0100
+Message-ID: <exemple-5@demo.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6269429979770859443=="
+
+--===============6269429979770859443==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Voir le compte rendu fictif joint.
+
+--===============6269429979770859443==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="compte-rendu-fictif.txt"
+MIME-Version: 1.0
+
+UmVjZXB0aW9uIDogZGF0ZSBub24gY29uZmlybWVlCkxpdnJhaXNvbiA6IDIwMjYtMTItMTk=
+
+--===============6269429979770859443==--

@@ -1,0 +1,149 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "checks": [
+    {
+      "name": "four original project tabs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report has original compact scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "verified source not duplicate raw subject",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original illustration visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original assistant quick questions restored",
+      "passed": true,
+      "detail": [
+        "Résume la situation actuelle",
+        "Pourquoi la livraison est-elle reportée ?",
+        "Retrouve le dernier devis validé",
+        "Consulter le dossier",
+        "Close"
+      ]
+    },
+    {
+      "name": "actions across multiple projects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original action filters plus project filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined project owner priority filters work",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source mail link retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edit persisted in same native row after reload",
+      "passed": true,
+      "detail": "YmxNmOn-yd"
+    },
+    {
+      "name": "table and kanban edit same persisted native action",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete original create action form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "integrated AFFiNE notes editor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "notes preview and edit mode restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 project no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 actions no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 documents no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 mail no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 new project dialog fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 project no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 actions no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 documents no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 mail no page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 new project dialog fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no browser errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no failed HTTP requests",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external fonts services or trackers",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "http_errors": []
+}

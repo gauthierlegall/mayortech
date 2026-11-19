@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-17",
+  "version": "0.8.1",
+  "status": "local professional candidate; not deployed",
+  "document_model": "mistral-large-4-0",
+  "chat_rag_and_change_model": "zai-glm-5-3-flash",
+  "python_application_and_deployment_tests_passed": 563,
+  "frontend_and_domain_node_tests_passed": 130,
+  "native_module_node_tests_passed": 27,
+  "typescript_product_check": "passed",
+  "frontend_production_build": "passed",
+  "ruff_F": "passed",
+  "uv_lock_check": "passed",
+  "frontend_entry_sha256": "a680c012552879d52951ef3c0b7169df7654919e8601a4687c7b79bd681f9de6",
+  "real_api_browser_checks_passed": 12,
+  "react_session_and_draft_regression_checks_passed": 7,
+  "negative_control": "test-only bundles restore lifecycle defects or suppress identity observation; expected failing tests reproduce the fixed bugs without changing production modules",
+  "browser_integration": {
+    "actual": [
+      "FastAPI HTTP",
+      "SQLite persistence",
+      "PDF parsing in child process",
+      "original document bytes",
+      "RAG citations",
+      "confirmed project status update",
+      "confirmed action fact",
+      "native Yjs action and full reload"
+    ],
+    "simulated": [
+      "Mistral provider HTTP transport"
+    ],
+    "authentication": "local demo mode; not an identity-provider qualification"
+  },
+  "organization_test": {
+    "persistent_database": ".local/organisation-test/workspace.sqlite3",
+    "tenant": "organization-test",
+    "projects": 6,
+    "accounts": 0,
+    "mail_connections_enabled": false,
+    "external_inference_enabled": false
+  },
+  "real_municipal_data": false,
+  "municipal_connectors_connected": false,
+  "live_models_called": false,
+  "certifies_rgpd_or_rgaa_or_cybersecurity": false,
+  "keycloak_lab": "realm imported and loopback startup verified; registration/TOTP/callback blocked by local Avast certificate interception; TLS verification retained; lab stopped",
+  "ovh": "Compose app/worker rendered and tested; no daemon/container/deployment; Caddy CLI unavailable",
+  "qa_processes_stopped": true,
+  "remaining": [
+    "configure and qualify institutional OIDC, signup, email verification and MFA",
+    "configure Mistral credentials and verify real Large4/GLM calls",
+    "DSI authorization and supplier registration before connecting real mailbox",
+    "private host capacity, TLS, egress firewall and operational qualification",
+    "DPO/DSI legal and retention decisions; encrypted off-site backup and restore drill; malware scanning/quarantine deployment"
+  ],
+  "evidence": "recette-pro-2026-11-17/README.md",
+  "supersedes": "verification-native.json remains a historical 2026-11-16 public deployment report; its old mail-provider limitations do not describe this local candidate"
+}

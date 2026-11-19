@@ -1,0 +1,18 @@
+{
+  "mobile_emulation": {
+    "width": 390,
+    "height": 844,
+    "is_mobile": true,
+    "has_touch": true
+  },
+  "new_block_id": "AwuneRPGSR",
+  "note": "Constat mobile fictif : passage accessible maintenu pour la visite.",
+  "immediate_navigation_preserved_note": true,
+  "reload_kept_same_block_and_text": true,
+  "summary_id": "82c89e57-540c-46d8-bb44-6ba774d0da8d",
+  "summary_includes_mobile_note": true,
+  "summary_stale": false,
+  "current_human_source_id": "a482a4ab-468b-4734-a4a0-294c7e3ef546",
+  "summary_cites_current_human_source": true,
+  "summary_coverage": "partial"
+}

@@ -1,0 +1,58 @@
+{
+  "package": "@toeverything/theme",
+  "version": "1.1.23",
+  "modified": false,
+  "tarball": "https://registry.npmjs.org/@toeverything/theme/-/theme-1.1.23.tgz",
+  "sources": [
+    {
+      "source": "src/cursors.ts",
+      "sourcemap": "dist/index.js.map",
+      "sha256": "7095924011e7e5ef64d72c915446ede541281f87245dcac87ea804a26e6ca581"
+    },
+    {
+      "source": "src/index.ts",
+      "sourcemap": "dist/index.js.map",
+      "sha256": "3252fd1764ea369c16bb1caed381ae5a702da88ed985d42aee034f505434049c"
+    },
+    {
+      "source": "src/cursors.ts",
+      "sourcemap": "dist/index.cjs.map",
+      "sha256": "7095924011e7e5ef64d72c915446ede541281f87245dcac87ea804a26e6ca581"
+    },
+    {
+      "source": "src/index.ts",
+      "sourcemap": "dist/index.cjs.map",
+      "sha256": "3252fd1764ea369c16bb1caed381ae5a702da88ed985d42aee034f505434049c"
+    },
+    {
+      "source": "src/utils/object-keys.ts",
+      "sourcemap": "dist/v2/index.js.map",
+      "sha256": "35c5b4929979be980bc02a7ee598732041b23aa60d9d1e4bc978908161f9caac"
+    },
+    {
+      "source": "src/v2/variables.ts",
+      "sourcemap": "dist/v2/index.js.map",
+      "sha256": "e661084593fb0d929c0bc9693101104518211987c2bcb6020ed17780c500f4cd"
+    },
+    {
+      "source": "src/v2/index.ts",
+      "sourcemap": "dist/v2/index.js.map",
+      "sha256": "ac84acfc9e57779464bcb2e58cc348749cd6604808b77c75c8b29a798f811db3"
+    },
+    {
+      "source": "src/utils/object-keys.ts",
+      "sourcemap": "dist/v2/index.cjs.map",
+      "sha256": "35c5b4929979be980bc02a7ee598732041b23aa60d9d1e4bc978908161f9caac"
+    },
+    {
+      "source": "src/v2/variables.ts",
+      "sourcemap": "dist/v2/index.cjs.map",
+      "sha256": "e661084593fb0d929c0bc9693101104518211987c2bcb6020ed17780c500f4cd"
+    },
+    {
+      "source": "src/v2/index.ts",
+      "sourcemap": "dist/v2/index.cjs.map",
+      "sha256": "ac84acfc9e57779464bcb2e58cc348749cd6604808b77c75c8b29a798f811db3"
+    }
+  ]
+}

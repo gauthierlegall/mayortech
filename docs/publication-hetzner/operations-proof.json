@@ -1,0 +1,12 @@
+{
+  "release": "20261114T175746Z-024c31",
+  "worker_actual_queued_job_completed": true,
+  "job_attempts": 1,
+  "online_backup_integrity_ok": true,
+  "restored_to_new_temporary_database": true,
+  "restored_counts": {
+    "projects": 7,
+    "page_rows": 1
+  },
+  "live_database_replaced": false
+}

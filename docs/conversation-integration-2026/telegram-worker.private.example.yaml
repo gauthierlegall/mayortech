@@ -1,0 +1,33 @@
+# Exemple opérateur pour une installation privée existante.
+# Ne pas combiner avec deploy/hetzner/compose.yaml, réservé à la démo publique.
+services:
+  telegram-worker:
+    image: ${TRAVAUX_PRIVATE_IMAGE:?image privée requise}
+    profiles: [telegram]
+    command: [python, -m, travaux.telegram_bridge, worker, --interval, "5"]
+    env_file:
+      - ${TRAVAUX_PRIVATE_ENV_FILE:?fichier environnement privé requis}
+    environment:
+      TRAVAUX_MODE: staging
+      TRAVAUX_DB: /data/travaux.sqlite3
+      TRAVAUX_CONNECTOR_EGRESS_APPROVED: "true"
+      TRAVAUX_CONNECTOR_ALLOWED_HOSTS: api.telegram.org
+    volumes:
+      - private-data:/data
+    user: "10001:10001"
+    init: true
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp:size=32m,noexec,nosuid]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: "0.25"
+    logging:
+      driver: json-file
+      options: {max-size: 5m, max-file: "2"}
+volumes:
+  private-data:
+    external: true
+    name: ${TRAVAUX_PRIVATE_VOLUME:?volume de la même installation privée requis}

@@ -1,0 +1,1922 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "@blocksuite/affine": {
+      "name": "@blocksuite/affine",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-bookmark",
+        "@blocksuite/affine-block-callout",
+        "@blocksuite/affine-block-code",
+        "@blocksuite/affine-block-data-view",
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-divider",
+        "@blocksuite/affine-block-edgeless-text",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-embed-doc",
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-latex",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-root",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-block-surface-ref",
+        "@blocksuite/affine-block-table",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-foundation",
+        "@blocksuite/affine-fragment-adapter-panel",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-fragment-frame-panel",
+        "@blocksuite/affine-fragment-outline",
+        "@blocksuite/affine-gfx-brush",
+        "@blocksuite/affine-gfx-connector",
+        "@blocksuite/affine-gfx-group",
+        "@blocksuite/affine-gfx-link",
+        "@blocksuite/affine-gfx-mindmap",
+        "@blocksuite/affine-gfx-note",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-gfx-shape",
+        "@blocksuite/affine-gfx-template",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-inline-footnote",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-inline-link",
+        "@blocksuite/affine-inline-mention",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-drag-handle",
+        "@blocksuite/affine-widget-edgeless-auto-connect",
+        "@blocksuite/affine-widget-edgeless-dragging-area",
+        "@blocksuite/affine-widget-edgeless-selected-rect",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/affine-widget-edgeless-zoom-toolbar",
+        "@blocksuite/affine-widget-frame-title",
+        "@blocksuite/affine-widget-keyboard-toolbar",
+        "@blocksuite/affine-widget-linked-doc",
+        "@blocksuite/affine-widget-note-slicer",
+        "@blocksuite/affine-widget-page-dragging-area",
+        "@blocksuite/affine-widget-remote-selection",
+        "@blocksuite/affine-widget-scroll-anchoring",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/affine-widget-toolbar",
+        "@blocksuite/affine-widget-viewport-overlay",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "@blocksuite/sync"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/affine",
+        "version": "0.19.5",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/affine-block-attachment": {
+      "name": "@blocksuite/affine-block-attachment",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-attachment"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-bookmark": {
+      "name": "@blocksuite/affine-block-bookmark",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-embed-doc",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-bookmark"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-callout": {
+      "name": "@blocksuite/affine-block-callout",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-callout"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-code": {
+      "name": "@blocksuite/affine-block-code",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-inline-link",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-code"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/affine",
+        "version": "0.19.5",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/affine-block-data-view": {
+      "name": "@blocksuite/affine-block-data-view",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-data-view"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-database": {
+      "name": "@blocksuite/affine-block-database",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-drag-handle",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-widget-toolbar"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-database"
+      ],
+      "fixAvailable": false
+    },
+    "@blocksuite/affine-block-divider": {
+      "name": "@blocksuite/affine-block-divider",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-divider"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-edgeless-text": {
+      "name": "@blocksuite/affine-block-edgeless-text",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-edgeless-text"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-embed": {
+      "name": "@blocksuite/affine-block-embed",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-widget-drag-handle"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-embed"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-embed-doc": {
+      "name": "@blocksuite/affine-block-embed-doc",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine",
+        "@blocksuite/affine-block-bookmark"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-embed-doc"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/affine",
+        "version": "0.19.5",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/affine-block-frame": {
+      "name": "@blocksuite/affine-block-frame",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/affine-widget-frame-title",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-surface-ref",
+        "@blocksuite/affine-widget-edgeless-selected-rect"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-frame"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-image": {
+      "name": "@blocksuite/affine-block-image",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-widget-linked-doc"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-image"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-latex": {
+      "name": "@blocksuite/affine-block-latex",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-widget-keyboard-toolbar"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-latex"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-list": {
+      "name": "@blocksuite/affine-block-list",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-list"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-note": {
+      "name": "@blocksuite/affine-block-note",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-note"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-paragraph": {
+      "name": "@blocksuite/affine-block-paragraph",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-paragraph"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-root": {
+      "name": "@blocksuite/affine-block-root",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-bookmark",
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-edgeless-text",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-brush",
+        "@blocksuite/affine-gfx-connector",
+        "@blocksuite/affine-gfx-group",
+        "@blocksuite/affine-gfx-mindmap",
+        "@blocksuite/affine-gfx-note",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-gfx-shape",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-selected-rect",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-root"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-surface": {
+      "name": "@blocksuite/affine-block-surface",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-bookmark",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-widget-edgeless-auto-connect",
+        "@blocksuite/affine-widget-edgeless-dragging-area",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/affine-widget-edgeless-zoom-toolbar",
+        "@blocksuite/affine-widget-frame-title",
+        "@blocksuite/affine-widget-note-slicer",
+        "@blocksuite/affine-widget-remote-selection",
+        "@blocksuite/affine-widget-toolbar"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-surface"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-surface-ref": {
+      "name": "@blocksuite/affine-block-surface-ref",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-surface-ref"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-block-table": {
+      "name": "@blocksuite/affine-block-table",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-block-table"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-components": {
+      "name": "@blocksuite/affine-components",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "@blocksuite/sync",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-fragment-adapter-panel",
+        "@blocksuite/affine-widget-frame-title",
+        "@blocksuite/affine-widget-page-dragging-area",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/affine-widget-viewport-overlay"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-components"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-ext-loader": {
+      "name": "@blocksuite/affine-ext-loader",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/global",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-callout",
+        "@blocksuite/affine-block-code",
+        "@blocksuite/affine-block-data-view",
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-divider",
+        "@blocksuite/affine-block-edgeless-text",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-latex",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-root",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-block-surface-ref",
+        "@blocksuite/affine-block-table",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-fragment-frame-panel",
+        "@blocksuite/affine-fragment-outline",
+        "@blocksuite/affine-gfx-brush",
+        "@blocksuite/affine-gfx-connector",
+        "@blocksuite/affine-gfx-group",
+        "@blocksuite/affine-gfx-mindmap",
+        "@blocksuite/affine-gfx-note",
+        "@blocksuite/affine-gfx-shape",
+        "@blocksuite/affine-gfx-template",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-inline-footnote",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-inline-link",
+        "@blocksuite/affine-inline-mention",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-widget-drag-handle",
+        "@blocksuite/affine-widget-edgeless-auto-connect",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/affine-widget-keyboard-toolbar",
+        "@blocksuite/affine-widget-remote-selection",
+        "@blocksuite/affine-widget-scroll-anchoring",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/affine-widget-toolbar"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-ext-loader"
+      ],
+      "fixAvailable": false
+    },
+    "@blocksuite/affine-foundation": {
+      "name": "@blocksuite/affine-foundation",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-foundation"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-fragment-adapter-panel": {
+      "name": "@blocksuite/affine-fragment-adapter-panel",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-fragment-adapter-panel"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-fragment-doc-title": {
+      "name": "@blocksuite/affine-fragment-doc-title",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-fragment-doc-title"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-fragment-frame-panel": {
+      "name": "@blocksuite/affine-fragment-frame-panel",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-fragment-frame-panel"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-fragment-outline": {
+      "name": "@blocksuite/affine-fragment-outline",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-fragment-outline"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-brush": {
+      "name": "@blocksuite/affine-gfx-brush",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-brush"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-connector": {
+      "name": "@blocksuite/affine-gfx-connector",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine",
+        "@blocksuite/affine-block-root"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-connector"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/affine",
+        "version": "0.19.5",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/affine-gfx-group": {
+      "name": "@blocksuite/affine-gfx-group",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-group"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-link": {
+      "name": "@blocksuite/affine-gfx-link",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-bookmark",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-link"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-mindmap": {
+      "name": "@blocksuite/affine-gfx-mindmap",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-edgeless-text",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-connector",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-gfx-shape",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-mindmap"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-note": {
+      "name": "@blocksuite/affine-gfx-note",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-bookmark",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-note"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-pointer": {
+      "name": "@blocksuite/affine-gfx-pointer",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-pointer"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-shape": {
+      "name": "@blocksuite/affine-gfx-shape",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-shape"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-template": {
+      "name": "@blocksuite/affine-gfx-template",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-template"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-text": {
+      "name": "@blocksuite/affine-gfx-text",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-toolbar",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-text"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-gfx-turbo-renderer": {
+      "name": "@blocksuite/affine-gfx-turbo-renderer",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-gfx-turbo-renderer"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-inline-footnote": {
+      "name": "@blocksuite/affine-inline-footnote",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-inline-footnote"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-inline-latex": {
+      "name": "@blocksuite/affine-inline-latex",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-code",
+        "@blocksuite/affine-block-latex"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-inline-latex"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/affine",
+        "version": "0.19.5",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/affine-inline-link": {
+      "name": "@blocksuite/affine-inline-link",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-inline-link"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-inline-mention": {
+      "name": "@blocksuite/affine-inline-mention",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-inline-mention"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-inline-preset": {
+      "name": "@blocksuite/affine-inline-preset",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-footnote",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-inline-link",
+        "@blocksuite/affine-inline-mention",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-callout",
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-edgeless-text",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-table"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-inline-preset"
+      ],
+      "fixAvailable": false
+    },
+    "@blocksuite/affine-inline-reference": {
+      "name": "@blocksuite/affine-inline-reference",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-embed"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-inline-reference"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-model": {
+      "name": "@blocksuite/affine-model",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-model"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-rich-text": {
+      "name": "@blocksuite/affine-rich-text",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-widget-frame-title"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-rich-text"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-shared": {
+      "name": "@blocksuite/affine-shared",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-model",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-widget-scroll-anchoring"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-shared"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-drag-handle": {
+      "name": "@blocksuite/affine-widget-drag-handle",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-callout",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-drag-handle"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-edgeless-auto-connect": {
+      "name": "@blocksuite/affine-widget-edgeless-auto-connect",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-edgeless-auto-connect"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-edgeless-dragging-area": {
+      "name": "@blocksuite/affine-widget-edgeless-dragging-area",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-edgeless-dragging-area"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-edgeless-selected-rect": {
+      "name": "@blocksuite/affine-widget-edgeless-selected-rect",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-gfx-connector",
+        "@blocksuite/affine-gfx-shape",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-edgeless-selected-rect"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-edgeless-toolbar": {
+      "name": "@blocksuite/affine-widget-edgeless-toolbar",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-edgeless-toolbar"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-edgeless-zoom-toolbar": {
+      "name": "@blocksuite/affine-widget-edgeless-zoom-toolbar",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-edgeless-zoom-toolbar"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-frame-title": {
+      "name": "@blocksuite/affine-widget-frame-title",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-frame-title"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-keyboard-toolbar": {
+      "name": "@blocksuite/affine-widget-keyboard-toolbar",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-latex",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-block-surface-ref",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-inline-link",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-keyboard-toolbar"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-linked-doc": {
+      "name": "@blocksuite/affine-widget-linked-doc",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-linked-doc"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-note-slicer": {
+      "name": "@blocksuite/affine-widget-note-slicer",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-selected-rect",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-note-slicer"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-page-dragging-area": {
+      "name": "@blocksuite/affine-widget-page-dragging-area",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-page-dragging-area"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-remote-selection": {
+      "name": "@blocksuite/affine-widget-remote-selection",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-remote-selection"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-scroll-anchoring": {
+      "name": "@blocksuite/affine-widget-scroll-anchoring",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-scroll-anchoring"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-slash-menu": {
+      "name": "@blocksuite/affine-widget-slash-menu",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-slash-menu"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-toolbar": {
+      "name": "@blocksuite/affine-widget-toolbar",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-block-table",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-toolbar"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/affine-widget-viewport-overlay": {
+      "name": "@blocksuite/affine-widget-viewport-overlay",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/affine-widget-viewport-overlay"
+      ],
+      "fixAvailable": true
+    },
+    "@blocksuite/data-view": {
+      "name": "@blocksuite/data-view",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-shared",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/data-view"
+      ],
+      "fixAvailable": false
+    },
+    "@blocksuite/global": {
+      "name": "@blocksuite/global",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/sync"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/global"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/affine",
+        "version": "0.19.5",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/std": {
+      "name": "@blocksuite/std",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/global",
+        "@blocksuite/store",
+        "zod"
+      ],
+      "effects": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-data-view",
+        "@blocksuite/affine-block-divider",
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-fragment-frame-panel",
+        "@blocksuite/affine-fragment-outline",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-gfx-turbo-renderer",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-edgeless-auto-connect",
+        "@blocksuite/affine-widget-remote-selection",
+        "@blocksuite/affine-widget-scroll-anchoring",
+        "@blocksuite/affine-widget-slash-menu",
+        "@blocksuite/data-view"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/std"
+      ],
+      "fixAvailable": false
+    },
+    "@blocksuite/store": {
+      "name": "@blocksuite/store",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "@blocksuite/global",
+        "@blocksuite/sync",
+        "zod"
+      ],
+      "effects": [],
+      "range": "<=0.0.0-canary-20250316001624 || >=0.4.0-20230110000526-9d95ace",
+      "nodes": [
+        "node_modules/@blocksuite/store"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/store",
+        "version": "0.3.1",
+        "isSemVerMajor": true
+      }
+    },
+    "@blocksuite/sync": {
+      "name": "@blocksuite/sync",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@blocksuite/global"
+      ],
+      "effects": [
+        "@blocksuite/affine-components",
+        "@blocksuite/store"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/@blocksuite/sync"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/store",
+        "version": "0.3.1",
+        "isSemVerMajor": true
+      }
+    },
+    "zod": {
+      "name": "zod",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1243066,
+          "name": "zod",
+          "dependency": "zod",
+          "title": "Zod can exhaust memory while validating oversized constrained collections",
+          "url": "https://github.com/advisories/GHSA-mrhx-c7xc-m3w5",
+          "severity": "high",
+          "cwe": [
+            "CWE-770"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<4.6.6"
+        }
+      ],
+      "effects": [
+        "@blocksuite/affine-block-attachment",
+        "@blocksuite/affine-block-bookmark",
+        "@blocksuite/affine-block-callout",
+        "@blocksuite/affine-block-code",
+        "@blocksuite/affine-block-data-view",
+        "@blocksuite/affine-block-database",
+        "@blocksuite/affine-block-divider",
+        "@blocksuite/affine-block-edgeless-text",
+        "@blocksuite/affine-block-embed",
+        "@blocksuite/affine-block-embed-doc",
+        "@blocksuite/affine-block-frame",
+        "@blocksuite/affine-block-image",
+        "@blocksuite/affine-block-latex",
+        "@blocksuite/affine-block-list",
+        "@blocksuite/affine-block-note",
+        "@blocksuite/affine-block-paragraph",
+        "@blocksuite/affine-block-root",
+        "@blocksuite/affine-block-surface",
+        "@blocksuite/affine-block-surface-ref",
+        "@blocksuite/affine-block-table",
+        "@blocksuite/affine-components",
+        "@blocksuite/affine-ext-loader",
+        "@blocksuite/affine-foundation",
+        "@blocksuite/affine-fragment-doc-title",
+        "@blocksuite/affine-fragment-frame-panel",
+        "@blocksuite/affine-fragment-outline",
+        "@blocksuite/affine-gfx-brush",
+        "@blocksuite/affine-gfx-connector",
+        "@blocksuite/affine-gfx-group",
+        "@blocksuite/affine-gfx-link",
+        "@blocksuite/affine-gfx-mindmap",
+        "@blocksuite/affine-gfx-note",
+        "@blocksuite/affine-gfx-pointer",
+        "@blocksuite/affine-gfx-shape",
+        "@blocksuite/affine-gfx-template",
+        "@blocksuite/affine-gfx-text",
+        "@blocksuite/affine-inline-footnote",
+        "@blocksuite/affine-inline-latex",
+        "@blocksuite/affine-inline-link",
+        "@blocksuite/affine-inline-mention",
+        "@blocksuite/affine-inline-preset",
+        "@blocksuite/affine-inline-reference",
+        "@blocksuite/affine-model",
+        "@blocksuite/affine-rich-text",
+        "@blocksuite/affine-shared",
+        "@blocksuite/affine-widget-drag-handle",
+        "@blocksuite/affine-widget-linked-doc",
+        "@blocksuite/data-view",
+        "@blocksuite/global",
+        "@blocksuite/std",
+        "@blocksuite/store"
+      ],
+      "range": "<4.6.6",
+      "nodes": [
+        "node_modules/zod"
+      ],
+      "fixAvailable": {
+        "name": "@blocksuite/store",
+        "version": "0.3.1",
+        "isSemVerMajor": true
+      }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 70,
+      "critical": 0,
+      "total": 70
+    },
+    "dependencies": {
+      "prod": 358,
+      "dev": 43,
+      "optional": 54,
+      "peer": 18,
+      "peerOptional": 0,
+      "total": 471
+    }
+  }
+}

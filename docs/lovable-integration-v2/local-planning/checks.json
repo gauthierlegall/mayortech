@@ -1,0 +1,195 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "project_id": "749e7ac0-d3ba-4e61-86bc-652e204dc0b3",
+  "checks": [
+    {
+      "name": "global view keeps a deadline-only action outside the timeline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "owner select preserves the existing owner alongside real member choices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "global form plans the same canonical row",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "global form persists owner and status in the canonical Yjs row",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "project filter includes exactly the real selected project",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-global-filtered.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "previous month clips actions without changing their dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed delivery remains a December milestone separate from action dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "global planning owner status and dates persist after reload without an invented progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-global-edit.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "opening a project defaults to the same Lovable monthly timeline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-project-timeline.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional Frappe mode renders unknown-progress bars after the production fix",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-project-frappe.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "a real pointer drag saves exactly once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "project drag is immediately present in the global canonical form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lovable action rows retain the reference 65px density",
+      "passed": true,
+      "detail": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ]
+    },
+    {
+      "name": "1920-global-all.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-global-list.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-global-timeline.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 timeline scrolls inside its region while the label stays visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-project-list.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-project-edit.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-global-list.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-global-timeline.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 timeline scrolls inside its region while the label stays visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-project-list.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-project-edit.png no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed delivery and all other facts are unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no HTTP errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "bugs": [],
+  "errors": [],
+  "http_errors": [],
+  "screens": [
+    "1920-global-filtered.png",
+    "1920-global-edit.png",
+    "1920-project-timeline.png",
+    "1920-project-frappe.png",
+    "1920-global-all.png",
+    "390-global-list.png",
+    "390-global-timeline.png",
+    "390-project-list.png",
+    "390-project-edit.png",
+    "320-global-list.png",
+    "320-global-timeline.png",
+    "320-project-list.png",
+    "320-project-edit.png"
+  ],
+  "scope": "Only one canonical action in the existing QA-PROP fictional dossier is created/edited; initial plan fields restored. Operator planning in primary dossiers is untouched.",
+  "row_id": "VA710jxNvr",
+  "tested_owner": "Opérateur de cet espace",
+  "cleanup": {
+    "same_row": true,
+    "original_schedule_restored": true,
+    "other_fields_preserved": true
+  }
+}

@@ -1,0 +1,749 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "asset_substitution": false,
+  "api_substitution": false,
+  "errors": [],
+  "http_errors": [],
+  "writes": [
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/7311f3fc-9a8f-4387-a787-79700e0710f5/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/03d0fa7b-7ed0-4741-8256-452ea21f09b0/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/08956dd7-6ae7-44e2-aa9c-34ec75dc0c53/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/a5cb01e3-80b1-454d-a07f-6bdc8d3bdfbb/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/749e7ac0-d3ba-4e61-86bc-652e204dc0b3/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/fe2923c8-7f13-4a40-bcd4-51514b923be7/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/b169948e-fa46-4a10-b35d-3fcba11d056c/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/4fad2625-45a0-441c-bdea-5e50d1888e3d/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/9a433d4a-ebfb-40f0-a4b2-2dac960bf97e/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/67e8ad24-7884-4fd4-8491-d786bdaff920/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/8af7abfa-8c0d-4e78-a3d1-e11ffe630d4b/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/7311f3fc-9a8f-4387-a787-79700e0710f5/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/03d0fa7b-7ed0-4741-8256-452ea21f09b0/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/08956dd7-6ae7-44e2-aa9c-34ec75dc0c53/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/a5cb01e3-80b1-454d-a07f-6bdc8d3bdfbb/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/749e7ac0-d3ba-4e61-86bc-652e204dc0b3/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/fe2923c8-7f13-4a40-bcd4-51514b923be7/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/b169948e-fa46-4a10-b35d-3fcba11d056c/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/4fad2625-45a0-441c-bdea-5e50d1888e3d/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/9a433d4a-ebfb-40f0-a4b2-2dac960bf97e/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/67e8ad24-7884-4fd4-8491-d786bdaff920/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/8af7abfa-8c0d-4e78-a3d1-e11ffe630d4b/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/7311f3fc-9a8f-4387-a787-79700e0710f5/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/03d0fa7b-7ed0-4741-8256-452ea21f09b0/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/08956dd7-6ae7-44e2-aa9c-34ec75dc0c53/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/a5cb01e3-80b1-454d-a07f-6bdc8d3bdfbb/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/749e7ac0-d3ba-4e61-86bc-652e204dc0b3/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/fe2923c8-7f13-4a40-bcd4-51514b923be7/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/b169948e-fa46-4a10-b35d-3fcba11d056c/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/4fad2625-45a0-441c-bdea-5e50d1888e3d/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/9a433d4a-ebfb-40f0-a4b2-2dac960bf97e/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/67e8ad24-7884-4fd4-8491-d786bdaff920/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/8af7abfa-8c0d-4e78-a3d1-e11ffe630d4b/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/7311f3fc-9a8f-4387-a787-79700e0710f5/page"
+    }
+  ],
+  "captures": [
+    {
+      "file": "1920-projects.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "1920-mail.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "1920-mail-project.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "1920-mail-reader.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "390-mail.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "390-mail-project.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "390-mail-reader.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "320-mail.png",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "scroll_width": 320
+    },
+    {
+      "file": "320-mail-project.png",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "scroll_width": 320
+    },
+    {
+      "file": "320-mail-reader.png",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "scroll_width": 320
+    },
+    {
+      "file": "1920-mail-draft-reopened.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "390-actions.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "390-actions-filters-open.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "320-actions.png",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "scroll_width": 320
+    },
+    {
+      "file": "1920-actions.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "1920-project-page.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "1920-project-properties.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scroll_width": 1920
+    },
+    {
+      "file": "390-project-page.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "390-project-properties.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scroll_width": 390
+    },
+    {
+      "file": "320-project-page.png",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "scroll_width": 320
+    },
+    {
+      "file": "320-project-properties.png",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "scroll_width": 320
+    }
+  ],
+  "checks": [
+    {
+      "name": "projects_first_visit_no_false_zero",
+      "passed": true,
+      "detail": "11 actions à suivre\nVos prochaines échéances"
+    },
+    {
+      "name": "1920-projects_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-projects.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "server_real_project_filter",
+      "passed": true,
+      "detail": {
+        "total": 6
+      }
+    },
+    {
+      "name": "1920_one_folder_tree",
+      "passed": true
+    },
+    {
+      "name": "desktop_three_columns",
+      "passed": true,
+      "detail": [
+        "170px",
+        "310px",
+        "1136px"
+      ]
+    },
+    {
+      "name": "1920-mail_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-mail.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "1920_project_filter_rendered",
+      "passed": true
+    },
+    {
+      "name": "1920-mail-project_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-mail-project.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "1920_reader_visible",
+      "passed": true
+    },
+    {
+      "name": "1920-mail-reader_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-mail-reader.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "390_one_folder_tree",
+      "passed": true
+    },
+    {
+      "name": "390-mail_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-mail.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "390_project_filter_rendered",
+      "passed": true
+    },
+    {
+      "name": "390-mail-project_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-mail-project.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "390_reader_visible",
+      "passed": true
+    },
+    {
+      "name": "390_list_hidden_when_reader",
+      "passed": true
+    },
+    {
+      "name": "390-mail-reader_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-mail-reader.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "320_one_folder_tree",
+      "passed": true
+    },
+    {
+      "name": "320-mail_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "320-mail.png",
+        "viewport": {
+          "width": 320,
+          "height": 844
+        },
+        "scroll_width": 320
+      }
+    },
+    {
+      "name": "320_project_filter_rendered",
+      "passed": true
+    },
+    {
+      "name": "320-mail-project_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "320-mail-project.png",
+        "viewport": {
+          "width": 320,
+          "height": 844
+        },
+        "scroll_width": 320
+      }
+    },
+    {
+      "name": "320_reader_visible",
+      "passed": true
+    },
+    {
+      "name": "320_list_hidden_when_reader",
+      "passed": true
+    },
+    {
+      "name": "320-mail-reader_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "320-mail-reader.png",
+        "viewport": {
+          "width": 320,
+          "height": 844
+        },
+        "scroll_width": 320
+      }
+    },
+    {
+      "name": "local_draft_preserved_after_real_navigation",
+      "passed": true
+    },
+    {
+      "name": "1920-mail-draft-reopened_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-mail-draft-reopened.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "local_draft_never_called_server_or_send",
+      "passed": true
+    },
+    {
+      "name": "local_draft_test_cleanup",
+      "passed": true
+    },
+    {
+      "name": "390_action_filters_collapsed",
+      "passed": true
+    },
+    {
+      "name": "390-actions_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-actions.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "390_action_filters_expand",
+      "passed": true
+    },
+    {
+      "name": "390-actions-filters-open_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-actions-filters-open.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "320_action_filters_collapsed",
+      "passed": false
+    },
+    {
+      "name": "320-actions_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "320-actions.png",
+        "viewport": {
+          "width": 320,
+          "height": 844
+        },
+        "scroll_width": 320
+      }
+    },
+    {
+      "name": "320_action_filters_expand",
+      "passed": false
+    },
+    {
+      "name": "1920-actions_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-actions.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "1920_six_project_tabs",
+      "passed": true,
+      "detail": [
+        "Page",
+        "Actions\n3",
+        "Planning",
+        "Terrain",
+        "Documents\n2",
+        "Échanges"
+      ]
+    },
+    {
+      "name": "1920_properties_closed_on_page",
+      "passed": true
+    },
+    {
+      "name": "1920-project-page_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-project-page.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "1920_properties_accessible_on_page",
+      "passed": true
+    },
+    {
+      "name": "1920-project-properties_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "1920-project-properties.png",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scroll_width": 1920
+      }
+    },
+    {
+      "name": "390_six_project_tabs",
+      "passed": true,
+      "detail": [
+        "Page",
+        "Actions\n3",
+        "Planning",
+        "Terrain",
+        "Documents\n2",
+        "Échanges"
+      ]
+    },
+    {
+      "name": "390_properties_closed_on_page",
+      "passed": false
+    },
+    {
+      "name": "390-project-page_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-project-page.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "390_properties_accessible_on_page",
+      "passed": true
+    },
+    {
+      "name": "390-project-properties_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "390-project-properties.png",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390
+      }
+    },
+    {
+      "name": "320_six_project_tabs",
+      "passed": true,
+      "detail": [
+        "Page",
+        "Actions\n3",
+        "Planning",
+        "Terrain",
+        "Documents\n2",
+        "Échanges"
+      ]
+    },
+    {
+      "name": "320_properties_closed_on_page",
+      "passed": false
+    },
+    {
+      "name": "320-project-page_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "320-project-page.png",
+        "viewport": {
+          "width": 320,
+          "height": 844
+        },
+        "scroll_width": 320
+      }
+    },
+    {
+      "name": "320_properties_accessible_on_page",
+      "passed": true
+    },
+    {
+      "name": "320-project-properties_no_body_overflow",
+      "passed": true,
+      "detail": {
+        "file": "320-project-properties.png",
+        "viewport": {
+          "width": 320,
+          "height": 844
+        },
+        "scroll_width": 320
+      }
+    }
+  ],
+  "failures": [
+    {
+      "name": "320_action_filters_collapsed",
+      "passed": false
+    },
+    {
+      "name": "320_action_filters_expand",
+      "passed": false
+    },
+    {
+      "name": "390_properties_closed_on_page",
+      "passed": false
+    },
+    {
+      "name": "320_properties_closed_on_page",
+      "passed": false
+    }
+  ],
+  "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+  "capabilities": {
+    "can_send": false,
+    "server_drafts": false,
+    "can_compose": false,
+    "can_manage_flags": true,
+    "provider_status": "not_connected"
+  },
+  "passed": false
+}

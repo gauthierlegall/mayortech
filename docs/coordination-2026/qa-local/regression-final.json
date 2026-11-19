@@ -1,0 +1,298 @@
+{
+  "checks": [
+    {
+      "name": "onboarding agenda link wraps inside a 320px page",
+      "passed": true,
+      "detail": {
+        "x": 18,
+        "y": 520.21875,
+        "width": 284,
+        "height": 56
+      }
+    },
+    {
+      "name": "public onboarding still exposes no password input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "public fixture made no server mutation",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 chat composer is contained in its grid",
+      "passed": true,
+      "detail": {
+        "panel": {
+          "top": 253.1875,
+          "bottom": 777.1875,
+          "left": 18,
+          "right": 372,
+          "width": 354,
+          "height": 524
+        },
+        "head": {
+          "top": 362.78125,
+          "bottom": 423.78125,
+          "left": 19,
+          "right": 371,
+          "width": 352,
+          "height": 61
+        },
+        "composer": {
+          "top": 638.40625,
+          "bottom": 776.1875,
+          "left": 19,
+          "right": 371,
+          "width": 352,
+          "height": 137.78125
+        },
+        "question": {
+          "top": 662.40625,
+          "bottom": 711.1875,
+          "left": 42,
+          "right": 302,
+          "width": 260,
+          "height": 48.78125
+        },
+        "send": {
+          "top": 675.1875,
+          "bottom": 711.1875,
+          "left": 312,
+          "right": 348,
+          "width": 36,
+          "height": 36
+        },
+        "nav": {
+          "top": 777,
+          "bottom": 844,
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "height": 67
+        },
+        "panelScroll": 0,
+        "questionHit": true,
+        "sendHit": true
+      }
+    },
+    {
+      "name": "390 textarea and Send are above the fixed navigation",
+      "passed": true,
+      "detail": {
+        "panel": {
+          "top": 253.1875,
+          "bottom": 777.1875,
+          "left": 18,
+          "right": 372,
+          "width": 354,
+          "height": 524
+        },
+        "head": {
+          "top": 362.78125,
+          "bottom": 423.78125,
+          "left": 19,
+          "right": 371,
+          "width": 352,
+          "height": 61
+        },
+        "composer": {
+          "top": 638.40625,
+          "bottom": 776.1875,
+          "left": 19,
+          "right": 371,
+          "width": 352,
+          "height": 137.78125
+        },
+        "question": {
+          "top": 662.40625,
+          "bottom": 711.1875,
+          "left": 42,
+          "right": 302,
+          "width": 260,
+          "height": 48.78125
+        },
+        "send": {
+          "top": 675.1875,
+          "bottom": 711.1875,
+          "left": 312,
+          "right": 348,
+          "width": 36,
+          "height": 36
+        },
+        "nav": {
+          "top": 777,
+          "bottom": 844,
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "height": 67
+        },
+        "panelScroll": 0,
+        "questionHit": true,
+        "sendHit": true
+      }
+    },
+    {
+      "name": "390 chat page has no masked horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 chat composer is contained in its grid",
+      "passed": true,
+      "detail": {
+        "panel": {
+          "top": 253.1875,
+          "bottom": 693.1875,
+          "left": 18,
+          "right": 302,
+          "width": 284,
+          "height": 440
+        },
+        "head": {
+          "top": 362.78125,
+          "bottom": 423.78125,
+          "left": 19,
+          "right": 301,
+          "width": 282,
+          "height": 61
+        },
+        "composer": {
+          "top": 554.40625,
+          "bottom": 692.1875,
+          "left": 19,
+          "right": 301,
+          "width": 282,
+          "height": 137.78125
+        },
+        "question": {
+          "top": 578.40625,
+          "bottom": 627.1875,
+          "left": 42,
+          "right": 232,
+          "width": 190,
+          "height": 48.78125
+        },
+        "send": {
+          "top": 591.1875,
+          "bottom": 627.1875,
+          "left": 242,
+          "right": 278,
+          "width": 36,
+          "height": 36
+        },
+        "nav": {
+          "top": 693,
+          "bottom": 760,
+          "left": 0,
+          "right": 320,
+          "width": 320,
+          "height": 67
+        },
+        "panelScroll": 0,
+        "questionHit": true,
+        "sendHit": true
+      }
+    },
+    {
+      "name": "320 textarea and Send are above the fixed navigation",
+      "passed": true,
+      "detail": {
+        "panel": {
+          "top": 253.1875,
+          "bottom": 693.1875,
+          "left": 18,
+          "right": 302,
+          "width": 284,
+          "height": 440
+        },
+        "head": {
+          "top": 362.78125,
+          "bottom": 423.78125,
+          "left": 19,
+          "right": 301,
+          "width": 282,
+          "height": 61
+        },
+        "composer": {
+          "top": 554.40625,
+          "bottom": 692.1875,
+          "left": 19,
+          "right": 301,
+          "width": 282,
+          "height": 137.78125
+        },
+        "question": {
+          "top": 578.40625,
+          "bottom": 627.1875,
+          "left": 42,
+          "right": 232,
+          "width": 190,
+          "height": 48.78125
+        },
+        "send": {
+          "top": 591.1875,
+          "bottom": 627.1875,
+          "left": 242,
+          "right": 278,
+          "width": 36,
+          "height": 36
+        },
+        "nav": {
+          "top": 693,
+          "bottom": 760,
+          "left": 0,
+          "right": 320,
+          "width": 320,
+          "height": 67
+        },
+        "panelScroll": 0,
+        "questionHit": true,
+        "sendHit": true
+      }
+    },
+    {
+      "name": "320 chat page has no masked horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical event link without a date navigates from January to November",
+      "passed": true,
+      "detail": {
+        "requested_url": "http://127.0.0.1:8766/#/agenda?event=cdd8ccc1-0832-48f2-aafe-e68fddebc97c",
+        "event_start": "2026-11-20",
+        "visible_month": "novembre 2026"
+      }
+    },
+    {
+      "name": "hashchange opens another event without remount or date parameter",
+      "passed": true,
+      "detail": {
+        "selected_event": "7f7b97c0-141f-46ea-9a94-40beae1a98ad"
+      }
+    },
+    {
+      "name": "regressions have no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "regressions have no HTTP errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "screens": [
+    "320-onboarding-agenda-link-fixed.png",
+    "390-chat-composer-fixed.png",
+    "320-chat-composer-fixed.png",
+    "1920-agenda-canonical-link-fixed.png",
+    "1920-agenda-hashchange-fixed.png"
+  ],
+  "public_fixture_scope": "HTTP loopback public_demo: GET and browser-local progress only; no TLS or mutation proof"
+}

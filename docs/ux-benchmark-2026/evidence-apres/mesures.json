@@ -1,0 +1,4440 @@
+{
+  "base": "http://127.0.0.1:8765",
+  "mutations_blocked": [],
+  "pages": {
+    "1440-overview": {
+      "title": "Vue d’ensemble — Travaux",
+      "h1": "Le point sur les travaux.",
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n6\nchantiers suivis\n3\nà vérifier\n0\nactions ouvertes\n3 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 16:43 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 1244.15625,
+            "y": 114,
+            "w": 157.84375,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter",
+          "id": "",
+          "rect": {
+            "x": 933.640625,
+            "y": 338.609375,
+            "w": 114.359375,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 59, 50) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · AvancementTerrassement terminé, attente de validation du plan de circulation14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 274,
+            "y": 472.703125,
+            "w": 799,
+            "h": 110.375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · Livraison2026-12-1814 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 274,
+            "y": 583.078125,
+            "w": 799,
+            "h": 110.375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · ActionConfirmer le cheminement piéton avec le service scolaire14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 274,
+            "y": 693.453125,
+            "w": 799,
+            "h": 109.375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir tous les chantiers",
+          "id": "",
+          "rect": {
+            "x": 953.703125,
+            "y": 836.703125,
+            "w": 119.296875,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 874.171875,
+            "w": 797,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 1024.046875,
+            "w": 797,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 1173.921875,
+            "w": 797,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 1323.796875,
+            "w": 797,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 1473.671875,
+            "w": 797,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 1623.546875,
+            "w": 797,
+            "h": 148.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir les connexions",
+          "id": "",
+          "rect": {
+            "x": 1120,
+            "y": 527.515625,
+            "w": 121.921875,
+            "h": 20
+          },
+          "font": "11px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter les imports",
+          "id": "",
+          "rect": {
+            "x": 1102,
+            "y": 665.078125,
+            "w": 112.0625,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "1440-projects": {
+      "title": "Chantiers — Travaux",
+      "h1": "Chantiers",
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "mainText": "Chantiers\n\nUn état vérifié, des actions et une mémoire pour chaque opération.\n\nCréer un chantier\nRelier AppFlowy\nRechercher un chantier\nÉtat des chantiers\nTous les états\nEn cours\nEn préparation\nTerminés\n6 chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Créer un chantier",
+          "id": "",
+          "rect": {
+            "x": 1079.15625,
+            "y": 114,
+            "w": 159.578125,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 1248.734375,
+            "y": 114,
+            "w": 153.265625,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "INPUT",
+          "name": "Rechercher un chantier",
+          "id": "project-search",
+          "rect": {
+            "x": 274,
+            "y": 208.6875,
+            "w": 380,
+            "h": 42.140625
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "SELECT",
+          "name": "État des chantiers",
+          "id": "project-status",
+          "rect": {
+            "x": 666,
+            "y": 209.25,
+            "w": 129,
+            "h": 41
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 271.828125,
+            "w": 1126,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 421.703125,
+            "w": 1126,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 571.578125,
+            "w": 1126,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 721.453125,
+            "w": 1126,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 871.328125,
+            "w": 1126,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 1021.203125,
+            "w": 1126,
+            "h": 148.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "1440-project": {
+      "title": "Parvis de l'école des Alizés — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "mainText": "Retour aux chantiers\nParvis de l'école des Alizés\n\nDossier de suivi des travaux\n\nRelier AppFlowy\nPréparer un récap\n3 propositions en attente. Vérifier les nouvelles informations\nMémoire du chantier\nActions (0)\nSources (3)\nNotes humaines (1)\nL’état vérifié\nEn cours\nAvancement\nPréparation du terrassementConfirmé\nVoir la preuve\nEntreprise\nEntreprise Fictive 1Confirmé\nVoir la preuve\nBudget\n42000 EUR HTConfirmé\nVoir la preuve\nLes récapitulatifs\nPréparer un récap\nRécapitulatif\tCréé le\tÉtat\tVersion\nParvis de l'école des Alizés\nLe chantier a évolué depuis cette version.\n\t14 nov. 2026, 16:43\tValidé\t1\nRepères du dossier\nRéférence\nTRV-2026-014\nÉtat\nEn cours\nVersion de mémoire\n4\nCréé le\n14 nov. 2026, 16:43\nVos pages dans AppFlowy\n\nLe clone natif reste l’espace de vos pages, bases et notes. Ce complément assure la provenance et la revue des informations.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux chantiers",
+          "id": "",
+          "rect": {
+            "x": 274,
+            "y": 114,
+            "w": 135.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 1075.984375,
+            "y": 151,
+            "w": 153.265625,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 1239.25,
+            "y": 151,
+            "w": 162.75,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Vérifier les nouvelles informations",
+          "id": "",
+          "rect": {
+            "x": 452.171875,
+            "y": 262.6875,
+            "w": 178.09375,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Mémoire du chantier",
+          "id": "tab-memory",
+          "rect": {
+            "x": 274,
+            "y": 316.6875,
+            "w": 128.15625,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Actions (0)",
+          "id": "tab-actions",
+          "rect": {
+            "x": 424.15625,
+            "y": 316.6875,
+            "w": 60.859375,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Sources (3)",
+          "id": "tab-sources",
+          "rect": {
+            "x": 507.015625,
+            "y": 316.6875,
+            "w": 63.140625,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Notes humaines (1)",
+          "id": "tab-notes",
+          "rect": {
+            "x": 592.15625,
+            "y": 316.6875,
+            "w": 111.390625,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir la preuve",
+          "id": "",
+          "rect": {
+            "x": 298,
+            "y": 546.84375,
+            "w": 72.703125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir la preuve",
+          "id": "",
+          "rect": {
+            "x": 693,
+            "y": 546.84375,
+            "w": 72.703125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir la preuve",
+          "id": "",
+          "rect": {
+            "x": 298,
+            "y": 637.65625,
+            "w": 72.703125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 917.3125,
+            "y": 738.25,
+            "w": 146.6875,
+            "h": 34
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 293,
+            "y": 852.515625,
+            "w": 156.234375,
+            "h": 17
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "1440-review": {
+      "title": "À vérifier — Travaux",
+      "h1": "À vérifier",
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "mainText": "À vérifier\n\nLisez la preuve, puis confirmez, corrigez ou écartez la proposition.\n\nImporter un mail\nAvancement\nContradiction\nParvis de l'école des Alizés\nLivraison\nÀ vérifier\nParvis de l'école des Alizés\nAction\nÀ vérifier\nParvis de l'école des Alizés\nAvancement\nContradiction\n\nParvis de l'école des Alizés · 14 nov. 2026, 16:43\n\nUne information diffère de l’état confirmé. Comparez les deux annonces avant de retenir la nouvelle.\nInformations précédemment confirmées\nPréparation du terrassement\n\nAvancement : Préparation du terrassement\n\nConsulter la preuve précédente\nValeur proposée\nTerrassement terminé, attente de validation du plan de circulation\nExtrait de la source\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nOuvrir le mail source\nRemplacer la valeur précédente\nCorriger\nÉcarter\n\nLa décision est conservée avec la proposition et sa provenance.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 1244.15625,
+            "y": 114,
+            "w": 157.84375,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "AvancementContradictionParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 209.6875,
+            "w": 308,
+            "h": 86.3125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "LivraisonÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 296,
+            "w": 308,
+            "h": 86.3125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "ActionÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 275,
+            "y": 382.3125,
+            "w": 308,
+            "h": 85.3125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 631,
+            "y": 283.6875,
+            "w": 139.3125,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Consulter la preuve précédente",
+          "id": "",
+          "rect": {
+            "x": 649,
+            "y": 483.609375,
+            "w": 165.546875,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir le mail source",
+          "id": "",
+          "rect": {
+            "x": 631,
+            "y": 765.578125,
+            "w": 109.046875,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Remplacer la valeur précédente",
+          "id": "",
+          "rect": {
+            "x": 631,
+            "y": 830.828125,
+            "w": 243.09375,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Corriger",
+          "id": "",
+          "rect": {
+            "x": 884.09375,
+            "y": 830.828125,
+            "w": 78.421875,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Écarter",
+          "id": "",
+          "rect": {
+            "x": 972.515625,
+            "y": 830.828125,
+            "w": 71.15625,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(168, 63, 53) none 3px"
+        }
+      ]
+    },
+    "1440-summaries": {
+      "title": "Récapitulatifs — Travaux",
+      "h1": "Récapitulatifs",
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "mainText": "Récapitulatifs\n\nDes synthèses relues, sourcées et identifiées par version.\n\nPréparer un récap\nRécapitulatif\tCréé le\tÉtat\tVersion\nParvis de l'école des Alizés\nLe chantier a évolué depuis cette version.\n\t14 nov. 2026, 16:43\tValidé\t1",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 1239.25,
+            "y": 114,
+            "w": 162.75,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 293,
+            "y": 269.953125,
+            "w": 156.234375,
+            "h": 17
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "1440-summary": {
+      "title": "Récapitulatif — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "mainText": "Retour aux récapitulatifs\nParvis de l'école des Alizés\n\nRelisez le contenu avec ses preuves avant de valider une version.\n\nValidé\nExporter en Markdown\nLe chantier ou ses sources ont évolué depuis cette synthèse. Préparer une version actualisée\nContenu du récapitulatif — version validée\nVoir les preuves (4)\n\nCette version validée est conservée.\n\nExport HTML\nVersion 1\nCréé le 14 nov. 2026, 16:43\nMémoire chantier : révision 4\nSources citées\n4\nPreuve 1\n\nAvancement : Préparation du terrassement\n\nOuvrir la source\nPreuve 2\n\nEntreprise : Entreprise Fictive 1\n\nOuvrir la source\nPreuve 3\n\nBudget : 42000 EUR HT\n\nOuvrir la source\nPreuve 4\n\nPréserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.\n\nOuvrir la source\nUne validation explicite\n\nLe contenu, les sources et la révision sont contrôlés à la validation. Une modification ultérieure crée une nouvelle version.\n\nRevoir le chantier",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux récapitulatifs",
+          "id": "",
+          "rect": {
+            "x": 274,
+            "y": 114,
+            "w": 155.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Exporter en Markdown",
+          "id": "",
+          "rect": {
+            "x": 1208.6875,
+            "y": 151,
+            "w": 193.3125,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer une version actualisée",
+          "id": "",
+          "rect": {
+            "x": 611.84375,
+            "y": 260.6875,
+            "w": 164.75,
+            "h": 20.390625
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir les preuves (4)",
+          "id": "",
+          "rect": {
+            "x": 961.375,
+            "y": 315.078125,
+            "w": 125.625,
+            "h": 34
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Contenu du récapitulatif — version validée",
+          "id": "summary-content",
+          "rect": {
+            "x": 274,
+            "y": 358.078125,
+            "w": 813,
+            "h": 520
+          },
+          "font": "14px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Export HTML",
+          "id": "",
+          "rect": {
+            "x": 934.59375,
+            "y": 916.328125,
+            "w": 135.40625,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 1136,
+            "y": 474.71875,
+            "w": 83.328125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 1136,
+            "y": 580.8125,
+            "w": 83.328125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 1136,
+            "y": 686.90625,
+            "w": 83.328125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 1136,
+            "y": 830.1875,
+            "w": 83.328125,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Revoir le chantier",
+          "id": "",
+          "rect": {
+            "x": 1112,
+            "y": 1049.640625,
+            "w": 160.4375,
+            "h": 40
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "1440-project-sources": {
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "tableWidth": 811,
+      "wrapWidth": 811,
+      "overflow": "auto"
+    },
+    "390-overview": {
+      "title": "Vue d’ensemble — Travaux",
+      "h1": "Le point sur les travaux.",
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n6\nchantiers suivis\n3\nà vérifier\n0\nactions ouvertes\n3 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 16:43 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 232.0625,
+            "w": 150.15625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter",
+          "id": "",
+          "rect": {
+            "x": 82,
+            "y": 505.046875,
+            "w": 93.6875,
+            "h": 44
+          },
+          "font": "11px",
+          "outline": "rgb(24, 59, 50) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · AvancementTerrassement terminé, attente de validation du plan de circulation14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 632.84375,
+            "w": 358,
+            "h": 143.609375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · Livraison2026-12-1814 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 776.453125,
+            "w": 358,
+            "h": 121.921875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · ActionConfirmer le cheminement piéton avec le service scolaire14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 898.375,
+            "w": 358,
+            "h": 142.609375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir tous les chantiers",
+          "id": "",
+          "rect": {
+            "x": 254.703125,
+            "y": 1074.078125,
+            "w": 119.296875,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1110.78125,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1304.5,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1498.21875,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1691.9375,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1885.65625,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 2079.375,
+            "w": 356,
+            "h": 192.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir les connexions",
+          "id": "",
+          "rect": {
+            "x": 34,
+            "y": 2516.046875,
+            "w": 121.921875,
+            "h": 20
+          },
+          "font": "11px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter les imports",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 2649.609375,
+            "w": 112.0625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "390-projects": {
+      "title": "Chantiers — Travaux",
+      "h1": "Chantiers",
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "mainText": "Chantiers\n\nUn état vérifié, des actions et une mémoire pour chaque opération.\n\nCréer un chantier\nRelier AppFlowy\nRechercher un chantier\nÉtat des chantiers\nTous les états\nEn cours\nEn préparation\nTerminés\n6 chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Créer un chantier",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 187.671875,
+            "w": 151.765625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 177.765625,
+            "y": 187.671875,
+            "w": 145.9375,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "INPUT",
+          "name": "Rechercher un chantier",
+          "id": "project-search",
+          "rect": {
+            "x": 16,
+            "y": 254.671875,
+            "w": 358,
+            "h": 46.796875
+          },
+          "font": "16px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "SELECT",
+          "name": "État des chantiers",
+          "id": "project-status",
+          "rect": {
+            "x": 16,
+            "y": 313.46875,
+            "w": 358,
+            "h": 45
+          },
+          "font": "16px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 410.0625,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 603.78125,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 797.5,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 991.21875,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1184.9375,
+            "w": 356,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1378.65625,
+            "w": 356,
+            "h": 192.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "390-project": {
+      "title": "Parvis de l'école des Alizés — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "mainText": "Retour aux chantiers\nParvis de l'école des Alizés\n\nDossier de suivi des travaux\n\nRelier AppFlowy\nPréparer un récap\n3 propositions en attente. Vérifier les nouvelles informations\nMémoire du chantier\nActions (0)\nSources (3)\nNotes humaines (1)\nMails et pièces sources\nSource\tReçue le\tTraitement\tPreuve\n[TRV-2026-014] Point chantier\nsuivi@entreprise-fictive.invalid\n12 nov. 2026, 09:30\nAnalysé\nOuvrir la source\nNote humaine\nresponsable-demo\n14 nov. 2026, 16:43\nNote humaine\nOuvrir la source\n[TRV-2026-014] Nouveau point et livraison\nconducteur@entreprise-fictive.invalid\n14 nov. 2026, 10:15\nAnalysé\nOuvrir la source\nRepères du dossier\nRéférence\nTRV-2026-014\nÉtat\nEn cours\nVersion de mémoire\n4\nCréé le\n14 nov. 2026, 16:43\nVos pages dans AppFlowy\n\nLe clone natif reste l’espace de vos pages, bases et notes. Ce complément assure la provenance et la revue des informations.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux chantiers",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 88,
+            "w": 135.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 204.53125,
+            "w": 145.9375,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 171.9375,
+            "y": 204.53125,
+            "w": 154.6875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Vérifier les nouvelles informations",
+          "id": "",
+          "rect": {
+            "x": 33,
+            "y": 288.53125,
+            "w": 289.578125,
+            "h": 39.75
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Mémoire du chantier",
+          "id": "tab-memory",
+          "rect": {
+            "x": 17,
+            "y": 366.375,
+            "w": 178,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Actions (0)",
+          "id": "tab-actions",
+          "rect": {
+            "x": 195,
+            "y": 366.375,
+            "w": 178,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Sources (3)",
+          "id": "tab-sources",
+          "rect": {
+            "x": 17,
+            "y": 410.375,
+            "w": 178,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 59, 50) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Notes humaines (1)",
+          "id": "tab-notes",
+          "rect": {
+            "x": 195,
+            "y": 410.375,
+            "w": 178,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 698.203125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 917.234375,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1136.265625,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "390-review": {
+      "title": "À vérifier — Travaux",
+      "h1": "À vérifier",
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "mainText": "À vérifier\n\nLisez la preuve, puis confirmez, corrigez ou écartez la proposition.\n\nImporter un mail\nAvancement\nContradiction\nParvis de l'école des Alizés\nLivraison\nÀ vérifier\nParvis de l'école des Alizés\nAction\nÀ vérifier\nParvis de l'école des Alizés\nAvancement\nContradiction\n\nParvis de l'école des Alizés · 14 nov. 2026, 16:43\n\nUne information diffère de l’état confirmé. Comparez les deux annonces avant de retenir la nouvelle.\nInformations précédemment confirmées\nPréparation du terrassement\n\nAvancement : Préparation du terrassement\n\nConsulter la preuve précédente\nValeur proposée\nTerrassement terminé, attente de validation du plan de circulation\nExtrait de la source\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nOuvrir le mail source\nRemplacer la valeur précédente\nCorriger\nÉcarter\n\nLa décision est conservée avec la proposition et sa provenance.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 187.671875,
+            "w": 150.15625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "AvancementContradictionParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 255.671875,
+            "w": 356,
+            "h": 84.53125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "LivraisonÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 340.203125,
+            "w": 356,
+            "h": 84.53125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "ActionÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 424.734375,
+            "w": 356,
+            "h": 83.53125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 599.21875,
+            "w": 139.3125,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Consulter la preuve précédente",
+          "id": "",
+          "rect": {
+            "x": 53,
+            "y": 843.078125,
+            "w": 165.546875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir le mail source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1228.140625,
+            "w": 109.046875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Remplacer la valeur précédente",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1317.140625,
+            "w": 320,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Corriger",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1371.140625,
+            "w": 155,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Écarter",
+          "id": "",
+          "rect": {
+            "x": 200,
+            "y": 1371.140625,
+            "w": 155,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(168, 63, 53) none 3px"
+        }
+      ]
+    },
+    "390-summaries": {
+      "title": "Récapitulatifs — Travaux",
+      "h1": "Récapitulatifs",
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "mainText": "Récapitulatifs\n\nDes synthèses relues, sourcées et identifiées par version.\n\nPréparer un récap\nRécapitulatif\tCréé le\tÉtat\tVersion\nParvis de l'école des Alizés\nLe chantier a évolué depuis cette version.\n14 nov. 2026, 16:43\nValidé\n1",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 167.53125,
+            "w": 154.6875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 252.53125,
+            "w": 320,
+            "h": 28.5
+          },
+          "font": "15px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "390-summary": {
+      "title": "Récapitulatif — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "mainText": "Retour aux récapitulatifs\nParvis de l'école des Alizés\n\nRelisez le contenu avec ses preuves avant de valider une version.\n\nValidé\nExporter en Markdown\nLe chantier ou ses sources ont évolué depuis cette synthèse. Préparer une version actualisée\nContenu du récapitulatif — version validée\nVoir les preuves (4)\n\nCette version validée est conservée.\n\nExport HTML\nVersion 1\nCréé le 14 nov. 2026, 16:43\nMémoire chantier : révision 4\nSources citées\n4\nPreuve 1\n\nAvancement : Préparation du terrassement\n\nOuvrir la source\nPreuve 2\n\nEntreprise : Entreprise Fictive 1\n\nOuvrir la source\nPreuve 3\n\nBudget : 42000 EUR HT\n\nOuvrir la source\nPreuve 4\n\nPréserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.\n\nOuvrir la source\nUne validation explicite\n\nLe contenu, les sources et la révision sont contrôlés à la validation. Une modification ultérieure crée une nouvelle version.\n\nRevoir le chantier",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux récapitulatifs",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 88,
+            "w": 155.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Exporter en Markdown",
+          "id": "",
+          "rect": {
+            "x": 72.21875,
+            "y": 224.671875,
+            "w": 182.90625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer une version actualisée",
+          "id": "",
+          "rect": {
+            "x": 89.421875,
+            "y": 328.765625,
+            "w": 164.75,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir les preuves (4)",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 437.359375,
+            "w": 129.625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Contenu du récapitulatif — version validée",
+          "id": "summary-content",
+          "rect": {
+            "x": 16,
+            "y": 490.359375,
+            "w": 358,
+            "h": 420
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Export HTML",
+          "id": "",
+          "rect": {
+            "x": 30,
+            "y": 974.65625,
+            "w": 330,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1272.53125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1399.375,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1526.21875,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1671.65625,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Revoir le chantier",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 1891.171875,
+            "w": 160.4375,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "390-project-sources": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "tableWidth": 356,
+      "wrapWidth": 356,
+      "overflow": "visible"
+    },
+    "320-overview": {
+      "title": "Vue d’ensemble — Travaux",
+      "h1": "Le point sur les travaux.",
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n6\nchantiers suivis\n3\nà vérifier\n0\nactions ouvertes\n3 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 16:43 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 232.0625,
+            "w": 150.15625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter",
+          "id": "",
+          "rect": {
+            "x": 82,
+            "y": 555.046875,
+            "w": 93.6875,
+            "h": 44
+          },
+          "font": "11px",
+          "outline": "rgb(24, 59, 50) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · AvancementTerrassement terminé, attente de validation du plan de circulation14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 682.84375,
+            "w": 288,
+            "h": 143.609375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · Livraison2026-12-1814 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 826.453125,
+            "w": 288,
+            "h": 121.921875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · ActionConfirmer le cheminement piéton avec le service scolaire14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 948.375,
+            "w": 288,
+            "h": 142.609375
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir tous les chantiers",
+          "id": "",
+          "rect": {
+            "x": 184.703125,
+            "y": 1124.078125,
+            "w": 119.296875,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1160.78125,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1354.5,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1548.21875,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1741.9375,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1935.65625,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 2129.375,
+            "w": 286,
+            "h": 192.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir les connexions",
+          "id": "",
+          "rect": {
+            "x": 34,
+            "y": 2584.734375,
+            "w": 121.921875,
+            "h": 20
+          },
+          "font": "11px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter les imports",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 2718.296875,
+            "w": 112.0625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "320-projects": {
+      "title": "Chantiers — Travaux",
+      "h1": "Chantiers",
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "mainText": "Chantiers\n\nUn état vérifié, des actions et une mémoire pour chaque opération.\n\nCréer un chantier\nRelier AppFlowy\nRechercher un chantier\nÉtat des chantiers\nTous les états\nEn cours\nEn préparation\nTerminés\n6 chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Créer un chantier",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 187.671875,
+            "w": 151.765625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 241.671875,
+            "w": 145.9375,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "INPUT",
+          "name": "Rechercher un chantier",
+          "id": "project-search",
+          "rect": {
+            "x": 16,
+            "y": 308.671875,
+            "w": 288,
+            "h": 46.796875
+          },
+          "font": "16px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "SELECT",
+          "name": "État des chantiers",
+          "id": "project-status",
+          "rect": {
+            "x": 16,
+            "y": 367.46875,
+            "w": 288,
+            "h": 45
+          },
+          "font": "16px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 464.0625,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 657.78125,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 851.5,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1045.21875,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1238.9375,
+            "w": 286,
+            "h": 193.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 1432.65625,
+            "w": 286,
+            "h": 192.71875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "320-project": {
+      "title": "Parvis de l'école des Alizés — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "mainText": "Retour aux chantiers\nParvis de l'école des Alizés\n\nDossier de suivi des travaux\n\nRelier AppFlowy\nPréparer un récap\n3 propositions en attente. Vérifier les nouvelles informations\nMémoire du chantier\nActions (0)\nSources (3)\nNotes humaines (1)\nMails et pièces sources\nSource\tReçue le\tTraitement\tPreuve\n[TRV-2026-014] Point chantier\nsuivi@entreprise-fictive.invalid\n12 nov. 2026, 09:30\nAnalysé\nOuvrir la source\nNote humaine\nresponsable-demo\n14 nov. 2026, 16:43\nNote humaine\nOuvrir la source\n[TRV-2026-014] Nouveau point et livraison\nconducteur@entreprise-fictive.invalid\n14 nov. 2026, 10:15\nAnalysé\nOuvrir la source\nRepères du dossier\nRéférence\nTRV-2026-014\nÉtat\nEn cours\nVersion de mémoire\n4\nCréé le\n14 nov. 2026, 16:43\nVos pages dans AppFlowy\n\nLe clone natif reste l’espace de vos pages, bases et notes. Ce complément assure la provenance et la revue des informations.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux chantiers",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 88,
+            "w": 135.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 236.921875,
+            "w": 145.9375,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 290.921875,
+            "w": 154.6875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Vérifier les nouvelles informations",
+          "id": "",
+          "rect": {
+            "x": 33,
+            "y": 374.921875,
+            "w": 232.046875,
+            "h": 39.75
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Mémoire du chantier",
+          "id": "tab-memory",
+          "rect": {
+            "x": 17,
+            "y": 452.765625,
+            "w": 143,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Actions (0)",
+          "id": "tab-actions",
+          "rect": {
+            "x": 160,
+            "y": 452.765625,
+            "w": 143,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Sources (3)",
+          "id": "tab-sources",
+          "rect": {
+            "x": 17,
+            "y": 496.765625,
+            "w": 143,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 59, 50) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Notes humaines (1)",
+          "id": "tab-notes",
+          "rect": {
+            "x": 160,
+            "y": 496.765625,
+            "w": 143,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 784.59375,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1003.625,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1245.15625,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "320-review": {
+      "title": "À vérifier — Travaux",
+      "h1": "À vérifier",
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "mainText": "À vérifier\n\nLisez la preuve, puis confirmez, corrigez ou écartez la proposition.\n\nImporter un mail\nAvancement\nContradiction\nParvis de l'école des Alizés\nLivraison\nÀ vérifier\nParvis de l'école des Alizés\nAction\nÀ vérifier\nParvis de l'école des Alizés\nAvancement\nContradiction\n\nParvis de l'école des Alizés · 14 nov. 2026, 16:43\n\nUne information diffère de l’état confirmé. Comparez les deux annonces avant de retenir la nouvelle.\nInformations précédemment confirmées\nPréparation du terrassement\n\nAvancement : Préparation du terrassement\n\nConsulter la preuve précédente\nValeur proposée\nTerrassement terminé, attente de validation du plan de circulation\nExtrait de la source\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nOuvrir le mail source\nRemplacer la valeur précédente\nCorriger\nÉcarter\n\nLa décision est conservée avec la proposition et sa provenance.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 187.671875,
+            "w": 150.15625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "AvancementContradictionParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 255.671875,
+            "w": 286,
+            "h": 84.53125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "LivraisonÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 340.203125,
+            "w": 286,
+            "h": 84.53125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "ActionÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 17,
+            "y": 424.734375,
+            "w": 286,
+            "h": 83.53125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 599.21875,
+            "w": 139.3125,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Consulter la preuve précédente",
+          "id": "",
+          "rect": {
+            "x": 53,
+            "y": 902.359375,
+            "w": 165.546875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir le mail source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1341.65625,
+            "w": 109.046875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Remplacer la valeur précédente",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1430.65625,
+            "w": 250,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Corriger",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1484.65625,
+            "w": 120,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Écarter",
+          "id": "",
+          "rect": {
+            "x": 165,
+            "y": 1484.65625,
+            "w": 120,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(168, 63, 53) none 3px"
+        }
+      ]
+    },
+    "320-summaries": {
+      "title": "Récapitulatifs — Travaux",
+      "h1": "Récapitulatifs",
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "mainText": "Récapitulatifs\n\nDes synthèses relues, sourcées et identifiées par version.\n\nPréparer un récap\nRécapitulatif\tCréé le\tÉtat\tVersion\nParvis de l'école des Alizés\nLe chantier a évolué depuis cette version.\n14 nov. 2026, 16:43\nValidé\n1",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 187.671875,
+            "w": 154.6875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 272.671875,
+            "w": 250,
+            "h": 28.5
+          },
+          "font": "15px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "320-summary": {
+      "title": "Récapitulatif — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "mainText": "Retour aux récapitulatifs\nParvis de l'école des Alizés\n\nRelisez le contenu avec ses preuves avant de valider une version.\n\nValidé\nExporter en Markdown\nLe chantier ou ses sources ont évolué depuis cette synthèse. Préparer une version actualisée\nContenu du récapitulatif — version validée\nVoir les preuves (4)\n\nCette version validée est conservée.\n\nExport HTML\nVersion 1\nCréé le 14 nov. 2026, 16:43\nMémoire chantier : révision 4\nSources citées\n4\nPreuve 1\n\nAvancement : Préparation du terrassement\n\nOuvrir la source\nPreuve 2\n\nEntreprise : Entreprise Fictive 1\n\nOuvrir la source\nPreuve 3\n\nBudget : 42000 EUR HT\n\nOuvrir la source\nPreuve 4\n\nPréserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.\n\nOuvrir la source\nUne validation explicite\n\nLe contenu, les sources et la révision sont contrôlés à la validation. Une modification ultérieure crée une nouvelle version.\n\nRevoir le chantier",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux récapitulatifs",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 88,
+            "w": 155.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Exporter en Markdown",
+          "id": "",
+          "rect": {
+            "x": 72.21875,
+            "y": 257.0625,
+            "w": 182.90625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer une version actualisée",
+          "id": "",
+          "rect": {
+            "x": 33,
+            "y": 383.25,
+            "w": 164.75,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir les preuves (4)",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 491.84375,
+            "w": 129.625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Contenu du récapitulatif — version validée",
+          "id": "summary-content",
+          "rect": {
+            "x": 16,
+            "y": 544.84375,
+            "w": 288,
+            "h": 420
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Export HTML",
+          "id": "",
+          "rect": {
+            "x": 30,
+            "y": 1029.140625,
+            "w": 260,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1327.015625,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1453.859375,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1580.703125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 35,
+            "y": 1744.734375,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Revoir le chantier",
+          "id": "",
+          "rect": {
+            "x": 16,
+            "y": 1982.9375,
+            "w": 160.4375,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "320-project-sources": {
+      "scrollWidth": 320,
+      "innerWidth": 320,
+      "tableWidth": 286,
+      "wrapWidth": 286,
+      "overflow": "visible"
+    },
+    "720-overview": {
+      "title": "Vue d’ensemble — Travaux",
+      "h1": "Le point sur les travaux.",
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n6\nchantiers suivis\n3\nà vérifier\n0\nactions ouvertes\n3 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 16:43 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 16:43 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 548.84375,
+            "y": 92,
+            "w": 150.15625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter",
+          "id": "",
+          "rect": {
+            "x": 585.3125,
+            "y": 311.90625,
+            "w": 93.6875,
+            "h": 44
+          },
+          "font": "11px",
+          "outline": "rgb(24, 59, 50) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · AvancementTerrassement terminé, attente de validation du plan de circulation14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 455.296875,
+            "w": 678,
+            "h": 121.921875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · Livraison2026-12-1814 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 577.21875,
+            "w": 678,
+            "h": 121.921875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · ActionConfirmer le cheminement piéton avec le service scolaire14 nov. 2026, 16:43 · À confirmer",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 699.140625,
+            "w": 678,
+            "h": 120.921875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir tous les chantiers",
+          "id": "",
+          "rect": {
+            "x": 579.703125,
+            "y": 853.9375,
+            "w": 119.296875,
+            "h": 18.59375
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 891.40625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 1041.28125,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 1191.15625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 1341.03125,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 1490.90625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 1640.78125,
+            "w": 676,
+            "h": 148.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Voir les connexions",
+          "id": "",
+          "rect": {
+            "x": 390.5,
+            "y": 1908.171875,
+            "w": 121.921875,
+            "h": 20
+          },
+          "font": "11px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Consulter les imports",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 2066.734375,
+            "w": 112.0625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "720-projects": {
+      "title": "Chantiers — Travaux",
+      "h1": "Chantiers",
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "mainText": "Chantiers\n\nUn état vérifié, des actions et une mémoire pour chaque opération.\n\nCréer un chantier\nRelier AppFlowy\nRechercher un chantier\nÉtat des chantiers\nTous les états\nEn cours\nEn préparation\nTerminés\n6 chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Créer un chantier",
+          "id": "",
+          "rect": {
+            "x": 419.03125,
+            "y": 92,
+            "w": 151.765625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 419.03125,
+            "y": 146,
+            "w": 145.9375,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "INPUT",
+          "name": "Rechercher un chantier",
+          "id": "project-search",
+          "rect": {
+            "x": 21,
+            "y": 213,
+            "w": 380,
+            "h": 42.140625
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "SELECT",
+          "name": "État des chantiers",
+          "id": "project-status",
+          "rect": {
+            "x": 413,
+            "y": 213.5625,
+            "w": 129,
+            "h": 41
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 276.140625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 426.015625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 575.890625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 725.765625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 875.640625,
+            "w": 676,
+            "h": 149.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 1025.515625,
+            "w": 676,
+            "h": 148.875
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "720-project": {
+      "title": "Parvis de l'école des Alizés — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "mainText": "Retour aux chantiers\nParvis de l'école des Alizés\n\nDossier de suivi des travaux\n\nRelier AppFlowy\nPréparer un récap\n3 propositions en attente. Vérifier les nouvelles informations\nMémoire du chantier\nActions (0)\nSources (3)\nNotes humaines (1)\nMails et pièces sources\nSource\tReçue le\tTraitement\tPreuve\n[TRV-2026-014] Point chantier\nsuivi@entreprise-fictive.invalid\n\t12 nov. 2026, 09:30\tAnalysé\tOuvrir la source\nNote humaine\nresponsable-demo\n\t14 nov. 2026, 16:43\tNote humaine\tOuvrir la source\n[TRV-2026-014] Nouveau point et livraison\nconducteur@entreprise-fictive.invalid\n\t14 nov. 2026, 10:15\tAnalysé\tOuvrir la source\nRepères du dossier\nRéférence\nTRV-2026-014\nÉtat\nEn cours\nVersion de mémoire\n4\nCréé le\n14 nov. 2026, 16:43\nVos pages dans AppFlowy\n\nLe clone natif reste l’espace de vos pages, bases et notes. Ce complément assure la provenance et la revue des informations.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux chantiers",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 92,
+            "w": 135.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Relier AppFlowy",
+          "id": "",
+          "rect": {
+            "x": 388.375,
+            "y": 129,
+            "w": 145.9375,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 544.3125,
+            "y": 129,
+            "w": 154.6875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Vérifier les nouvelles informations",
+          "id": "",
+          "rect": {
+            "x": 199.171875,
+            "y": 233.078125,
+            "w": 178.09375,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Mémoire du chantier",
+          "id": "tab-memory",
+          "rect": {
+            "x": 21,
+            "y": 287.078125,
+            "w": 120.09375,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Actions (0)",
+          "id": "tab-actions",
+          "rect": {
+            "x": 163.09375,
+            "y": 287.078125,
+            "w": 60.859375,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Sources (3)",
+          "id": "tab-sources",
+          "rect": {
+            "x": 245.953125,
+            "y": 287.078125,
+            "w": 67.890625,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Notes humaines (1)",
+          "id": "tab-notes",
+          "rect": {
+            "x": 335.84375,
+            "y": 287.078125,
+            "w": 111.390625,
+            "h": 48.140625
+          },
+          "font": "13px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 590.546875,
+            "y": 485.28125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 590.546875,
+            "y": 562.28125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 590.546875,
+            "y": 639.28125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "720-review": {
+      "title": "À vérifier — Travaux",
+      "h1": "À vérifier",
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "mainText": "À vérifier\n\nLisez la preuve, puis confirmez, corrigez ou écartez la proposition.\n\nImporter un mail\nAvancement\nContradiction\nParvis de l'école des Alizés\nLivraison\nÀ vérifier\nParvis de l'école des Alizés\nAction\nÀ vérifier\nParvis de l'école des Alizés\nAvancement\nContradiction\n\nParvis de l'école des Alizés · 14 nov. 2026, 16:43\n\nUne information diffère de l’état confirmé. Comparez les deux annonces avant de retenir la nouvelle.\nInformations précédemment confirmées\nPréparation du terrassement\n\nAvancement : Préparation du terrassement\n\nConsulter la preuve précédente\nValeur proposée\nTerrassement terminé, attente de validation du plan de circulation\nExtrait de la source\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nOuvrir le mail source\nRemplacer la valeur précédente\nCorriger\nÉcarter\n\nLa décision est conservée avec la proposition et sa provenance.",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Importer un mail",
+          "id": "",
+          "rect": {
+            "x": 548.84375,
+            "y": 92,
+            "w": 150.15625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "AvancementContradictionParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 22,
+            "y": 180.078125,
+            "w": 251.734375,
+            "h": 85.3125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "LivraisonÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 273.734375,
+            "y": 180.078125,
+            "w": 250,
+            "h": 85.3125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "ActionÀ vérifierParvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 523.734375,
+            "y": 180.078125,
+            "w": 250,
+            "h": 85.3125
+          },
+          "font": "15px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 364.390625,
+            "w": 139.3125,
+            "h": 16
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Consulter la preuve précédente",
+          "id": "",
+          "rect": {
+            "x": 63,
+            "y": 563.3125,
+            "w": 165.546875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir le mail source",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 901.234375,
+            "w": 109.046875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Remplacer la valeur précédente",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 990.234375,
+            "w": 243.09375,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Corriger",
+          "id": "",
+          "rect": {
+            "x": 298.09375,
+            "y": 990.234375,
+            "w": 78.421875,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Écarter",
+          "id": "",
+          "rect": {
+            "x": 386.515625,
+            "y": 990.234375,
+            "w": 71.15625,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(168, 63, 53) none 3px"
+        }
+      ]
+    },
+    "720-summaries": {
+      "title": "Récapitulatifs — Travaux",
+      "h1": "Récapitulatifs",
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "mainText": "Récapitulatifs\n\nDes synthèses relues, sourcées et identifiées par version.\n\nPréparer un récap\nRécapitulatif\tCréé le\tÉtat\tVersion\nParvis de l'école des Alizés\nLe chantier a évolué depuis cette version.\n\t14 nov. 2026, 16:43\tValidé\t1",
+      "controls": [
+        {
+          "tag": "BUTTON",
+          "name": "Préparer un récap",
+          "id": "",
+          "rect": {
+            "x": 544.3125,
+            "y": 92,
+            "w": 154.6875,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(255, 255, 255) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Parvis de l'école des Alizés",
+          "id": "",
+          "rect": {
+            "x": 40,
+            "y": 240.34375,
+            "w": 156.234375,
+            "h": 17
+          },
+          "font": "13px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        }
+      ]
+    },
+    "720-summary": {
+      "title": "Récapitulatif — Travaux",
+      "h1": "Parvis de l'école des Alizés",
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "mainText": "Retour aux récapitulatifs\nParvis de l'école des Alizés\n\nRelisez le contenu avec ses preuves avant de valider une version.\n\nValidé\nExporter en Markdown\nLe chantier ou ses sources ont évolué depuis cette synthèse. Préparer une version actualisée\nContenu du récapitulatif — version validée\nVoir les preuves (4)\n\nCette version validée est conservée.\n\nExport HTML\nVersion 1\nCréé le 14 nov. 2026, 16:43\nMémoire chantier : révision 4\nSources citées\n4\nPreuve 1\n\nAvancement : Préparation du terrassement\n\nOuvrir la source\nPreuve 2\n\nEntreprise : Entreprise Fictive 1\n\nOuvrir la source\nPreuve 3\n\nBudget : 42000 EUR HT\n\nOuvrir la source\nPreuve 4\n\nPréserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.\n\nOuvrir la source\nUne validation explicite\n\nLe contenu, les sources et la révision sont contrôlés à la validation. Une modification ultérieure crée une nouvelle version.\n\nRevoir le chantier",
+      "controls": [
+        {
+          "tag": "A",
+          "name": "Retour aux récapitulatifs",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 92,
+            "w": 155.890625,
+            "h": 20
+          },
+          "font": "12px",
+          "outline": "rgb(101, 114, 107) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Exporter en Markdown",
+          "id": "",
+          "rect": {
+            "x": 516.09375,
+            "y": 129,
+            "w": 182.90625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Préparer une version actualisée",
+          "id": "",
+          "rect": {
+            "x": 358.84375,
+            "y": 231.078125,
+            "w": 164.75,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Voir les preuves (4)",
+          "id": "",
+          "rect": {
+            "x": 569.375,
+            "y": 309.078125,
+            "w": 129.625,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Contenu du récapitulatif — version validée",
+          "id": "summary-content",
+          "rect": {
+            "x": 21,
+            "y": 362.078125,
+            "w": 678,
+            "h": 450
+          },
+          "font": "14px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Export HTML",
+          "id": "",
+          "rect": {
+            "x": 546.59375,
+            "y": 708,
+            "w": 135.40625,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 1120.015625,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 1246.859375,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 1373.703125,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Ouvrir la source",
+          "id": "",
+          "rect": {
+            "x": 45,
+            "y": 1500.546875,
+            "w": 83.328125,
+            "h": 44
+          },
+          "font": "12px",
+          "outline": "rgb(35, 79, 67) none 3px"
+        },
+        {
+          "tag": "A",
+          "name": "Revoir le chantier",
+          "id": "",
+          "rect": {
+            "x": 21,
+            "y": 1706.375,
+            "w": 160.4375,
+            "h": 44
+          },
+          "font": "13px",
+          "outline": "rgb(24, 49, 44) none 3px"
+        }
+      ]
+    },
+    "720-project-sources": {
+      "scrollWidth": 720,
+      "innerWidth": 720,
+      "tableWidth": 676,
+      "wrapWidth": 676,
+      "overflow": "auto"
+    }
+  },
+  "checks": {
+    "closed_before": "TRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-021\nRue des Ajoncs\n\nAvancement confirmé\nRéseau pluvial posé à 60 %\n\n14 nov. 2026\nEn cours\nOuvrir",
+    "closed_after": "TRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir",
+    "search_reference": "Aucun chantier correspondant\n\nModifiez votre recherche ou choisissez tous les états.",
+    "search_ax": "- main:\n  - heading \"Chantiers\" [level=1]\n  - paragraph: Un état vérifié, des actions et une mémoire pour chaque opération.\n  - button \"Créer un chantier\"\n  - link \"Relier AppFlowy\":\n    - /url: \"#/settings\"\n  - text: Rechercher un chantier\n  - searchbox \"Rechercher un chantier\": TRV-2026-014\n  - text: État des chantiers\n  - combobox \"État des chantiers\":\n    - option \"Tous les états\"\n    - option \"En cours\"\n    - option \"En préparation\"\n    - option \"Terminés\" [selected]\n  - status: 0 chantier\n  - heading \"Aucun chantier correspondant\" [level=2]\n  - paragraph: Modifiez votre recherche ou choisissez tous les états.",
+    "keyboard_mobile_closed_menu": [
+      {
+        "tag": "BUTTON",
+        "name": "Ouvrir la navigation",
+        "x": 13,
+        "y": 10,
+        "w": 34,
+        "h": 44,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Importer un mail",
+        "x": 16,
+        "y": 232.0625,
+        "w": 150.15625,
+        "h": 44,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Consulter",
+        "x": 82,
+        "y": 505.046875,
+        "w": 93.6875,
+        "h": 44,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · AvancementTerrassement terminé, attente de ",
+        "x": 16,
+        "y": 632.84375,
+        "w": 358,
+        "h": 143.609375,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · Livraison2026-12-1814 nov. 2026, 16:43 · À ",
+        "x": 16,
+        "y": 722.453125,
+        "w": 358,
+        "h": 121.921875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Parvis de l'école des Alizés · TRV-2026-014Proposition · ActionConfirmer le cheminement piéton avec ",
+        "x": 16,
+        "y": 350.375,
+        "w": 358,
+        "h": 142.609375,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Voir tous les chantiers",
+        "x": 254.703125,
+        "y": 526.078125,
+        "w": 119.296875,
+        "h": 18.59375,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En",
+        "x": 17,
+        "y": 562.78125,
+        "w": 356,
+        "h": 193.71875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2",
+        "x": 17,
+        "y": 650.5,
+        "w": 356,
+        "h": 193.71875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En cou",
+        "x": 17,
+        "y": 325.21875,
+        "w": 356,
+        "h": 193.71875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "TRV-2026-032Chemin de KerbrumeAvancement confirméÉtudes en cours14 nov. 2026En préparationOuvrir",
+        "x": 17,
+        "y": 518.9375,
+        "w": 356,
+        "h": 193.71875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "TRV-2026-008Salle du RivageAvancement confirméIsolation des combles terminée14 nov. 2026En coursOuvr",
+        "x": 17,
+        "y": 650.65625,
+        "w": 356,
+        "h": 193.71875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "TRV-2026-021Rue des AjoncsAvancement confirméRéseau pluvial posé à 60 %14 nov. 2026En coursOuvrir",
+        "x": 17,
+        "y": 325.375,
+        "w": 356,
+        "h": 192.71875,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Voir les connexions",
+        "x": 34,
+        "y": 762.046875,
+        "w": 121.921875,
+        "h": 20,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Consulter les imports",
+        "x": 16,
+        "y": 662.609375,
+        "w": 112.0625,
+        "h": 44,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Accueil",
+        "x": 0,
+        "y": 781,
+        "w": 97.5,
+        "h": 63,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "Chantiers",
+        "x": 97.5,
+        "y": 781,
+        "w": 97.5,
+        "h": 63,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "name": "À vérifier",
+        "x": 195,
+        "y": 781,
+        "w": 97.5,
+        "h": 63,
+        "outline": "rgb(178, 103, 55) solid 3px",
+        "visible": true
+      }
+    ],
+    "menu_open_focus": {
+      "name": "Fermer la navigation",
+      "expanded": "true"
+    },
+    "menu_escape_expanded": "false",
+    "dialog_ax": "- dialog \"Document source\":\n  - heading \"Document source\" [level=2]\n  - button \"Fermer la fenêtre\"\n  - paragraph:\n    - strong: \"[TRV-2026-014] Nouveau point et livraison\"\n  - paragraph: conducteur@entreprise-fictive.invalid · 14 nov. 2026, 10:15\n  - text: \"Bonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le cheminement piéton avec le service scolaire Merci, Entreprise Fictive 1\"",
+    "dialog_return_focus": {
+      "tag": "BUTTON",
+      "text": "Ouvrir le mail source"
+    }
+  },
+  "projects": [
+    {
+      "id": "390e5f35-1c5e-43f3-820a-cf57f591e3d7",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-003",
+      "name": "Éclairage du port des Dunes",
+      "description": "Remplacement des luminaires et contrôle de réception.",
+      "status": "completed",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.414143+00:00",
+      "stats": {
+        "sources": 2,
+        "candidates": 3,
+        "pending": 0,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 0
+      },
+      "pending_count": 0,
+      "conflict_count": 0,
+      "source_count": 2,
+      "progress": "Travaux terminés, réserves levées",
+      "updated_at": "2026-11-14T15:43:55.422142+00:00"
+    },
+    {
+      "id": "f90dbb00-d318-4799-9f78-09b43e4d3992",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-008",
+      "name": "Salle du Rivage",
+      "description": "Rénovation énergétique de la salle associative.",
+      "status": "active",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.392140+00:00",
+      "stats": {
+        "sources": 2,
+        "candidates": 3,
+        "pending": 0,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 0
+      },
+      "pending_count": 0,
+      "conflict_count": 0,
+      "source_count": 2,
+      "progress": "Isolation des combles terminée",
+      "updated_at": "2026-11-14T15:43:55.399140+00:00"
+    },
+    {
+      "id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-014",
+      "name": "Parvis de l'école des Alizés",
+      "description": "Sécurisation des cheminements et reprise du parvis.",
+      "status": "active",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.374140+00:00",
+      "stats": {
+        "sources": 3,
+        "candidates": 6,
+        "pending": 3,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 1
+      },
+      "pending_count": 3,
+      "conflict_count": 1,
+      "source_count": 3,
+      "progress": "Préparation du terrassement",
+      "updated_at": "2026-11-14T15:43:55.381141+00:00"
+    },
+    {
+      "id": "a46507c0-5bf3-426c-9265-cf47cc9cae5a",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-017",
+      "name": "Vestiaires des Goélands",
+      "description": "Réhabilitation des vestiaires et ventilation.",
+      "status": "active",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.407139+00:00",
+      "stats": {
+        "sources": 2,
+        "candidates": 3,
+        "pending": 0,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 0
+      },
+      "pending_count": 0,
+      "conflict_count": 0,
+      "source_count": 2,
+      "progress": "Ventilation en cours de pose",
+      "updated_at": "2026-11-14T15:43:55.413143+00:00"
+    },
+    {
+      "id": "82960993-ad1d-4352-8799-4f839177a72e",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-021",
+      "name": "Rue des Ajoncs",
+      "description": "Renouvellement du réseau pluvial et réfection de chaussée.",
+      "status": "active",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.385139+00:00",
+      "stats": {
+        "sources": 2,
+        "candidates": 3,
+        "pending": 0,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 0
+      },
+      "pending_count": 0,
+      "conflict_count": 0,
+      "source_count": 2,
+      "progress": "Réseau pluvial posé à 60 %",
+      "updated_at": "2026-11-14T15:43:55.392140+00:00"
+    },
+    {
+      "id": "85449c27-98d6-4352-a1de-a9273c3681cb",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-032",
+      "name": "Chemin de Kerbrume",
+      "description": "Mise en accessibilité de l'arrêt de transport.",
+      "status": "planned",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.400139+00:00",
+      "stats": {
+        "sources": 2,
+        "candidates": 3,
+        "pending": 0,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 0
+      },
+      "pending_count": 0,
+      "conflict_count": 0,
+      "source_count": 2,
+      "progress": "Études en cours",
+      "updated_at": "2026-11-14T15:43:55.406138+00:00"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "7c13189d-0e65-4c2f-885a-2f81384bc3bd",
+      "tenant_id": "demo-plougastel",
+      "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+      "version": 1,
+      "snapshot_revision": 4,
+      "snapshot": {
+        "coverage": "complete",
+        "facts": [
+          {
+            "conflict_with": [],
+            "created_at": "2026-11-14T15:43:55.376140+00:00",
+            "dedup_key": "5620d7b61e73c1db8f5dd8f975cfb9542174ac31346e51d7cb2bd95a926f7073",
+            "evidence": [
+              {
+                "end": 91,
+                "quote": "Avancement : Préparation du terrassement",
+                "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+                "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+                "start": 51
+              }
+            ],
+            "field": "progress",
+            "id": "2a0c0242-1231-4a02-8562-a4a667264e89",
+            "kind": "text",
+            "origin": "mail",
+            "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+            "reviewed_at": "2026-11-14T15:43:55.377139+00:00",
+            "reviewed_by": "demo-initialisation",
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "status": "accepted",
+            "tenant_id": "demo-plougastel",
+            "value": "Préparation du terrassement"
+          },
+          {
+            "conflict_with": [],
+            "created_at": "2026-11-14T15:43:55.378140+00:00",
+            "dedup_key": "be48b0a1086b1bec1c39ae617d89d5d83d83491b8f501aa6df470906481cba75",
+            "evidence": [
+              {
+                "end": 125,
+                "quote": "Entreprise : Entreprise Fictive 1",
+                "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+                "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+                "start": 92
+              }
+            ],
+            "field": "contractor",
+            "id": "3c74caea-247a-4e30-b1ef-c844f2b0b328",
+            "kind": "text",
+            "origin": "mail",
+            "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+            "reviewed_at": "2026-11-14T15:43:55.379139+00:00",
+            "reviewed_by": "demo-initialisation",
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "status": "accepted",
+            "tenant_id": "demo-plougastel",
+            "value": "Entreprise Fictive 1"
+          },
+          {
+            "conflict_with": [],
+            "created_at": "2026-11-14T15:43:55.380141+00:00",
+            "dedup_key": "398d332ae1bd86124d035a9be9d09eb58fdedab90a83e35061345f8842106f28",
+            "evidence": [
+              {
+                "end": 147,
+                "quote": "Budget : 42000 EUR HT",
+                "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+                "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+                "start": 126
+              }
+            ],
+            "field": "budget_raw",
+            "id": "9b2bfb4c-c538-4550-8594-a3184a16cbcf",
+            "kind": "text",
+            "origin": "mail",
+            "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+            "reviewed_at": "2026-11-14T15:43:55.381141+00:00",
+            "reviewed_by": "demo-initialisation",
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "status": "accepted",
+            "tenant_id": "demo-plougastel",
+            "value": "42000 EUR HT"
+          }
+        ],
+        "notes": [
+          {
+            "actor_id": "responsable-demo",
+            "content": "Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+            "created_at": "2026-11-14T15:43:55.381141+00:00",
+            "id": "08dbb4fb-15d8-44ec-8ebf-bf84d8fb4607",
+            "origin": "human",
+            "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+            "source_id": "33d23864-02b6-4f33-b794-c41805734ef2",
+            "tenant_id": "demo-plougastel"
+          }
+        ],
+        "pending_ids": [],
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "revision": 4,
+        "source_context_hash": "f56f82797360c4707c576f5455fbd33c191d6b22b38131288c4ceb0ea375b73d",
+        "source_versions": [
+          {
+            "body_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475"
+          },
+          {
+            "body_hash": "4fbec4c80ae111c6cdc35ee4d6a4a7d5ff0623aae0c6e41ccc8df41a623e9f7d",
+            "id": "33d23864-02b6-4f33-b794-c41805734ef2"
+          }
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "59cec2a2091fb1229ec56733c05c673187a0ad1e500b87d8af28134ac5605997",
+      "content": "# Parvis de l'école des Alizés\nRéférence : TRV-2026-014\n\n## État confirmé\n- progress : Préparation du terrassement\n- contractor : Entreprise Fictive 1\n- budget_raw : 42000 EUR HT\n\n## Notes humaines\n- Note humaine (responsable-demo) : Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+      "content_hash": "6380cc562496228138494284c6a23d39e94bfde7226325c21a9cc1fa01f9a68d",
+      "citations": [
+        {
+          "end": 91,
+          "origin": "mail",
+          "quote": "Avancement : Préparation du terrassement",
+          "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+          "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+          "start": 51
+        },
+        {
+          "end": 125,
+          "origin": "mail",
+          "quote": "Entreprise : Entreprise Fictive 1",
+          "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+          "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+          "start": 92
+        },
+        {
+          "end": 147,
+          "origin": "mail",
+          "quote": "Budget : 42000 EUR HT",
+          "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+          "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+          "start": 126
+        },
+        {
+          "end": 100,
+          "origin": "human",
+          "quote": "Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+          "source_hash": "4fbec4c80ae111c6cdc35ee4d6a4a7d5ff0623aae0c6e41ccc8df41a623e9f7d",
+          "source_id": "33d23864-02b6-4f33-b794-c41805734ef2",
+          "start": 0
+        }
+      ],
+      "status": "approved",
+      "stale": true,
+      "model": "deterministic-local",
+      "created_by": "demo",
+      "created_at": "2026-11-14T15:43:55.383140+00:00",
+      "approved_by": "responsable-demo",
+      "approved_at": "2026-11-14T15:43:55.384140+00:00",
+      "cancelled_by": null,
+      "cancelled_at": null,
+      "cancellation_reason": null,
+      "parent_summary_id": null,
+      "native_revision": null,
+      "coverage": "complete",
+      "warnings": [],
+      "source_context_hash": "f56f82797360c4707c576f5455fbd33c191d6b22b38131288c4ceb0ea375b73d",
+      "project_revision": 4,
+      "coverage_stale": true,
+      "project_name": "Parvis de l'école des Alizés"
+    }
+  ],
+  "project": {
+    "id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+    "tenant_id": "demo-plougastel",
+    "reference": "TRV-2026-014",
+    "name": "Parvis de l'école des Alizés",
+    "description": "Sécurisation des cheminements et reprise du parvis.",
+    "status": "active",
+    "revision": 4,
+    "created_at": "2026-11-14T15:43:55.374140+00:00",
+    "stats": {
+      "sources": 3,
+      "candidates": 6,
+      "pending": 3,
+      "accepted": 3,
+      "notes": 1,
+      "summaries": 1
+    },
+    "project": {
+      "id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+      "tenant_id": "demo-plougastel",
+      "reference": "TRV-2026-014",
+      "name": "Parvis de l'école des Alizés",
+      "description": "Sécurisation des cheminements et reprise du parvis.",
+      "status": "active",
+      "revision": 4,
+      "created_at": "2026-11-14T15:43:55.374140+00:00",
+      "stats": {
+        "sources": 3,
+        "candidates": 6,
+        "pending": 3,
+        "accepted": 3,
+        "notes": 1,
+        "summaries": 1
+      }
+    },
+    "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+    "facts": [
+      {
+        "id": "2a0c0242-1231-4a02-8562-a4a667264e89",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+        "field": "progress",
+        "kind": "text",
+        "value": "Préparation du terrassement",
+        "dedup_key": "5620d7b61e73c1db8f5dd8f975cfb9542174ac31346e51d7cb2bd95a926f7073",
+        "origin": "mail",
+        "status": "accepted",
+        "reviewed_by": "demo-initialisation",
+        "reviewed_at": "2026-11-14T15:43:55.377139+00:00",
+        "created_at": "2026-11-14T15:43:55.376140+00:00",
+        "evidence": [
+          {
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "start": 51,
+            "end": 91,
+            "quote": "Avancement : Préparation du terrassement"
+          }
+        ],
+        "conflict_with": [],
+        "label": "Avancement",
+        "project_name": "Parvis de l'école des Alizés",
+        "source": {
+          "id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+          "tenant_id": "demo-plougastel",
+          "external_id": "seed-0@demo.invalid",
+          "version": 1,
+          "subject": "[TRV-2026-014] Point chantier",
+          "body": "Bonjour,\n\nPoint de suivi du chantier TRV-2026-014.\nAvancement : Préparation du terrassement\nEntreprise : Entreprise Fictive 1\nBudget : 42000 EUR HT\nLivraison : 2026-12-10\n\nCordialement,\nÉquipe de démonstration",
+          "body_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+          "payload_hash": "6d478ecfbb677bd9506b629a233f869f4603785e3fdd3ac1e8639128fd9208bf",
+          "thread_id": "thread-0",
+          "project_ref": "TRV-2026-014",
+          "sender": "suivi@entreprise-fictive.invalid",
+          "received_at": "2026-11-12T08:30:00+00:00",
+          "metadata": {
+            "fictitious": true
+          },
+          "match_status": "matched",
+          "status": "extracted",
+          "created_at": "2026-11-14T15:43:55.375140+00:00",
+          "candidate_project_ids": [
+            "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+          ],
+          "project_ids": [
+            "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+          ],
+          "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        },
+        "previous_values": []
+      },
+      {
+        "id": "3c74caea-247a-4e30-b1ef-c844f2b0b328",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+        "field": "contractor",
+        "kind": "text",
+        "value": "Entreprise Fictive 1",
+        "dedup_key": "be48b0a1086b1bec1c39ae617d89d5d83d83491b8f501aa6df470906481cba75",
+        "origin": "mail",
+        "status": "accepted",
+        "reviewed_by": "demo-initialisation",
+        "reviewed_at": "2026-11-14T15:43:55.379139+00:00",
+        "created_at": "2026-11-14T15:43:55.378140+00:00",
+        "evidence": [
+          {
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "start": 92,
+            "end": 125,
+            "quote": "Entreprise : Entreprise Fictive 1"
+          }
+        ],
+        "conflict_with": [],
+        "label": "Entreprise",
+        "project_name": "Parvis de l'école des Alizés",
+        "source": {
+          "id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+          "tenant_id": "demo-plougastel",
+          "external_id": "seed-0@demo.invalid",
+          "version": 1,
+          "subject": "[TRV-2026-014] Point chantier",
+          "body": "Bonjour,\n\nPoint de suivi du chantier TRV-2026-014.\nAvancement : Préparation du terrassement\nEntreprise : Entreprise Fictive 1\nBudget : 42000 EUR HT\nLivraison : 2026-12-10\n\nCordialement,\nÉquipe de démonstration",
+          "body_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+          "payload_hash": "6d478ecfbb677bd9506b629a233f869f4603785e3fdd3ac1e8639128fd9208bf",
+          "thread_id": "thread-0",
+          "project_ref": "TRV-2026-014",
+          "sender": "suivi@entreprise-fictive.invalid",
+          "received_at": "2026-11-12T08:30:00+00:00",
+          "metadata": {
+            "fictitious": true
+          },
+          "match_status": "matched",
+          "status": "extracted",
+          "created_at": "2026-11-14T15:43:55.375140+00:00",
+          "candidate_project_ids": [
+            "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+          ],
+          "project_ids": [
+            "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+          ],
+          "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        },
+        "previous_values": []
+      },
+      {
+        "id": "9b2bfb4c-c538-4550-8594-a3184a16cbcf",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+        "field": "budget_raw",
+        "kind": "text",
+        "value": "42000 EUR HT",
+        "dedup_key": "398d332ae1bd86124d035a9be9d09eb58fdedab90a83e35061345f8842106f28",
+        "origin": "mail",
+        "status": "accepted",
+        "reviewed_by": "demo-initialisation",
+        "reviewed_at": "2026-11-14T15:43:55.381141+00:00",
+        "created_at": "2026-11-14T15:43:55.380141+00:00",
+        "evidence": [
+          {
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "start": 126,
+            "end": 147,
+            "quote": "Budget : 42000 EUR HT"
+          }
+        ],
+        "conflict_with": [],
+        "label": "Budget",
+        "project_name": "Parvis de l'école des Alizés",
+        "source": {
+          "id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+          "tenant_id": "demo-plougastel",
+          "external_id": "seed-0@demo.invalid",
+          "version": 1,
+          "subject": "[TRV-2026-014] Point chantier",
+          "body": "Bonjour,\n\nPoint de suivi du chantier TRV-2026-014.\nAvancement : Préparation du terrassement\nEntreprise : Entreprise Fictive 1\nBudget : 42000 EUR HT\nLivraison : 2026-12-10\n\nCordialement,\nÉquipe de démonstration",
+          "body_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+          "payload_hash": "6d478ecfbb677bd9506b629a233f869f4603785e3fdd3ac1e8639128fd9208bf",
+          "thread_id": "thread-0",
+          "project_ref": "TRV-2026-014",
+          "sender": "suivi@entreprise-fictive.invalid",
+          "received_at": "2026-11-12T08:30:00+00:00",
+          "metadata": {
+            "fictitious": true
+          },
+          "match_status": "matched",
+          "status": "extracted",
+          "created_at": "2026-11-14T15:43:55.375140+00:00",
+          "candidate_project_ids": [
+            "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+          ],
+          "project_ids": [
+            "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+          ],
+          "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        },
+        "previous_values": []
+      }
+    ],
+    "pending": [
+      {
+        "id": "d6f2d902-8da9-4696-b7bd-c3614cc4a18c",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+        "field": "progress",
+        "kind": "text",
+        "value": "Terrassement terminé, attente de validation du plan de circulation",
+        "dedup_key": "8b5ee659085c4defc4d7b42e16e11188f3d735bca499cd2efa047421fca4a750",
+        "origin": "mail",
+        "status": "pending",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "created_at": "2026-11-14T15:43:55.424206+00:00",
+        "evidence": [
+          {
+            "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+            "source_hash": "c59df9b6bc4395967c535efd96f7b48ce08a55f86be1f4392ef607afcff272e0",
+            "start": 43,
+            "end": 122,
+            "quote": "Avancement : Terrassement terminé, attente de validation du plan de circulation"
+          }
+        ],
+        "conflict_with": [
+          "2a0c0242-1231-4a02-8562-a4a667264e89"
+        ]
+      },
+      {
+        "id": "edad24e1-16fd-445b-88dc-2a3b72d897e8",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+        "field": "delivery_date",
+        "kind": "date",
+        "value": "2026-12-18",
+        "dedup_key": "e820bf38d58f8e8f11ab7d4078a313083585133f8ba6581d45c883df6c7def76",
+        "origin": "mail",
+        "status": "pending",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "created_at": "2026-11-14T15:43:55.424206+00:00",
+        "evidence": [
+          {
+            "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+            "source_hash": "c59df9b6bc4395967c535efd96f7b48ce08a55f86be1f4392ef607afcff272e0",
+            "start": 123,
+            "end": 145,
+            "quote": "Livraison : 2026-12-18"
+          }
+        ],
+        "conflict_with": []
+      },
+      {
+        "id": "f8c8c320-15ef-4667-9fa6-775d46772147",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+        "field": "action.7cddc0a66635",
+        "kind": "text",
+        "value": "Confirmer le cheminement piéton avec le service scolaire",
+        "dedup_key": "309eaa08097cf75d1087809a5e9dc6699a4933a4291480d3cd84517a92fbcc55",
+        "origin": "mail",
+        "status": "pending",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "created_at": "2026-11-14T15:43:55.424206+00:00",
+        "evidence": [
+          {
+            "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+            "source_hash": "c59df9b6bc4395967c535efd96f7b48ce08a55f86be1f4392ef607afcff272e0",
+            "start": 146,
+            "end": 211,
+            "quote": "Action : Confirmer le cheminement piéton avec le service scolaire"
+          }
+        ],
+        "conflict_with": []
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "d6f2d902-8da9-4696-b7bd-c3614cc4a18c",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+        "field": "progress",
+        "kind": "text",
+        "value": "Terrassement terminé, attente de validation du plan de circulation",
+        "dedup_key": "8b5ee659085c4defc4d7b42e16e11188f3d735bca499cd2efa047421fca4a750",
+        "origin": "mail",
+        "status": "pending",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "created_at": "2026-11-14T15:43:55.424206+00:00",
+        "evidence": [
+          {
+            "source_id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+            "source_hash": "c59df9b6bc4395967c535efd96f7b48ce08a55f86be1f4392ef607afcff272e0",
+            "start": 43,
+            "end": 122,
+            "quote": "Avancement : Terrassement terminé, attente de validation du plan de circulation"
+          }
+        ],
+        "conflict_with": [
+          "2a0c0242-1231-4a02-8562-a4a667264e89"
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "id": "08dbb4fb-15d8-44ec-8ebf-bf84d8fb4607",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "source_id": "33d23864-02b6-4f33-b794-c41805734ef2",
+        "content": "Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+        "actor_id": "responsable-demo",
+        "origin": "human",
+        "created_at": "2026-11-14T15:43:55.381141+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+        "tenant_id": "demo-plougastel",
+        "external_id": "seed-0@demo.invalid",
+        "version": 1,
+        "subject": "[TRV-2026-014] Point chantier",
+        "body": "Bonjour,\n\nPoint de suivi du chantier TRV-2026-014.\nAvancement : Préparation du terrassement\nEntreprise : Entreprise Fictive 1\nBudget : 42000 EUR HT\nLivraison : 2026-12-10\n\nCordialement,\nÉquipe de démonstration",
+        "body_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+        "payload_hash": "6d478ecfbb677bd9506b629a233f869f4603785e3fdd3ac1e8639128fd9208bf",
+        "thread_id": "thread-0",
+        "project_ref": "TRV-2026-014",
+        "sender": "suivi@entreprise-fictive.invalid",
+        "received_at": "2026-11-12T08:30:00+00:00",
+        "metadata": {
+          "fictitious": true
+        },
+        "match_status": "matched",
+        "status": "extracted",
+        "created_at": "2026-11-14T15:43:55.375140+00:00",
+        "candidate_project_ids": [
+          "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        ],
+        "project_ids": [
+          "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        ],
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+      },
+      {
+        "id": "33d23864-02b6-4f33-b794-c41805734ef2",
+        "tenant_id": "demo-plougastel",
+        "external_id": "note:08dbb4fb-15d8-44ec-8ebf-bf84d8fb4607",
+        "version": 1,
+        "subject": "Note humaine",
+        "body": "Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+        "body_hash": "4fbec4c80ae111c6cdc35ee4d6a4a7d5ff0623aae0c6e41ccc8df41a623e9f7d",
+        "payload_hash": "b7b0312a9eb97c964041747afc0ce59485620974e50e7cb2f31195fe61289d0e",
+        "thread_id": null,
+        "project_ref": null,
+        "sender": "responsable-demo",
+        "received_at": "2026-11-14T15:43:55.381141+00:00",
+        "metadata": {
+          "actor_id": "responsable-demo",
+          "note_id": "08dbb4fb-15d8-44ec-8ebf-bf84d8fb4607",
+          "origin": "human"
+        },
+        "match_status": "matched",
+        "status": "manual",
+        "created_at": "2026-11-14T15:43:55.381141+00:00",
+        "candidate_project_ids": [
+          "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        ],
+        "project_ids": [
+          "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        ],
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+      },
+      {
+        "id": "75dd1514-15d6-40e7-b4e0-24e7b79de1e8",
+        "tenant_id": "demo-plougastel",
+        "external_id": "next-mail-v1@demo.invalid",
+        "version": 1,
+        "subject": "[TRV-2026-014] Nouveau point et livraison",
+        "body": "Bonjour,\n\nNouveau point pour TRV-2026-014.\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nLivraison : 2026-12-18\nAction : Confirmer le cheminement piéton avec le service scolaire\n\nMerci,\nEntreprise Fictive 1",
+        "body_hash": "c59df9b6bc4395967c535efd96f7b48ce08a55f86be1f4392ef607afcff272e0",
+        "payload_hash": "b035048f347e5feeb57e7708f609078caff1290c986acf7192b5a5ad671a1cb2",
+        "thread_id": "thread-0",
+        "project_ref": "TRV-2026-014",
+        "sender": "conducteur@entreprise-fictive.invalid",
+        "received_at": "2026-11-14T09:15:00+00:00",
+        "metadata": {
+          "fictitious": true
+        },
+        "match_status": "matched",
+        "status": "extracted",
+        "created_at": "2026-11-14T15:43:55.384140+00:00",
+        "candidate_project_ids": [
+          "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        ],
+        "project_ids": [
+          "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+        ],
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6"
+      }
+    ],
+    "actions": [],
+    "summaries": [
+      {
+        "id": "7c13189d-0e65-4c2f-885a-2f81384bc3bd",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "version": 1,
+        "snapshot_revision": 4,
+        "snapshot": {
+          "coverage": "complete",
+          "facts": [
+            {
+              "conflict_with": [],
+              "created_at": "2026-11-14T15:43:55.376140+00:00",
+              "dedup_key": "5620d7b61e73c1db8f5dd8f975cfb9542174ac31346e51d7cb2bd95a926f7073",
+              "evidence": [
+                {
+                  "end": 91,
+                  "quote": "Avancement : Préparation du terrassement",
+                  "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+                  "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+                  "start": 51
+                }
+              ],
+              "field": "progress",
+              "id": "2a0c0242-1231-4a02-8562-a4a667264e89",
+              "kind": "text",
+              "origin": "mail",
+              "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+              "reviewed_at": "2026-11-14T15:43:55.377139+00:00",
+              "reviewed_by": "demo-initialisation",
+              "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+              "status": "accepted",
+              "tenant_id": "demo-plougastel",
+              "value": "Préparation du terrassement"
+            },
+            {
+              "conflict_with": [],
+              "created_at": "2026-11-14T15:43:55.378140+00:00",
+              "dedup_key": "be48b0a1086b1bec1c39ae617d89d5d83d83491b8f501aa6df470906481cba75",
+              "evidence": [
+                {
+                  "end": 125,
+                  "quote": "Entreprise : Entreprise Fictive 1",
+                  "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+                  "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+                  "start": 92
+                }
+              ],
+              "field": "contractor",
+              "id": "3c74caea-247a-4e30-b1ef-c844f2b0b328",
+              "kind": "text",
+              "origin": "mail",
+              "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+              "reviewed_at": "2026-11-14T15:43:55.379139+00:00",
+              "reviewed_by": "demo-initialisation",
+              "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+              "status": "accepted",
+              "tenant_id": "demo-plougastel",
+              "value": "Entreprise Fictive 1"
+            },
+            {
+              "conflict_with": [],
+              "created_at": "2026-11-14T15:43:55.380141+00:00",
+              "dedup_key": "398d332ae1bd86124d035a9be9d09eb58fdedab90a83e35061345f8842106f28",
+              "evidence": [
+                {
+                  "end": 147,
+                  "quote": "Budget : 42000 EUR HT",
+                  "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+                  "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+                  "start": 126
+                }
+              ],
+              "field": "budget_raw",
+              "id": "9b2bfb4c-c538-4550-8594-a3184a16cbcf",
+              "kind": "text",
+              "origin": "mail",
+              "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+              "reviewed_at": "2026-11-14T15:43:55.381141+00:00",
+              "reviewed_by": "demo-initialisation",
+              "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+              "status": "accepted",
+              "tenant_id": "demo-plougastel",
+              "value": "42000 EUR HT"
+            }
+          ],
+          "notes": [
+            {
+              "actor_id": "responsable-demo",
+              "content": "Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+              "created_at": "2026-11-14T15:43:55.381141+00:00",
+              "id": "08dbb4fb-15d8-44ec-8ebf-bf84d8fb4607",
+              "origin": "human",
+              "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+              "source_id": "33d23864-02b6-4f33-b794-c41805734ef2",
+              "tenant_id": "demo-plougastel"
+            }
+          ],
+          "pending_ids": [],
+          "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+          "revision": 4,
+          "source_context_hash": "f56f82797360c4707c576f5455fbd33c191d6b22b38131288c4ceb0ea375b73d",
+          "source_versions": [
+            {
+              "body_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+              "id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475"
+            },
+            {
+              "body_hash": "4fbec4c80ae111c6cdc35ee4d6a4a7d5ff0623aae0c6e41ccc8df41a623e9f7d",
+              "id": "33d23864-02b6-4f33-b794-c41805734ef2"
+            }
+          ],
+          "warnings": []
+        },
+        "snapshot_hash": "59cec2a2091fb1229ec56733c05c673187a0ad1e500b87d8af28134ac5605997",
+        "content": "# Parvis de l'école des Alizés\nRéférence : TRV-2026-014\n\n## État confirmé\n- progress : Préparation du terrassement\n- contractor : Entreprise Fictive 1\n- budget_raw : 42000 EUR HT\n\n## Notes humaines\n- Note humaine (responsable-demo) : Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+        "content_hash": "6380cc562496228138494284c6a23d39e94bfde7226325c21a9cc1fa01f9a68d",
+        "citations": [
+          {
+            "end": 91,
+            "origin": "mail",
+            "quote": "Avancement : Préparation du terrassement",
+            "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "start": 51
+          },
+          {
+            "end": 125,
+            "origin": "mail",
+            "quote": "Entreprise : Entreprise Fictive 1",
+            "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "start": 92
+          },
+          {
+            "end": 147,
+            "origin": "mail",
+            "quote": "Budget : 42000 EUR HT",
+            "source_hash": "61b8a0a61beb755ae1c3100f8f6db2cfb842c58f7af4adc2e22d27ffc00a1dbc",
+            "source_id": "4aa8bfdf-c44b-42ab-a2bd-f6649e6a5475",
+            "start": 126
+          },
+          {
+            "end": 100,
+            "origin": "human",
+            "quote": "Préserver l'accès des riverains pendant les interventions. Point à confirmer à la prochaine réunion.",
+            "source_hash": "4fbec4c80ae111c6cdc35ee4d6a4a7d5ff0623aae0c6e41ccc8df41a623e9f7d",
+            "source_id": "33d23864-02b6-4f33-b794-c41805734ef2",
+            "start": 0
+          }
+        ],
+        "status": "approved",
+        "stale": true,
+        "model": "deterministic-local",
+        "created_by": "demo",
+        "created_at": "2026-11-14T15:43:55.383140+00:00",
+        "approved_by": "responsable-demo",
+        "approved_at": "2026-11-14T15:43:55.384140+00:00",
+        "cancelled_by": null,
+        "cancelled_at": null,
+        "cancellation_reason": null,
+        "parent_summary_id": null,
+        "native_revision": null,
+        "coverage": "complete",
+        "warnings": [],
+        "source_context_hash": "f56f82797360c4707c576f5455fbd33c191d6b22b38131288c4ceb0ea375b73d",
+        "project_revision": 4,
+        "coverage_stale": true,
+        "project_name": "Parvis de l'école des Alizés"
+      }
+    ],
+    "events": [
+      {
+        "id": "ef0fd9aa-e6a4-4eb4-a5c8-9682c5d63dde",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "revision": 1,
+        "event_type": "candidate.accepted",
+        "actor_id": "demo-initialisation",
+        "payload": {
+          "candidate_id": "2a0c0242-1231-4a02-8562-a4a667264e89",
+          "decision": "accept",
+          "supersedes": []
+        },
+        "created_at": "2026-11-14T15:43:55.377139+00:00"
+      },
+      {
+        "id": "bb32e43c-1fb4-4785-adf7-01498d74b49e",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "revision": 2,
+        "event_type": "candidate.accepted",
+        "actor_id": "demo-initialisation",
+        "payload": {
+          "candidate_id": "3c74caea-247a-4e30-b1ef-c844f2b0b328",
+          "decision": "accept",
+          "supersedes": []
+        },
+        "created_at": "2026-11-14T15:43:55.379139+00:00"
+      },
+      {
+        "id": "5bdb2211-7db0-42e9-aa9d-cbb405101a41",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "revision": 3,
+        "event_type": "candidate.accepted",
+        "actor_id": "demo-initialisation",
+        "payload": {
+          "candidate_id": "9b2bfb4c-c538-4550-8594-a3184a16cbcf",
+          "decision": "accept",
+          "supersedes": []
+        },
+        "created_at": "2026-11-14T15:43:55.381141+00:00"
+      },
+      {
+        "id": "b4264353-00e6-4219-a014-bd0945542de5",
+        "tenant_id": "demo-plougastel",
+        "project_id": "83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+        "revision": 4,
+        "event_type": "note.added",
+        "actor_id": "responsable-demo",
+        "payload": {
+          "note_id": "08dbb4fb-15d8-44ec-8ebf-bf84d8fb4607",
+          "source_id": "33d23864-02b6-4f33-b794-c41805734ef2"
+        },
+        "created_at": "2026-11-14T15:43:55.381141+00:00"
+      }
+    ]
+  },
+  "console_errors": []
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "reference": "ghcr.io/astral-sh/uv:0.11.27",
+    "manifest_url": "https://ghcr.io/v2/astral-sh/uv/manifests/0.11.27",
+    "digest": "sha256:4d01caf3b22dfd11003455e2e68153da08c4ee1fa54fdbd166c6282d22693419",
+    "raw_bytes_sha256": "sha256:4d01caf3b22dfd11003455e2e68153da08c4ee1fa54fdbd166c6282d22693419",
+    "media_type": "application/vnd.oci.image.index.v1+json",
+    "checked_at": "2026-11-14T15:36:27.263715+00:00",
+    "platforms": [
+      {
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux"
+        },
+        "digest": "sha256:9e67831eb68ee8c6e19f667aa885feb8c2d25233867de36fbfcf2f1923a15667"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:ee40861ac1deccb49f780310aceba700b849ef8cc32a83c9d36419497c819916"
+      },
+      {
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "digest": "sha256:58ab8009be8303e1b3e36c49ed5fe76dfe8cad808020c62cbd2ab0e096ce91b1"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:f562bce1657d2571595a8b90b5d6e0dbf95e55098ce7fa9d5dae92fc763de9ad"
+      }
+    ],
+    "layers_downloaded": false,
+    "built": false,
+    "executed": false
+  },
+  {
+    "reference": "python:3.11.15-slim-bookworm",
+    "manifest_url": "https://registry-1.docker.io/v2/library/python/manifests/3.11.15-slim-bookworm",
+    "digest": "sha256:d29f48a31a8b408ed19272ca1e7b10ebae13b240a27e862d3d4217c528e2e0c3",
+    "raw_bytes_sha256": "sha256:d29f48a31a8b408ed19272ca1e7b10ebae13b240a27e862d3d4217c528e2e0c3",
+    "media_type": "application/vnd.oci.image.index.v1+json",
+    "checked_at": "2026-11-14T15:36:27.866903+00:00",
+    "platforms": [
+      {
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "digest": "sha256:77923445c077d8eb971b14b2b114a1d9cd4a87edb4c75654820ca4832ee8cb15"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:35abbfdd286709facfa5906b583a16a6babb0fb21d73d8dfbfb7860dec3fb252"
+      },
+      {
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "digest": "sha256:f4b73a39ddaca81454481819a4cf08ac5132cc370a331488627f05b7c3de1e78"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:8b0da76187e5ddf2dd004300fffb57b43230051a314925550582d1456289df4b"
+      },
+      {
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "digest": "sha256:ecb0ac954790dd64a0d518d699b9c61a91780c42b0d877c802dbaffd04db66f9"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:567d6fcb6e3e05637bc2fd4738da122a72de603ff4c6d0310acdd6a567448fda"
+      },
+      {
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "digest": "sha256:4fe9e98acf0e32c57ef35a99ef0f52ad3fe7b5932af8447d601d6bfae94fea3f"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:e2279656b846955ce2d3e90db2f78b9ca88de0c6ee31a67ee497749c0628cb12"
+      },
+      {
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "digest": "sha256:51b5b379300e3eeab0bfd1147a46ae87998fd5d961daf669703138e5c85e6e58"
+      },
+      {
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        },
+        "digest": "sha256:54dc09472e193cc647d383ba9da78ba2957754c5e7d9ea83bf31992c2da7dfa5"
+      }
+    ],
+    "layers_downloaded": false,
+    "built": false,
+    "executed": false
+  }
+]

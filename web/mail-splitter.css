@@ -1,0 +1,73 @@
+/* The divider owns its grid column; resizing never replaces message content. */
+.mail-splitter {
+  position:relative;
+  width:10px;
+  min-width:10px;
+  align-self:stretch;
+  cursor:col-resize;
+  touch-action:none;
+  user-select:none;
+  z-index:1;
+}
+.mail-splitter[hidden] {display:none!important}
+.mail-splitter::before {
+  content:'';
+  position:absolute;
+  inset:0 auto 0 calc(50% - .5px);
+  width:1px;
+  background:var(--border,var(--mail-line,#dce3eb));
+}
+.mail-splitter::after {
+  content:'';
+  position:absolute;
+  top:min(calc(50% - 16px),calc(40dvh - 16px));
+  left:calc(50% - 1.5px);
+  width:3px;
+  height:32px;
+  border-radius:2px;
+  background:var(--muted-foreground,var(--mail-muted,#67778a));
+}
+.mail-splitter:hover::before,
+[data-mail-resizing=true]>.mail-splitter::before {
+  width:3px;
+  left:calc(50% - 1.5px);
+  background:var(--primary,var(--mail-accent,#146ed0));
+}
+.mail-splitter:hover::after,
+.mail-splitter:focus-visible::after {background:var(--primary,var(--mail-accent,#146ed0))}
+.mail-splitter:focus-visible {outline:2px solid var(--primary,var(--mail-accent,#146ed0));outline-offset:-2px}
+.mail-layout-resizing,.mail-layout-resizing * {cursor:col-resize!important;user-select:none!important}
+
+.inbox-layout[data-mail-split] {--mail-list-default:360px}
+.inbox-layout[data-mail-split-active=true] {grid-template-columns:var(--mail-list-width) 10px minmax(0,1fr)}
+.inbox-layout[data-mail-split-active=true]>.inbox-list {grid-column:1;border-right:0}
+.inbox-layout[data-mail-split-active=true]>.mail-splitter {grid-column:2;grid-row:1}
+.inbox-layout[data-mail-split-active=true]>.inbox-reader {grid-column:3}
+
+.mail-page.integrated-panel .lovable-mail>.inbox-layout[data-mail-split] {
+  --mail-list-default:310px;
+  --mail-folder-width:170px;
+}
+.mail-page.integrated-panel .lovable-mail>.inbox-layout[data-mail-split-active=true] {
+  grid-template-columns:var(--mail-folder-width) var(--mail-list-width) 10px minmax(0,1fr);
+}
+.mail-page.integrated-panel .lovable-mail .inbox-layout[data-mail-split-active=true]>.inbox-list {grid-column:2;border-right:0}
+.mail-page.integrated-panel .lovable-mail .inbox-layout[data-mail-split-active=true]>.mail-splitter {grid-column:3}
+.mail-page.integrated-panel .lovable-mail .inbox-layout[data-mail-split-active=true]>.inbox-reader {grid-column:4}
+
+.mail-workspace .mail-layout[data-mail-split] {--mail-list-default:300px}
+.mail-workspace .mail-layout[data-mail-split-active=true] {grid-template-columns:var(--mail-list-width) 10px minmax(0,1fr) minmax(200px,235px)}
+.mail-workspace .mail-layout[data-mail-split-active=true]>.mail-list-pane {grid-column:1;grid-row:1 / span 2;border-right:0}
+.mail-workspace .mail-layout[data-mail-split-active=true]>.mail-splitter {grid-column:2;grid-row:1 / span 2}
+.mail-workspace .mail-layout[data-mail-split-active=true]>.mail-message-pane {grid-column:3;grid-row:1}
+.mail-workspace .mail-layout[data-mail-split-active=true]>.mail-context-pane {grid-column:4;grid-row:1}
+.mail-workspace[data-selected=false] .mail-layout[data-mail-split-active=true]>.mail-message-pane {grid-column:3 / -1}
+@media(max-width:1250px) {
+  .mail-page.integrated-panel .lovable-mail>.inbox-layout[data-mail-split] {--mail-folder-width:145px;--mail-list-default:270px}
+  .mail-workspace .mail-layout[data-mail-split] {--mail-list-default:270px}
+  .mail-workspace .mail-layout[data-mail-split-active=true] {grid-template-columns:var(--mail-list-width) 10px minmax(0,1fr)}
+  .mail-workspace .mail-layout[data-mail-split-active=true]>.mail-context-pane {grid-column:3;grid-row:2}
+}
+@media(max-width:1000px) {
+  .mail-workspace .mail-layout[data-mail-split] {--mail-list-default:245px}
+}

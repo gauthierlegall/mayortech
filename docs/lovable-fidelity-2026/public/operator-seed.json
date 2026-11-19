@@ -1,0 +1,12 @@
+{
+  "release": "20261115T184007Z-bd8e48",
+  "storyline_id": "lovable-travaux-v1",
+  "manifest_hash": "bbeb8eb65fba682e7bc239bbb70c71dd656da99eff7039332ad77751f04351e9",
+  "projects": {
+    "portail": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+    "voirie": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+    "gymnase": "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1",
+    "parc": "06cbde91-6553-4b05-b2b3-0e7ce82e4a58"
+  },
+  "private_upload_enabled": false
+}

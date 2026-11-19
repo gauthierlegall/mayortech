@@ -1,0 +1,7 @@
+# Local synthetic evaluation only. Upstream service name/ports inspected at the
+# commit recorded in upstream.lock.json. Requires Compose >=2.30 (upstream).
+services:
+  nginx:
+    ports: !override
+      - "127.0.0.1:18080:80"
+      - "127.0.0.1:18443:443"

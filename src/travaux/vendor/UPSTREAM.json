@@ -1,0 +1,57 @@
+[
+  {
+    "upstream_path": "src/frontend/apps/impress/src/features/docs/doc-export/assets/export-html-styles.txt",
+    "local_path": "src/travaux/vendor/docs_export.css",
+    "commit": "f0e1b79a406b11c8c2b120cf211c26819c7aa74d",
+    "license": "MIT",
+    "upstream_sha256": "56b11d995278c785efa47f2311c4dc6444176dff7217efd028fc69edacfff3f6",
+    "local_sha256": "56b11d995278c785efa47f2311c4dc6444176dff7217efd028fc69edacfff3f6",
+    "modified": false
+  },
+  {
+    "upstream_path": "LICENSE",
+    "local_path": "src/travaux/vendor/DOCS-LICENSE.txt",
+    "commit": "f0e1b79a406b11c8c2b120cf211c26819c7aa74d",
+    "license": "MIT",
+    "upstream_sha256": "2c4223fd904d7726de34431f08455f1b4dead869cbc387686071bf455741cfef",
+    "local_sha256": "2c4223fd904d7726de34431f08455f1b4dead869cbc387686071bf455741cfef",
+    "modified": false
+  },
+  {
+    "upstream_path": "LICENSE.txt",
+    "local_path": "web/GRIST-LICENSE.txt",
+    "commit": "a3c557ac1bc4bd55b9b9d4333842bec255586ff4",
+    "license": "Apache-2.0",
+    "upstream_sha256": "4ebcc94466492500713e006fae13b9ad6e75edd4c68f4bcdafa98ec45113f8e8",
+    "local_sha256": "4ebcc94466492500713e006fae13b9ad6e75edd4c68f4bcdafa98ec45113f8e8",
+    "modified": false
+  },
+  {
+    "upstream_path": "NOTICE.txt",
+    "local_path": "web/GRIST-NOTICE.txt",
+    "commit": "a3c557ac1bc4bd55b9b9d4333842bec255586ff4",
+    "license": "Apache-2.0",
+    "upstream_sha256": "12057580bab475c5bc450159867452719a2c0b24ac5f337f98f7fabca65318b9",
+    "local_sha256": "12057580bab475c5bc450159867452719a2c0b24ac5f337f98f7fabca65318b9",
+    "modified": false
+  },
+  {
+    "upstream_paths": [
+      "app/common/gutil.ts",
+      "app/client/lib/sanitizeUrl.ts"
+    ],
+    "local_path": "web/upstream-grist.js",
+    "commit": "a3c557ac1bc4bd55b9b9d4333842bec255586ff4",
+    "license": "Apache-2.0",
+    "modified": "TypeScript annotation erasure only; bodies copied verbatim",
+    "local_sha256": "b2a18a1db99e56b88e448051ea08ac22138fd93d70a4420046f948767213f519"
+  },
+  {
+    "upstream_path": "LICENSE",
+    "local_path": "src/travaux/vendor/OPENGATE-LICENSE.txt",
+    "commit": "223551e18857d38a8eb69081d3f04eae56753f2b",
+    "license": "MIT",
+    "modified": false,
+    "local_sha256": "bf8e73f9085269a92a1ff9c40a52c74ede1ef72edca303c83c9fb45d88b52692"
+  }
+]

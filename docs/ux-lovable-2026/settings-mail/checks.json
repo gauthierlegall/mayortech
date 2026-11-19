@@ -1,0 +1,123 @@
+{
+  "base": "http://127.0.0.1:8766/",
+  "date": "2026-11-15T11:29:50.223078+00:00",
+  "checks": [
+    "Six real palettes change semantic tokens; color and density survive reload",
+    "One current server member, no archive identities or fictional permission controls",
+    "Selected Settings section survives reload",
+    "Server permission matrix renders allowed and denied grants",
+    "Organization deep link reads actual API profile",
+    "Organization revision-checked save reaches the real API without altering the profile",
+    "Actual inbox is mounted without a duplicate folder sidebar; reader receives focus",
+    "React source dialog displays the real extracted attachment, downloads its original PDF and restores focus",
+    "Actual API archives a fictitious email and restores it to its initial inbox without losing its source",
+    "Quoted recipient draft survives reload entirely in this browser; no draft server write or send",
+    "Mobile 390 reader opens with title focus and returns focus to the original message"
+  ],
+  "screens": [
+    {
+      "file": "1920-appearance.png",
+      "url": "http://127.0.0.1:8766/#/parametres?section=appearance",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "actual local application capture",
+      "sha256": "a772e381d3383add2370f5bf9fee7200a90a2d0e198b8bda0473cd0a9566446e"
+    },
+    {
+      "file": "1920-members.png",
+      "url": "http://127.0.0.1:8766/#/parametres?section=members",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "actual local application capture",
+      "sha256": "71fc722836208ea35c6452aa6c24e7e9ff41bbd172be2ae67f8a92d362ec3fed"
+    },
+    {
+      "file": "1920-roles.png",
+      "url": "http://127.0.0.1:8766/#/parametres?section=roles",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "actual local application capture",
+      "sha256": "4fe55be9f97f501e79f2f610b65ac54f31af10bf5be7a7b7a5d635e53d363673"
+    },
+    {
+      "file": "1920-mailbox.png",
+      "url": "http://127.0.0.1:8766/#/mail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "actual local application capture",
+      "sha256": "8c858719d33c41f3030110c69bd3eadbeb0cacb4d5c5f49a560d3cac734b3adc"
+    },
+    {
+      "file": "1920-source-original.png",
+      "url": "http://127.0.0.1:8766/#/mail/aff4c55c-e424-4dea-8c3b-acf000a48691",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "actual local application capture",
+      "sha256": "777282399cef45fb5dd234a9b1edf020fe62380fb4e47c35a6bdc5eb918bd90f"
+    },
+    {
+      "file": "390-mail-list.png",
+      "url": "http://127.0.0.1:8766/#/mail",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "actual local application capture",
+      "sha256": "d5ffd2e338d7d4cf87e59121924866806822e19b3d76cf530d652aa0b5e86f86"
+    },
+    {
+      "file": "390-mail-reader.png",
+      "url": "http://127.0.0.1:8766/#/mail",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "actual local application capture",
+      "sha256": "e1e4d4dd8f6a7cd885d40157d6a79c2622301ead8483294a4b843439ae07ff4d"
+    },
+    {
+      "file": "390-appearance.png",
+      "url": "http://127.0.0.1:8766/#/parametres?section=appearance",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "actual local application capture",
+      "sha256": "80efc39d33065ebff470be105960197384c3006ea5c20d0339e427e8eac1956d"
+    },
+    {
+      "file": "320-appearance.png",
+      "url": "http://127.0.0.1:8766/#/parametres?section=appearance",
+      "viewport": {
+        "width": 320,
+        "height": 780
+      },
+      "type": "actual local application capture",
+      "sha256": "169a9ed2980c318767ffefe1a30340cad0f8ee212ddeb2734d8b0a687e3c58e7"
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "passed": true,
+  "profile_tested": {
+    "demo": true,
+    "public_demo": false,
+    "auth_required": false,
+    "data": "corpus fictif local uniquement"
+  },
+  "limits": [
+    "Cette recette porte sur les vues Messagerie et Paramètres, pas sur toute l’application.",
+    "Le profil public_demo a ses restrictions testées côté backend ; le navigateur de cette recette utilisait la démo locale sans mot de passe.",
+    "Le client a été testé sur la même origine API. La première passe Vite avait révélé un refus CSRF attendu dû à son origine distincte ; elle a été remplacée par ces captures même origine."
+  ]
+}

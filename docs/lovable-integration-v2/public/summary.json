@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": 34,
+  "tls_bypass": false,
+  "asset_substitution": false,
+  "api_substitution": false,
+  "open_visual_findings": [],
+  "raw_runs": [
+    "qa-public-v07.json",
+    "qa-public-v07-final.json"
+  ],
+  "resolved_visual_findings": [
+    {
+      "severity": "P2",
+      "surface": "Project Page notes preview",
+      "description": "Markdown export of Actions database appears as raw text",
+      "assigned_to": "parent",
+      "resolved_in_release": "20261115T212740Z-53de17",
+      "evidence": "notes-final/checks.json"
+    }
+  ],
+  "followup": {
+    "release": "20261115T212740Z-53de17",
+    "notes_checks": 15,
+    "contract_checks": 27,
+    "runtime_mutations_during_notes_retest": 0
+  }
+}

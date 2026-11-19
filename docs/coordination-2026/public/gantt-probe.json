@@ -1,0 +1,8 @@
+{
+  "console": [],
+  "errors": [],
+  "probe": {
+    "message": "Failed to execute 'add' on 'DOMTokenList': The token provided ('planning-status-progress planning-unknown-progress') contains HTML space characters, which are not valid in tokens.",
+    "stack": "InvalidCharacterError: Failed to execute 'add' on 'DOMTokenList': The token provided ('planning-status-progress planning-unknown-progress') contains HTML space characters, which are not valid in tokens.\n    at q.refresh (https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:19:430)\n    at new q (https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:19:307)\n    at https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:29:2361\n    at Array.map (<anonymous>)\n    at U.make_bars (https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:29:2345)\n    at U.render (https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:24:9445)\n    at U.change_view_mode (https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:24:7754)\n    at new U (https://travaux.kerforge.com/web/product/assets/frappe-gantt-DU4Dujs4.js:24:3858)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:202)\n    at async <anonymous>:381:23"
+  }
+}

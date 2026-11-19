@@ -1,0 +1,106 @@
+{
+  "text": "Confirmer le cheminement piéton avec le service scolaire\n\nCes dates mettent à jour l’action dans toutes ses vues. Les dates confirmées du dossier et les rendez-vous d’agenda gardent leur propre validation.\n\nAction\nValider le devis initial\nPréparer la sécurisation de l’entrée\nConfirmer l’accès vendredi\nConfirmer le plan de circulation\nRecevoir les résultats des essais\nOrganiser la visite technique\nConfirmer le cheminement piéton avec le service scolaire\nPrévoir une visite du parvis avec l’entreprise\nVérifier la livraison des barrières avant vendredi\nDébut\nFin prévue\nResponsable\nÀ attribuer\nVisiteur\nStatut\nÀ faire\nEn cours\nEn attente\nTerminé\nAvancement (%)\nUne valeur vide reste non renseignée.\nVoir le message lié\nEnregistrer les dates\nClose",
+  "fields": [
+    {
+      "type": "date",
+      "value": "",
+      "required": true,
+      "min": "",
+      "max": ""
+    },
+    {
+      "type": "date",
+      "value": "",
+      "required": true,
+      "min": "",
+      "max": ""
+    },
+    {
+      "type": "number",
+      "value": "",
+      "required": false,
+      "min": "0",
+      "max": "100"
+    }
+  ],
+  "options": [
+    {
+      "name": "ActionValider le devis initialPréparer la sécurisation de l’entréeConfirmer l’accès vendrediConfirmer le plan de circulationRecevoir les résultats des essaisOrganiser la visite techniqueConfirmer le cheminement piéton avec le service scolairePrévoir une visite du parvis avec l’entrepriseVérifier la livraison des barrières avant vendredi",
+      "value": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41:24qemoC73J",
+      "options": [
+        {
+          "value": "98d50277-8cda-49c8-8db4-3cd571fdb79b:_jcotIbh_V",
+          "text": "Valider le devis initial"
+        },
+        {
+          "value": "98d50277-8cda-49c8-8db4-3cd571fdb79b:5PL-EYKJkg",
+          "text": "Préparer la sécurisation de l’entrée"
+        },
+        {
+          "value": "98d50277-8cda-49c8-8db4-3cd571fdb79b:YmxNmOn-yd",
+          "text": "Confirmer l’accès vendredi"
+        },
+        {
+          "value": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa:BvjY3b55EP",
+          "text": "Confirmer le plan de circulation"
+        },
+        {
+          "value": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa:-6YdcyrGDT",
+          "text": "Recevoir les résultats des essais"
+        },
+        {
+          "value": "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1:Zrk3NZpHvS",
+          "text": "Organiser la visite technique"
+        },
+        {
+          "value": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41:24qemoC73J",
+          "text": "Confirmer le cheminement piéton avec le service scolaire"
+        },
+        {
+          "value": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41:qGptFcgPji",
+          "text": "Prévoir une visite du parvis avec l’entreprise"
+        },
+        {
+          "value": "f4a5f3ea-8e96-46b9-a75e-56fab2eccc41:6LmV12eCI6",
+          "text": "Vérifier la livraison des barrières avant vendredi"
+        }
+      ]
+    },
+    {
+      "name": "ResponsableÀ attribuerVisiteur",
+      "value": "",
+      "options": [
+        {
+          "value": "",
+          "text": "À attribuer"
+        },
+        {
+          "value": "Visiteur",
+          "text": "Visiteur"
+        }
+      ]
+    },
+    {
+      "name": "StatutÀ faireEn coursEn attenteTerminé",
+      "value": "À faire",
+      "options": [
+        {
+          "value": "À faire",
+          "text": "À faire"
+        },
+        {
+          "value": "En cours",
+          "text": "En cours"
+        },
+        {
+          "value": "En attente",
+          "text": "En attente"
+        },
+        {
+          "value": "Terminé",
+          "text": "Terminé"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "realm": "travaux-test",
+  "displayName": "Comptes de l’organisation test",
+  "enabled": true,
+  "sslRequired": "all",
+  "registrationAllowed": true,
+  "registrationEmailAsUsername": true,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "verifyEmail": true,
+  "resetPasswordAllowed": true,
+  "rememberMe": false,
+  "bruteForceProtected": true,
+  "permanentLockout": false,
+  "maxFailureWaitSeconds": 900,
+  "failureFactor": 5,
+  "waitIncrementSeconds": 60,
+  "quickLoginCheckMilliSeconds": 1000,
+  "minimumQuickLoginWaitSeconds": 60,
+  "ssoSessionIdleTimeout": 1800,
+  "ssoSessionMaxLifespan": 28800,
+  "accessTokenLifespan": 300,
+  "passwordPolicy": "length(14) and notUsername(undefined) and notEmail(undefined)",
+  "otpPolicyType": "totp",
+  "otpPolicyAlgorithm": "HmacSHA1",
+  "otpPolicyDigits": 6,
+  "otpPolicyPeriod": 30,
+  "otpPolicyLookAheadWindow": 1,
+  "browserFlow": "travaux-password-and-otp",
+  "requiredActions": [
+    {"alias": "VERIFY_EMAIL", "name": "Vérifier l’adresse e-mail", "providerId": "VERIFY_EMAIL", "enabled": true, "defaultAction": true, "priority": 10},
+    {"alias": "UPDATE_PASSWORD", "name": "Définir le mot de passe", "providerId": "UPDATE_PASSWORD", "enabled": true, "defaultAction": false, "priority": 15},
+    {"alias": "CONFIGURE_TOTP", "name": "Configurer la double authentification", "providerId": "CONFIGURE_TOTP", "enabled": true, "defaultAction": true, "priority": 20}
+  ],
+  "authenticationFlows": [
+    {
+      "alias": "travaux-password-and-otp",
+      "description": "Mot de passe et OTP obligatoires ; aucune assertion AMR statique",
+      "providerId": "basic-flow",
+      "topLevel": true,
+      "builtIn": false,
+      "authenticationExecutions": [
+        {"authenticator": "auth-username-password-form", "authenticatorConfig": "travaux-pwd-reference", "authenticatorFlow": false, "requirement": "REQUIRED", "priority": 10, "userSetupAllowed": false},
+        {"authenticator": "auth-otp-form", "authenticatorConfig": "travaux-otp-reference", "authenticatorFlow": false, "requirement": "REQUIRED", "priority": 20, "userSetupAllowed": true}
+      ]
+    }
+  ],
+  "authenticatorConfig": [
+    {"alias": "travaux-pwd-reference", "config": {"default.reference.value": "pwd", "default.reference.maxAge": "3600"}},
+    {"alias": "travaux-otp-reference", "config": {"default.reference.value": "otp", "default.reference.maxAge": "3600"}}
+  ],
+  "clients": [
+    {
+      "clientId": "travaux-test",
+      "name": "Travaux — organisation test",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": false,
+      "clientAuthenticatorType": "client-secret",
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+      "fullScopeAllowed": false,
+      "rootUrl": "${TRAVAUX_TEST_PUBLIC_ORIGIN}",
+      "baseUrl": "${TRAVAUX_TEST_PUBLIC_ORIGIN}",
+      "redirectUris": ["${TRAVAUX_TEST_PUBLIC_ORIGIN}/api/v1/auth/callback"],
+      "webOrigins": ["${TRAVAUX_TEST_PUBLIC_ORIGIN}"],
+      "defaultClientScopes": ["basic", "profile", "email"],
+      "optionalClientScopes": [],
+      "attributes": {"pkce.code.challenge.method": "S256", "post.logout.redirect.uris": "${TRAVAUX_TEST_PUBLIC_ORIGIN}"},
+      "protocolMappers": [
+        {"name": "Méthodes réellement accomplies", "protocol": "openid-connect", "protocolMapper": "oidc-amr-mapper", "consentRequired": false, "config": {"id.token.claim": "true", "access.token.claim": "false"}}
+      ]
+    }
+  ],
+  "users": []
+}

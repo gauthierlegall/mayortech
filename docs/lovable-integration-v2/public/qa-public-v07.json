@@ -1,0 +1,238 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "release": "20261115T211012Z-707e4a",
+  "asset_substitution": false,
+  "api_substitution": false,
+  "tls_bypass": false,
+  "checks": [
+    {
+      "name": "actual_v07",
+      "passed": true,
+      "detail": "0.7.0"
+    },
+    {
+      "name": "valid_https_secure_context",
+      "passed": true
+    },
+    {
+      "name": "project_filter_real_links",
+      "passed": true,
+      "detail": {
+        "total": 6
+      }
+    },
+    {
+      "name": "1920_single_folder_tree",
+      "passed": true
+    },
+    {
+      "name": "mail_three_columns",
+      "passed": true
+    },
+    {
+      "name": "1920-mail_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "1920_project_filter_rendered",
+      "passed": true
+    },
+    {
+      "name": "1920_mail_no_body_overflow",
+      "passed": true
+    },
+    {
+      "name": "390_single_folder_tree",
+      "passed": true
+    },
+    {
+      "name": "390-mail_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "390_project_filter_rendered",
+      "passed": true
+    },
+    {
+      "name": "390_mail_no_body_overflow",
+      "passed": true
+    },
+    {
+      "name": "320_single_folder_tree",
+      "passed": true
+    },
+    {
+      "name": "320_project_filter_rendered",
+      "passed": true
+    },
+    {
+      "name": "320_mail_no_body_overflow",
+      "passed": true
+    },
+    {
+      "name": "reader_without_flag_mutation",
+      "passed": false,
+      "detail": {
+        "read_only_existing_read_message": null
+      }
+    },
+    {
+      "name": "public_action_click_opens",
+      "passed": true
+    },
+    {
+      "name": "public_action_enter_closes",
+      "passed": true
+    },
+    {
+      "name": "public_action_space_opens",
+      "passed": true
+    },
+    {
+      "name": "390-actions-filters_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "six_project_tabs",
+      "passed": true,
+      "detail": [
+        "Page",
+        "Actions\n3",
+        "Planning",
+        "Terrain",
+        "Documents\n2",
+        "Échanges"
+      ]
+    },
+    {
+      "name": "1920-project-page_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "properties_inside_page",
+      "passed": true
+    },
+    {
+      "name": "two_real_operator_reports",
+      "passed": true,
+      "detail": {
+        "count": 2
+      }
+    },
+    {
+      "name": "390-terrain_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "global_planning_route_and_data",
+      "passed": false,
+      "detail": {
+        "rows": 0,
+        "groups": 0
+      }
+    },
+    {
+      "name": "1920-planning_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "no_content_flags_drafts_or_send_write",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "captures": [
+    {
+      "file": "1920-mail.png",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "file": "390-mail.png",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "file": "390-actions-filters.png",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "file": "1920-project-page.png",
+      "width": 1920,
+      "scroll_width": 1920
+    },
+    {
+      "file": "390-terrain.png",
+      "width": 390,
+      "scroll_width": 390
+    },
+    {
+      "file": "1920-planning.png",
+      "width": 1920,
+      "scroll_width": 1920
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "writes": [
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/98d50277-8cda-49c8-8db4-3cd571fdb79b/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/a06c2a34-8075-4cb9-ba61-e2798a45a9fa/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/06cbde91-6553-4b05-b2b3-0e7ce82e4a58/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/2483fd03-cd07-4f6c-bdd9-d12b9c99caa1/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/f4a5f3ea-8e96-46b9-a75e-56fab2eccc41/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/34050270-8df6-47bd-b888-e54de1afaaad/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/ac50e03f-bf8e-434d-b8dc-539599855b39/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/d2ea969d-18b1-4f7d-8384-681f1dedce2f/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/3d6526eb-a83b-4e6c-8f62-20c1a57230ba/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/1863d192-8e9b-4464-a0d5-5af2dc20bf18/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/98d50277-8cda-49c8-8db4-3cd571fdb79b/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/98d50277-8cda-49c8-8db4-3cd571fdb79b/page"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/projects/a06c2a34-8075-4cb9-ba61-e2798a45a9fa/page"
+    }
+  ],
+  "version": "0.7.0",
+  "assets": [
+    "https://travaux.kerforge.com/web/product/assets/index-C7hSDCby.js"
+  ],
+  "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+  "passed": false
+}

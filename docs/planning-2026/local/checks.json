@@ -1,0 +1,93 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "checks": [
+    {
+      "name": "opening a project displays Planning without changing date facts",
+      "passed": true
+    },
+    {
+      "name": "date and progress form stores a native action, not a second dataset",
+      "passed": true
+    },
+    {
+      "name": "1920-planning.png fits viewport",
+      "passed": true
+    },
+    {
+      "name": "one native save after a real pointer drag",
+      "passed": true
+    },
+    {
+      "name": "drag dates and progress survive a reload in the same row",
+      "passed": true
+    },
+    {
+      "name": "source binding survives planning edits",
+      "passed": true
+    },
+    {
+      "name": "one save for an actual progress handle drag",
+      "passed": true
+    },
+    {
+      "name": "pointer progress persists as a bounded integer after reload",
+      "passed": true
+    },
+    {
+      "name": "Gantt has a keyboard-accessible date editing alternative",
+      "passed": true
+    },
+    {
+      "name": "390-planning.png fits viewport",
+      "passed": true
+    },
+    {
+      "name": "320-planning.png fits viewport",
+      "passed": true
+    },
+    {
+      "name": "all project tabs and Assistant stay within the mobile page",
+      "passed": true
+    },
+    {
+      "name": "390-planning-edit.png fits viewport",
+      "passed": true
+    },
+    {
+      "name": "mobile list edits the same action progress",
+      "passed": true
+    },
+    {
+      "name": "stale row revision rejects overwrite and keeps the edit form",
+      "passed": true
+    },
+    {
+      "name": "planning does not approve the delivery proposal or change any confirmed fact",
+      "passed": true
+    },
+    {
+      "name": "no browser script errors",
+      "passed": true
+    },
+    {
+      "name": "no HTTP errors in the planning workflow",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "screens": [
+    "1920-planning.png",
+    "390-planning.png",
+    "320-planning.png",
+    "390-planning-edit.png"
+  ],
+  "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+  "row_id": "E9B6N0wRCz",
+  "cleanup": {
+    "row_id": "E9B6N0wRCz",
+    "same_native_rows": true,
+    "original_schedule_restored": true,
+    "other_values_preserved": true
+  }
+}

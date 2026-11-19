@@ -1,0 +1,1 @@
+{"deployed": true, "public_demo": true, "auth_required": false, "mail_import_disabled": true, "runtime": {"db_path": "/data/public-demo.sqlite3", "mode": "public_demo", "tenant_id": "public-demo-travaux"}, "fake_llm": true, "route_validated_and_reloaded": true, "release": "20261117T203341Z-ee169c", "public_https_probe_required": true, "credentials_required": false}

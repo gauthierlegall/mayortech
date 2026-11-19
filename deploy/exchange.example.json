@@ -1,0 +1,14 @@
+{
+  "tenant_id": "REMPLACER_PAR_LE_TENANT_SERVEUR",
+  "connection_id": "exchange-pilote",
+  "egress_approved": false,
+  "settings": {
+    "enabled": false,
+    "endpoint": "https://exchange.example/EWS/Exchange.asmx",
+    "mailbox": "compte-technique@example.invalid",
+    "allowed_folder_ids": ["ID_DOSSIER_AUTORISE_A_REMPLACER"],
+    "auth_mode": "ntlm",
+    "max_batch": 50,
+    "max_mime_bytes": 10000000
+  }
+}

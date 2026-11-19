@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "name": "nonmodal popup",
+      "passed": true
+    },
+    {
+      "name": "no overlay",
+      "passed": true
+    },
+    {
+      "name": "draft preserved after reduction",
+      "passed": true
+    },
+    {
+      "name": "popup fits 1920",
+      "passed": true
+    },
+    {
+      "name": "composer hit textarea 1920",
+      "passed": true
+    },
+    {
+      "name": "composer hit button[type=submit] 1920",
+      "passed": true
+    },
+    {
+      "name": "popup fits 390",
+      "passed": true
+    },
+    {
+      "name": "composer hit textarea 390",
+      "passed": true
+    },
+    {
+      "name": "composer hit button[type=submit] 390",
+      "passed": true
+    },
+    {
+      "name": "popup fits 320",
+      "passed": true
+    },
+    {
+      "name": "composer hit textarea 320",
+      "passed": true
+    },
+    {
+      "name": "composer hit button[type=submit] 320",
+      "passed": true
+    },
+    {
+      "name": "real API response",
+      "passed": true
+    },
+    {
+      "name": "history reachable",
+      "passed": true
+    },
+    {
+      "name": "escape returns focus",
+      "passed": true
+    },
+    {
+      "name": "no JS error",
+      "passed": true
+    }
+  ],
+  "passed": 16,
+  "errors": [],
+  "network": "real local API; invented text only"
+}

@@ -1,0 +1,38 @@
+# Exemple de pilote mono-hôte derrière un proxy HTTPS. Non exécuté ici (Docker absent).
+x-runtime: &runtime
+  image: travaux-mairie:0.1.0
+  build:
+    context: ..
+  restart: unless-stopped
+  user: "10001:10001"
+  read_only: true
+  tmpfs:
+    - /tmp:size=64m,noexec,nosuid
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  pids_limit: 100
+  mem_limit: 768m
+  cpus: 1.0
+  volumes:
+    - travaux-data:/data
+  environment: &environment
+    TRAVAUX_MODE: pilot
+    TRAVAUX_DB: /data/travaux.sqlite3
+    TRAVAUX_TENANT: ${TRAVAUX_TENANT:?tenant requis}
+    TRAVAUX_PASSWORD_HASH: ${TRAVAUX_PASSWORD_HASH:?mot de passe hache requis}
+    TRAVAUX_PUBLIC_ORIGIN: ${TRAVAUX_PUBLIC_ORIGIN:?origine HTTPS requise}
+    TRAVAUX_ALLOWED_HOSTS: ${TRAVAUX_ALLOWED_HOSTS:?hote public requis}
+    TRAVAUX_LLM: mistral
+    TRAVAUX_MISTRAL_URL: ${TRAVAUX_MISTRAL_URL:?endpoint autorise requis}
+    TRAVAUX_MISTRAL_MODEL: ${TRAVAUX_MISTRAL_MODEL:?modele requis}
+    TRAVAUX_MISTRAL_KEY: ${TRAVAUX_MISTRAL_KEY:-}
+    TRAVAUX_LLM_EGRESS_APPROVED: ${TRAVAUX_LLM_EGRESS_APPROVED:?autorisation explicite requise}
+services:
+  app:
+    <<: *runtime
+    ports: ["127.0.0.1:8765:8765"]
+  worker:
+    <<: *runtime
+    command: ["python", "-m", "travaux", "worker"]
+volumes:
+  travaux-data:

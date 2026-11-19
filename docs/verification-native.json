@@ -1,0 +1,223 @@
+{
+  "version": "0.8.1",
+  "date": "2026-11-16",
+  "public_url": "https://travaux.kerforge.com",
+  "public_release": "20261116T102001Z-234aeb",
+  "frontend_base": "Lovable v2 identity preserved; guided mail setup and explicit project/owner planning added",
+  "python_application_and_deployment_tests_passed": 396,
+  "deployment_tests_rechecked_after_frontend_build": 55,
+  "frontend_and_domain_node_tests_passed": 102,
+  "native_module_node_tests_passed": 27,
+  "typescript_product_check": "passed",
+  "frontend_production_build": "passed",
+  "native_runtime": "unchanged from verified 0.7 build",
+  "ruff": "passed",
+  "lock_check": "passed",
+  "local_browser_checks": {
+    "private_fhd_with_fictitious_exchange": 38,
+    "public_example_regression_on_local_bundle": 10
+  },
+  "public_browser_checks": {
+    "workflow_fhd": 18,
+    "backtracking_regressions": 10,
+    "contract": 27
+  },
+  "screenshots": {
+    "mail-workflow-fullhd-2026/public-after/01-messagerie.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "601378d534053ff8313d84e7208dd6c10de7f196d9e2ccd6170b7bdd98f086c0"
+    },
+    "mail-workflow-fullhd-2026/public-after/02-fournisseur.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "5aa6ec4276517548a75974a64ec903bab6827a45e9fe457129403b4cc62cf9dd"
+    },
+    "mail-workflow-fullhd-2026/public-after/03-microsoft-indisponible.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "03817aa55ebc600263798248359649249d00524ff5d21bf88f649275b3625b8f"
+    },
+    "mail-workflow-fullhd-2026/public-after/04-compte-fictif.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "fc473083eaac2f6f3e79c04ba71de28d6fd90027128150672818753e41fd4599"
+    },
+    "mail-workflow-fullhd-2026/public-after/05-dossiers-avant-choix.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "e1a528407f23c80a94a22904615c5d3b2effc3fbbbfbd4d96d9b8350108c64a6"
+    },
+    "mail-workflow-fullhd-2026/public-after/06-dossier-selectionne.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "cf9a58e5553c15ae3ad6a6497402fdcc3f3d27abfa2e794b3b49ae811ba28c39"
+    },
+    "mail-workflow-fullhd-2026/public-after/07-recapitulatif.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "b405f5b7d2ca002ed769008d78f39b5d4b325126bc6e8a599deb75e725e07f51"
+    },
+    "mail-workflow-fullhd-2026/public-after/08-fin-exemple.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "73337f187e97f2d34aaa36ecadb9798011aad6a80d44b89583cdea244357c82a"
+    },
+    "mail-workflow-fullhd-2026/public-after/09-reprise-compte.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "fc473083eaac2f6f3e79c04ba71de28d6fd90027128150672818753e41fd4599"
+    },
+    "mail-workflow-fullhd-2026/public-after/10-reprise-recapitulatif.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "b405f5b7d2ca002ed769008d78f39b5d4b325126bc6e8a599deb75e725e07f51"
+    },
+    "mail-workflow-fullhd-2026/public-after/11-second-exemple-termine.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "73337f187e97f2d34aaa36ecadb9798011aad6a80d44b89583cdea244357c82a"
+    },
+    "mail-workflow-fullhd-2026/private/01-1920-provider.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "226d5a01d6395de6257c048470a3130a38ff86bbcb1ffd033c88694cd192d611"
+    },
+    "mail-workflow-fullhd-2026/private/02-1920-account-empty.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "d87023ebbe8ef5066c8172cc97c33ebbf9b16c1d9bfd8a1f1afee8f25545d0dd"
+    },
+    "mail-workflow-fullhd-2026/private/03-1920-account-filled.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "2a685f181632dfb9f2baf5b1c311f69f1b6bf30487e3b5fb7ab70540bf44d012"
+    },
+    "mail-workflow-fullhd-2026/private/04-1920-account-before-test.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "945bbbbfa8bca64594a0d4ab1116aba48cfc854c93e7d5951e124e16778fb1d2"
+    },
+    "mail-workflow-fullhd-2026/private/05-1920-test-failure.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "e71ef19c712b9d293822d9fc17056e2ee2631170e4d0cea4391864424545f2eb"
+    },
+    "mail-workflow-fullhd-2026/private/06-1920-folders-verified.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "4cf7f798ce07cffd38880bd3e4e07f913f4c1d33f488135f1b9a53455aa77878"
+    },
+    "mail-workflow-fullhd-2026/private/06b-1920-folders-after-backtrack.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "5bf19a99086f54a86ca49ef1dc0e5188ac79dc7d46787dc654272c976a57c20d"
+    },
+    "mail-workflow-fullhd-2026/private/07-1920-scope-conflict.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "7944c9e303cb14c792233fbfea043c715f7465b9b342be81cf8cd41312a2e3ff"
+    },
+    "mail-workflow-fullhd-2026/private/08-1920-review-before-import.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "748e1f6a042a8087cf648e15badf6bc8212231c810c51e9faba5a09cccf569d9"
+    },
+    "mail-workflow-fullhd-2026/private/09-1920-import-partial.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "74f0ff5e80d85c134befb4d836f73c2b0d92d0baefce98fb0335e78dc22b111d"
+    },
+    "mail-workflow-fullhd-2026/private/10-1920-import-complete.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "1c60e5fe9e1c757265284cc17b2a7368fb045c398eac5751a24d2dab936981e1"
+    },
+    "mail-workflow-fullhd-2026/private/11-1920-mailbox-imported.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "186c2619d3425cebc4602aad252b7b32a5d76423a4b4ef73624d89b30ae15970"
+    },
+    "mail-workflow-fullhd-2026/private/12-1920-imported-message.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "85e7a6b548c14357ba1be87c2aaebc861b4bfb1dd0b3b942c3bc23a3e6583274"
+    }
+  },
+  "responsive_widths_tested": [
+    1920,
+    390,
+    320
+  ],
+  "public_connection_mutations": 0,
+  "public_planning_put_patch_delete": 0,
+  "public_demo_without_password": true,
+  "public_demo_database_separated_from_former_private_database": true,
+  "real_municipal_data_used": false,
+  "real_exchange_connected": false,
+  "real_caldav_connected": false,
+  "real_mail_transport_connected": false,
+  "mistral_connected": false,
+  "telegram_connected": false,
+  "individual_identity_provider_connected": false,
+  "physical_mobile_device_tested": false,
+  "certifies_rgpd_or_rgaa": false,
+  "public_evidence": "mail-workflow-fullhd-2026/README.md",
+  "planning_evidence": "planning-consistency-2026/README.md",
+  "limitations": [
+    "Exchange EWS is the only implemented mailbox provider; Gmail/IMAP and Microsoft 365 OAuth are unavailable.",
+    "Public setup uses explicit fictional values in memory and never asks for a password or creates a connection.",
+    "Private browser checks use the real application API and a fictitious Exchange reader, not a real institutional server.",
+    "No automatic mailbox polling or email sending is enabled; each bounded read is an explicit action.",
+    "The native SDK retains its documented Zod 3 backport and the upstream npm advisory remains reported."
+  ],
+  "published_real_connection_enabled": false
+}

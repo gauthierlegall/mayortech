@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "name": "real report created with human source",
+      "passed": true
+    },
+    {
+      "name": "native action saved before simulated link failure",
+      "passed": true
+    },
+    {
+      "name": "link failure preserves report without fake success",
+      "passed": true
+    },
+    {
+      "name": "retry reuses same canonical native row",
+      "passed": true
+    },
+    {
+      "name": "status and link persist after reload",
+      "passed": true
+    },
+    {
+      "name": "real project and status filters",
+      "passed": true
+    },
+    {
+      "name": "no body overflow 1920",
+      "passed": true
+    },
+    {
+      "name": "no body overflow 390",
+      "passed": true
+    },
+    {
+      "name": "no body overflow 320",
+      "passed": true
+    },
+    {
+      "name": "same report appears in project tab",
+      "passed": true
+    },
+    {
+      "name": "confirmed facts unchanged",
+      "passed": true
+    },
+    {
+      "name": "no javascript errors",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "report_id": "90dc8168-37a4-466d-b9c8-c792a1c73d2d",
+  "project_id": "749e7ac0-d3ba-4e61-86bc-652e204dc0b3",
+  "javascript_errors": [],
+  "expected_network_failure": "one simulated action-link failure after Yjs save",
+  "data_scope": "local fictional QA dossier only"
+}

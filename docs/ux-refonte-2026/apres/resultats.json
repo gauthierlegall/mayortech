@@ -1,0 +1,721 @@
+{
+  "target": "http://127.0.0.1:8765",
+  "fixture": {
+    "project_id": "fc0aa546-6715-416f-b231-a28b17cd3279",
+    "project_reference": "UX-REFONTE-1794681355295550500",
+    "page_id": "7d12a5b8-243a-4fd1-8b2b-0d7f94aeebaf",
+    "marker": "RECETTE-REFONTE-1794681355295550500",
+    "source_id": "df565212-39f9-476c-9018-c4850af55074",
+    "action_id": "02791e12-dff6-46bc-ba85-ad80ae121e92",
+    "action_title": "Confirmer le cheminement piéton avant la visite",
+    "documents": [
+      {
+        "id": "d91f2831-6f77-4679-bf33-22218b26faab",
+        "source_id": "df565212-39f9-476c-9018-c4850af55074",
+        "filename": "visite-fictive.eml",
+        "sha256": "5dc1583f2d321779415dc2b8c6369f71933bc79ec117964e382bbccc9ad96c8b",
+        "size": 2114,
+        "exact_original_bytes": true,
+        "attachment_header": true,
+        "sandbox": true,
+        "preview_source_id": "df565212-39f9-476c-9018-c4850af55074"
+      },
+      {
+        "id": "3198a6fb-e884-466a-8d7f-629dfc8a5a0d",
+        "source_id": "080aa5af-cc9d-48b1-9428-e31ec3485deb",
+        "filename": "consigne-fictive.txt",
+        "sha256": "32f41801b3156c820d8c8be1a245698c205651b2c1d59ee6ccf7c5bfb8b6c951",
+        "size": 140,
+        "exact_original_bytes": true,
+        "attachment_header": true,
+        "sandbox": true,
+        "preview_source_id": "080aa5af-cc9d-48b1-9428-e31ec3485deb"
+      },
+      {
+        "id": "68c129ce-6bb4-43e9-9df2-bff238f0c44d",
+        "source_id": "5ea7aec9-13df-40fb-824a-3d5268d9205a",
+        "filename": "plan-circulation-fictif.pdf",
+        "sha256": "e31c3f90ae76af461b8fa33aa5788d2a5507e745b13870308d01f28933b5a4a3",
+        "size": 638,
+        "exact_original_bytes": true,
+        "attachment_header": true,
+        "sandbox": true,
+        "preview_source_id": "5ea7aec9-13df-40fb-824a-3d5268d9205a"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "confirmed_action_imported_once",
+      "passed": true,
+      "detail": {
+        "blocks": [
+          {
+            "id": "zq4N5Ok7qZ",
+            "flavour": "affine:paragraph",
+            "type": "text",
+            "text": ""
+          },
+          {
+            "id": "SRLEvue7GX",
+            "flavour": "affine:database",
+            "type": null,
+            "text": null
+          }
+        ],
+        "databases": [
+          {
+            "id": "SRLEvue7GX",
+            "rows": [
+              {
+                "id": "TK5HHPYtyT",
+                "title": "Confirmer le cheminement piéton avant la visite"
+              }
+            ],
+            "activeView": "table"
+          }
+        ]
+      }
+    },
+    {
+      "name": "five_workspace_views_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "secondary_context_collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rich_blocks_text_materialized_in_backend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "kanban_really_active",
+      "passed": true,
+      "detail": {
+        "blocks": [
+          {
+            "id": "zq4N5Ok7qZ",
+            "flavour": "affine:paragraph",
+            "type": "text",
+            "text": ""
+          },
+          {
+            "id": "SRLEvue7GX",
+            "flavour": "affine:database",
+            "type": null,
+            "text": null
+          },
+          {
+            "id": "55a7B_RrN1",
+            "flavour": "affine:paragraph",
+            "type": "h2",
+            "text": "Visite de chantier — constat fictif"
+          },
+          {
+            "id": "hhYGse_Xwk",
+            "flavour": "affine:list",
+            "type": "bulleted",
+            "text": "Vérifier les protections du passage"
+          },
+          {
+            "id": "zFEKPf2pBf",
+            "flavour": "affine:list",
+            "type": "todo",
+            "text": "Contrôler la signalisation temporaire"
+          },
+          {
+            "id": "nM7Pccfb9G",
+            "flavour": "affine:paragraph",
+            "type": "quote",
+            "text": "Note terrain conservée dans ce dossier"
+          },
+          {
+            "id": "qenulZgOLf",
+            "flavour": "affine:divider",
+            "type": null,
+            "text": null
+          }
+        ],
+        "databases": [
+          {
+            "id": "SRLEvue7GX",
+            "rows": [
+              {
+                "id": "TK5HHPYtyT",
+                "title": "Confirmer le cheminement piéton avant la visite"
+              }
+            ],
+            "activeView": "kanban"
+          }
+        ]
+      }
+    },
+    {
+      "name": "table_really_active",
+      "passed": true,
+      "detail": {
+        "blocks": [
+          {
+            "id": "zq4N5Ok7qZ",
+            "flavour": "affine:paragraph",
+            "type": "text",
+            "text": ""
+          },
+          {
+            "id": "SRLEvue7GX",
+            "flavour": "affine:database",
+            "type": null,
+            "text": null
+          },
+          {
+            "id": "55a7B_RrN1",
+            "flavour": "affine:paragraph",
+            "type": "h2",
+            "text": "Visite de chantier — constat fictif"
+          },
+          {
+            "id": "hhYGse_Xwk",
+            "flavour": "affine:list",
+            "type": "bulleted",
+            "text": "Vérifier les protections du passage"
+          },
+          {
+            "id": "zFEKPf2pBf",
+            "flavour": "affine:list",
+            "type": "todo",
+            "text": "Contrôler la signalisation temporaire"
+          },
+          {
+            "id": "nM7Pccfb9G",
+            "flavour": "affine:paragraph",
+            "type": "quote",
+            "text": "Note terrain conservée dans ce dossier"
+          },
+          {
+            "id": "qenulZgOLf",
+            "flavour": "affine:divider",
+            "type": null,
+            "text": null
+          }
+        ],
+        "databases": [
+          {
+            "id": "SRLEvue7GX",
+            "rows": [
+              {
+                "id": "TK5HHPYtyT",
+                "title": "Confirmer le cheminement piéton avant la visite"
+              }
+            ],
+            "activeView": "table"
+          }
+        ]
+      }
+    },
+    {
+      "name": "same_native_ids_kanban_table",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manual_action_created_in_native_database",
+      "passed": true,
+      "detail": [
+        {
+          "id": "TK5HHPYtyT",
+          "title": "Confirmer le cheminement piéton avant la visite"
+        },
+        {
+          "id": "l3EFmnzjvK",
+          "title": "Vérifier les barrières — action manuelle de recette"
+        }
+      ]
+    },
+    {
+      "name": "reload_preserves_ids_without_import_duplicates",
+      "passed": true,
+      "detail": {
+        "blocks": [
+          {
+            "id": "zq4N5Ok7qZ",
+            "flavour": "affine:paragraph",
+            "type": "text",
+            "text": ""
+          },
+          {
+            "id": "SRLEvue7GX",
+            "flavour": "affine:database",
+            "type": null,
+            "text": null
+          },
+          {
+            "id": "55a7B_RrN1",
+            "flavour": "affine:paragraph",
+            "type": "h2",
+            "text": "Visite de chantier — constat fictif"
+          },
+          {
+            "id": "hhYGse_Xwk",
+            "flavour": "affine:list",
+            "type": "bulleted",
+            "text": "Vérifier les protections du passage"
+          },
+          {
+            "id": "zFEKPf2pBf",
+            "flavour": "affine:list",
+            "type": "todo",
+            "text": "Contrôler la signalisation temporaire"
+          },
+          {
+            "id": "nM7Pccfb9G",
+            "flavour": "affine:paragraph",
+            "type": "quote",
+            "text": "Note terrain conservée dans ce dossier"
+          },
+          {
+            "id": "qenulZgOLf",
+            "flavour": "affine:divider",
+            "type": null,
+            "text": null
+          }
+        ],
+        "databases": [
+          {
+            "id": "SRLEvue7GX",
+            "rows": [
+              {
+                "id": "TK5HHPYtyT",
+                "title": "Confirmer le cheminement piéton avant la visite"
+              },
+              {
+                "id": "l3EFmnzjvK",
+                "title": "Vérifier les barrières — action manuelle de recette"
+              }
+            ],
+            "activeView": "table"
+          }
+        ]
+      }
+    },
+    {
+      "name": "rich_block_ids_survive_view_switch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pdf_preview_from_correct_source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pdf_original_download_exact_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "project_exchanges_filtered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "message_keeps_project_workspace",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_proof_opens_from_context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: document_visible_in_first_viewport",
+      "passed": true,
+      "detail": 387.546875
+    },
+    {
+      "name": "390: no_horizontal_document_overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: five_tabs_visible_without_scroll",
+      "passed": true,
+      "detail": [
+        {
+          "text": "Page",
+          "rect": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "rect": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "rect": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "rect": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "rect": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ]
+    },
+    {
+      "name": "390: mobile_native_ids_equal_desktop",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: grouped_kanban_status_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: exchange_back_preserves_project_filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: sidebar_escape_restores_inert",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: document_visible_in_first_viewport",
+      "passed": true,
+      "detail": 406.59375
+    },
+    {
+      "name": "320: no_horizontal_document_overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: five_tabs_visible_without_scroll",
+      "passed": true,
+      "detail": [
+        {
+          "text": "Page",
+          "rect": {
+            "x": 12,
+            "y": 196.546875,
+            "width": 59.1875,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 71.1875,
+            "bottom": 254.59375,
+            "left": 12
+          }
+        },
+        {
+          "text": "Tableau",
+          "rect": {
+            "x": 71.1875,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 130.390625,
+            "bottom": 254.59375,
+            "left": 71.1875
+          }
+        },
+        {
+          "text": "Kanban",
+          "rect": {
+            "x": 130.390625,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 189.59375,
+            "bottom": 254.59375,
+            "left": 130.390625
+          }
+        },
+        {
+          "text": "Documents",
+          "rect": {
+            "x": 189.59375,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 248.796875,
+            "bottom": 254.59375,
+            "left": 189.59375
+          }
+        },
+        {
+          "text": "Échanges",
+          "rect": {
+            "x": 248.796875,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 308,
+            "bottom": 254.59375,
+            "left": 248.796875
+          }
+        }
+      ]
+    },
+    {
+      "name": "320: mobile_native_ids_equal_desktop",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: grouped_kanban_status_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: exchange_back_preserves_project_filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320: sidebar_escape_restores_inert",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "metrics": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "nativeY": 387.546875,
+      "blockMenu": {
+        "x": 18,
+        "y": 284.546875,
+        "width": 115.171875,
+        "height": 40,
+        "top": 284.546875,
+        "right": 133.171875,
+        "bottom": 324.546875,
+        "left": 18
+      },
+      "views": [
+        {
+          "text": "Page",
+          "rect": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "rect": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "rect": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "rect": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "rect": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ],
+      "viewContainer": {
+        "scrollWidth": 354,
+        "clientWidth": 354
+      },
+      "sidebarInert": true
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "scrollWidth": 320,
+      "nativeY": 406.59375,
+      "blockMenu": {
+        "x": 12,
+        "y": 303.59375,
+        "width": 111.171875,
+        "height": 40,
+        "top": 303.59375,
+        "right": 123.171875,
+        "bottom": 343.59375,
+        "left": 12
+      },
+      "views": [
+        {
+          "text": "Page",
+          "rect": {
+            "x": 12,
+            "y": 196.546875,
+            "width": 59.1875,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 71.1875,
+            "bottom": 254.59375,
+            "left": 12
+          }
+        },
+        {
+          "text": "Tableau",
+          "rect": {
+            "x": 71.1875,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 130.390625,
+            "bottom": 254.59375,
+            "left": 71.1875
+          }
+        },
+        {
+          "text": "Kanban",
+          "rect": {
+            "x": 130.390625,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 189.59375,
+            "bottom": 254.59375,
+            "left": 130.390625
+          }
+        },
+        {
+          "text": "Documents",
+          "rect": {
+            "x": 189.59375,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 248.796875,
+            "bottom": 254.59375,
+            "left": 189.59375
+          }
+        },
+        {
+          "text": "Échanges",
+          "rect": {
+            "x": 248.796875,
+            "y": 196.546875,
+            "width": 59.203125,
+            "height": 58.046875,
+            "top": 196.546875,
+            "right": 308,
+            "bottom": 254.59375,
+            "left": 248.796875
+          }
+        }
+      ],
+      "viewContainer": {
+        "scrollWidth": 296,
+        "clientWidth": 296
+      },
+      "sidebarInert": true
+    }
+  ],
+  "final_native_state": {
+    "revision": 10
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "kind": "real-private-api-in-process-with-fictitious-exchange-reader",
+  "real_exchange_connected": false,
+  "real_provider_network_opened": false,
+  "tls_network_test": false,
+  "browser_assets_substituted": false,
+  "checks": [
+    {
+      "name": "private authenticated session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private onboarding dismissed without connecting account",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "probe failed after exactly one persisted profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retry reused the profile without recreating it",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "password absent from browser persistent storage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent concurrent calendar selection committed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selection got an actual stale revision response",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "local folder choice survived conflict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "folder choice survived account refresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "calendar selected concurrently was preserved by mail-only save",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "account is ready before first manual collection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bounded first sync kept remaining-work state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "partial collection does not claim completeness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "explicit continuation used the updated connection revision",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual API pipeline retained two fictional originals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mail state records real successful fixture sync without send capability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only one create request throughout failure and retries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no real external browser requests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "api_calls": [
+    {
+      "method": "GET",
+      "path": "/api/v1/session",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bootstrap",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/members",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/4e7149bf-b72a-4d3d-9e58-27beb5dc6f37",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/summaries",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a78bc3dc-1f52-491c-960d-f60bbd662704/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/97a0ce95-7f69-4d64-ba0e-bfbd4ff6d59a/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/4e7149bf-b72a-4d3d-9e58-27beb5dc6f37/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a585f219-5540-4799-b6df-78b714ffe7b2/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/ae103100-6842-4df0-8134-9c219f738ba1/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/97a0ce95-7f69-4d64-ba0e-bfbd4ff6d59a",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a585f219-5540-4799-b6df-78b714ffe7b2",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mailbox/messages?folder=all&limit=200&offset=0",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/766066d0-42e6-4b40-b715-d7ff13ca430b/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/a78bc3dc-1f52-491c-960d-f60bbd662704",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/766066d0-42e6-4b40-b715-d7ff13ca430b",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/ae103100-6842-4df0-8134-9c219f738ba1",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/organization/audit",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/55806420-944e-4fa8-91ac-ba400d6a6cb4/documents",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/projects/55806420-944e-4fa8-91ac-ba400d6a6cb4",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/integrations",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/onboarding",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections",
+      "status": 201,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46/probe",
+      "status": 409,
+      "payload": {
+        "expected_revision": 0
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46/probe",
+      "status": 200,
+      "payload": {
+        "expected_revision": 0
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/integrations/connections/aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46/selection",
+      "status": 409,
+      "payload": {
+        "folder_ids": [
+          "inbox"
+        ],
+        "calendar_ids": [],
+        "expected_revision": 1
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/integrations",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/integrations/connections/aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46/selection",
+      "status": 200,
+      "payload": {
+        "folder_ids": [
+          "inbox"
+        ],
+        "calendar_ids": [
+          "cal-a"
+        ],
+        "expected_revision": 2
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/mail-backfills?connection_id=aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46",
+      "status": 200,
+      "payload": {}
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46/sync-mail",
+      "status": 200,
+      "payload": {
+        "expected_revision": 3
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/integrations/connections/aa2fef28-d8b3-4b2d-b2ae-0c253e0b8b46/sync-mail",
+      "status": 200,
+      "payload": {
+        "expected_revision": 4
+      }
+    }
+  ],
+  "errors": [],
+  "external_browser_requests": [],
+  "screenshots": [
+    "1920-private-probe-failure.png",
+    "1920-private-selection-conflict.png",
+    "1920-private-summary.png",
+    "1920-private-import-more.png"
+  ],
+  "passed": true,
+  "asset_origin": "http://127.0.0.1:18767",
+  "asset_mode": "vite-source"
+}

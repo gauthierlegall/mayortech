@@ -1,0 +1,120 @@
+{
+  "base": "http://127.0.0.1:8766/",
+  "checks": [
+    {
+      "name": "opening does not silently choose a project or action",
+      "passed": true
+    },
+    {
+      "name": "project choices use actual names",
+      "passed": true
+    },
+    {
+      "name": "selected project is explicit and limits action choices",
+      "passed": true
+    },
+    {
+      "name": "dates are optional and deadline uses canonical label",
+      "passed": true
+    },
+    {
+      "name": "status and progress contradiction is explained without forced changes",
+      "passed": true
+    },
+    {
+      "name": "changing projects cannot silently discard the current draft",
+      "passed": true
+    },
+    {
+      "name": "changing actions can keep unsaved fields",
+      "passed": true
+    },
+    {
+      "name": "explicit action change loads the selected canonical action",
+      "passed": true
+    },
+    {
+      "name": "removing from timeline prepares one form change and keeps deadline and edits",
+      "passed": true
+    },
+    {
+      "name": "source reading keeps the planning draft",
+      "passed": true
+    },
+    {
+      "name": "1920 no horizontal document overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 form fits viewport",
+      "passed": true
+    },
+    {
+      "name": "390 no horizontal document overflow",
+      "passed": true
+    },
+    {
+      "name": "390 form fits viewport",
+      "passed": true
+    },
+    {
+      "name": "320 no horizontal document overflow",
+      "passed": true
+    },
+    {
+      "name": "320 form fits viewport",
+      "passed": true
+    },
+    {
+      "name": "reading and cancelled edits preserve original dossier facts and notes",
+      "passed": true
+    },
+    {
+      "name": "project context is locked to the opened dossier",
+      "passed": true
+    },
+    {
+      "name": "project action choices cannot cross into another dossier",
+      "passed": true
+    },
+    {
+      "name": "saved responsible is retained instead of the current visitor",
+      "passed": true
+    },
+    {
+      "name": "other saved responsible names remain available as suggestions",
+      "passed": true
+    },
+    {
+      "name": "one explicit save accepts follow-up without invented dates",
+      "passed": true
+    },
+    {
+      "name": "reloaded SDK keeps empty dates and progress with the requested owner",
+      "passed": true
+    },
+    {
+      "name": "same native row and action count survive editing",
+      "passed": true
+    },
+    {
+      "name": "QA project confirmed facts unchanged",
+      "passed": true
+    },
+    {
+      "name": "no browser or HTTP errors",
+      "passed": true
+    },
+    {
+      "name": "QA action original fields restored",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "writes": [
+    "http://127.0.0.1:8766/api/v1/pages/4c3af3f7-bd1b-4648-a603-1941fe5f0891/state",
+    "http://127.0.0.1:8766/api/v1/pages/4c3af3f7-bd1b-4648-a603-1941fe5f0891/state"
+  ],
+  "scope": "Only existing QA-PROP native row edited; its fields restored. Original project facts/notes untouched."
+}

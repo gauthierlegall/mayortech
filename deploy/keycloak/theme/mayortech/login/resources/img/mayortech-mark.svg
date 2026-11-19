@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">MayorTech</title>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="#1762c4"/>
+  <path d="M16 27 32 18l16 9M20 29v17m8-17v17m8-17v17m8-17v17M16 47h32M14 51h36" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 13v-4h8l-2 3 2 3h-8" fill="#fff"/>
+</svg>

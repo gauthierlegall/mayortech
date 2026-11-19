@@ -1,0 +1,8 @@
+{
+  "kind": "real-private-api-in-process-with-fictitious-exchange-reader",
+  "check": {
+    "name": "draft folder selection survives account-step backtrack and successful re-probe",
+    "passed": false,
+    "detail": null
+  }
+}

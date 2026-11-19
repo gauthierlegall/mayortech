@@ -1,0 +1,12 @@
+{
+  "first_marker": "RECETTE-A-1794678353501321300",
+  "second_marker": "RECETTE-B-1794678353501321300",
+  "first_request_contains_A": true,
+  "first_request_contains_B": false,
+  "persisted_A": true,
+  "persisted_B": true,
+  "native_revision": 12,
+  "text": "Chantier fictif — recette intégrée\n\n Note terrain de recette INTEGRE-1794678073452471900 : maintenir le passage accessible. RECETTE-A-  CONTEXTE-DERNIER-1794678263528711500 : noter le cheminement temporaire.RECETTE-A- CONTEXTE- CONTEXTE-DERNIER-1794678333311950300 : noter le cheminement temporaire.DERNIER- RECETTE-A-1794678353501321300 RECETTE-B-17946783535013213001794678281270643000 : noter le cheminement temporaire.1794678135527805800 RECETTE-B-17946781355278058001794678103071488800\n| Intitulé                   | Description                         | Montant indiqué | Statut |\n| -------------------------- | ----------------------------------- | --------------- | ------ |\n| Visite de recette integree | Acces fictif a verifier avant lundi | 12345           |        |\n|                            |                                     |                 |        |\n|                            |                                     |                 |        |\n\n",
+  "project_id": "f658a522-8a10-4499-a47e-bd259803a4fc",
+  "page_id": "04250459-f311-4c1a-970d-ce83c602a4cc"
+}

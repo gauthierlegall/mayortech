@@ -1,0 +1,52 @@
+.travaux-native-editor {
+  --affine-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --affine-background-primary-color: #fff;
+  --affine-background-secondary-color: #f6f7f8;
+  --affine-text-primary-color: #172b27;
+  --affine-text-secondary-color: #63746d;
+  --affine-border-color: #dfe6e2;
+  --affine-primary-color: #1b6a52;
+  --affine-link-color: #1b6a52;
+  --affine-font-base: 16px;
+  --affine-line-height: 1.65;
+  display: block;
+  min-height: 560px;
+  color: var(--affine-text-primary-color);
+  font-family: var(--affine-font-family);
+  background: white;
+  position: relative;
+}
+.travaux-native-editor editor-host {display: block; min-height: 560px; height: auto;}
+.travaux-native-editor .affine-page-viewport {min-height: 560px; overflow: visible;}
+.travaux-native-editor .affine-page-doc-title {font-family: inherit;}
+.travaux-native-mobile-databases {display: none;}
+.travaux-native-editor affine-data-view-kanban-group {width: 240px;}
+.travaux-native-editor affine-data-view-kanban-cell[data-travaux-empty]:not(:focus-within) {display: none;}
+/* Presentation is owned by the application shell. These markers decorate SDK
+   DOM only; models, human titles and saved view names are never rewritten. */
+.travaux-native-editor[data-native-presentation] doc-title,
+.travaux-native-editor[data-native-presentation] [data-native-project-title] {display: none !important;}
+.travaux-native-editor:not([data-native-structure-open=true]) data-view-header-views,
+.travaux-native-editor:not([data-native-structure-open=true]) [data-native-viewbar-container] {display: none !important;}
+.travaux-native-editor:is([data-native-presentation=table],[data-native-presentation=kanban]):not([data-native-structure-open=true]) [data-native-db-header] {display: none !important;}
+.travaux-native-editor[data-native-presentation=page]:not([data-native-structure-open=true]) [data-native-managed-actions] {display: none !important;}
+.travaux-native-editor:is([data-native-presentation=table],[data-native-presentation=kanban]):not([data-native-structure-open=true]) :is([data-native-mobile-db-title],[data-native-mobile-db-help]) {display: none !important;}
+.travaux-native-editor[data-native-structure-open=true] [data-native-db-header] {
+  background: #f7f9f7; border: 1px solid #d8e2da; border-radius: 8px; padding: 12px; margin-bottom: 18px;
+}
+.travaux-native-editor [data-native-db-header]:focus-visible {outline: 2px solid #1b6a52; outline-offset: 3px;}
+@media (max-width: 640px) {
+  .travaux-native-editor {min-height: 0; --affine-editor-bottom-padding: 28px;}
+  .travaux-native-editor editor-host {min-height: 0; height: auto;}
+  .travaux-native-editor affine-page-root {height: auto;}
+  .travaux-native-editor affine-database {display: none !important;}
+  .travaux-native-mobile-databases {display: block; padding: 16px; overflow-wrap: anywhere;}
+  .travaux-native-mobile-databases h3 {margin: 16px 0 8px; font-size: 19px;}
+  .travaux-native-mobile-help {font-size: 13px; color: #52665d; line-height: 1.5;}
+  .travaux-native-record {border: 1px solid #d5e1da; border-radius: 12px; padding: 16px; margin: 12px 0; background: #fff;}
+  .travaux-native-record h4 {margin: 0 0 12px; font-size: 16px;}
+  .travaux-native-record summary {cursor: pointer; color: #175640; min-height: 32px; font-size: 14px;}
+  .travaux-native-record dl {margin: 8px 0 0;}
+  .travaux-native-record dt {font-weight: 600; color: #52665d; font-size: 12px; margin-top: 12px;}
+  .travaux-native-record dd {margin: 3px 0 0; white-space: pre-wrap; font-size: 15px; line-height: 1.5;}
+}

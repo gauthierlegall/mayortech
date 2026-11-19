@@ -1,0 +1,15 @@
+{
+  "kind": "real-private-api-in-process-with-fictitious-exchange-reader",
+  "navigation_unread": {
+    "expected_from_api": 9,
+    "actual": "7"
+  },
+  "check": {
+    "name": "navigation unread badge refreshed after import",
+    "passed": false,
+    "detail": {
+      "expected_from_api": 9,
+      "actual": "7"
+    }
+  }
+}

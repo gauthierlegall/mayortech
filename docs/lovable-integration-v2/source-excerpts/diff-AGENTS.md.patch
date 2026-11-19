@@ -1,0 +1,8 @@
+--- zip-v1/AGENTS.md
++++ zip-v2/AGENTS.md
+@@ -34,3 +34,5 @@
+ - Use shared domain objects in the workspace feature and version-checked saves so every view reads the same action, document and confirmed date.
+ - Load BlockSuite only through a lazy browser boundary; persist its Yjs state independently from generated summaries to preserve human notes.
+ - Keep production authentication, tenant permissions, Exchange adapters and AI adapters separate from the public demonstration; do not treat simulated roles as authorization.
++- Derive the Gantt from shared actions and confirmed project deliveries; optional action starts fall back to their due date so older workspaces remain readable.
++- Store field reports alongside the demo workspace with optional linked action IDs; creating follow-up work must not duplicate an existing linked action.

@@ -1,0 +1,85 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "public": true,
+  "checks": [
+    {
+      "name": "launcher bottom right",
+      "passed": true
+    },
+    {
+      "name": "nonmodal popup same route",
+      "passed": true
+    },
+    {
+      "name": "draft preserved on reduction",
+      "passed": true
+    },
+    {
+      "name": "real question response persisted",
+      "passed": true
+    },
+    {
+      "name": "source preview over popup",
+      "passed": true
+    },
+    {
+      "name": "escape closes source before popup",
+      "passed": true
+    },
+    {
+      "name": "route context cannot silently change current thread",
+      "passed": true
+    },
+    {
+      "name": "explicit new conversation uses current project",
+      "passed": true
+    },
+    {
+      "name": "popup composer hit test 1920",
+      "passed": true
+    },
+    {
+      "name": "popup no body overflow 1920",
+      "passed": true
+    },
+    {
+      "name": "popup composer hit test 390",
+      "passed": true
+    },
+    {
+      "name": "popup no body overflow 390",
+      "passed": true
+    },
+    {
+      "name": "popup composer hit test 320",
+      "passed": true
+    },
+    {
+      "name": "popup no body overflow 320",
+      "passed": true
+    },
+    {
+      "name": "escape reduction restores connected focus",
+      "passed": true
+    },
+    {
+      "name": "same history after browser reload",
+      "passed": true
+    },
+    {
+      "name": "second visitor has isolated history",
+      "passed": true
+    },
+    {
+      "name": "no javascript errors",
+      "passed": true
+    },
+    {
+      "name": "test conversation cleanup",
+      "passed": true
+    }
+  ],
+  "passed": 19,
+  "javascript_errors": [],
+  "real_external_connector_used": false
+}

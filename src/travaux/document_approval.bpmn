@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             targetNamespace="urn:mayortech:documents">
+  <process id="document_approval_v1" name="Validation avant signature" isExecutable="true">
+    <startEvent id="submitted" />
+    <sequenceFlow id="to_review" sourceRef="submitted" targetRef="review" />
+    <userTask id="review" name="Relire le PDF" />
+    <sequenceFlow id="to_decision" sourceRef="review" targetRef="decision" />
+    <exclusiveGateway id="decision" default="declined" />
+    <sequenceFlow id="approved" sourceRef="decision" targetRef="signature">
+      <conditionExpression xsi:type="tFormalExpression">approved == True</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="declined" sourceRef="decision" targetRef="rejected" />
+    <userTask id="signature" name="Recueillir la signature" />
+    <sequenceFlow id="to_completed" sourceRef="signature" targetRef="completed" />
+    <endEvent id="completed" name="Signature recueillie" />
+    <endEvent id="rejected" name="Validation refusée" />
+  </process>
+</definitions>

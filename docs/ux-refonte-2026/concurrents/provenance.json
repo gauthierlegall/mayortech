@@ -1,0 +1,380 @@
+{
+  "title": "Références produit réelles — OpenProject, Odoo, Notion",
+  "research_date": "2026-11-14",
+  "generated_at_utc": "2026-11-14T18:29:44.986516+00:00",
+  "method": "Navigation en lecture dans des contextes Chrome headless neufs pour OpenProject/Odoo ; captures officielles publiées pour Notion et Documents OpenProject. Aucune surface de compte personnel utilisée.",
+  "limits": [
+    "Pas de test de sécurité ni audit complet d’accessibilité des concurrents.",
+    "Les images publiées ne sont pas présentées comme des captures live.",
+    "Les liens de démonstration peuvent ouvrir un autre jeu de données lors d’une visite ultérieure."
+  ],
+  "assets": [
+    {
+      "file": "01-openproject-liste-desktop.png",
+      "product": "OpenProject",
+      "type": "capture_live_instance_publique_officielle",
+      "url": "https://community.openproject.org/projects/openproject/work_packages",
+      "captured_at_utc": "2026-11-14T18:23:59.793212+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Ouverture de la liste publique des lots de travaux du projet OpenProject.",
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "limits": [
+        "Instance communautaire officielle, données publiées par le projet, lecture anonyme.",
+        "Aucune modification, aucune connexion, pas de preuve du module courriels de production."
+      ],
+      "title": "Liste des lots de travaux",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 147114,
+      "sha256": "ec8750e8bd6d24df785995e79a47e16cc3e07141f225fe55862c9af6aa228dc3",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "02-openproject-fiche-desktop.png",
+      "product": "OpenProject",
+      "type": "capture_live_instance_publique_officielle",
+      "url": "https://community.openproject.org/projects/openproject/work_packages/details/AA-6",
+      "captured_at_utc": "2026-11-14T18:24:01.552126+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Liste → ouverture de la fiche AI Assistant in OpenProject, sans modification.",
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "limits": [
+        "Instance communautaire officielle, données publiées par le projet, lecture anonyme.",
+        "Aucune modification, aucune connexion, pas de preuve du module courriels de production."
+      ],
+      "title": "Liste et fiche latérale",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 158853,
+      "sha256": "e07bd1e8b11914058d82e3c92bd95f814589f3d15f3b6cc4efe3de6b36d881e9",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "03-openproject-fiche-mobile.png",
+      "product": "OpenProject",
+      "type": "capture_live_instance_publique_officielle",
+      "url": "https://community.openproject.org/projects/openproject/work_packages/details/AA-6",
+      "captured_at_utc": "2026-11-14T18:24:03.241203+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "Même fiche publique au viewport 390×844.",
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "limits": [
+        "Instance communautaire officielle, données publiées par le projet, lecture anonyme.",
+        "Aucune modification, aucune connexion, pas de preuve du module courriels de production."
+      ],
+      "title": "La fiche occupe le mobile",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 32565,
+      "sha256": "2bbdb00c5b20b90a6333b3d99a41843d66b25a81c39c94c44dfbf4293f41fdf7",
+      "image_pixels": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "file": "04-odoo-projets-desktop.png",
+      "product": "Odoo",
+      "type": "capture_live_demo_publique",
+      "source_url": "https://demo.odoo.com",
+      "url": "https://demo1.odoo.com/odoo/project",
+      "captured_at_utc": "2026-11-14T18:24:39.266366+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Accueil de démonstration → application Project (navigation en lecture).",
+      "limits": [
+        "Démonstration éditeur, données fictives, aucune modification volontaire de fiche.",
+        "Édition/licence et intégration courriel de production non vérifiées."
+      ],
+      "title": "Les projets en cartes",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 97194,
+      "sha256": "eb786705b97d47b3e75d5f66cfd54fbdcbe3acf6491212ea933ccee6f17dbf96",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "05-odoo-kanban-desktop.png",
+      "product": "Odoo",
+      "type": "capture_live_demo_publique",
+      "source_url": "https://demo.odoo.com",
+      "url": "https://demo1.odoo.com/odoo/project/15/tasks",
+      "captured_at_utc": "2026-11-14T18:24:40.746794+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Ouverture du premier projet de démonstration depuis sa carte.",
+      "limits": [
+        "Démonstration éditeur, données fictives, aucune modification volontaire de fiche.",
+        "Édition/licence et intégration courriel de production non vérifiées."
+      ],
+      "title": "Tâches du projet en kanban",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 98950,
+      "sha256": "dad7b1d5c8f8476c63ebd2446f0217394f59b2dc39cb8c161068b79fa70f92b6",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "06-odoo-tache-chatter-desktop.png",
+      "product": "Odoo",
+      "type": "capture_live_demo_publique",
+      "source_url": "https://demo.odoo.com",
+      "url": "https://demo1.odoo.com/odoo/project/15/tasks/131",
+      "captured_at_utc": "2026-11-14T18:24:42.238740+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Ouverture de la première tâche du kanban ; lecture de ses propriétés et de son fil d’activité.",
+      "limits": [
+        "Démonstration éditeur, données fictives, aucune modification volontaire de fiche.",
+        "Édition/licence et intégration courriel de production non vérifiées."
+      ],
+      "title": "Fiche tâche et fil de courriels",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 99628,
+      "sha256": "12458a6208087ca539e61f3462ba92c2aee6fe6e49b5392bcfce9f389ac82f96",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "07-odoo-tache-mobile.png",
+      "product": "Odoo",
+      "type": "capture_live_demo_publique",
+      "source_url": "https://demo.odoo.com",
+      "url": "https://demo1.odoo.com/odoo/project/15/tasks/131",
+      "captured_at_utc": "2026-11-14T18:24:43.711288+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "interaction": "Même tâche publique au viewport 390×844 ; aucune édition.",
+      "limits": [
+        "Démonstration éditeur, données fictives, aucune modification volontaire de fiche.",
+        "Édition/licence et intégration courriel de production non vérifiées."
+      ],
+      "title": "Même tâche sur mobile",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 35511,
+      "sha256": "d8357a8ccf1202aa37b55f5ab81617da9a33fdc14814ffef85c08a4a27e785cf",
+      "image_pixels": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "file": "08-odoo-documents-desktop.png",
+      "product": "Odoo",
+      "type": "capture_live_demo_publique",
+      "source_url": "https://demo.odoo.com",
+      "url": "https://demo1.odoo.com/odoo/documents?access_token=",
+      "captured_at_utc": "2026-11-14T18:24:46.166930+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Navigation vers Documents dans la même session de démonstration, sans importer de fichier.",
+      "limits": [
+        "Démonstration éditeur, données fictives, aucune modification volontaire de fiche.",
+        "Édition/licence et intégration courriel de production non vérifiées."
+      ],
+      "title": "Documents, dossiers et contexte projet",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 96337,
+      "sha256": "e5734f747cd3ae2872d8428f3812aedfe2275d169950f652ff159f02f53674f0",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "09-openproject-kanban-desktop.png",
+      "product": "OpenProject",
+      "type": "capture_live_instance_publique_officielle",
+      "url": "https://community.openproject.org/projects/OP/boards/3693",
+      "captured_at_utc": "2026-11-14T18:25:51.839590+00:00",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "interaction": "Lien Tableaux → Aktionsboard (Status), lecture anonyme ; nouvelle attente du chargement des colonnes.",
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "limits": [
+        "Aucune modification ni session personnelle.",
+        "Tableau observé sur une instance communautaire officielle, pas une recette de notre kanban."
+      ],
+      "title": "Un tableau public par statut",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "bytes": 94410,
+      "sha256": "cd5d27b17f9b994fed5a6df1e6d831c0f741e426a0a8dd4bc9184126762320b3",
+      "image_pixels": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "file": "10-notion-projets-publie.webp",
+      "product": "Notion",
+      "type": "capture_editeur_publiee",
+      "url": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks",
+      "asset_url": "https://images.ctfassets.net/spoqsaf9291f/2wLG1IRp651zLjBdMMFZH9/afc1469dc51b66123b10bf8467bc40ae/projects.png?fm=webp&q=55&w=3840",
+      "surface": "Workspace natif Projects, navigation et cartes de projets",
+      "viewport": null,
+      "interaction": "Aucune interaction produit ; image liée par le guide officiel, récupérée en HTTP public.",
+      "limits": [
+        "Capture sélectionnée par l’éditeur, version et viewport CSS non fournis.",
+        "Ni parcours interactif Notion ni affichage mobile Notion vérifiés."
+      ],
+      "http_status": 200,
+      "content_type": "image/webp",
+      "resolved_url": "https://images.ctfassets.net/spoqsaf9291f/2wLG1IRp651zLjBdMMFZH9/afc1469dc51b66123b10bf8467bc40ae/projects.png?fm=webp&q=55&w=3840",
+      "sha256": "10a262a48e97bfd75b3ca67a06e564f8ff222328ff81dfc4aa68bf02695bc6cb",
+      "bytes": 78806,
+      "captured_at_utc": "2026-11-14T18:28:29.897580+00:00",
+      "title": "Projets et tâches dans le même workspace",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "image_pixels": {
+        "width": 1920,
+        "height": 1310
+      }
+    },
+    {
+      "file": "11-notion-disposition-publie.webp",
+      "product": "Notion",
+      "type": "capture_editeur_publiee",
+      "url": "https://www.notion.com/help/layouts",
+      "asset_url": "https://images.ctfassets.net/spoqsaf9291f/10w87P4FowzSYNRaR1vEUc/efdcca6ce616e712407d0bdc229f980c/Help_Center_Layouts_Screenshot_Oct_16.png?fm=webp&q=55&w=3840",
+      "surface": "Constructeur de disposition de page native, contenu et panneau",
+      "viewport": null,
+      "interaction": "Aucune interaction produit ; image liée par le guide officiel, récupérée en HTTP public.",
+      "limits": [
+        "Capture sélectionnée par l’éditeur, version et viewport CSS non fournis.",
+        "Ni parcours interactif Notion ni affichage mobile Notion vérifiés."
+      ],
+      "http_status": 200,
+      "content_type": "image/webp",
+      "resolved_url": "https://images.ctfassets.net/spoqsaf9291f/10w87P4FowzSYNRaR1vEUc/efdcca6ce616e712407d0bdc229f980c/Help_Center_Layouts_Screenshot_Oct_16.png?fm=webp&q=55&w=3840",
+      "sha256": "b8f8ce3a8499219098eef2bcca565418aa2b6ef9b8d71710277a7358a3feb66b",
+      "bytes": 52084,
+      "captured_at_utc": "2026-11-14T18:28:29.969586+00:00",
+      "title": "Configuration d’une disposition native",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "image_pixels": {
+        "width": 1920,
+        "height": 1200
+      }
+    },
+    {
+      "file": "12-notion-vues-publie.webp",
+      "product": "Notion",
+      "type": "capture_editeur_publiee",
+      "url": "https://www.notion.com/help/views-filters-and-sorts",
+      "asset_url": "https://images.ctfassets.net/spoqsaf9291f/2KRCKUbMb1AYfqJUWafwSr/03dfbdd1149dfbc3525543d373925722/Group_158.png?fm=webp&q=55&w=3840",
+      "surface": "Vues enregistrées d’une même base native",
+      "viewport": null,
+      "interaction": "Aucune interaction produit ; image liée par le guide officiel, récupérée en HTTP public.",
+      "limits": [
+        "Capture sélectionnée par l’éditeur, version et viewport CSS non fournis.",
+        "Ni parcours interactif Notion ni affichage mobile Notion vérifiés."
+      ],
+      "http_status": 200,
+      "content_type": "image/webp",
+      "resolved_url": "https://images.ctfassets.net/spoqsaf9291f/2KRCKUbMb1AYfqJUWafwSr/03dfbdd1149dfbc3525543d373925722/Group_158.png?fm=webp&q=55&w=3840",
+      "sha256": "7f13082d8a14323e29b83134e83737d49d13a296cbf7cbcc98aa3a74816ff8ab",
+      "bytes": 112364,
+      "captured_at_utc": "2026-11-14T18:28:30.039100+00:00",
+      "title": "Vues d’une seule base",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "image_pixels": {
+        "width": 3840,
+        "height": 2400
+      }
+    },
+    {
+      "file": "13-openproject-document-publie.png",
+      "product": "OpenProject",
+      "type": "capture_editeur_publiee",
+      "url": "https://www.openproject.org/docs/user-guide/documents/",
+      "asset_url": "https://www.openproject.org/docs/user-guide/documents/openproject_user_guide_documents_module_add_linked_work_package-74d69680.png",
+      "surface": "Document natif avec lien vers un lot de travaux",
+      "viewport": null,
+      "interaction": "Aucune interaction produit ; capture du guide officiel.",
+      "limits": [
+        "Image publiée par l’éditeur ; fonctionnalité Documents non parcourue dans l’instance publique.",
+        "La documentation indique une absence de versioning des documents ; ne prouve pas notre contexte versionné."
+      ],
+      "http_status": 200,
+      "content_type": "image/png",
+      "resolved_url": "https://www.openproject.org/docs/user-guide/documents/openproject_user_guide_documents_module_add_linked_work_package-74d69680.png",
+      "sha256": "c2c28bb07361350057c76681c3f9c8921faa5034f780780e1b97f832249adff9",
+      "bytes": 6447,
+      "captured_at_utc": "2026-11-14T18:28:30.158621+00:00",
+      "title": "Lien de tâche dans un document",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "image_pixels": {
+        "width": 932,
+        "height": 178
+      }
+    },
+    {
+      "file": "14-openproject-document-complet-publie.png",
+      "product": "OpenProject",
+      "type": "capture_editeur_publiee",
+      "url": "https://www.openproject.org/docs/user-guide/documents/",
+      "asset_url": "https://www.openproject.org/docs/user-guide/documents/openproject_user_guide_documents_module_detailed_view-8b1ad87d.png",
+      "surface": "Fiche document avec texte et pièces jointes dans le projet",
+      "viewport": null,
+      "interaction": "Aucune interaction produit ; capture du guide officiel.",
+      "limits": [
+        "Image choisie et annotée par l’éditeur ; pas une capture live de notre parcours.",
+        "Ne démontre pas notre versioning, nos permissions ni une GED réglementaire."
+      ],
+      "http_status": 200,
+      "content_type": "image/png",
+      "resolved_url": "https://www.openproject.org/docs/user-guide/documents/openproject_user_guide_documents_module_detailed_view-8b1ad87d.png",
+      "sha256": "9c137b90b1140b4ca1d6be04d0ef8bd5b462980df7cdc2fa3aa2a62b337fb914",
+      "bytes": 849721,
+      "captured_at_utc": "2026-11-14T18:28:30.365582+00:00",
+      "title": "Document complet avec pièces jointes",
+      "rights": "Image tierce conservée avec attribution pour étude comparative. Aucune licence de réutilisation dans le produit présumée.",
+      "image_pixels": {
+        "width": 3836,
+        "height": 2032
+      }
+    }
+  ]
+}

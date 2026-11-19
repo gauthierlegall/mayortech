@@ -1,0 +1,196 @@
+{
+  "version": "0.5.0",
+  "date": "2026-11-15",
+  "frontend_base": "user-provided mayor-project-hub.zip",
+  "public_release": "20261115T184007Z-bd8e48",
+  "public_url": "https://travaux.kerforge.com",
+  "python_application_tests_passed": 205,
+  "python_deployment_tests_passed": 55,
+  "frontend_and_domain_node_tests_passed": 51,
+  "native_module_node_tests_passed": 21,
+  "typescript_product_check": "passed",
+  "frontend_production_build": "passed",
+  "native_production_build": "passed",
+  "ruff": "passed",
+  "local_cross_feature_browser_checks_passed": 27,
+  "local_document_workflow_checks_passed": 7,
+  "local_context_mail_workflow_checks_passed": 7,
+  "public_cross_feature_browser_checks_passed": 27,
+  "public_contract_checks_passed": 15,
+  "public_additional_workflow_checks_passed": 9,
+  "responsive_widths_tested": [
+    1920,
+    390,
+    320
+  ],
+  "full_hd_viewport": [
+    1920,
+    1080
+  ],
+  "public_screenshots": {
+    "1920-actions-kanban.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "f3d81278c1f8fb9e5f025dd29b10605b2ec981d38d850043f4ebe1479253dfa6"
+    },
+    "1920-actions-table.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "e1562b3dcbe14467dbfa7716b7508e5d631fa30b3af0e9fb62fda750d77147a1"
+    },
+    "1920-assistant.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "492f6e9893390f25ac41e66e1a728ddbcd2da87c9f2f517aca11c6bf5055b2fc"
+    },
+    "1920-document-preview.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "d2987bb8b31f5a2ac2f75772fe83fc9ae88afc7cf9e164e226f270597fecc012"
+    },
+    "1920-documents.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "459e804499309f559832d570e7ecb11f4a0b47a98ef031a9b828e334daba3319"
+    },
+    "1920-mail.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "a4d72d042fd351572c5c19f9d38e491341c5eabc8c0b7e77995d85cabe1c5324"
+    },
+    "1920-project.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "2f2026cbcad53ec9aedbbaf979fe095a2fac4d025bf2d49a06e4dac62ac17d1e"
+    },
+    "1920-projects.png": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "sha256": "685197cd7759d615256f4b1e96b224038b9ae5356d58de1ecd2dccd308de1026"
+    },
+    "320-actions-kanban.png": {
+      "viewport": [
+        320,
+        760
+      ],
+      "sha256": "59a35ee8d763659f6f60735dfacdb3d381a386135d4f0de3278579854362778a"
+    },
+    "320-actions-table.png": {
+      "viewport": [
+        320,
+        760
+      ],
+      "sha256": "c2f45a655eb8825558ddf6575337620a51e327addbdebe64e06e81f85d20e574"
+    },
+    "320-documents.png": {
+      "viewport": [
+        320,
+        760
+      ],
+      "sha256": "dbaab4c479a9f49f4bae13aa4bee429e5d71ac73434710ea18fa2f5082a67651"
+    },
+    "320-mail.png": {
+      "viewport": [
+        320,
+        760
+      ],
+      "sha256": "2f15c721626f295180904b6a399f6d1c7bdb304d137da325778c00a051bf69d9"
+    },
+    "320-project.png": {
+      "viewport": [
+        320,
+        760
+      ],
+      "sha256": "1d9ae5bb9d27dcacb3857f76e952df2171c29d5a67940d2e189d668a8f684dea"
+    },
+    "320-projects.png": {
+      "viewport": [
+        320,
+        760
+      ],
+      "sha256": "b5daf6eed7b0d8f49130ee89782ae08e3431edb64a515ace0674d963b3b33c57"
+    },
+    "390-actions-kanban.png": {
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "46152bb1c6010c3583e94ebd7ac987043841acd7fbbbe76f515ae0ec734c1c89"
+    },
+    "390-actions-table.png": {
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "e61f0a76887a29f9aa373c158ff436766513dc85b16f66fe0eff496f1abf90e9"
+    },
+    "390-documents.png": {
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "c2c17f9533a0dfde731e6348a65df7effcc854e4fc3c623d51363bd626aef4bf"
+    },
+    "390-mail.png": {
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "e8f32b418d76b07b35d640ced17422695ecf7f32037690a9367494ef1f9a314f"
+    },
+    "390-project.png": {
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "4d35428418960d476aecb78557c2fad067ae2e1b39a3dea051a6381b73954d01"
+    },
+    "390-projects.png": {
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "6a9a5d4f8df2d9bd1db35a30215b092ffe67a757ab0c35f7f039412f98b0c6d2"
+    }
+  },
+  "javascript_errors": [],
+  "http_errors_in_normal_workflow": [],
+  "browser_external_requests": [],
+  "public_demo_without_password": true,
+  "public_demo_database_separated_from_former_private_database": true,
+  "real_municipal_data_used": false,
+  "real_exchange_connected": false,
+  "real_mail_transport_connected": false,
+  "mistral_connected": false,
+  "individual_identity_provider_connected": false,
+  "physical_mobile_device_tested": false,
+  "certifies_rgpd_or_rgaa": false,
+  "new_client_production_npm_audit_advisories_at_check": 0,
+  "native_root_npm_advisory": "Zod3 bounded-collection backport retained; upstream advisory remains reported",
+  "design_skill": "impeccable",
+  "design_detector_findings": 0,
+  "public_evidence": "lovable-fidelity-2026/README.md",
+  "source_ledger": "lovable-fidelity-2026/provenance.json",
+  "limitations": [
+    "Institutional Exchange, actual email sending, Mistral and individual identity provider not connected.",
+    "Reply all can only use recipients retained in the source; missing headers are explicitly reported.",
+    "Existing demo projects and human decisions are preserved, so totals differ from the original four-project mockup.",
+    "Latest saved summary is visibly marked as an archive after new context; updating and approving remain explicit actions."
+  ]
+}

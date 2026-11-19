@@ -1,0 +1,242 @@
+[
+  {
+    "file": "public-after/01-messagerie.png",
+    "group": "Démo publique publiée",
+    "caption": "Point de départ : Relier ma messagerie dans la Messagerie publiée.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "601378d534053ff8313d84e7208dd6c10de7f196d9e2ccd6170b7bdd98f086c0"
+  },
+  {
+    "file": "public-after/02-fournisseur.png",
+    "group": "Démo publique publiée",
+    "caption": "Le site propose un parcours de démonstration avec un compte fictif.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "5aa6ec4276517548a75974a64ec903bab6827a45e9fe457129403b4cc62cf9dd"
+  },
+  {
+    "file": "public-after/03-microsoft-indisponible.png",
+    "group": "Démo publique publiée",
+    "caption": "Microsoft 365 est sélectionnable pour information ; la connexion reste indisponible.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "03817aa55ebc600263798248359649249d00524ff5d21bf88f649275b3625b8f"
+  },
+  {
+    "file": "public-after/04-compte-fictif.png",
+    "group": "Démo publique publiée",
+    "caption": "Étape Compte : adresse fictive, aucun test réseau ni identifiant réel.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "fc473083eaac2f6f3e79c04ba71de28d6fd90027128150672818753e41fd4599"
+  },
+  {
+    "file": "public-after/05-dossiers-avant-choix.png",
+    "group": "Démo publique publiée",
+    "caption": "Sans dossier coché, la progression est bloquée avec le bouton désactivé.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "e1a528407f23c80a94a22904615c5d3b2effc3fbbbfbd4d96d9b8350108c64a6"
+  },
+  {
+    "file": "public-after/06-dossier-selectionne.png",
+    "group": "Démo publique publiée",
+    "caption": "La réception fictive est sélectionnée ; le parcours peut continuer.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "cf9a58e5553c15ae3ad6a6497402fdcc3f3d27abfa2e794b3b49ae811ba28c39"
+  },
+  {
+    "file": "public-after/07-recapitulatif.png",
+    "group": "Démo publique publiée",
+    "caption": "Récapitulatif des accès de l’exemple avant sa fin.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "b405f5b7d2ca002ed769008d78f39b5d4b325126bc6e8a599deb75e725e07f51"
+  },
+  {
+    "file": "public-after/08-fin-exemple.png",
+    "group": "Démo publique publiée",
+    "caption": "Fin explicite : aucun compte relié, aucun mail importé.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "73337f187e97f2d34aaa36ecadb9798011aad6a80d44b89583cdea244357c82a"
+  },
+  {
+    "file": "public-after/09-reprise-compte.png",
+    "group": "Démo publique publiée",
+    "caption": "Retour dans Compte après un exemple terminé : vérifier titre et données présentées.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "fc473083eaac2f6f3e79c04ba71de28d6fd90027128150672818753e41fd4599"
+  },
+  {
+    "file": "public-after/10-reprise-recapitulatif.png",
+    "group": "Démo publique publiée",
+    "caption": "Second passage dans Terminer : vérifier que l’exemple est à nouveau terminable.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "b405f5b7d2ca002ed769008d78f39b5d4b325126bc6e8a599deb75e725e07f51"
+  },
+  {
+    "file": "public-after/11-second-exemple-termine.png",
+    "group": "Démo publique publiée",
+    "caption": "Le second passage se termine à nouveau, sans perdre le choix du dossier.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "73337f187e97f2d34aaa36ecadb9798011aad6a80d44b89583cdea244357c82a"
+  },
+  {
+    "file": "private/01-1920-provider.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Choix du fournisseur dans l’espace privé de recette.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "226d5a01d6395de6257c048470a3130a38ff86bbcb1ffd033c88694cd192d611"
+  },
+  {
+    "file": "private/02-1920-account-empty.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Formulaire de connexion réel, avant saisie.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "d87023ebbe8ef5066c8172cc97c33ebbf9b16c1d9bfd8a1f1afee8f25545d0dd"
+  },
+  {
+    "file": "private/03-1920-account-filled.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Informations fictives renseignées ; mot de passe masqué.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "2a685f181632dfb9f2baf5b1c311f69f1b6bf30487e3b5fb7ab70540bf44d012"
+  },
+  {
+    "file": "private/04-1920-account-before-test.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Formulaire avant le premier test.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "945bbbbfa8bca64594a0d4ab1116aba48cfc854c93e7d5951e124e16778fb1d2"
+  },
+  {
+    "file": "private/05-1920-test-failure.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Échec temporaire du lecteur fictif : erreur visible, compte conservé.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "e71ef19c712b9d293822d9fc17056e2ee2631170e4d0cea4391864424545f2eb"
+  },
+  {
+    "file": "private/06-1920-folders-verified.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Compte vérifié et dossiers découverts par le lecteur fictif.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "4cf7f798ce07cffd38880bd3e4e07f913f4c1d33f488135f1b9a53455aa77878"
+  },
+  {
+    "file": "private/06b-1920-folders-after-backtrack.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Retour à Compte puis nouveau test : dossier coché conservé.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "5bf19a99086f54a86ca49ef1dc0e5188ac79dc7d46787dc654272c976a57c20d"
+  },
+  {
+    "file": "private/07-1920-scope-conflict.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Conflit réel de révision : choix conservés et actualisation proposée.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "7944c9e303cb14c792233fbfea043c715f7465b9b342be81cf8cd41312a2e3ff"
+  },
+  {
+    "file": "private/08-1920-review-before-import.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Récapitulatif avant la première lecture explicite.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "748e1f6a042a8087cf648e15badf6bc8212231c810c51e9faba5a09cccf569d9"
+  },
+  {
+    "file": "private/09-1920-import-partial.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Premier lot conservé ; continuation disponible.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "74f0ff5e80d85c134befb4d836f73c2b0d92d0baefce98fb0335e78dc22b111d"
+  },
+  {
+    "file": "private/10-1920-import-complete.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Deuxième lecture terminée, compteur actualisé.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "1c60e5fe9e1c757265284cc17b2a7368fb045c398eac5751a24d2dab936981e1"
+  },
+  {
+    "file": "private/11-1920-mailbox-imported.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Deux originaux fictifs ingérés, présents dans la Messagerie.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "186c2619d3425cebc4602aad252b7b32a5d76423a4b4ef73624d89b30ae15970"
+  },
+  {
+    "file": "private/12-1920-imported-message.png",
+    "group": "Parcours privé avec lecteur Exchange fictif",
+    "caption": "Courriel ouvert ; compteur non lu actualisé de 9 à 8.",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "85e7a6b548c14357ba1be87c2aaebc861b4bfb1dd0b3b942c3bc23a3e6583274"
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "checks": [
+    {
+      "name": "1920 no real credential field in preview",
+      "passed": true
+    },
+    {
+      "name": "1920 unavailable provider cannot continue",
+      "passed": true
+    },
+    {
+      "name": "1920 fictional account only",
+      "passed": true
+    },
+    {
+      "name": "1920 explicit review of selected scope",
+      "passed": true
+    },
+    {
+      "name": "1920 completion never claims real connection",
+      "passed": true
+    },
+    {
+      "name": "1920 no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 keyboard navigation preserves selected folder",
+      "passed": true
+    },
+    {
+      "name": "390 no real credential field in preview",
+      "passed": true
+    },
+    {
+      "name": "390 unavailable provider cannot continue",
+      "passed": true
+    },
+    {
+      "name": "390 fictional account only",
+      "passed": true
+    },
+    {
+      "name": "390 explicit review of selected scope",
+      "passed": true
+    },
+    {
+      "name": "390 completion never claims real connection",
+      "passed": true
+    },
+    {
+      "name": "390 no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 keyboard navigation preserves selected folder",
+      "passed": true
+    },
+    {
+      "name": "320 no real credential field in preview",
+      "passed": true
+    },
+    {
+      "name": "320 unavailable provider cannot continue",
+      "passed": true
+    },
+    {
+      "name": "320 fictional account only",
+      "passed": true
+    },
+    {
+      "name": "320 explicit review of selected scope",
+      "passed": true
+    },
+    {
+      "name": "320 completion never claims real connection",
+      "passed": true
+    },
+    {
+      "name": "320 no page overflow",
+      "passed": true
+    },
+    {
+      "name": "320 keyboard navigation preserves selected folder",
+      "passed": true
+    },
+    {
+      "name": "320 mailbox connection entry does not overflow",
+      "passed": true
+    },
+    {
+      "name": "mailbox entry opens connection process",
+      "passed": true
+    },
+    {
+      "name": "settings uses the same connection process",
+      "passed": true
+    },
+    {
+      "name": "no real connection mutation",
+      "passed": true
+    },
+    {
+      "name": "no browser or HTTP errors",
+      "passed": true
+    }
+  ],
+  "mutations": [],
+  "errors": [],
+  "http_errors": []
+}

@@ -1,0 +1,37 @@
+{
+  "note_before": "Constat non envoyé : protéger le passage piéton pendant les travaux et confirmer le plan avant vendredi.",
+  "note_after_tab_roundtrip": "",
+  "error_503": "Informations indisponibles\n\nLa page n’a pas pu être chargée.\n\nImpossible de charger cette page\n\nService temporairement indisponible\n\nRéessayer",
+  "empty_projects": "Chantiers\n\nUn état vérifié, des actions et une mémoire pour chaque opération.\n\nCréer un chantier\nRelier AppFlowy\nRechercher un chantier\nÉtat des chantiers\nTous les états\nEn préparation\nClôturés\n0 chantier\nAucun chantier suivi\n\nImportez un mail pour commencer.\n\nImporter un mail",
+  "loading": "- main:\n  - status: Chargement des informations…",
+  "reduced_motion_animations": [
+    {
+      "animation": "none",
+      "transition": "0s"
+    },
+    {
+      "animation": "none",
+      "transition": "0s"
+    },
+    {
+      "animation": "none",
+      "transition": "0s"
+    },
+    {
+      "animation": "none",
+      "transition": "0s"
+    },
+    {
+      "animation": "none",
+      "transition": "0s"
+    },
+    {
+      "animation": "none",
+      "transition": "0s"
+    },
+    {
+      "animation": "none",
+      "transition": "0s"
+    }
+  ]
+}

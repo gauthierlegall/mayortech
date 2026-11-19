@@ -1,0 +1,4167 @@
+{
+  "captured_at_utc": "2026-11-15T10:29:45.923654+00:00",
+  "target": "https://travaux.kerforge.com",
+  "project_id": "d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a",
+  "screens": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\n1 à vérifier\nInformations, notes et preuves\n+ Ajouter une action\nModifications…\nEnregistrer\nUntitled\nActions du dossier\nListe\nCartes\nNew Record\nÀ faire\n2\nConfirmer le cheminement piéton avant la visite\nVérifier les barrières — action manuelle fictive\nEn cours\nEn attente\nTerminé\n\nTableau et Kanban partagent les mêmes actions. Les actions confirmées dans les courriels rejoignent ce suivi sans être dupliquées.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 339,
+            "y": 114.59375,
+            "width": 391.84375,
+            "height": 34.796875,
+            "top": 114.59375,
+            "right": 730.84375,
+            "bottom": 149.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Actions du dossier",
+          "r": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 480.4375,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "true",
+          "r": {
+            "x": 502.4375,
+            "y": 172.390625,
+            "width": 70.09375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 572.53125,
+            "bottom": 216.390625,
+            "left": 502.4375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 594.53125,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 683.90625,
+            "bottom": 216.390625,
+            "left": 594.53125
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 705.90625,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 783.796875,
+            "bottom": 216.390625,
+            "left": 705.90625
+          }
+        }
+      ],
+      "native": {
+        "x": 339,
+        "y": 321.390625,
+        "width": 1500,
+        "height": 560,
+        "top": 321.390625,
+        "right": 1839,
+        "bottom": 881.390625,
+        "left": 339
+      },
+      "toolbar": {
+        "x": 339,
+        "y": 269.390625,
+        "width": 1500,
+        "height": 52,
+        "top": 269.390625,
+        "right": 1839,
+        "bottom": 321.390625,
+        "left": 339
+      },
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 1685.25,
+            "y": 100.6875,
+            "width": 153.75,
+            "height": 36,
+            "top": 100.6875,
+            "right": 1839,
+            "bottom": 136.6875,
+            "left": 1685.25
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 480.4375,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 502.4375,
+            "y": 172.390625,
+            "width": 70.09375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 572.53125,
+            "bottom": 216.390625,
+            "left": 502.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 594.53125,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 683.90625,
+            "bottom": 216.390625,
+            "left": 594.53125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 705.90625,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 783.796875,
+            "bottom": 216.390625,
+            "left": 705.90625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "1 à vérifier",
+          "label": null,
+          "r": {
+            "x": 1775.25,
+            "y": 181.859375,
+            "width": 63.75,
+            "height": 25.046875,
+            "top": 181.859375,
+            "right": 1839,
+            "bottom": 206.90625,
+            "left": 1775.25
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 217.390625,
+            "width": 181.75,
+            "height": 35,
+            "top": 217.390625,
+            "right": 520.75,
+            "bottom": 252.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 317.625,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 471.4375,
+            "bottom": 336.21875,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 491.4375,
+            "y": 317.625,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 594.265625,
+            "bottom": 336.21875,
+            "left": 491.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 614.265625,
+            "y": 317.625,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 672.546875,
+            "bottom": 336.21875,
+            "left": 614.265625
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "+ Ajouter une action",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 269.390625,
+            "width": 147.984375,
+            "height": 36,
+            "top": 269.390625,
+            "right": 486.984375,
+            "bottom": 305.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Enregistrer",
+          "label": null,
+          "r": {
+            "x": 1749.125,
+            "y": 269.390625,
+            "width": 89.875,
+            "height": 36,
+            "top": 269.390625,
+            "right": 1839,
+            "bottom": 305.390625,
+            "left": 1749.125
+          }
+        }
+      ],
+      "nativeStatus": "Modifications…",
+      "file": "1920-kanban.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=kanban",
+      "captured_at_utc": "2026-11-15T10:29:48.780803+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\n1 à vérifier\nInformations, notes et preuves\n+ Ajouter un bloc\nAjouter une note\nInsérer une base\nEnregistré\nEnregistrer\n​\nUntitled\nActions du dossier\nListe\nCartes\nNew Record\nIntitulé\nDescription\nStatut\nÉchange\nConfirmer le cheminement piéton avant la visite\nÀ faire\nhttps://travaux.kerforge.com/#/mail/19c854e9-7228-4ed2-934c-a3cce3e1d82f\nVérifier les barrières — action manuelle fictive\nÀ faire\nNew Record\nCalculate\nCalculate\nCalculate\nCalculate\nVisite de chantier — constat fictif\nVérifier les protections du passage\nContrôler la signalisation temporaire\nConstat mobile fictif : passage accessible maintenu.\n\nUne page en blocs : ajoutez un titre, une note, une liste ou une base. Le menu / reste disponible dans le document.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 339,
+            "y": 114.59375,
+            "width": 391.84375,
+            "height": 34.796875,
+            "top": 114.59375,
+            "right": 730.84375,
+            "bottom": 149.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Actions du dossier",
+          "r": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "true",
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 53.75,
+            "height": 44,
+            "top": 172.390625,
+            "right": 392.75,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 414.75,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 482.28125,
+            "bottom": 216.390625,
+            "left": 414.75
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 504.28125,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 571.421875,
+            "bottom": 216.390625,
+            "left": 504.28125
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 593.421875,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 682.796875,
+            "bottom": 216.390625,
+            "left": 593.421875
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 704.796875,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 782.6875,
+            "bottom": 216.390625,
+            "left": 704.796875
+          }
+        }
+      ],
+      "native": {
+        "x": 339,
+        "y": 323.390625,
+        "width": 1500,
+        "height": 560,
+        "top": 323.390625,
+        "right": 1839,
+        "bottom": 883.390625,
+        "left": 339
+      },
+      "toolbar": {
+        "x": 339,
+        "y": 269.390625,
+        "width": 1500,
+        "height": 54,
+        "top": 269.390625,
+        "right": 1839,
+        "bottom": 323.390625,
+        "left": 339
+      },
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 1685.25,
+            "y": 100.6875,
+            "width": 153.75,
+            "height": 36,
+            "top": 100.6875,
+            "right": 1839,
+            "bottom": 136.6875,
+            "left": 1685.25
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 53.75,
+            "height": 44,
+            "top": 172.390625,
+            "right": 392.75,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 414.75,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 482.28125,
+            "bottom": 216.390625,
+            "left": 414.75
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 504.28125,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 571.421875,
+            "bottom": 216.390625,
+            "left": 504.28125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 593.421875,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 682.796875,
+            "bottom": 216.390625,
+            "left": 593.421875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 704.796875,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 782.6875,
+            "bottom": 216.390625,
+            "left": 704.796875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "1 à vérifier",
+          "label": null,
+          "r": {
+            "x": 1775.25,
+            "y": 181.859375,
+            "width": 63.75,
+            "height": 25.046875,
+            "top": 181.859375,
+            "right": 1839,
+            "bottom": 206.90625,
+            "left": 1775.25
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 217.390625,
+            "width": 181.75,
+            "height": 35,
+            "top": 217.390625,
+            "right": 520.75,
+            "bottom": 252.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 317.625,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 471.4375,
+            "bottom": 336.21875,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 491.4375,
+            "y": 317.625,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 594.265625,
+            "bottom": 336.21875,
+            "left": 491.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 614.265625,
+            "y": 317.625,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 672.546875,
+            "bottom": 336.21875,
+            "left": 614.265625
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "+ Ajouter un bloc",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 269.390625,
+            "width": 126.9375,
+            "height": 38,
+            "top": 269.390625,
+            "right": 465.9375,
+            "bottom": 307.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Titre principal",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 319.390625,
+            "width": 208,
+            "height": 42.140625,
+            "top": 319.390625,
+            "right": 553,
+            "bottom": 361.53125,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Sous-titre",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 361.53125,
+            "width": 208,
+            "height": 42.140625,
+            "top": 361.53125,
+            "right": 553,
+            "bottom": 403.671875,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Texte",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 403.671875,
+            "width": 208,
+            "height": 42.140625,
+            "top": 403.671875,
+            "right": 553,
+            "bottom": 445.8125,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Liste à puces",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 445.8125,
+            "width": 208,
+            "height": 42.140625,
+            "top": 445.8125,
+            "right": 553,
+            "bottom": 487.953125,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Case à cocher",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 487.953125,
+            "width": 208,
+            "height": 42.140625,
+            "top": 487.953125,
+            "right": 553,
+            "bottom": 530.09375,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Citation",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 530.09375,
+            "width": 208,
+            "height": 42.140625,
+            "top": 530.09375,
+            "right": 553,
+            "bottom": 572.234375,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Séparateur",
+          "label": null,
+          "r": {
+            "x": 345,
+            "y": 572.234375,
+            "width": 208,
+            "height": 42.140625,
+            "top": 572.234375,
+            "right": 553,
+            "bottom": 614.375,
+            "left": 345
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Ajouter une note",
+          "label": null,
+          "r": {
+            "x": 473.9375,
+            "y": 270.390625,
+            "width": 125.921875,
+            "height": 36,
+            "top": 270.390625,
+            "right": 599.859375,
+            "bottom": 306.390625,
+            "left": 473.9375
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Insérer une base",
+          "label": null,
+          "r": {
+            "x": 607.859375,
+            "y": 270.390625,
+            "width": 122.515625,
+            "height": 36,
+            "top": 270.390625,
+            "right": 730.375,
+            "bottom": 306.390625,
+            "left": 607.859375
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Enregistrer",
+          "label": null,
+          "r": {
+            "x": 1749.125,
+            "y": 270.390625,
+            "width": 89.875,
+            "height": 36,
+            "top": 270.390625,
+            "right": 1839,
+            "bottom": 306.390625,
+            "left": 1749.125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 387,
+            "y": 459.78125,
+            "width": 260,
+            "height": 34,
+            "top": 459.78125,
+            "right": 647,
+            "bottom": 493.78125,
+            "left": 387
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 648,
+            "y": 459.78125,
+            "width": 180,
+            "height": 34,
+            "top": 459.78125,
+            "right": 828,
+            "bottom": 493.78125,
+            "left": 648
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 829,
+            "y": 459.78125,
+            "width": 180,
+            "height": 34,
+            "top": 459.78125,
+            "right": 1009,
+            "bottom": 493.78125,
+            "left": 829
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 1010,
+            "y": 459.78125,
+            "width": 180,
+            "height": 34,
+            "top": 459.78125,
+            "right": 1190,
+            "bottom": 493.78125,
+            "left": 1010
+          }
+        },
+        {
+          "tag": "A",
+          "text": "https://travaux.kerforge.com/#/mail/19c854e9-7228-4ed2-934c-a3cce3e1d82f",
+          "label": "Voir le courriel source",
+          "r": {
+            "x": 1016,
+            "y": 499.78125,
+            "width": 74.59375,
+            "height": 27,
+            "top": 499.78125,
+            "right": 1090.59375,
+            "bottom": 526.78125,
+            "left": 1016
+          }
+        }
+      ],
+      "nativeStatus": "Enregistré",
+      "file": "1920-page.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=page",
+      "captured_at_utc": "2026-11-15T10:29:50.472254+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\n1 à vérifier\nInformations, notes et preuves\n+ Ajouter une action\nModifications…\nEnregistrer\nUntitled\nActions du dossier\nListe\nCartes\nNew Record\nIntitulé\nDescription\nStatut\nÉchange\nConfirmer le cheminement piéton avant la visite\nÀ faire\nhttps://travaux.kerforge.com/#/mail/19c854e9-7228-4ed2-934c-a3cce3e1d82f\nVérifier les barrières — action manuelle fictive\nÀ faire\nNew Record\nCalculate\nCalculate\nCalculate\nCalculate\n\nTableau et Kanban partagent les mêmes actions. Les actions confirmées dans les courriels rejoignent ce suivi sans être dupliquées.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 339,
+            "y": 114.59375,
+            "width": 391.84375,
+            "height": 34.796875,
+            "top": 114.59375,
+            "right": 730.84375,
+            "bottom": 149.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Actions du dossier",
+          "r": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "true",
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 71.171875,
+            "height": 44,
+            "top": 172.390625,
+            "right": 484.078125,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 506.078125,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 573.21875,
+            "bottom": 216.390625,
+            "left": 506.078125
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 595.21875,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 684.59375,
+            "bottom": 216.390625,
+            "left": 595.21875
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 706.59375,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 784.484375,
+            "bottom": 216.390625,
+            "left": 706.59375
+          }
+        }
+      ],
+      "native": {
+        "x": 339,
+        "y": 321.390625,
+        "width": 1500,
+        "height": 560,
+        "top": 321.390625,
+        "right": 1839,
+        "bottom": 881.390625,
+        "left": 339
+      },
+      "toolbar": {
+        "x": 339,
+        "y": 269.390625,
+        "width": 1500,
+        "height": 52,
+        "top": 269.390625,
+        "right": 1839,
+        "bottom": 321.390625,
+        "left": 339
+      },
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 1685.25,
+            "y": 100.6875,
+            "width": 153.75,
+            "height": 36,
+            "top": 100.6875,
+            "right": 1839,
+            "bottom": 136.6875,
+            "left": 1685.25
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 71.171875,
+            "height": 44,
+            "top": 172.390625,
+            "right": 484.078125,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 506.078125,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 573.21875,
+            "bottom": 216.390625,
+            "left": 506.078125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 595.21875,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 684.59375,
+            "bottom": 216.390625,
+            "left": 595.21875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 706.59375,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 784.484375,
+            "bottom": 216.390625,
+            "left": 706.59375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "1 à vérifier",
+          "label": null,
+          "r": {
+            "x": 1775.25,
+            "y": 181.859375,
+            "width": 63.75,
+            "height": 25.046875,
+            "top": 181.859375,
+            "right": 1839,
+            "bottom": 206.90625,
+            "left": 1775.25
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 217.390625,
+            "width": 181.75,
+            "height": 35,
+            "top": 217.390625,
+            "right": 520.75,
+            "bottom": 252.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 317.625,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 471.4375,
+            "bottom": 336.21875,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 491.4375,
+            "y": 317.625,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 594.265625,
+            "bottom": 336.21875,
+            "left": 491.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 614.265625,
+            "y": 317.625,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 672.546875,
+            "bottom": 336.21875,
+            "left": 614.265625
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "+ Ajouter une action",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 269.390625,
+            "width": 147.984375,
+            "height": 36,
+            "top": 269.390625,
+            "right": 486.984375,
+            "bottom": 305.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Enregistrer",
+          "label": null,
+          "r": {
+            "x": 1749.125,
+            "y": 269.390625,
+            "width": 89.875,
+            "height": 36,
+            "top": 269.390625,
+            "right": 1839,
+            "bottom": 305.390625,
+            "left": 1749.125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 387,
+            "y": 419.390625,
+            "width": 260,
+            "height": 34,
+            "top": 419.390625,
+            "right": 647,
+            "bottom": 453.390625,
+            "left": 387
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 648,
+            "y": 419.390625,
+            "width": 180,
+            "height": 34,
+            "top": 419.390625,
+            "right": 828,
+            "bottom": 453.390625,
+            "left": 648
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 829,
+            "y": 419.390625,
+            "width": 180,
+            "height": 34,
+            "top": 419.390625,
+            "right": 1009,
+            "bottom": 453.390625,
+            "left": 829
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": null,
+          "r": {
+            "x": 1010,
+            "y": 419.390625,
+            "width": 180,
+            "height": 34,
+            "top": 419.390625,
+            "right": 1190,
+            "bottom": 453.390625,
+            "left": 1010
+          }
+        },
+        {
+          "tag": "A",
+          "text": "https://travaux.kerforge.com/#/mail/19c854e9-7228-4ed2-934c-a3cce3e1d82f",
+          "label": "Voir le courriel source",
+          "r": {
+            "x": 1016,
+            "y": 459.390625,
+            "width": 74.59375,
+            "height": 27,
+            "top": 459.390625,
+            "right": 1090.59375,
+            "bottom": 486.390625,
+            "left": 1016
+          }
+        }
+      ],
+      "nativeStatus": "Modifications…",
+      "file": "1920-tableau.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=table",
+      "captured_at_utc": "2026-11-15T10:29:52.162179+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\n1 à vérifier\nInformations, notes et preuves\nDocuments du chantier\n\nLes pièces, leur origine et leur fichier original lorsqu'il est disponible.\n\nImporter un courriel\nconsigne-fictive.txt\n\n105 o · Original conservé\n\n14 nov. 2026, 19:55\nLire l’extrait\nOriginal\nCourriel\nplan-circulation-fictif.pdf\n\n636 o · Original conservé\n\n14 nov. 2026, 19:55\nLire l’extrait\nOriginal\nCourriel",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 339,
+            "y": 114.59375,
+            "width": 391.84375,
+            "height": 34.796875,
+            "top": 114.59375,
+            "right": 730.84375,
+            "bottom": 149.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Documents du chantier",
+          "r": {
+            "x": 339,
+            "y": 277.390625,
+            "width": 390.4375,
+            "height": 29.4375,
+            "top": 277.390625,
+            "right": 729.4375,
+            "bottom": 306.828125,
+            "left": 339
+          }
+        },
+        {
+          "text": "consigne-fictive.txt",
+          "r": {
+            "x": 397,
+            "y": 377.96875,
+            "width": 1143.171875,
+            "height": 21,
+            "top": 377.96875,
+            "right": 1540.171875,
+            "bottom": 398.96875,
+            "left": 397
+          }
+        },
+        {
+          "text": "plan-circulation-fictif.pdf",
+          "r": {
+            "x": 397,
+            "y": 487.40625,
+            "width": 1143.171875,
+            "height": 21,
+            "top": 487.40625,
+            "right": 1540.171875,
+            "bottom": 508.40625,
+            "left": 397
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 480.4375,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 502.4375,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 569.578125,
+            "bottom": 216.390625,
+            "left": 502.4375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "true",
+          "r": {
+            "x": 591.578125,
+            "y": 172.390625,
+            "width": 93.234375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 684.8125,
+            "bottom": 216.390625,
+            "left": 591.578125
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 706.8125,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 784.703125,
+            "bottom": 216.390625,
+            "left": 706.8125
+          }
+        }
+      ],
+      "native": null,
+      "toolbar": null,
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 1685.25,
+            "y": 100.6875,
+            "width": 153.75,
+            "height": 36,
+            "top": 100.6875,
+            "right": 1839,
+            "bottom": 136.6875,
+            "left": 1685.25
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 480.4375,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 502.4375,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 569.578125,
+            "bottom": 216.390625,
+            "left": 502.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 591.578125,
+            "y": 172.390625,
+            "width": 93.234375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 684.8125,
+            "bottom": 216.390625,
+            "left": 591.578125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 706.8125,
+            "y": 172.390625,
+            "width": 77.890625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 784.703125,
+            "bottom": 216.390625,
+            "left": 706.8125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "1 à vérifier",
+          "label": null,
+          "r": {
+            "x": 1775.25,
+            "y": 181.859375,
+            "width": 63.75,
+            "height": 25.046875,
+            "top": 181.859375,
+            "right": 1839,
+            "bottom": 206.90625,
+            "left": 1775.25
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 217.390625,
+            "width": 181.75,
+            "height": 35,
+            "top": 217.390625,
+            "right": 520.75,
+            "bottom": 252.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 317.625,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 471.4375,
+            "bottom": 336.21875,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 491.4375,
+            "y": 317.625,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 594.265625,
+            "bottom": 336.21875,
+            "left": 491.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 614.265625,
+            "y": 317.625,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 672.546875,
+            "bottom": 336.21875,
+            "left": 614.265625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Importer un courriel",
+          "label": null,
+          "r": {
+            "x": 1670.46875,
+            "y": 287.171875,
+            "width": 168.53125,
+            "height": 36,
+            "top": 287.171875,
+            "right": 1839,
+            "bottom": 323.171875,
+            "left": 1670.46875
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Lire l’extrait",
+          "label": null,
+          "r": {
+            "x": 1556.171875,
+            "y": 402.890625,
+            "width": 61.046875,
+            "height": 18.59375,
+            "top": 402.890625,
+            "right": 1617.21875,
+            "bottom": 421.484375,
+            "left": 1556.171875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Original",
+          "label": null,
+          "r": {
+            "x": 1631.21875,
+            "y": 394.1875,
+            "width": 96.03125,
+            "height": 36,
+            "top": 394.1875,
+            "right": 1727.25,
+            "bottom": 430.1875,
+            "left": 1631.21875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Courriel",
+          "label": null,
+          "r": {
+            "x": 1741.25,
+            "y": 394.1875,
+            "width": 95.75,
+            "height": 36,
+            "top": 394.1875,
+            "right": 1837,
+            "bottom": 430.1875,
+            "left": 1741.25
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Lire l’extrait",
+          "label": null,
+          "r": {
+            "x": 1556.171875,
+            "y": 512.328125,
+            "width": 61.046875,
+            "height": 18.59375,
+            "top": 512.328125,
+            "right": 1617.21875,
+            "bottom": 530.921875,
+            "left": 1556.171875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Original",
+          "label": null,
+          "r": {
+            "x": 1631.21875,
+            "y": 503.625,
+            "width": 96.03125,
+            "height": 36,
+            "top": 503.625,
+            "right": 1727.25,
+            "bottom": 539.625,
+            "left": 1631.21875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Courriel",
+          "label": null,
+          "r": {
+            "x": 1741.25,
+            "y": 503.625,
+            "width": 95.75,
+            "height": 36,
+            "top": 503.625,
+            "right": 1837,
+            "bottom": 539.625,
+            "left": 1741.25
+          }
+        }
+      ],
+      "nativeStatus": null,
+      "file": "1920-documents.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=documents",
+      "captured_at_utc": "2026-11-15T10:29:53.065316+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\n1 à vérifier\nInformations, notes et preuves\nMessages des chantiers\n\nLes messages disponibles dans cet espace, reliés à vos chantiers.\n\nLecture seule\nDonnées fictives\nRechercher dans les messages\nRechercher\nChantier\nTous les chantiers\nRECETTE-HTTPS-1794679253516200400 · Recette HTTPS — chantier entièrement fictif\nTRV-2026-003 · Éclairage du port des Dunes\nTRV-2026-008 · Salle du Rivage\nTRV-2026-014 · Parvis de l'école des Alizés\nTRV-2026-017 · Vestiaires des Goélands\nTRV-2026-021 · Rue des Ajoncs\nTRV-2026-032 · Chemin de Kerbrume\nUX-PUBLIC-1794682557074296700 · Accès piéton — recette publiée\nRattachement\nTous les courriers\nRattachés\nSans chantier\nÀ départager\n\n1 courrier disponible.\n\n1 courrier\nconducteur@entreprise-fictive.invalid\n14 nov.\n[UX-PUBLIC-1794682557074296700] Visite et pièces fictives\n\nDonnées entièrement fictives. Avancement : Préparation de la visite Action : Confirmer le cheminement piéton avant la visite\n\nUX-PUBLIC-1794682557074296700\n2\npièces jointes\nLes échanges, dans leur contexte\n\nChoisissez un courrier pour lire son contenu et retrouver son chantier.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 339,
+            "y": 114.59375,
+            "width": 391.84375,
+            "height": 34.796875,
+            "top": 114.59375,
+            "right": 730.84375,
+            "bottom": 149.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Messages des chantiers",
+          "r": {
+            "x": 339,
+            "y": 275.390625,
+            "width": 368.28125,
+            "height": 26,
+            "top": 275.390625,
+            "right": 707.28125,
+            "bottom": 301.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "[UX-PUBLIC-1794682557074296700] Visite et pièces fictives",
+          "r": {
+            "x": 356,
+            "y": 567.890625,
+            "width": 267,
+            "height": 40.28125,
+            "top": 567.890625,
+            "right": 623,
+            "bottom": 608.171875,
+            "left": 356
+          }
+        },
+        {
+          "text": "Les échanges, dans leur contexte",
+          "r": {
+            "x": 1118.15625,
+            "y": 715.234375,
+            "width": 241.6875,
+            "height": 25.5,
+            "top": 715.234375,
+            "right": 1359.84375,
+            "bottom": 740.734375,
+            "left": 1118.15625
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 480.4375,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 502.4375,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 569.578125,
+            "bottom": 216.390625,
+            "left": 502.4375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 591.578125,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 680.953125,
+            "bottom": 216.390625,
+            "left": 591.578125
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "true",
+          "r": {
+            "x": 702.953125,
+            "y": 172.390625,
+            "width": 80.65625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 783.609375,
+            "bottom": 216.390625,
+            "left": 702.953125
+          }
+        }
+      ],
+      "native": null,
+      "toolbar": null,
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 1685.25,
+            "y": 100.6875,
+            "width": 153.75,
+            "height": 36,
+            "top": 100.6875,
+            "right": 1839,
+            "bottom": 136.6875,
+            "left": 1685.25
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 172.390625,
+            "width": 51.90625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 390.90625,
+            "bottom": 216.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 412.90625,
+            "y": 172.390625,
+            "width": 67.53125,
+            "height": 44,
+            "top": 172.390625,
+            "right": 480.4375,
+            "bottom": 216.390625,
+            "left": 412.90625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 502.4375,
+            "y": 172.390625,
+            "width": 67.140625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 569.578125,
+            "bottom": 216.390625,
+            "left": 502.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 591.578125,
+            "y": 172.390625,
+            "width": 89.375,
+            "height": 44,
+            "top": 172.390625,
+            "right": 680.953125,
+            "bottom": 216.390625,
+            "left": 591.578125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 702.953125,
+            "y": 172.390625,
+            "width": 80.65625,
+            "height": 44,
+            "top": 172.390625,
+            "right": 783.609375,
+            "bottom": 216.390625,
+            "left": 702.953125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "1 à vérifier",
+          "label": null,
+          "r": {
+            "x": 1775.25,
+            "y": 181.859375,
+            "width": 63.75,
+            "height": 25.046875,
+            "top": 181.859375,
+            "right": 1839,
+            "bottom": 206.90625,
+            "left": 1775.25
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 217.390625,
+            "width": 181.75,
+            "height": 35,
+            "top": 217.390625,
+            "right": 520.75,
+            "bottom": 252.390625,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 339,
+            "y": 317.625,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 471.4375,
+            "bottom": 336.21875,
+            "left": 339
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 491.4375,
+            "y": 317.625,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 594.265625,
+            "bottom": 336.21875,
+            "left": 491.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 614.265625,
+            "y": 317.625,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 317.625,
+            "right": 672.546875,
+            "bottom": 336.21875,
+            "left": 614.265625
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Actualiser les courriers",
+          "r": {
+            "x": 1795,
+            "y": 279.390625,
+            "width": 44,
+            "height": 44,
+            "top": 279.390625,
+            "right": 1839,
+            "bottom": 323.390625,
+            "left": 1795
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Rechercher",
+          "label": null,
+          "r": {
+            "x": 1323.6875,
+            "y": 389.578125,
+            "width": 81.3125,
+            "height": 42,
+            "top": 389.578125,
+            "right": 1405,
+            "bottom": 431.578125,
+            "left": 1323.6875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "conducteur@entreprise-fictive.invalid14 nov.[UX-PUBLIC-1794682557074296700] Visite et pièces fictivesDonnées entièrement fictives. Avancement : Préparation de la visite Action : Confirmer le cheminement piéton avant la visite UX-PUBLIC-17946825570742967002 pièces jointes",
+          "label": null,
+          "r": {
+            "x": 340,
+            "y": 526.625,
+            "width": 299,
+            "height": 169.421875,
+            "top": 526.625,
+            "right": 639,
+            "bottom": 696.046875,
+            "left": 340
+          }
+        }
+      ],
+      "nativeStatus": null,
+      "file": "1920-echanges.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=exchanges",
+      "captured_at_utc": "2026-11-15T10:29:54.178383+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\nInformations, notes et preuves\n+ Ajouter une action\nModifications…\nEnregistrer\nActions du dossier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nÀ faire · 2\nConfirmer le cheminement piéton avant la visite\nVoir l’échange\nVoir tous les champs\nVérifier les barrières — action manuelle fictive\nVoir tous les champs\nEn cours · 0\nEn attente · 0\nTerminé · 0\n\nTableau et Kanban partagent les mêmes actions. Les actions confirmées dans les courriels rejoignent ce suivi sans être dupliquées.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 18,
+            "y": 103.5,
+            "width": 254.359375,
+            "height": 60,
+            "top": 103.5,
+            "right": 272.359375,
+            "bottom": 163.5,
+            "left": 18
+          }
+        },
+        {
+          "text": "Actions du dossier",
+          "r": {
+            "x": 34,
+            "y": 397.546875,
+            "width": 322,
+            "height": 29.4375,
+            "top": 397.546875,
+            "right": 356,
+            "bottom": 426.984375,
+            "left": 34
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "true",
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ],
+      "native": {
+        "x": 18,
+        "y": 337.546875,
+        "width": 354,
+        "height": 660.5,
+        "top": 337.546875,
+        "right": 372,
+        "bottom": 998.046875,
+        "left": 18
+      },
+      "toolbar": {
+        "x": 18,
+        "y": 284.546875,
+        "width": 354,
+        "height": 53,
+        "top": 284.546875,
+        "right": 372,
+        "bottom": 337.546875,
+        "left": 18
+      },
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 284.359375,
+            "y": 78,
+            "width": 87.640625,
+            "height": 41,
+            "top": 78,
+            "right": 372,
+            "bottom": 119,
+            "left": 284.359375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 236.546875,
+            "width": 168.359375,
+            "height": 34,
+            "top": 236.546875,
+            "right": 186.359375,
+            "bottom": 270.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 335.78125,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 150.4375,
+            "bottom": 354.375,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 164.4375,
+            "y": 335.78125,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 267.265625,
+            "bottom": 354.375,
+            "left": 164.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 281.265625,
+            "y": 335.78125,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 339.546875,
+            "bottom": 354.375,
+            "left": 281.265625
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "+ Ajouter une action",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 284.546875,
+            "width": 134.59375,
+            "height": 40,
+            "top": 284.546875,
+            "right": 152.59375,
+            "bottom": 324.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Enregistrer",
+          "label": null,
+          "r": {
+            "x": 291.046875,
+            "y": 284.546875,
+            "width": 80.953125,
+            "height": 40,
+            "top": 284.546875,
+            "right": 372,
+            "bottom": 324.546875,
+            "left": 291.046875
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Voir tous les champs",
+          "label": null,
+          "r": {
+            "x": 51,
+            "y": 643.953125,
+            "width": 288,
+            "height": 32,
+            "top": 643.953125,
+            "right": 339,
+            "bottom": 675.953125,
+            "left": 51
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Voir tous les champs",
+          "label": null,
+          "r": {
+            "x": 51,
+            "y": 783.546875,
+            "width": 288,
+            "height": 32,
+            "top": 783.546875,
+            "right": 339,
+            "bottom": 815.546875,
+            "left": 51
+          }
+        }
+      ],
+      "nativeStatus": "Modifications…",
+      "file": "390-kanban.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=kanban",
+      "captured_at_utc": "2026-11-15T10:29:55.796160+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\nInformations, notes et preuves\n+ Ajouter un bloc\nInsérer une base\nEnregistré\nEnregistrer\n​\nVisite de chantier — constat fictif\nVérifier les protections du passage\nContrôler la signalisation temporaire\nConstat mobile fictif : passage accessible maintenu.\nActions du dossier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nConfirmer le cheminement piéton avant la visite\nVoir l’échange\nVoir tous les champs\nVérifier les barrières — action manuelle fictive\nVoir tous les champs\n\nUne page en blocs : ajoutez un titre, une note, une liste ou une base. Le menu / reste disponible dans le document.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 18,
+            "y": 103.5,
+            "width": 254.359375,
+            "height": 60,
+            "top": 103.5,
+            "right": 272.359375,
+            "bottom": 163.5,
+            "left": 18
+          }
+        },
+        {
+          "text": "Actions du dossier",
+          "r": {
+            "x": 34,
+            "y": 669.5,
+            "width": 322,
+            "height": 29.4375,
+            "top": 669.5,
+            "right": 356,
+            "bottom": 698.9375,
+            "left": 34
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "true",
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ],
+      "native": {
+        "x": 18,
+        "y": 387.546875,
+        "width": 354,
+        "height": 694.828125,
+        "top": 387.546875,
+        "right": 372,
+        "bottom": 1082.375,
+        "left": 18
+      },
+      "toolbar": {
+        "x": 18,
+        "y": 284.546875,
+        "width": 354,
+        "height": 103,
+        "top": 284.546875,
+        "right": 372,
+        "bottom": 387.546875,
+        "left": 18
+      },
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 284.359375,
+            "y": 78,
+            "width": 87.640625,
+            "height": 41,
+            "top": 78,
+            "right": 372,
+            "bottom": 119,
+            "left": 284.359375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 236.546875,
+            "width": 168.359375,
+            "height": 34,
+            "top": 236.546875,
+            "right": 186.359375,
+            "bottom": 270.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 335.78125,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 150.4375,
+            "bottom": 354.375,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 164.4375,
+            "y": 335.78125,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 267.265625,
+            "bottom": 354.375,
+            "left": 164.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 281.265625,
+            "y": 335.78125,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 339.546875,
+            "bottom": 354.375,
+            "left": 281.265625
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "+ Ajouter un bloc",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 284.546875,
+            "width": 115.171875,
+            "height": 40,
+            "top": 284.546875,
+            "right": 133.171875,
+            "bottom": 324.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Titre principal",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 336.546875,
+            "width": 208,
+            "height": 44,
+            "top": 336.546875,
+            "right": 232,
+            "bottom": 380.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Sous-titre",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 380.546875,
+            "width": 208,
+            "height": 44,
+            "top": 380.546875,
+            "right": 232,
+            "bottom": 424.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Texte",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 424.546875,
+            "width": 208,
+            "height": 44,
+            "top": 424.546875,
+            "right": 232,
+            "bottom": 468.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Liste à puces",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 468.546875,
+            "width": 208,
+            "height": 44,
+            "top": 468.546875,
+            "right": 232,
+            "bottom": 512.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Case à cocher",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 512.546875,
+            "width": 208,
+            "height": 44,
+            "top": 512.546875,
+            "right": 232,
+            "bottom": 556.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Citation",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 556.546875,
+            "width": 208,
+            "height": 44,
+            "top": 556.546875,
+            "right": 232,
+            "bottom": 600.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Séparateur",
+          "label": null,
+          "r": {
+            "x": 24,
+            "y": 600.546875,
+            "width": 208,
+            "height": 44,
+            "top": 600.546875,
+            "right": 232,
+            "bottom": 644.546875,
+            "left": 24
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Insérer une base",
+          "label": null,
+          "r": {
+            "x": 139.171875,
+            "y": 284.546875,
+            "width": 111.09375,
+            "height": 40,
+            "top": 284.546875,
+            "right": 250.265625,
+            "bottom": 324.546875,
+            "left": 139.171875
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Enregistrer",
+          "label": null,
+          "r": {
+            "x": 291.046875,
+            "y": 334.546875,
+            "width": 80.953125,
+            "height": 40,
+            "top": 334.546875,
+            "right": 372,
+            "bottom": 374.546875,
+            "left": 291.046875
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Voir tous les champs",
+          "label": null,
+          "r": {
+            "x": 51,
+            "y": 865.78125,
+            "width": 288,
+            "height": 32,
+            "top": 865.78125,
+            "right": 339,
+            "bottom": 897.78125,
+            "left": 51
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Voir tous les champs",
+          "label": null,
+          "r": {
+            "x": 51,
+            "y": 1005.375,
+            "width": 288,
+            "height": 32,
+            "top": 1005.375,
+            "right": 339,
+            "bottom": 1037.375,
+            "left": 51
+          }
+        }
+      ],
+      "nativeStatus": "Enregistré",
+      "file": "390-page.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=page",
+      "captured_at_utc": "2026-11-15T10:29:57.477362+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\nInformations, notes et preuves\n+ Ajouter une action\nModifications…\nEnregistrer\nActions du dossier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nConfirmer le cheminement piéton avant la visite\nVoir l’échange\nVoir tous les champs\nVérifier les barrières — action manuelle fictive\nVoir tous les champs\n\nTableau et Kanban partagent les mêmes actions. Les actions confirmées dans les courriels rejoignent ce suivi sans être dupliquées.",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 18,
+            "y": 103.5,
+            "width": 254.359375,
+            "height": 60,
+            "top": 103.5,
+            "right": 272.359375,
+            "bottom": 163.5,
+            "left": 18
+          }
+        },
+        {
+          "text": "Actions du dossier",
+          "r": {
+            "x": 34,
+            "y": 397.546875,
+            "width": 322,
+            "height": 29.4375,
+            "top": 397.546875,
+            "right": 356,
+            "bottom": 426.984375,
+            "left": 34
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "true",
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ],
+      "native": {
+        "x": 18,
+        "y": 337.546875,
+        "width": 354,
+        "height": 472.875,
+        "top": 337.546875,
+        "right": 372,
+        "bottom": 810.421875,
+        "left": 18
+      },
+      "toolbar": {
+        "x": 18,
+        "y": 284.546875,
+        "width": 354,
+        "height": 53,
+        "top": 284.546875,
+        "right": 372,
+        "bottom": 337.546875,
+        "left": 18
+      },
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 284.359375,
+            "y": 78,
+            "width": 87.640625,
+            "height": 41,
+            "top": 78,
+            "right": 372,
+            "bottom": 119,
+            "left": 284.359375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 236.546875,
+            "width": 168.359375,
+            "height": 34,
+            "top": 236.546875,
+            "right": 186.359375,
+            "bottom": 270.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 335.78125,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 150.4375,
+            "bottom": 354.375,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 164.4375,
+            "y": 335.78125,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 267.265625,
+            "bottom": 354.375,
+            "left": 164.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 281.265625,
+            "y": 335.78125,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 339.546875,
+            "bottom": 354.375,
+            "left": 281.265625
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "+ Ajouter une action",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 284.546875,
+            "width": 134.59375,
+            "height": 40,
+            "top": 284.546875,
+            "right": 152.59375,
+            "bottom": 324.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Enregistrer",
+          "label": null,
+          "r": {
+            "x": 291.046875,
+            "y": 284.546875,
+            "width": 80.953125,
+            "height": 40,
+            "top": 284.546875,
+            "right": 372,
+            "bottom": 324.546875,
+            "left": 291.046875
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Voir tous les champs",
+          "label": null,
+          "r": {
+            "x": 51,
+            "y": 593.828125,
+            "width": 288,
+            "height": 32,
+            "top": 593.828125,
+            "right": 339,
+            "bottom": 625.828125,
+            "left": 51
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Voir tous les champs",
+          "label": null,
+          "r": {
+            "x": 51,
+            "y": 733.421875,
+            "width": 288,
+            "height": 32,
+            "top": 733.421875,
+            "right": 339,
+            "bottom": 765.421875,
+            "left": 51
+          }
+        }
+      ],
+      "nativeStatus": "Modifications…",
+      "file": "390-tableau.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=table",
+      "captured_at_utc": "2026-11-15T10:29:59.116281+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\nInformations, notes et preuves\nDocuments du chantier\n\nLes pièces, leur origine et leur fichier original lorsqu'il est disponible.\n\nImporter un courriel\nconsigne-fictive.txt\n\n105 o · Original conservé\n\n14 nov. 2026, 19:55\nLire l’extrait\nOriginal\nCourriel\nplan-circulation-fictif.pdf\n\n636 o · Original conservé\n\n14 nov. 2026, 19:55\nLire l’extrait\nOriginal\nCourriel",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 18,
+            "y": 103.5,
+            "width": 254.359375,
+            "height": 60,
+            "top": 103.5,
+            "right": 272.359375,
+            "bottom": 163.5,
+            "left": 18
+          }
+        },
+        {
+          "text": "Documents du chantier",
+          "r": {
+            "x": 18,
+            "y": 289.546875,
+            "width": 224.828125,
+            "height": 27.890625,
+            "top": 289.546875,
+            "right": 242.828125,
+            "bottom": 317.4375,
+            "left": 18
+          }
+        },
+        {
+          "text": "consigne-fictive.txt",
+          "r": {
+            "x": 69,
+            "y": 397.625,
+            "width": 303,
+            "height": 19.5,
+            "top": 397.625,
+            "right": 372,
+            "bottom": 417.125,
+            "left": 69
+          }
+        },
+        {
+          "text": "plan-circulation-fictif.pdf",
+          "r": {
+            "x": 69,
+            "y": 554.96875,
+            "width": 303,
+            "height": 19.5,
+            "top": 554.96875,
+            "right": 372,
+            "bottom": 574.46875,
+            "left": 69
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "true",
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "false",
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ],
+      "native": null,
+      "toolbar": null,
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 284.359375,
+            "y": 78,
+            "width": 87.640625,
+            "height": 41,
+            "top": 78,
+            "right": 372,
+            "bottom": 119,
+            "left": 284.359375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 236.546875,
+            "width": 168.359375,
+            "height": 34,
+            "top": 236.546875,
+            "right": 186.359375,
+            "bottom": 270.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 335.78125,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 150.4375,
+            "bottom": 354.375,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 164.4375,
+            "y": 335.78125,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 267.265625,
+            "bottom": 354.375,
+            "left": 164.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 281.265625,
+            "y": 335.78125,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 339.546875,
+            "bottom": 354.375,
+            "left": 281.265625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Importer un courriel",
+          "label": null,
+          "r": {
+            "x": 262.828125,
+            "y": 289.546875,
+            "width": 109.171875,
+            "height": 49.59375,
+            "top": 289.546875,
+            "right": 372,
+            "bottom": 339.140625,
+            "left": 262.828125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Lire l’extrait",
+          "label": null,
+          "r": {
+            "x": 69,
+            "y": 473.96875,
+            "width": 61.046875,
+            "height": 44,
+            "top": 473.96875,
+            "right": 130.046875,
+            "bottom": 517.96875,
+            "left": 69
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Original",
+          "label": null,
+          "r": {
+            "x": 145.046875,
+            "y": 474.96875,
+            "width": 96.03125,
+            "height": 42,
+            "top": 474.96875,
+            "right": 241.078125,
+            "bottom": 516.96875,
+            "left": 145.046875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Courriel",
+          "label": null,
+          "r": {
+            "x": 256.078125,
+            "y": 474.96875,
+            "width": 95.75,
+            "height": 42,
+            "top": 474.96875,
+            "right": 351.828125,
+            "bottom": 516.96875,
+            "left": 256.078125
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Lire l’extrait",
+          "label": null,
+          "r": {
+            "x": 69,
+            "y": 631.3125,
+            "width": 61.046875,
+            "height": 44,
+            "top": 631.3125,
+            "right": 130.046875,
+            "bottom": 675.3125,
+            "left": 69
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Original",
+          "label": null,
+          "r": {
+            "x": 145.046875,
+            "y": 632.3125,
+            "width": 96.03125,
+            "height": 42,
+            "top": 632.3125,
+            "right": 241.078125,
+            "bottom": 674.3125,
+            "left": 145.046875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Courriel",
+          "label": null,
+          "r": {
+            "x": 256.078125,
+            "y": 632.3125,
+            "width": 95.75,
+            "height": 42,
+            "top": 632.3125,
+            "right": 351.828125,
+            "bottom": 674.3125,
+            "left": 256.078125
+          }
+        }
+      ],
+      "nativeStatus": null,
+      "file": "390-documents.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=documents",
+      "captured_at_utc": "2026-11-15T10:30:00.019559+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "heading": "Accès piéton — recette publiée",
+      "mainText": "UX-PUBLIC-1794682557074296700\nEn cours\nAccès piéton — recette publiée\nPréparer un récap\nPage\nTableau\nKanban\nDocuments\nÉchanges\nInformations, notes et preuves\nMessages des chantiers\n\nLes messages disponibles dans cet espace, reliés à vos chantiers.\n\nLecture seule\nDonnées fictives\nRechercher dans les messages\nRechercher\nChantier\nTous les chantiers\nRECETTE-HTTPS-1794679253516200400 · Recette HTTPS — chantier entièrement fictif\nTRV-2026-003 · Éclairage du port des Dunes\nTRV-2026-008 · Salle du Rivage\nTRV-2026-014 · Parvis de l'école des Alizés\nTRV-2026-017 · Vestiaires des Goélands\nTRV-2026-021 · Rue des Ajoncs\nTRV-2026-032 · Chemin de Kerbrume\nUX-PUBLIC-1794682557074296700 · Accès piéton — recette publiée\nRattachement\nTous les courriers\nRattachés\nSans chantier\nÀ départager\n\n1 courrier disponible.\n\n1 courrier\nconducteur@entreprise-fictive.invalid\n14 nov.\n[UX-PUBLIC-1794682557074296700] Visite et pièces fictives\n\nDonnées entièrement fictives. Avancement : Préparation de la visite Action : Confirmer le cheminement piéton avant la visite\n\nUX-PUBLIC-1794682557074296700\n2\npièces jointes",
+      "headings": [
+        {
+          "text": "Accès piéton — recette publiée",
+          "r": {
+            "x": 18,
+            "y": 103.5,
+            "width": 254.359375,
+            "height": 60,
+            "top": 103.5,
+            "right": 272.359375,
+            "bottom": 163.5,
+            "left": 18
+          }
+        },
+        {
+          "text": "Messages des chantiers",
+          "r": {
+            "x": 18,
+            "y": 293.546875,
+            "width": 206,
+            "height": 24.6875,
+            "top": 293.546875,
+            "right": 224,
+            "bottom": 318.234375,
+            "left": 18
+          }
+        },
+        {
+          "text": "[UX-PUBLIC-1794682557074296700] Visite et pièces fictives",
+          "r": {
+            "x": 37,
+            "y": 727.15625,
+            "width": 316,
+            "height": 48,
+            "top": 727.15625,
+            "right": 353,
+            "bottom": 775.15625,
+            "left": 37
+          }
+        },
+        {
+          "text": "Les échanges, dans leur contexte",
+          "r": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ],
+      "views": [
+        {
+          "text": "Page",
+          "selected": "false",
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "text": "Tableau",
+          "selected": "false",
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "text": "Kanban",
+          "selected": "false",
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "text": "Documents",
+          "selected": "false",
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "text": "Échanges",
+          "selected": "true",
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        }
+      ],
+      "native": null,
+      "toolbar": null,
+      "sidebarLinks": [
+        "Travaux\nEspace de la collectivité",
+        "Mon espace",
+        "Les évolutions",
+        "Courriels",
+        "À vérifier\n5",
+        "Mes chantiers 8",
+        "Parvis de l'école des Alizés",
+        "Accès piéton — recette publiée",
+        "Recette HTTPS — chantier entièrement fictif",
+        "Éclairage du port des Dunes",
+        "Vestiaires des Goélands",
+        "Chemin de Kerbrume",
+        "Salle du Rivage",
+        "Rue des Ajoncs",
+        "Récapitulatifs",
+        "Importer un courriel",
+        "Connexions et accès"
+      ],
+      "interactive": [
+        {
+          "tag": "BUTTON",
+          "text": "Préparer un récap",
+          "label": null,
+          "r": {
+            "x": 284.359375,
+            "y": 78,
+            "width": 87.640625,
+            "height": 41,
+            "top": 78,
+            "right": 372,
+            "bottom": 119,
+            "left": 284.359375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Page",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 88.796875,
+            "bottom": 235.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Tableau",
+          "label": null,
+          "r": {
+            "x": 88.796875,
+            "y": 177.5,
+            "width": 70.8125,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 159.609375,
+            "bottom": 235.546875,
+            "left": 88.796875
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Kanban",
+          "label": null,
+          "r": {
+            "x": 159.609375,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 230.40625,
+            "bottom": 235.546875,
+            "left": 159.609375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Documents",
+          "label": null,
+          "r": {
+            "x": 230.40625,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 301.203125,
+            "bottom": 235.546875,
+            "left": 230.40625
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Échanges",
+          "label": null,
+          "r": {
+            "x": 301.203125,
+            "y": 177.5,
+            "width": 70.796875,
+            "height": 58.046875,
+            "top": 177.5,
+            "right": 372,
+            "bottom": 235.546875,
+            "left": 301.203125
+          }
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Informations, notes et preuves",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 236.546875,
+            "width": 168.359375,
+            "height": 34,
+            "top": 236.546875,
+            "right": 186.359375,
+            "bottom": 270.546875,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Mémoire et récapitulatifs",
+          "label": null,
+          "r": {
+            "x": 18,
+            "y": 335.78125,
+            "width": 132.4375,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 150.4375,
+            "bottom": 354.375,
+            "left": 18
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Notes humaines (1)",
+          "label": null,
+          "r": {
+            "x": 164.4375,
+            "y": 335.78125,
+            "width": 102.828125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 267.265625,
+            "bottom": 354.375,
+            "left": 164.4375
+          }
+        },
+        {
+          "tag": "A",
+          "text": "Sources (7)",
+          "label": null,
+          "r": {
+            "x": 281.265625,
+            "y": 335.78125,
+            "width": 58.28125,
+            "height": 18.59375,
+            "top": 335.78125,
+            "right": 339.546875,
+            "bottom": 354.375,
+            "left": 281.265625
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "label": "Actualiser les courriers",
+          "r": {
+            "x": 328,
+            "y": 357.328125,
+            "width": 44,
+            "height": 44,
+            "top": 357.328125,
+            "right": 372,
+            "bottom": 401.328125,
+            "left": 328
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Rechercher",
+          "label": null,
+          "r": {
+            "x": 294.703125,
+            "y": 459.921875,
+            "width": 76.296875,
+            "height": 44,
+            "top": 459.921875,
+            "right": 371,
+            "bottom": 503.921875,
+            "left": 294.703125
+          }
+        },
+        {
+          "tag": "A",
+          "text": "conducteur@entreprise-fictive.invalid14 nov.[UX-PUBLIC-1794682557074296700] Visite et pièces fictivesDonnées entièrement fictives. Avancement : Préparation de la visite Action : Confirmer le cheminement piéton avant la visite UX-PUBLIC-17946825570742967002 pièces jointes",
+          "label": null,
+          "r": {
+            "x": 19,
+            "y": 680.5625,
+            "width": 352,
+            "height": 198.375,
+            "top": 680.5625,
+            "right": 371,
+            "bottom": 878.9375,
+            "left": 19
+          }
+        }
+      ],
+      "nativeStatus": null,
+      "file": "390-echanges.png",
+      "url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=exchanges",
+      "captured_at_utc": "2026-11-15T10:30:01.123105+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "errors": [],
+  "blocked_writes": [],
+  "existing_page_reads": [
+    "/api/v1/projects/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a/page",
+    "/api/v1/projects/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a/page",
+    "/api/v1/projects/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a/page",
+    "/api/v1/projects/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a/page",
+    "/api/v1/projects/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a/page",
+    "/api/v1/projects/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a/page"
+  ],
+  "method": "Chrome headless neuf. Authentification privée en mémoire ; navigation uniquement. POST technique ensure-page remplacé par la métadonnée réelle de sa page existante lue en GET ; aucune donnée fabriquée et aucune mutation de contenu autorisée.",
+  "initial_revisions": {
+    "2457112c-fc94-4880-9ef3-1d02982532a9": 10
+  },
+  "final_revisions": {
+    "2457112c-fc94-4880-9ef3-1d02982532a9": 10
+  },
+  "page_revisions_unchanged": true
+}

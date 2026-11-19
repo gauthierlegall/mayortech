@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "file": "casdoor-organisations-1920.png",
+      "product": "Casdoor",
+      "type": "capture_live_demo_publique_lecture_seule",
+      "url": "https://door.casdoor.com/organizations",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "captured_at_utc": "2026-11-15T10:45:35.168303+00:00",
+      "credential_source": "https://casdoor.ai/docs/overview/#try-the-online-demo",
+      "interaction": "Connexion au compte de démonstration public explicitement annoncé par l’éditeur, préférence de langue locale du navigateur anglais, puis navigation en lecture après chargement des lignes. Aucun profil modifié.",
+      "sha256": "e4cb6257c3fb2fee75b29ad815c108bf3c3de196a8412435f2daec4293c121e5",
+      "limits": [
+        "Instance officielle de démonstration ; aucune session personnelle.",
+        "Aucun enregistrement, aucune invitation, aucun utilisateur ou rôle créé/modifié.",
+        "Les droits complets de Travaux ne sont pas prouvés par une capture concurrente."
+      ]
+    }
+  ],
+  "blocked_writes": [],
+  "data_minimisation": "Only organization UI retained. Screens of visitor/member identifiers removed from delivered research artifacts; no account/profile data modified."
+}

@@ -1,0 +1,66 @@
+{
+  "errors": [],
+  "screens": [
+    {
+      "name": "1920-kanban.png",
+      "scroll_width": 1920,
+      "width": 1920,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\n4 à vérifier\nListe\nKanban\n+ Nouvelle action\nModifications…\n···\nÀ faire\n3\nConfirmer le cheminement piéton avec le service scolaire\nPrévoir une visite du parvis avec l’entreprise\nVérifier la livraison des barrières avant vendredi\nEn cours\nEn attente\nTerminé"
+    },
+    {
+      "name": "1920-table.png",
+      "scroll_width": 1920,
+      "width": 1920,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\n4 à vérifier\nListe\nKanban\n+ Nouvelle action\nModifications…\n···\nIntitulé\nDescription\nStatut\nÉchange\nConfirmer le cheminement piéton avec le service scolaire\nÀ faire\nhttp://127.0.0.1:8766/#/mail/f66425a4-2575-49cd-bfee-75c61544f37c\nPrévoir une visite du parvis avec l’entreprise\nÀ faire\nhttp://127.0.0.1:8766/#/mail/7b6f18f1-89d7-4bca-9f5f-5c096d09aa55\nVérifier la livraison des barrières avant vendredi\nÀ faire\nhttp://127.0.0.1:8766/#/mail/66764d10-c7a4-47ba-b9f3-ae50baac01b5\nNew Record\nCalculate\nCalculate\nCalculate\nCalculate"
+    },
+    {
+      "name": "1920-page.png",
+      "scroll_width": 1920,
+      "width": 1920,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\n4 à vérifier\n+ Ajouter un bloc\nEnregistré\n···\n​"
+    },
+    {
+      "name": "1920-documents.png",
+      "scroll_width": 1920,
+      "width": 1920,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\n4 à vérifier\nDocuments du chantier\n\nLes pièces, leur origine et leur fichier original lorsqu'il est disponible.\n\nImporter un courriel\nConsignes accès.txt\n\n79 o · Original conservé\n\n15 nov. 2026, 11:59\nLire l’extrait\nOriginal\nCourriel\nPlan de circulation.pdf\n\n623 o · Original conservé\n\n15 nov. 2026, 11:59\nLire l’extrait\nOriginal\nCourriel\nPlan de circulation.pdf\n\n623 o · Original conservé\n\n15 nov. 2026, 12:00\nLire l’extrait\nOriginal\nCourriel\nConsignes accès.txt\n\n79 o · Original conservé\n\n15 nov. 2026, 12:00\nLire l’extrait\nOriginal\nCourriel"
+    },
+    {
+      "name": "1920-exchanges.png",
+      "scroll_width": 1920,
+      "width": 1920,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\n4 à vérifier\nRechercher\n\n6 courriers disponibles.\n\n6 courriers\nsuivi@entreprise-fictive.invalid\n15 nov.\n[TRV-2026-014] Commande des barrières\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Signalisation temporaire en préparation Action : Vérifier la livraison des barrières avant\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Réunion de chantier du lundi\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Terrassement terminé, cheminement protégé Action : Prévoir une visite du parvis avec l’entr\n\nTRV-2026-014\nconducteur@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Nouveau point et livraison\n\nBonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le che\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n13 nov.\n[TRV-2026-014] Plan de circulation et accès à l’école\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Préparation du terrassement Action : Confirmer le cheminement piéton avec le service scolai\n\nTRV-2026-014\n2\npièces jointes\nsuivi@entreprise-fictive.invalid\n13 nov.\n[TRV-2026-014] Plan de circulation et accès à l’école\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Préparation du terrassement Action : Confirmer le cheminement piéton avec le service scolai\n\nTRV-2026-014\n2\npièces jointes\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-014] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-014. Avancement : Préparation du terrassement Entreprise : Entreprise Fictive 1 Budget : 42000 EUR HT Livraison : 2026-12-10\n\nTRV-2026-014\nLes échanges, dans leur contexte\n\nChoisissez un courrier pour lire son contenu et retrouver son chantier."
+    },
+    {
+      "name": "390-kanban.png",
+      "scroll_width": 390,
+      "width": 390,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\nListe\nKanban\n+ Nouvelle action\n···\nÀ faire · 3\nConfirmer le cheminement piéton avec le service scolaire\nVoir l’échange\nVoir tous les champs\nPrévoir une visite du parvis avec l’entreprise\nVoir l’échange\nVoir tous les champs\nVérifier la livraison des barrières avant vendredi\nVoir l’échange\nVoir tous les champs\nEn cours · 0\nEn attente · 0\nTerminé · 0"
+    },
+    {
+      "name": "390-table.png",
+      "scroll_width": 390,
+      "width": 390,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\nListe\nKanban\n+ Nouvelle action\n···\nConfirmer le cheminement piéton avec le service scolaire\nVoir l’échange\nVoir tous les champs\nPrévoir une visite du parvis avec l’entreprise\nVoir l’échange\nVoir tous les champs\nVérifier la livraison des barrières avant vendredi\nVoir l’échange\nVoir tous les champs"
+    },
+    {
+      "name": "390-page.png",
+      "scroll_width": 390,
+      "width": 390,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\n+ Ajouter un bloc\n···\n​"
+    },
+    {
+      "name": "390-documents.png",
+      "scroll_width": 390,
+      "width": 390,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\nDocuments du chantier\n\nLes pièces, leur origine et leur fichier original lorsqu'il est disponible.\n\nImporter un courriel\nConsignes accès.txt\n\n79 o · Original conservé\n\n15 nov. 2026, 11:59\nLire l’extrait\nOriginal\nCourriel\nPlan de circulation.pdf\n\n623 o · Original conservé\n\n15 nov. 2026, 11:59\nLire l’extrait\nOriginal\nCourriel\nPlan de circulation.pdf\n\n623 o · Original conservé\n\n15 nov. 2026, 12:00\nLire l’extrait\nOriginal\nCourriel\nConsignes accès.txt\n\n79 o · Original conservé\n\n15 nov. 2026, 12:00\nLire l’extrait\nOriginal\nCourriel"
+    },
+    {
+      "name": "390-exchanges.png",
+      "scroll_width": 390,
+      "width": 390,
+      "main": "Parvis de l'école des Alizés\n···\nNotes\nActions\nDocuments\nCourriels\nRechercher\n\n6 courriers disponibles.\n\n6 courriers\nsuivi@entreprise-fictive.invalid\n15 nov.\n[TRV-2026-014] Commande des barrières\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Signalisation temporaire en préparation Action : Vérifier la livraison des barrières avant\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Réunion de chantier du lundi\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Terrassement terminé, cheminement protégé Action : Prévoir une visite du parvis avec l’entr\n\nTRV-2026-014\nconducteur@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Nouveau point et livraison\n\nBonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le che\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n13 nov.\n[TRV-2026-014] Plan de circulation et accès à l’école\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Préparation du terrassement Action : Confirmer le cheminement piéton avec le service scolai\n\nTRV-2026-014\n2\npièces jointes\nsuivi@entreprise-fictive.invalid\n13 nov.\n[TRV-2026-014] Plan de circulation et accès à l’école\n\nBonjour, Voici le point de suivi du parvis de l’école des Alizés. Avancement : Préparation du terrassement Action : Confirmer le cheminement piéton avec le service scolai\n\nTRV-2026-014\n2\npièces jointes\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-014] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-014. Avancement : Préparation du terrassement Entreprise : Entreprise Fictive 1 Budget : 42000 EUR HT Livraison : 2026-12-10\n\nTRV-2026-014"
+    }
+  ],
+  "project_id": "f3fac791-0f15-42d0-8ccf-3c601ebc8b25"
+}

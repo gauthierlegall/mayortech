@@ -1,0 +1,68 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "checks": [
+    {
+      "name": "1920 human note visible without managed action Markdown",
+      "passed": true
+    },
+    {
+      "name": "1920 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 notes editor remains accessible",
+      "passed": true
+    },
+    {
+      "name": "390 human note visible without managed action Markdown",
+      "passed": true
+    },
+    {
+      "name": "390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390 notes editor remains accessible",
+      "passed": true
+    },
+    {
+      "name": "320 human note visible without managed action Markdown",
+      "passed": true
+    },
+    {
+      "name": "320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320 notes editor remains accessible",
+      "passed": true
+    },
+    {
+      "name": "planning three canonical actions still rendered",
+      "passed": true
+    },
+    {
+      "name": "Frappe three bars still render",
+      "passed": true
+    },
+    {
+      "name": "project facts unchanged",
+      "passed": true
+    },
+    {
+      "name": "materialized notes unchanged in storage",
+      "passed": true
+    },
+    {
+      "name": "no page/property mutations",
+      "passed": true
+    },
+    {
+      "name": "no browser or HTTP errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "writes": []
+}

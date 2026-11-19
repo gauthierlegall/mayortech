@@ -1,0 +1,122 @@
+{
+  "fixture": {
+    "project_id": "f658a522-8a10-4499-a47e-bd259803a4fc",
+    "page_id": "04250459-f311-4c1a-970d-ce83c602a4cc",
+    "source_id": "37c9b5e7-bcd6-425b-bd04-fdf2038c9be8",
+    "marker": "INTEGRE-1794678073452471900",
+    "attachment_text": "Pièce entièrement fictive INTEGRE-1794678073452471900\nBudget : 12345 EUR HT\nContrôle : Garder le cheminement accessible."
+  },
+  "note": "Note terrain de recette INTEGRE-1794678073452471900 : maintenir le passage accessible.",
+  "saved_revision": 1,
+  "editable": [
+    {
+      "tag": "AFFINE-PAGE-ROOT",
+      "cls": "",
+      "text": "\n      \n      \n        \n          \n      \n      \n      \n        .affine-paragraph-block-container[data-has-collapsed-sib",
+      "aria": null,
+      "role": null,
+      "parent": "EDITOR-HOST",
+      "rect": {
+        "x": 275,
+        "y": 509.828125,
+        "width": 841,
+        "height": 416.78125,
+        "top": 509.828125,
+        "right": 1116,
+        "bottom": 926.609375,
+        "left": 275
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": " inline-editor ",
+      "text": " Note terrain de recette INTEGRE-1794678073452471900 : maintenir le passage accessible.",
+      "aria": null,
+      "role": null,
+      "parent": "RICH-TEXT",
+      "rect": {
+        "x": 299,
+        "y": 519.828125,
+        "width": 793,
+        "height": 26.390625,
+        "top": 519.828125,
+        "right": 1092,
+        "bottom": 546.21875,
+        "left": 299
+      }
+    },
+    {
+      "tag": "INPUT",
+      "cls": "affine-database-search-input",
+      "text": "",
+      "aria": null,
+      "role": null,
+      "parent": "LABEL",
+      "rect": {
+        "x": 911.15625,
+        "y": 605.21875,
+        "width": 32,
+        "height": 20,
+        "top": 605.21875,
+        "right": 943.15625,
+        "bottom": 625.21875,
+        "left": 911.15625
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": " inline-editor ",
+      "text": "\n        ​\n      ",
+      "aria": null,
+      "role": null,
+      "parent": "RICH-TEXT",
+      "rect": {
+        "x": 299,
+        "y": 858.21875,
+        "width": 793,
+        "height": 26.390625,
+        "top": 858.21875,
+        "right": 1092,
+        "bottom": 884.609375,
+        "left": 299
+      }
+    }
+  ],
+  "native_store": {
+    "keys": [
+      "isUpdatePending",
+      "hasUpdated",
+      "enableUpdating",
+      "renderOptions",
+      "renderChildren",
+      "renderRoot"
+    ],
+    "hasStd": true,
+    "hasStore": true,
+    "databases": [
+      {
+        "id": "iQTrCyj5wR",
+        "children": [
+          {
+            "id": "hNkWPe3EE-",
+            "flavour": "affine:paragraph",
+            "text": ""
+          },
+          {
+            "id": "_y57n6Jvn1",
+            "flavour": "affine:paragraph",
+            "text": ""
+          },
+          {
+            "id": "Dx_OqQ1xmY",
+            "flavour": "affine:paragraph",
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "errors": [],
+  "console_errors": [],
+  "external_requests": []
+}

@@ -1,0 +1,689 @@
+[
+  {
+    "project_id": "03d0fa7b-7ed0-4741-8256-452ea21f09b0",
+    "seeded": true,
+    "human_rows_preserved": 0,
+    "metadata": {
+      "pageId": "169076f3-1993-4315-a5c8-3a117576f30c",
+      "presentation": "page",
+      "structureOpen": false,
+      "managedActionDatabaseId": "OCMI5901BG",
+      "blocks": [
+        {
+          "id": "RrrQZa267m",
+          "flavour": "affine:page",
+          "type": null
+        },
+        {
+          "id": "8GklePfS6O",
+          "flavour": "affine:surface",
+          "type": null
+        },
+        {
+          "id": "a34Jsbr93q",
+          "flavour": "affine:note",
+          "type": null
+        },
+        {
+          "id": "_hyb3WG8Ns",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "OCMI5901BG",
+          "flavour": "affine:database",
+          "type": null
+        },
+        {
+          "id": "1TDG1UUIC0",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "qcLONnBWee",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "qJg91rAbh8",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        }
+      ],
+      "blockCount": 8,
+      "databases": [
+        {
+          "id": "OCMI5901BG",
+          "managedActions": true,
+          "title": "Actions du dossier",
+          "properties": [
+            {
+              "id": "title",
+              "name": "Intitulé",
+              "type": "title"
+            },
+            {
+              "id": "0Wj_Uwfzpp",
+              "name": "Description",
+              "type": "rich-text"
+            },
+            {
+              "id": "XMPYPKyfNP",
+              "name": "Statut",
+              "type": "select"
+            },
+            {
+              "id": "9bTuJFzCYz",
+              "name": "Échange",
+              "type": "link"
+            },
+            {
+              "id": "DOTmu8m_FX",
+              "name": "Responsable",
+              "type": "rich-text"
+            },
+            {
+              "id": "fDw71L3bn2",
+              "name": "Priorité",
+              "type": "rich-text"
+            },
+            {
+              "id": "RjzvvKjRsg",
+              "name": "Échéance",
+              "type": "date"
+            }
+          ],
+          "views": [
+            {
+              "id": "ileBZcfZ6W",
+              "name": "Liste",
+              "mode": "table"
+            },
+            {
+              "id": "-ZB44AQki5",
+              "name": "Cartes",
+              "mode": "kanban"
+            }
+          ],
+          "activeViewId": "ileBZcfZ6W",
+          "activeView": "table",
+          "groups": [],
+          "rows": [
+            {
+              "id": "1TDG1UUIC0",
+              "sourceKey": "e02217b0-cc2b-457f-8bef-dbdf9b0ac7cd",
+              "sourceUrl": "#/mail/df896dbd-ad77-48e0-9d80-30fcfde60410",
+              "fields": [
+                {
+                  "id": "title",
+                  "name": "Intitulé",
+                  "type": "title",
+                  "text": "Confirmer le plan de circulation"
+                },
+                {
+                  "id": "0Wj_Uwfzpp",
+                  "name": "Description",
+                  "type": "rich-text",
+                  "text": "Faire valider la déviation par le service voirie."
+                },
+                {
+                  "id": "XMPYPKyfNP",
+                  "name": "Statut",
+                  "type": "select",
+                  "text": "À faire"
+                },
+                {
+                  "id": "9bTuJFzCYz",
+                  "name": "Échange",
+                  "type": "link",
+                  "text": "http://127.0.0.1:8766/#/mail/df896dbd-ad77-48e0-9d80-30fcfde60410"
+                },
+                {
+                  "id": "DOTmu8m_FX",
+                  "name": "Responsable",
+                  "type": "rich-text",
+                  "text": "Marie Kervella"
+                },
+                {
+                  "id": "fDw71L3bn2",
+                  "name": "Priorité",
+                  "type": "rich-text",
+                  "text": "Haute"
+                },
+                {
+                  "id": "RjzvvKjRsg",
+                  "name": "Échéance",
+                  "type": "date",
+                  "text": "2026-11-16"
+                }
+              ]
+            },
+            {
+              "id": "qcLONnBWee",
+              "sourceKey": "2e137bdb-eaea-49fe-9309-a3ade6a735d7",
+              "sourceUrl": "#/mail/71a738a3-1183-40db-b84e-19d3f15f2843",
+              "fields": [
+                {
+                  "id": "title",
+                  "name": "Intitulé",
+                  "type": "title",
+                  "text": "Recevoir les résultats des essais"
+                },
+                {
+                  "id": "0Wj_Uwfzpp",
+                  "name": "Description",
+                  "type": "rich-text",
+                  "text": "Attendre le rapport de portance du laboratoire."
+                },
+                {
+                  "id": "XMPYPKyfNP",
+                  "name": "Statut",
+                  "type": "select",
+                  "text": "En attente"
+                },
+                {
+                  "id": "9bTuJFzCYz",
+                  "name": "Échange",
+                  "type": "link",
+                  "text": "http://127.0.0.1:8766/#/mail/71a738a3-1183-40db-b84e-19d3f15f2843"
+                },
+                {
+                  "id": "DOTmu8m_FX",
+                  "name": "Responsable",
+                  "type": "rich-text",
+                  "text": "Lucie Prigent"
+                },
+                {
+                  "id": "fDw71L3bn2",
+                  "name": "Priorité",
+                  "type": "rich-text",
+                  "text": "Normale"
+                },
+                {
+                  "id": "RjzvvKjRsg",
+                  "name": "Échéance",
+                  "type": "date",
+                  "text": "2026-11-18"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "activeDatabaseId": "OCMI5901BG",
+      "activeView": "table"
+    }
+  },
+  {
+    "project_id": "08956dd7-6ae7-44e2-aa9c-34ec75dc0c53",
+    "seeded": true,
+    "human_rows_preserved": 0,
+    "metadata": {
+      "pageId": "0c1df8da-3269-4826-bf44-a27ab6852d87",
+      "presentation": "page",
+      "structureOpen": false,
+      "managedActionDatabaseId": null,
+      "blocks": [
+        {
+          "id": "i1N49yMKJS",
+          "flavour": "affine:page",
+          "type": null
+        },
+        {
+          "id": "SF1w7SIFe6",
+          "flavour": "affine:surface",
+          "type": null
+        },
+        {
+          "id": "abdVaRfo1j",
+          "flavour": "affine:note",
+          "type": null
+        },
+        {
+          "id": "5GQxyHOPyz",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "nXwTgUmXpu",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        }
+      ],
+      "blockCount": 5,
+      "databases": [],
+      "activeDatabaseId": null,
+      "activeView": null
+    }
+  },
+  {
+    "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+    "seeded": true,
+    "human_rows_preserved": 0,
+    "metadata": {
+      "pageId": "38d77221-2062-4f01-84af-3d0d09fcfb26",
+      "presentation": "page",
+      "structureOpen": false,
+      "managedActionDatabaseId": "MUHUVa0YkS",
+      "blocks": [
+        {
+          "id": "_B9Wg_-6z7",
+          "flavour": "affine:page",
+          "type": null
+        },
+        {
+          "id": "SD1l2EQeqg",
+          "flavour": "affine:surface",
+          "type": null
+        },
+        {
+          "id": "wfrE6THYsG",
+          "flavour": "affine:note",
+          "type": null
+        },
+        {
+          "id": "_k8ywZUTKR",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "MUHUVa0YkS",
+          "flavour": "affine:database",
+          "type": null
+        },
+        {
+          "id": "1hNqvQFwUq",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "E9B6N0wRCz",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "ezvIP7Vo4r",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "strHXZETfX",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        }
+      ],
+      "blockCount": 9,
+      "databases": [
+        {
+          "id": "MUHUVa0YkS",
+          "managedActions": true,
+          "title": "Actions du dossier",
+          "properties": [
+            {
+              "id": "title",
+              "name": "Intitulé",
+              "type": "title"
+            },
+            {
+              "id": "JSmXJH-ryH",
+              "name": "Description",
+              "type": "rich-text"
+            },
+            {
+              "id": "XKTyj9ym4J",
+              "name": "Statut",
+              "type": "select"
+            },
+            {
+              "id": "cvB2B2bJRx",
+              "name": "Échange",
+              "type": "link"
+            },
+            {
+              "id": "lFRUyMEoBQ",
+              "name": "Responsable",
+              "type": "rich-text"
+            },
+            {
+              "id": "z_LSFFlLLt",
+              "name": "Priorité",
+              "type": "rich-text"
+            },
+            {
+              "id": "fu78mCY0TD",
+              "name": "Échéance",
+              "type": "date"
+            }
+          ],
+          "views": [
+            {
+              "id": "6VlMuxhkU0",
+              "name": "Liste",
+              "mode": "table"
+            },
+            {
+              "id": "uQZwfMQ_Wd",
+              "name": "Cartes",
+              "mode": "kanban"
+            }
+          ],
+          "activeViewId": "6VlMuxhkU0",
+          "activeView": "table",
+          "groups": [],
+          "rows": [
+            {
+              "id": "1hNqvQFwUq",
+              "sourceKey": "42c1e2cc-a673-4710-9e2d-fc86eaa263e6",
+              "sourceUrl": "#/mail/51fe451a-5df5-4c72-8782-4f4251474658",
+              "fields": [
+                {
+                  "id": "title",
+                  "name": "Intitulé",
+                  "type": "title",
+                  "text": "Valider le devis initial"
+                },
+                {
+                  "id": "JSmXJH-ryH",
+                  "name": "Description",
+                  "type": "rich-text",
+                  "text": "Devis AF-2026-184 validé dans le courriel du 5 novembre."
+                },
+                {
+                  "id": "XKTyj9ym4J",
+                  "name": "Statut",
+                  "type": "select",
+                  "text": "Terminé"
+                },
+                {
+                  "id": "cvB2B2bJRx",
+                  "name": "Échange",
+                  "type": "link",
+                  "text": "http://127.0.0.1:8766/#/mail/51fe451a-5df5-4c72-8782-4f4251474658"
+                },
+                {
+                  "id": "lFRUyMEoBQ",
+                  "name": "Responsable",
+                  "type": "rich-text",
+                  "text": "Thomas Le Gall"
+                },
+                {
+                  "id": "z_LSFFlLLt",
+                  "name": "Priorité",
+                  "type": "rich-text",
+                  "text": "Normale"
+                },
+                {
+                  "id": "fu78mCY0TD",
+                  "name": "Échéance",
+                  "type": "date",
+                  "text": "2026-11-05"
+                }
+              ]
+            },
+            {
+              "id": "E9B6N0wRCz",
+              "sourceKey": "d5cf2532-473c-479a-88d0-4abd7b935c72",
+              "sourceUrl": "#/mail/b3fc673b-2863-4f4b-b398-e2915337ff8d",
+              "fields": [
+                {
+                  "id": "title",
+                  "name": "Intitulé",
+                  "type": "title",
+                  "text": "Préparer la sécurisation de l’entrée"
+                },
+                {
+                  "id": "JSmXJH-ryH",
+                  "name": "Description",
+                  "type": "rich-text",
+                  "text": "Prévoir un cheminement provisoire pour les élèves."
+                },
+                {
+                  "id": "XKTyj9ym4J",
+                  "name": "Statut",
+                  "type": "select",
+                  "text": "En cours"
+                },
+                {
+                  "id": "cvB2B2bJRx",
+                  "name": "Échange",
+                  "type": "link",
+                  "text": "http://127.0.0.1:8766/#/mail/b3fc673b-2863-4f4b-b398-e2915337ff8d"
+                },
+                {
+                  "id": "lFRUyMEoBQ",
+                  "name": "Responsable",
+                  "type": "rich-text",
+                  "text": "Marie Kervella"
+                },
+                {
+                  "id": "z_LSFFlLLt",
+                  "name": "Priorité",
+                  "type": "rich-text",
+                  "text": "Haute"
+                },
+                {
+                  "id": "fu78mCY0TD",
+                  "name": "Échéance",
+                  "type": "date",
+                  "text": "2026-11-17"
+                }
+              ]
+            },
+            {
+              "id": "ezvIP7Vo4r",
+              "sourceKey": "c4b9e720-11db-4cbb-bfb3-6ae4fdf4ef34",
+              "sourceUrl": "#/mail/177516b5-668d-4b19-b541-2c9dd307c2b3",
+              "fields": [
+                {
+                  "id": "title",
+                  "name": "Intitulé",
+                  "type": "title",
+                  "text": "Confirmer l’accès vendredi"
+                },
+                {
+                  "id": "JSmXJH-ryH",
+                  "name": "Description",
+                  "type": "rich-text",
+                  "text": "Confirmer l’accès le vendredi 20 novembre pour la visite préparatoire d’Armor Fermetures ; cette tâche ne confirme pas que l’accès est déjà accordé."
+                },
+                {
+                  "id": "XKTyj9ym4J",
+                  "name": "Statut",
+                  "type": "select",
+                  "text": "À faire"
+                },
+                {
+                  "id": "cvB2B2bJRx",
+                  "name": "Échange",
+                  "type": "link",
+                  "text": "http://127.0.0.1:8766/#/mail/177516b5-668d-4b19-b541-2c9dd307c2b3"
+                },
+                {
+                  "id": "lFRUyMEoBQ",
+                  "name": "Responsable",
+                  "type": "rich-text",
+                  "text": "Thomas Le Gall"
+                },
+                {
+                  "id": "z_LSFFlLLt",
+                  "name": "Priorité",
+                  "type": "rich-text",
+                  "text": "Haute"
+                },
+                {
+                  "id": "fu78mCY0TD",
+                  "name": "Échéance",
+                  "type": "date",
+                  "text": "2026-11-20"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "activeDatabaseId": "MUHUVa0YkS",
+      "activeView": "table"
+    }
+  },
+  {
+    "project_id": "a5cb01e3-80b1-454d-a07f-6bdc8d3bdfbb",
+    "seeded": true,
+    "human_rows_preserved": 0,
+    "metadata": {
+      "pageId": "6cb91bcf-f772-4c48-aa74-5362d5d058b0",
+      "presentation": "page",
+      "structureOpen": false,
+      "managedActionDatabaseId": "s37XnV9qWp",
+      "blocks": [
+        {
+          "id": "gu9fhiEayA",
+          "flavour": "affine:page",
+          "type": null
+        },
+        {
+          "id": "nopY_E8dRN",
+          "flavour": "affine:surface",
+          "type": null
+        },
+        {
+          "id": "FwEJ_r-BWf",
+          "flavour": "affine:note",
+          "type": null
+        },
+        {
+          "id": "UXziJfoP94",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "s37XnV9qWp",
+          "flavour": "affine:database",
+          "type": null
+        },
+        {
+          "id": "phDrNm99QD",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        },
+        {
+          "id": "bukSG72ypU",
+          "flavour": "affine:paragraph",
+          "type": "text"
+        }
+      ],
+      "blockCount": 7,
+      "databases": [
+        {
+          "id": "s37XnV9qWp",
+          "managedActions": true,
+          "title": "Actions du dossier",
+          "properties": [
+            {
+              "id": "title",
+              "name": "Intitulé",
+              "type": "title"
+            },
+            {
+              "id": "2yXHDh9SQY",
+              "name": "Description",
+              "type": "rich-text"
+            },
+            {
+              "id": "MyZHkVTSM3",
+              "name": "Statut",
+              "type": "select"
+            },
+            {
+              "id": "gHNC4amZQO",
+              "name": "Échange",
+              "type": "link"
+            },
+            {
+              "id": "MbVq7pgOxn",
+              "name": "Responsable",
+              "type": "rich-text"
+            },
+            {
+              "id": "Ygnj_c54dp",
+              "name": "Priorité",
+              "type": "rich-text"
+            },
+            {
+              "id": "Ic8YP7Ho8S",
+              "name": "Échéance",
+              "type": "date"
+            }
+          ],
+          "views": [
+            {
+              "id": "1y_0lmpadU",
+              "name": "Liste",
+              "mode": "table"
+            },
+            {
+              "id": "o3V8mDbDjM",
+              "name": "Cartes",
+              "mode": "kanban"
+            }
+          ],
+          "activeViewId": "1y_0lmpadU",
+          "activeView": "table",
+          "groups": [],
+          "rows": [
+            {
+              "id": "phDrNm99QD",
+              "sourceKey": "150d8a3f-517c-4ce6-b6b4-b8269cb007f6",
+              "sourceUrl": "#/mail/82c8881a-d9ec-4d1b-a558-6f851451c4d6",
+              "fields": [
+                {
+                  "id": "title",
+                  "name": "Intitulé",
+                  "type": "title",
+                  "text": "Organiser la visite technique"
+                },
+                {
+                  "id": "2yXHDh9SQY",
+                  "name": "Description",
+                  "type": "rich-text",
+                  "text": "Relever les points lumineux avec Élec Armor."
+                },
+                {
+                  "id": "MyZHkVTSM3",
+                  "name": "Statut",
+                  "type": "select",
+                  "text": "À faire"
+                },
+                {
+                  "id": "gHNC4amZQO",
+                  "name": "Échange",
+                  "type": "link",
+                  "text": "http://127.0.0.1:8766/#/mail/82c8881a-d9ec-4d1b-a558-6f851451c4d6"
+                },
+                {
+                  "id": "MbVq7pgOxn",
+                  "name": "Responsable",
+                  "type": "rich-text",
+                  "text": "Thomas Le Gall"
+                },
+                {
+                  "id": "Ygnj_c54dp",
+                  "name": "Priorité",
+                  "type": "rich-text",
+                  "text": "Normale"
+                },
+                {
+                  "id": "Ic8YP7Ho8S",
+                  "name": "Échéance",
+                  "type": "date",
+                  "text": "2026-11-20"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "activeDatabaseId": "s37XnV9qWp",
+      "activeView": "table"
+    }
+  }
+]

@@ -1,0 +1,72 @@
+name: travaux-mairie
+x-runtime: &runtime
+  image: ${TRAVAUX_IMAGE:?release image required}
+  restart: unless-stopped
+  init: true
+  user: "10001:10001"
+  read_only: true
+  tmpfs:
+    - /tmp:size=64m,noexec,nosuid
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  pids_limit: 100
+  environment:
+    TRAVAUX_MODE: public_demo
+    TRAVAUX_DB: /data/public-demo.sqlite3
+    TRAVAUX_TENANT: public-demo-travaux
+    TRAVAUX_PASSWORD_HASH: ""
+    TRAVAUX_PUBLIC_ORIGIN: https://travaux.kerforge.com
+    TRAVAUX_ALLOWED_HOSTS: travaux.kerforge.com
+    TRAVAUX_PRIVATE_ACCESS_ORIGIN: https://espace.kerforge.com
+    TRAVAUX_LLM: demo
+    TRAVAUX_LLM_EGRESS_APPROVED: "false"
+    TRAVAUX_MISTRAL_URL: ""
+    TRAVAUX_MISTRAL_MODEL: ""
+    TRAVAUX_MISTRAL_KEY: ""
+    TRAVAUX_APPFLOWY_URL: ""
+  volumes:
+    - data:/data
+  labels:
+    io.kerforge.application: travaux-mairie
+    io.kerforge.environment: public-demo-fictif
+  logging:
+    driver: json-file
+    options:
+      max-size: "5m"
+      max-file: "2"
+services:
+  app:
+    <<: *runtime
+    mem_limit: 768m
+    cpus: "0.75"
+    expose: ["8765"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; r=urllib.request.Request('http://127.0.0.1:8765/health/live',headers={'Host':'travaux.kerforge.com'}); urllib.request.urlopen(r,timeout=3).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
+    networks:
+      caddy:
+        aliases: [travaux-mairie-app]
+  worker:
+    <<: *runtime
+    command: ["python", "-m", "travaux", "worker"]
+    mem_limit: 256m
+    cpus: "0.25"
+    network_mode: none
+    healthcheck:
+      test: ["CMD", "python", "-c", "from pathlib import Path\nimport os\nhealthy=False\nfor path in Path('/proc').glob('[0-9]*/cmdline'):\n try:\n  command=path.read_bytes().rstrip(b'\\0').split(b'\\0')\n except OSError:\n  continue\n if path.parent.name != str(os.getpid()) and len(command)==4 and command[1:]==[b'-m',b'travaux',b'worker']:\n  healthy=True\n  break\nraise SystemExit(0 if healthy else 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
+volumes:
+  data:
+    name: travaux-mairie-data
+    labels:
+      io.kerforge.application: travaux-mairie
+networks:
+  caddy:
+    external: true
+    name: caddy_net

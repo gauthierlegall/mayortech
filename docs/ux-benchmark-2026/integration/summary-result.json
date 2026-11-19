@@ -1,0 +1,21 @@
+{
+  "summary_id": "b40a99b4-bae7-479a-b7eb-205832312d0e",
+  "marker": "CONTEXTE-DERNIER-1794678379078067700",
+  "generated_before_page_ack": false,
+  "marker_persisted_page": true,
+  "marker_in_current_notes": true,
+  "marker_in_summary": true,
+  "summary_stale": false,
+  "coverage": "partial",
+  "warnings": [
+    "2 proposition(s) restent à confirmer."
+  ],
+  "notes_source_ids": [
+    "e34a49ae-97f2-40f0-9cb9-4b6534f88833"
+  ],
+  "summary_citation_source_ids": [
+    "e34a49ae-97f2-40f0-9cb9-4b6534f88833"
+  ],
+  "native_row_in_summary": true,
+  "errors": []
+}

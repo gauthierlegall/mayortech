@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-15T18:21:56.474343+00:00",
+  "base": "http://127.0.0.1:8766",
+  "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+  "checks": [
+    "Actual catalog produces two original PDFs, versions1/2, amounts4850/5120HT, approved/under_review",
+    "Actual PDF preview is same-origin framed, sandboxed, and byte-identical to the immutable original",
+    "Original download is byte-identical to preview and recorded SHA256",
+    "Closing the preview restores keyboard focus to its document row",
+    "UI Valider records one real revision-checked human decision for v2, preserves v1 and leaves facts/pending budget and date unchanged",
+    "The real contextual Assistant now identifies version2 as latest approved and cites its proofs, without an external LLM",
+    "v2 is restored to under_review and the Assistant again identifies v1 as latest approved"
+  ],
+  "screens": [
+    {
+      "file": "1920-documents-before.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "8534c66874e25005e60107a219f3ebc5998d0b2a0dea9584cbea31bbd85c8c53"
+    },
+    {
+      "file": "1920-pdf-preview.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "796e4b57b540259c1d6b893fdb9860afef3d4c43046fd996e07a8740425824c5"
+    },
+    {
+      "file": "390-pdf-preview.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "a539962fd4b7f9416c23cca5f72b8374bcb97ca890e7c8de85d49268b4144a06"
+    },
+    {
+      "file": "1920-documents-approved.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "2f0da837da989127163b86a2d23bcbf9498db80cd576cbb49d423f4b00aa6c17"
+    },
+    {
+      "file": "1920-assistant-approved-v2.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "b9afff374e38947ecebb0effef2b859f506941e4534a3af97319000b74dbf3ab"
+    },
+    {
+      "file": "390-documents-restored.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "f6a7ec36f9bef0c5ef7e4a80a4651a6eab2f831436d0bb22234e2859d7193d11"
+    },
+    {
+      "file": "1920-assistant-restored-v1.png",
+      "url": "http://127.0.0.1:8766/#/chantiers/7311f3fc-9a8f-4387-a787-79700e0710f5?view=documents",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "7e759a908d7028ee267916c7533af26c7d7a36b22a9d79ef8c75cee5a698a949"
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "restored": true,
+  "documents": {
+    "v1": "9a69a0f6-66e6-4fe0-976f-b3d8cbb9babd",
+    "v2": "29e0b319-c6b4-4114-9fe0-7dcf13d0381a",
+    "sha256_v1": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+    "sha256_v2": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce"
+  },
+  "initial_reviews": {
+    "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+    "project_revision": 23,
+    "items": [
+      {
+        "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+        "project_revision": 23,
+        "document_id": "9a69a0f6-66e6-4fe0-976f-b3d8cbb9babd",
+        "document_source_id": "0680c4eb-f1ce-46b3-89df-436efbcda20a",
+        "sha256": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+        "status": "approved",
+        "status_label": "Validé",
+        "origin": "fixture_catalogue",
+        "source_id": "51fe451a-5df5-4c72-8782-4f4251474658",
+        "reviewer": null,
+        "created_at": "2026-11-05T08:30:00+00:00",
+        "recorded_project_revision": null,
+        "evidence": {
+          "status": {
+            "source_id": "51fe451a-5df5-4c72-8782-4f4251474658",
+            "source_hash": "219d9b51201c70b638b52b9622155c891f11c69af4b2f8d18959d641cf0fedff",
+            "start": 70,
+            "end": 120,
+            "quote": "Nous confirmons le devis initial de 4 850,00 € HT."
+          },
+          "version": {
+            "source_id": "0680c4eb-f1ce-46b3-89df-436efbcda20a",
+            "source_hash": "765fdb9b5fab6f331ab607d26f2cfaf917cb41629432227c05aad0774c03c9fc",
+            "start": 59,
+            "end": 88,
+            "quote": "Devis AF-2026-184 - Version 1"
+          },
+          "amount": {
+            "source_id": "0680c4eb-f1ce-46b3-89df-436efbcda20a",
+            "source_hash": "765fdb9b5fab6f331ab607d26f2cfaf917cb41629432227c05aad0774c03c9fc",
+            "start": 262,
+            "end": 293,
+            "quote": "Montant total : 4 850,00 EUR HT"
+          }
+        },
+        "can_review": true
+      },
+      {
+        "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+        "project_revision": 23,
+        "document_id": "29e0b319-c6b4-4114-9fe0-7dcf13d0381a",
+        "document_source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+        "sha256": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce",
+        "status": "under_review",
+        "status_label": "En examen",
+        "origin": "fixture_catalogue",
+        "source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+        "reviewer": null,
+        "created_at": "2026-11-15T08:30:00+00:00",
+        "recorded_project_revision": null,
+        "evidence": {
+          "status": {
+            "source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+            "source_hash": "fff308f31e134e5e4e0f0d11e16a6e0a8a52e289079427f8bcb6f41669e1ed6c",
+            "start": 323,
+            "end": 373,
+            "quote": "Etat : En examen - ne remplace pas le devis valide"
+          },
+          "version": {
+            "source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+            "source_hash": "fff308f31e134e5e4e0f0d11e16a6e0a8a52e289079427f8bcb6f41669e1ed6c",
+            "start": 59,
+            "end": 88,
+            "quote": "Devis AF-2026-184 - Version 2"
+          },
+          "amount": {
+            "source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+            "source_hash": "fff308f31e134e5e4e0f0d11e16a6e0a8a52e289079427f8bcb6f41669e1ed6c",
+            "start": 262,
+            "end": 293,
+            "quote": "Montant total : 5 120,00 EUR HT"
+          }
+        },
+        "can_review": true
+      }
+    ]
+  },
+  "preview_headers": {
+    "content-type": "application/pdf",
+    "content-security-policy": "sandbox; default-src 'none'; frame-ancestors 'self'",
+    "x-frame-options": "SAMEORIGIN",
+    "content-disposition": "inline"
+  },
+  "chrome_frame_headers": {
+    "content-type": "application/pdf",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-frame-options": "SAMEORIGIN",
+    "content-disposition": "inline"
+  },
+  "approval_receipt": {
+    "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+    "project_revision": 24,
+    "document_id": "29e0b319-c6b4-4114-9fe0-7dcf13d0381a",
+    "document_source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+    "sha256": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce",
+    "status": "approved",
+    "status_label": "Validé",
+    "origin": "human_decision",
+    "source_id": "19f644b8-ec4a-42d9-8137-81e030d5314c",
+    "reviewer": "responsable-demo",
+    "created_at": "2026-11-15T18:21:59.912957+00:00",
+    "recorded_project_revision": 24,
+    "evidence": {
+      "status": {
+        "source_id": "19f644b8-ec4a-42d9-8137-81e030d5314c",
+        "source_hash": "4bb7a5a99fcc768e845091314a59a588971a79247464481d3f4a9cb4aafb4594",
+        "start": 0,
+        "end": 76,
+        "quote": "Décision enregistrée : « Validé » pour le document « devis-portail-v2.pdf »."
+      }
+    },
+    "can_review": true
+  },
+  "assistant_after_approval": "Dernier devis validé : AF-2026-184, version 2 — 5120.00 EUR HT.\n\nLes validations précédentes restent conservées dans l’historique ; elles ne sont pas supprimées par cette décision.\n\n2 pièce(s) du dossier sont consultables ci-dessous avec leur échange d’origine.\n\nDevis AF-2026-184 - Version 2\nOuvrir le message source\nMontant total : 5 120,00 EUR HT\nOuvrir le message source\nDécision enregistrée : « Validé » pour le document « devis-portail-v2.pdf ».\nOuvrir le message source\ndevis-portail-v1.pdf\ndevis-portail-v2.pdf\n\n2 proposition(s) attendent une vérification humaine.\n\nOuvrir les devis\nDossier contextuel · sans appel IA",
+  "restoration_receipt": {
+    "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+    "project_revision": 25,
+    "document_id": "29e0b319-c6b4-4114-9fe0-7dcf13d0381a",
+    "document_source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+    "sha256": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce",
+    "status": "under_review",
+    "status_label": "En examen",
+    "origin": "human_decision",
+    "source_id": "08d9d05a-bdb4-420d-8039-dffdd37954f9",
+    "reviewer": "responsable-demo",
+    "created_at": "2026-11-15T18:22:00.374760+00:00",
+    "recorded_project_revision": 25,
+    "evidence": {
+      "status": {
+        "source_id": "08d9d05a-bdb4-420d-8039-dffdd37954f9",
+        "source_hash": "34a7bc65fd6e5f22c1a551b52f2d44038fbf0f0349c4e1d7353d403e9cc70539",
+        "start": 0,
+        "end": 79,
+        "quote": "Décision enregistrée : « En examen » pour le document « devis-portail-v2.pdf »."
+      }
+    },
+    "can_review": true
+  },
+  "final_reviews": {
+    "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+    "project_revision": 25,
+    "items": [
+      {
+        "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+        "project_revision": 25,
+        "document_id": "9a69a0f6-66e6-4fe0-976f-b3d8cbb9babd",
+        "document_source_id": "0680c4eb-f1ce-46b3-89df-436efbcda20a",
+        "sha256": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+        "status": "approved",
+        "status_label": "Validé",
+        "origin": "fixture_catalogue",
+        "source_id": "51fe451a-5df5-4c72-8782-4f4251474658",
+        "reviewer": null,
+        "created_at": "2026-11-05T08:30:00+00:00",
+        "recorded_project_revision": null,
+        "evidence": {
+          "status": {
+            "source_id": "51fe451a-5df5-4c72-8782-4f4251474658",
+            "source_hash": "219d9b51201c70b638b52b9622155c891f11c69af4b2f8d18959d641cf0fedff",
+            "start": 70,
+            "end": 120,
+            "quote": "Nous confirmons le devis initial de 4 850,00 € HT."
+          },
+          "version": {
+            "source_id": "0680c4eb-f1ce-46b3-89df-436efbcda20a",
+            "source_hash": "765fdb9b5fab6f331ab607d26f2cfaf917cb41629432227c05aad0774c03c9fc",
+            "start": 59,
+            "end": 88,
+            "quote": "Devis AF-2026-184 - Version 1"
+          },
+          "amount": {
+            "source_id": "0680c4eb-f1ce-46b3-89df-436efbcda20a",
+            "source_hash": "765fdb9b5fab6f331ab607d26f2cfaf917cb41629432227c05aad0774c03c9fc",
+            "start": 262,
+            "end": 293,
+            "quote": "Montant total : 4 850,00 EUR HT"
+          }
+        },
+        "can_review": true
+      },
+      {
+        "project_id": "7311f3fc-9a8f-4387-a787-79700e0710f5",
+        "project_revision": 25,
+        "document_id": "29e0b319-c6b4-4114-9fe0-7dcf13d0381a",
+        "document_source_id": "53cb0743-9ad7-46e9-8faa-24801b80220c",
+        "sha256": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce",
+        "status": "under_review",
+        "status_label": "En examen",
+        "origin": "human_decision",
+        "source_id": "08d9d05a-bdb4-420d-8039-dffdd37954f9",
+        "reviewer": "responsable-demo",
+        "created_at": "2026-11-15T18:22:00.374760+00:00",
+        "recorded_project_revision": 25,
+        "evidence": {
+          "status": {
+            "source_id": "08d9d05a-bdb4-420d-8039-dffdd37954f9",
+            "source_hash": "34a7bc65fd6e5f22c1a551b52f2d44038fbf0f0349c4e1d7353d403e9cc70539",
+            "start": 0,
+            "end": 79,
+            "quote": "Décision enregistrée : « En examen » pour le document « devis-portail-v2.pdf »."
+          }
+        },
+        "can_review": true
+      }
+    ]
+  },
+  "assistant_after_restore": "Dernier devis validé : AF-2026-184, version 1 — 4850.00 EUR HT.\n\n2 pièce(s) du dossier sont consultables ci-dessous avec leur échange d’origine.\n\nDevis AF-2026-184 - Version 1\nOuvrir le message source\nMontant total : 4 850,00 EUR HT\nOuvrir le message source\nNous confirmons le devis initial de 4 850,00 € HT.\nOuvrir le message source\ndevis-portail-v1.pdf\ndevis-portail-v2.pdf\n\n2 proposition(s) attendent une vérification humaine.\n\nOuvrir les devis\nDossier contextuel · sans appel IA",
+  "passed": true
+}

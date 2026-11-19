@@ -1,0 +1,8 @@
+{
+  "stale_search_ignored": true,
+  "enter_submits_search": true,
+  "error_transport": "503 injected only on read request, no persisted data affected",
+  "error_state_readable": true,
+  "retry_real_backend_success": true,
+  "query_preserved": true
+}

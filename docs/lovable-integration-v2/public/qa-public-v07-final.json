@@ -1,0 +1,74 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "tls_bypass": false,
+  "asset_substitution": false,
+  "api_substitution": false,
+  "errors": [],
+  "checks": [
+    {
+      "name": "1920_reader_visible",
+      "passed": true
+    },
+    {
+      "name": "1920_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "390_reader_visible",
+      "passed": true
+    },
+    {
+      "name": "390_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "320_reader_visible",
+      "passed": true
+    },
+    {
+      "name": "320_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "original_flags_and_body_hash_restored",
+      "passed": true
+    },
+    {
+      "name": "planning_loaded_without_error",
+      "passed": true
+    }
+  ],
+  "reader": {
+    "source_id": "ac041f71-6091-4e7b-8242-2ef3b41b435d",
+    "before": {
+      "read": false,
+      "starred": false,
+      "folder": "inbox",
+      "mailbox_revision": 2,
+      "body_hash": "585a1e0402b4b11e72245e0cc6f8bb99e7848b67b7e3f82fa02e5f7b44a6928d"
+    },
+    "after_open": {
+      "read": true,
+      "starred": false,
+      "folder": "inbox",
+      "mailbox_revision": 3,
+      "body_hash": "585a1e0402b4b11e72245e0cc6f8bb99e7848b67b7e3f82fa02e5f7b44a6928d"
+    },
+    "restore_status": 200,
+    "final": {
+      "read": false,
+      "starred": false,
+      "folder": "inbox",
+      "mailbox_revision": 4,
+      "body_hash": "585a1e0402b4b11e72245e0cc6f8bb99e7848b67b7e3f82fa02e5f7b44a6928d"
+    }
+  },
+  "planning": {
+    "rows": 6,
+    "groups": 10,
+    "bars": 6,
+    "alerts": [],
+    "status": []
+  },
+  "passed": true
+}

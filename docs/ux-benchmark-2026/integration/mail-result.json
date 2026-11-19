@@ -1,0 +1,178 @@
+{
+  "fixture": {
+    "project_id": "f658a522-8a10-4499-a47e-bd259803a4fc",
+    "page_id": "04250459-f311-4c1a-970d-ce83c602a4cc",
+    "source_id": "37c9b5e7-bcd6-425b-bd04-fdf2038c9be8",
+    "marker": "INTEGRE-1794678073452471900",
+    "attachment_text": "Pièce entièrement fictive INTEGRE-1794678073452471900\nBudget : 12345 EUR HT\nContrôle : Garder le cheminement accessible."
+  },
+  "checks": [
+    {
+      "name": "1440: query and project/matched filters",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440: escaped mail text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440: message heading receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440: attachment source ID linked to real source",
+      "passed": true,
+      "details": "b8c21451-ff82-40a3-9671-9763b402be6c"
+    },
+    {
+      "name": "1440: evidence heading receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440: no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sidebarInert": false,
+        "sidebarHidden": null,
+        "headings": [
+          "Courriels"
+        ]
+      }
+    },
+    {
+      "name": "1440: return focus to attachment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "desktop: mail to native project within same app",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: query and project/matched filters",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: escaped mail text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: message heading receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: attachment source ID linked to real source",
+      "passed": true,
+      "details": "b8c21451-ff82-40a3-9671-9763b402be6c"
+    },
+    {
+      "name": "390: evidence heading receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "sidebarInert": true,
+        "sidebarHidden": "true",
+        "headings": [
+          "Courriels"
+        ]
+      }
+    },
+    {
+      "name": "390: return focus to attachment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: return to filtered list",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: hidden sidebar inert",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: menu Escape restores focus and inert",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: query and project/matched filters",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: escaped mail text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: message heading receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: attachment source ID linked to real source",
+      "passed": true,
+      "details": "b8c21451-ff82-40a3-9671-9763b402be6c"
+    },
+    {
+      "name": "320: evidence heading receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "sidebarInert": true,
+        "sidebarHidden": "true",
+        "headings": [
+          "Courriels"
+        ]
+      }
+    },
+    {
+      "name": "320: return focus to attachment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: return to filtered list",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: hidden sidebar inert",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: menu Escape restores focus and inert",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "external_requests": []
+}

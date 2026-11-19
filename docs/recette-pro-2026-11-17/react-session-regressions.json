@@ -1,0 +1,189 @@
+{
+  "fixture": true,
+  "baseline": false,
+  "negative_control": false,
+  "negative_workspace_observation": false,
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "real": [
+    "Chrome",
+    "React",
+    "production AuthGate, BlockEditor and Actions",
+    "native scope guard",
+    "panel lifecycle",
+    "WorkspaceProvider, QueryClient and loadWorkspace (cases 6 and 7)"
+  ],
+  "not_qualified": [
+    "OIDC",
+    "BlockSuite renderer",
+    "backend persistence",
+    "real identity provider"
+  ],
+  "results": [
+    {
+      "name": "dirty-note-during-action-reload",
+      "passed": true,
+      "explicit_mocks": [
+        "workspace context",
+        "native page controller",
+        "Actions projection/transport"
+      ],
+      "controllers": [
+        {
+          "id": 1,
+          "text": "Note fictive saisie PENDANT le rechargement — à conserver.",
+          "dirty": true,
+          "destroyed": false,
+          "flushes": 1,
+          "updates": 2,
+          "writes": 0,
+          "blocked": 0
+        }
+      ]
+    },
+    {
+      "name": "account-switch-clears-ui-and-stops-old-write",
+      "passed": true,
+      "explicit_mocks": [
+        "workspace context",
+        "native page controller",
+        "Actions projection/transport"
+      ],
+      "controllers": [
+        {
+          "id": 1,
+          "text": "Brouillon fictif privé du compte A.",
+          "dirty": true,
+          "destroyed": true,
+          "flushes": 0,
+          "updates": 1,
+          "writes": 0,
+          "blocked": 1
+        },
+        {
+          "id": 2,
+          "text": "",
+          "dirty": false,
+          "destroyed": false,
+          "flushes": 0,
+          "updates": 1,
+          "writes": 0,
+          "blocked": 0
+        }
+      ]
+    },
+    {
+      "name": "current-grant-stops-deferred-write",
+      "passed": true,
+      "explicit_mocks": [
+        "workspace context",
+        "native page controller",
+        "Actions projection/transport"
+      ],
+      "controllers": [
+        {
+          "id": 1,
+          "text": "Note fictive du dossier dont l’accès sera retiré.",
+          "dirty": true,
+          "destroyed": false,
+          "flushes": 0,
+          "updates": 1,
+          "writes": 0,
+          "blocked": 1
+        }
+      ]
+    },
+    {
+      "name": "neighbor-grant-keeps-dirty-retained-editor",
+      "passed": true,
+      "explicit_mocks": [
+        "workspace context",
+        "native page controller",
+        "Actions projection/transport"
+      ],
+      "controllers": [
+        {
+          "id": 1,
+          "text": "Note fictive du dossier conservé, malgré le retrait du voisin.",
+          "dirty": true,
+          "destroyed": false,
+          "flushes": 0,
+          "updates": 1,
+          "writes": 1,
+          "blocked": 0
+        }
+      ]
+    },
+    {
+      "name": "revoked-action-hidden-even-when-reload-fails",
+      "passed": true,
+      "explicit_mocks": [
+        "workspace context",
+        "native page controller",
+        "Actions projection/transport"
+      ],
+      "controllers": [
+        {
+          "id": 1,
+          "text": "",
+          "dirty": false,
+          "destroyed": true,
+          "flushes": 0,
+          "updates": 1,
+          "writes": 0,
+          "blocked": 0
+        }
+      ]
+    },
+    {
+      "name": "session-b-read-business-failure-masks-cached-a",
+      "passed": true,
+      "explicit_mocks": [
+        "API transport"
+      ],
+      "workspace": {
+        "failed": true,
+        "cachedActor": null,
+        "cachedProjects": [],
+        "requests": [
+          "session:account-a",
+          "bootstrap:account-a",
+          "projects:account-a",
+          "session:account-b",
+          "bootstrap:account-b",
+          "projects:account-b"
+        ]
+      }
+    },
+    {
+      "name": "grant-list-read-detail-failure-masks-cache-keeps-draft",
+      "passed": true,
+      "explicit_mocks": [
+        "API transport"
+      ],
+      "workspace": {
+        "failed": true,
+        "cachedProjects": [
+          "retained",
+          "neighbor"
+        ],
+        "requests": [
+          "session:account-a",
+          "bootstrap:account-a",
+          "projects:account-a",
+          "project-retained:account-a",
+          "project-neighbor:account-a",
+          "session:account-a",
+          "bootstrap:account-a",
+          "projects:account-a",
+          "project-retained:account-a"
+        ],
+        "mounts": 1,
+        "retainedDraftPreserved": true,
+        "mountsAfterRetry": 1
+      }
+    }
+  ]
+}

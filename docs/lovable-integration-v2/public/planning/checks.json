@@ -1,0 +1,435 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "captured_at_utc": "2026-11-15T21:13:48.583187+00:00",
+  "checks": [
+    {
+      "name": "1920 validated HTTPS public version 0.7 is active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 global monthly timeline shows all six real planned actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-global-timeline.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 project filter selects the actual portal and its three actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 previous month changes the real calendar window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 next month returns to the same calendar and rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "public action rows keep Lovable 65px density",
+      "passed": true,
+      "detail": [
+        65,
+        65,
+        65
+      ]
+    },
+    {
+      "name": "1920 opening a project uses its shared monthly timeline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-project-monthly.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 Frappe renders all three unknown-progress bars without the fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 unknown progress has no visible drag handle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920-project-frappe.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 fixed lower-right launcher remains reachable above navigation",
+      "passed": true,
+      "detail": {
+        "width": 121.78125,
+        "height": 52,
+        "right": 1896,
+        "left": 1774.21875,
+        "bottom": 1056,
+        "limit": 1080,
+        "hit": true
+      }
+    },
+    {
+      "name": "1920 popup starts privately with the current project context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 popup and enabled composer fit in the visible page",
+      "passed": true,
+      "detail": {
+        "top": 348,
+        "left": 1416,
+        "right": 1896,
+        "bottom": 988,
+        "limit": 1080,
+        "targets": [
+          {
+            "hit": true,
+            "bottom": 946
+          },
+          {
+            "hit": true,
+            "bottom": 946
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920-project-popup.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 no confirmed fact or native action changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 validated HTTPS public version 0.7 is active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 global planning defaults to a readable mobile list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-global-list.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 global monthly timeline shows all six real planned actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-global-timeline.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 project filter selects the actual portal and its three actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 previous month changes the real calendar window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 next month returns to the same calendar and rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 timeline scroll keeps the action labels fixed inside the page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-global-sticky.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 project defaults to the same three real actions in mobile list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-project-list.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 opening a project uses its shared monthly timeline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-project-monthly.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 Frappe renders all three unknown-progress bars without the fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 unknown progress has no visible drag handle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390-project-frappe.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 fixed lower-right launcher remains reachable above navigation",
+      "passed": true,
+      "detail": {
+        "width": 52,
+        "height": 52,
+        "right": 376,
+        "left": 324,
+        "bottom": 764,
+        "limit": 777,
+        "hit": true
+      }
+    },
+    {
+      "name": "390 popup starts privately with the current project context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 popup and enabled composer fit in the visible page",
+      "passed": true,
+      "detail": {
+        "top": 56,
+        "left": 12,
+        "right": 378,
+        "bottom": 696,
+        "limit": 777,
+        "targets": [
+          {
+            "hit": true,
+            "bottom": 656
+          },
+          {
+            "hit": true,
+            "bottom": 656
+          }
+        ]
+      }
+    },
+    {
+      "name": "390-project-popup.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 no confirmed fact or native action changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 validated HTTPS public version 0.7 is active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 global planning defaults to a readable mobile list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-global-list.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 global monthly timeline shows all six real planned actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-global-timeline.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 project filter selects the actual portal and its three actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 previous month changes the real calendar window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 next month returns to the same calendar and rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 timeline scroll keeps the action labels fixed inside the page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-global-sticky.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 project defaults to the same three real actions in mobile list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-project-list.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 opening a project uses its shared monthly timeline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-project-monthly.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 Frappe renders all three unknown-progress bars without the fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 unknown progress has no visible drag handle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320-project-frappe.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 fixed lower-right launcher remains reachable above navigation",
+      "passed": true,
+      "detail": {
+        "width": 52,
+        "height": 52,
+        "right": 306,
+        "left": 254,
+        "bottom": 680,
+        "limit": 693,
+        "hit": true
+      }
+    },
+    {
+      "name": "320 popup starts privately with the current project context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 popup and enabled composer fit in the visible page",
+      "passed": true,
+      "detail": {
+        "top": 16,
+        "left": 12,
+        "right": 308,
+        "bottom": 612,
+        "limit": 693,
+        "targets": [
+          {
+            "hit": true,
+            "bottom": 557
+          },
+          {
+            "hit": true,
+            "bottom": 557
+          }
+        ]
+      }
+    },
+    {
+      "name": "320-project-popup.png has no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 no confirmed fact or native action changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no shared mutation or chat submission was attempted",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external application requests fonts or trackers",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no unexpected HTTP errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "bugs": [],
+  "errors": [],
+  "http_errors": [],
+  "external_requests": [],
+  "blocked_mutations": [],
+  "screens": [
+    "1920-global-timeline.png",
+    "1920-project-monthly.png",
+    "1920-project-frappe.png",
+    "1920-project-popup.png",
+    "390-global-list.png",
+    "390-global-timeline.png",
+    "390-global-sticky.png",
+    "390-project-list.png",
+    "390-project-monthly.png",
+    "390-project-frappe.png",
+    "390-project-popup.png",
+    "320-global-list.png",
+    "320-global-timeline.png",
+    "320-global-sticky.png",
+    "320-project-list.png",
+    "320-project-monthly.png",
+    "320-project-frappe.png",
+    "320-project-popup.png"
+  ],
+  "scope": "Read-only public acceptance. Existing-page POST is an idempotent read, whitelisted only for pages present before navigation. No PUT/PATCH, no real connection, no chat question sent.",
+  "tls": "Chrome system trust enabled. ignore_https_errors is never set. Node API uses --use-system-ca.",
+  "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b"
+}

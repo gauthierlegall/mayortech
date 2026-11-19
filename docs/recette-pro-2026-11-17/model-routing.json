@@ -1,0 +1,38 @@
+[
+  {
+    "model": "mistral-large-4-0",
+    "schema": "work_facts"
+  },
+  {
+    "model": "mistral-large-4-0",
+    "schema": "work_facts"
+  },
+  {
+    "model": "zai-glm-5-3-flash",
+    "schema": "dossier_passages"
+  },
+  {
+    "model": "zai-glm-5-3-flash",
+    "schema": "human_approved_change"
+  },
+  {
+    "model": "zai-glm-5-3-flash",
+    "schema": "human_approved_change"
+  },
+  {
+    "model": "mistral-large-4-0",
+    "schema": "work_facts"
+  },
+  {
+    "model": "zai-glm-5-3-flash",
+    "schema": "dossier_passages"
+  },
+  {
+    "model": "zai-glm-5-3-flash",
+    "schema": "human_approved_change"
+  },
+  {
+    "model": "zai-glm-5-3-flash",
+    "schema": "human_approved_change"
+  }
+]

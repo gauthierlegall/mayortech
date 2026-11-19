@@ -1,0 +1,259 @@
+{
+  "target": "https://travaux.kerforge.com",
+  "date": "2026-11-14",
+  "checks": [
+    {
+      "name": "unauthenticated_projects_denied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "secure_httponly_strict_session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_original_visite-fictive.eml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attachment_headers_visite-fictive.eml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_original_consigne-fictive.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attachment_headers_consigne-fictive.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_original_plan-circulation-fictif.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attachment_headers_plan-circulation-fictif.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_download_requires_session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed_action_imported_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "block_menu_escape_focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard_views_arrows_home_end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manual_action_added",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "real_kanban_same_native_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four_readable_kanban_columns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reload_preserves_ids_no_duplicates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pdf_preview_correct_source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "browser_download_exact_pdf_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exchange_in_same_project",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390_five_modes_and_document_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390_mobile_native_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390_menu_closed_inert",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320_five_modes_and_document_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320_mobile_native_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320_menu_closed_inert",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "immediate_navigation_keeps_mobile_note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "summary_includes_current_note_and_citation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "logout_revokes_private_download",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "metrics": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "nativeY": 387.546875,
+      "tabs": [
+        {
+          "text": "Page",
+          "left": 18,
+          "right": 88.796875
+        },
+        {
+          "text": "Tableau",
+          "left": 88.796875,
+          "right": 159.609375
+        },
+        {
+          "text": "Kanban",
+          "left": 159.609375,
+          "right": 230.40625
+        },
+        {
+          "text": "Documents",
+          "left": 230.40625,
+          "right": 301.203125
+        },
+        {
+          "text": "Échanges",
+          "left": 301.203125,
+          "right": 372
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "nativeY": 382.546875,
+      "tabs": [
+        {
+          "text": "Page",
+          "left": 12,
+          "right": 71.1875
+        },
+        {
+          "text": "Tableau",
+          "left": 71.1875,
+          "right": 130.390625
+        },
+        {
+          "text": "Kanban",
+          "left": 130.390625,
+          "right": 189.59375
+        },
+        {
+          "text": "Documents",
+          "left": 189.59375,
+          "right": 248.796875
+        },
+        {
+          "text": "Échanges",
+          "left": 248.796875,
+          "right": 308
+        }
+      ]
+    }
+  ],
+  "fixture": {
+    "project_id": "d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a",
+    "reference": "UX-PUBLIC-1794682557074296700",
+    "page_id": "2457112c-fc94-4880-9ef3-1d02982532a9",
+    "source_id": "19c854e9-7228-4ed2-934c-a3cce3e1d82f",
+    "action_id": "9315b93e-5f72-44e6-8648-aecbeb753482",
+    "documents": [
+      {
+        "id": "60805231-efd8-4a0a-86aa-9cd15924a094",
+        "source_id": "19c854e9-7228-4ed2-934c-a3cce3e1d82f",
+        "parent_source_id": null,
+        "filename": "visite-fictive.eml",
+        "sha256": "a767d38d4570a96976bce3232604044265aaba6a532a09f19ff6785f91c1cffc",
+        "size": 2029
+      },
+      {
+        "id": "7cec250e-407a-48fb-9c2a-0ac78c2fb400",
+        "source_id": "b13ef958-cc1b-4b6d-877f-236ea787ded7",
+        "parent_source_id": "19c854e9-7228-4ed2-934c-a3cce3e1d82f",
+        "filename": "consigne-fictive.txt",
+        "sha256": "01e9531f824eea5f2512cf4be439ef04279174719ce8fc9e6d0227f49771c912",
+        "size": 105
+      },
+      {
+        "id": "a3c20f9d-e9aa-401b-9cbb-94f33a792954",
+        "source_id": "2301c67f-7a38-4b87-a763-b01814fb1a19",
+        "parent_source_id": "19c854e9-7228-4ed2-934c-a3cce3e1d82f",
+        "filename": "plan-circulation-fictif.pdf",
+        "sha256": "968676de2f28f68ae0687297293d80199606a3dff6fb6b75a1351fcc9365e26f",
+        "size": 636
+      }
+    ],
+    "summary_id": "c14f09f1-ec64-494b-a009-3246410546f3",
+    "native_rows": [
+      {
+        "id": "6E_xZ-KNEq",
+        "title": "Confirmer le cheminement piéton avant la visite"
+      },
+      {
+        "id": "VSQp2UjDD4",
+        "title": "Vérifier les barrières — action manuelle fictive"
+      }
+    ]
+  }
+}

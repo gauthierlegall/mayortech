@@ -1,0 +1,93 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "read_only_navigation": true,
+  "captures": [
+    {
+      "file": "1920-planning.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "h1": []
+    },
+    {
+      "file": "1920-projects.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "h1": [
+        "Chantiers"
+      ]
+    },
+    {
+      "file": "1920-actions.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "h1": [
+        "Actions"
+      ]
+    },
+    {
+      "file": "1920-mail.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "h1": [
+        "Messagerie"
+      ]
+    },
+    {
+      "file": "1920-settings.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "h1": [
+        "Paramètres"
+      ]
+    },
+    {
+      "file": "390-planning.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "h1": []
+    },
+    {
+      "file": "390-projects.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "h1": [
+        "Chantiers"
+      ]
+    },
+    {
+      "file": "390-actions.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "h1": [
+        "Actions"
+      ]
+    },
+    {
+      "file": "390-mail.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "h1": [
+        "Messagerie"
+      ]
+    },
+    {
+      "file": "390-settings.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "h1": [
+        "Paramètres"
+      ]
+    }
+  ],
+  "errors": []
+}

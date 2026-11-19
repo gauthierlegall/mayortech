@@ -1,0 +1,17 @@
+{
+  "public_demo_no_credentials": true,
+  "version_05": true,
+  "llm_is_fake": true,
+  "private_mail_upload_refused": true,
+  "public_role_is_visitor": true,
+  "public_organization_readonly": true,
+  "real_mail_not_connected": true,
+  "former_demo_bookmark_recovers": true,
+  "published_client_hashes_match_build": true,
+  "original_four_scenarios_restored": true,
+  "known_business_fields_use_french_labels": true,
+  "former_database_preserved": true,
+  "public_database_separate": true,
+  "configured_public_database": true,
+  "no_password_configured": true
+}

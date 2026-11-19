@@ -1,0 +1,119 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "time_utc": "2026-11-15T20:29:27.854961+00:00",
+  "tls": "Chrome system trust; ignore_https_errors is never enabled; Playwright API uses Node system CA.",
+  "checks": [
+    {
+      "name": "HTTPS and public visitor v0.6 are active",
+      "passed": true,
+      "detail": {
+        "version": "0.6.0",
+        "mode": "public_demo",
+        "role": "visitor"
+      }
+    },
+    {
+      "name": "private conversation cookie is Secure HttpOnly SameSite Strict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "published client files match the release build",
+      "passed": true,
+      "detail": {
+        "file_count": 20,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "two explicitly fictional calendar events are published",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 opening a project defaults to Planning",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 six tabs and Assistant are 44px hit targets",
+      "passed": true,
+      "detail": {
+        "scrollWidth": 1920,
+        "buttons": [
+          {
+            "name": "Planning",
+            "width": 102.40625,
+            "height": 44,
+            "left": 385,
+            "right": 487.40625,
+            "hit": true
+          },
+          {
+            "name": "Propriétés",
+            "width": 113.109375,
+            "height": 44,
+            "left": 499.40625,
+            "right": 612.515625,
+            "hit": true
+          },
+          {
+            "name": "Page",
+            "width": 82.484375,
+            "height": 44,
+            "left": 624.515625,
+            "right": 707,
+            "hit": true
+          },
+          {
+            "name": "Actions3",
+            "width": 111.875,
+            "height": 44,
+            "left": 719,
+            "right": 830.875,
+            "hit": true
+          },
+          {
+            "name": "Documents2",
+            "width": 134.015625,
+            "height": 44,
+            "left": 842.875,
+            "right": 976.890625,
+            "hit": true
+          },
+          {
+            "name": "Échanges",
+            "width": 109.265625,
+            "height": 44,
+            "left": 988.890625,
+            "right": 1098.15625,
+            "hit": true
+          },
+          {
+            "name": "Assistant",
+            "width": 101.484375,
+            "height": 44,
+            "left": 1677.515625,
+            "right": 1779,
+            "hit": true
+          }
+        ]
+      }
+    }
+  ],
+  "bugs": [
+    {
+      "exception": "Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" locator(\".planning-gantt .bar-wrapper\").first with timeout 45000ms\n  - waiting for locator(\".planning-gantt .bar-wrapper\").first\n\nAria snapshot:\n- link \"Aller au contenu\":\n  - /url: \"#main-content\"\n- complementary \"Navigation principale\":\n  - link \"MayorTech .\":\n    - /url: /#/\n  - link \"C Collectivité de démonstration Espace travaux\":\n    - /url: /#/parametres?section=organization\n    - text: C\n    - strong: Collectivité de démonstration\n    - text: Espace travaux\n  - navigation:\n    - link \"Messagerie 16\":\n      - /url: /#/messagerie\n    - link \"Chantiers 10\":\n      - /url: /#/\n    - link \"Actions\":\n      - /url: /#/actions\n    - link \"Agenda\":\n      - /url: /#/agenda\n    - link \"Assistant\":\n      - /url: /#/assistant\n    - link \"À vérifier 4\":\n      - /url: /#/review\n  - text: CHANTIERS FAVORIS\n  - navigation:\n    - link \"Remplacement du portail de l’école\":\n      - /url: /#/chantiers/98d50277-8cda-49c8-8db4-3cd571fdb79b\n    - link \"Réfection de la rue de la Fontaine\":\n      - /url: /#/chantiers/a06c2a34-8075-4cb9-ba61-e2798a45a9fa\n  - link \"Récapitulatifs\":\n    - /url: /#/summaries\n  - link \"Paramètres\":\n    - /url: /#/parametres\n  - text: Mode démonstration\n  - link \"V Visiteur Démonstration partagée\":\n    - /url: \"#/parametres?section=members\"\n    - text: V\n    - strong: Visiteur\n    - text: Démonstration partagée\n- banner:\n  - button \"Réduire la navigation\"\n  - text: Travaux /\n  - strong: Chantiers\n  - text: Tout est enregistré\n  - link \"Mon accès\":\n    - /url: \"#/parametres?section=members\"\n    - text: V\n- main:\n  - link \"Tous les chantiers\":\n    - /url: \"#/\"\n  - text: TRV-2026-042 · Bâtiments scolaires\n  - heading \"Remplacement du portail de l’école\" [level=1]\n  - paragraph: École de Ker Avel · Plougastel\n  - button \"Retirer des favoris\" [pressed]\n  - text: \"En cours TL Thomas Le Gall Livraison :\"\n  - strong: 25 novembre\n  - text: Armor Fermetures\n  - tablist \"Contenu du chantier\":\n    - tab \"Planning\" [selected]\n    - tab \"Propriétés\"\n    - tab \"Page\"\n    - tab \"Actions 3\"\n    - tab \"Documents 2\"\n    - tab \"Échanges\"\n    - button \"Assistant\"\n  - tabpanel \"Planning\":\n    - region \"Planning du chantier\":\n      - heading \"Planning du chantier\" [level=2]\n      - paragraph: Les actions, les dates clés et les rendez-vous, dans leur contexte.\n      - button \"Actualiser le planning\"\n      - button \"Planifier une action\"\n      - list \"Dates clés du dossier\":\n        - listitem:\n          - strong: Livraison\n          - text: 25 novembre · Date confirmée\n          - button \"Source\"\n      - button \"Frise\" [pressed]\n      - button \"Liste\"\n      - text: Échelle\n      - combobox \"Échelle\":\n        - option \"Jours\" [selected]\n        - option \"Semaines\"\n        - option \"Mois\"\n      - status\n      - img\n      - text: Octobre Novembre 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28\n      - alert: La frise ne peut pas être affichée. La liste et les formulaires restent disponibles.\n      - paragraph: Glissez une barre pour déplacer ses dates, ou cliquez dessus pour ouvrir le formulaire. L’avancement vide reste non renseigné.\n      - heading \"Rendez-vous des agendas 1\" [level=3]\n      - link \"Gérer les connexions\":\n        - /url: \"#/parametres?section=connections\"\n      - list:\n        - listitem:\n          - strong: Visite préparatoire du portail — exemple\n          - paragraph: 20 novembre · Toute la journée · Service travaux · exemple · À confirmer\n- region \"Notifications alt+T\"",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\work\\qa_coordination_public06.py\", line 91, in <module>\n    expect(page.locator(selector).first).to_be_visible(timeout=45000)\n  File \"C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py\", line 14844, in to_be_visible\n    self._sync(\n  File \"C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\.venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py\", line 124, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\.venv\\Lib\\site-packages\\playwright\\_impl\\assertions.py\", line 869, in to_be_visible\n    await self._expect_impl(\n  File \"C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\.venv\\Lib\\site-packages\\playwright\\_impl\\assertions.py\", line 122, in _expect_impl\n    _record_soft_or_raise(\n  File \"C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 50, in _record_soft_or_raise\n    raise error\nAssertionError: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" locator(\".planning-gantt .bar-wrapper\").first with timeout 45000ms\n  - waiting for locator(\".planning-gantt .bar-wrapper\").first\n\nAria snapshot:\n- link \"Aller au contenu\":\n  - /url: \"#main-content\"\n- complementary \"Navigation principale\":\n  - link \"MayorTech .\":\n    - /url: /#/\n  - link \"C Collectivité de démonstration Espace travaux\":\n    - /url: /#/parametres?section=organization\n    - text: C\n    - strong: Collectivité de démonstration\n    - text: Espace travaux\n  - navigation:\n    - link \"Messagerie 16\":\n      - /url: /#/messagerie\n    - link \"Chantiers 10\":\n      - /url: /#/\n    - link \"Actions\":\n      - /url: /#/actions\n    - link \"Agenda\":\n      - /url: /#/agenda\n    - link \"Assistant\":\n      - /url: /#/assistant\n    - link \"À vérifier 4\":\n      - /url: /#/review\n  - text: CHANTIERS FAVORIS\n  - navigation:\n    - link \"Remplacement du portail de l’école\":\n      - /url: /#/chantiers/98d50277-8cda-49c8-8db4-3cd571fdb79b\n    - link \"Réfection de la rue de la Fontaine\":\n      - /url: /#/chantiers/a06c2a34-8075-4cb9-ba61-e2798a45a9fa\n  - link \"Récapitulatifs\":\n    - /url: /#/summaries\n  - link \"Paramètres\":\n    - /url: /#/parametres\n  - text: Mode démonstration\n  - link \"V Visiteur Démonstration partagée\":\n    - /url: \"#/parametres?section=members\"\n    - text: V\n    - strong: Visiteur\n    - text: Démonstration partagée\n- banner:\n  - button \"Réduire la navigation\"\n  - text: Travaux /\n  - strong: Chantiers\n  - text: Tout est enregistré\n  - link \"Mon accès\":\n    - /url: \"#/parametres?section=members\"\n    - text: V\n- main:\n  - link \"Tous les chantiers\":\n    - /url: \"#/\"\n  - text: TRV-2026-042 · Bâtiments scolaires\n  - heading \"Remplacement du portail de l’école\" [level=1]\n  - paragraph: École de Ker Avel · Plougastel\n  - button \"Retirer des favoris\" [pressed]\n  - text: \"En cours TL Thomas Le Gall Livraison :\"\n  - strong: 25 novembre\n  - text: Armor Fermetures\n  - tablist \"Contenu du chantier\":\n    - tab \"Planning\" [selected]\n    - tab \"Propriétés\"\n    - tab \"Page\"\n    - tab \"Actions 3\"\n    - tab \"Documents 2\"\n    - tab \"Échanges\"\n    - button \"Assistant\"\n  - tabpanel \"Planning\":\n    - region \"Planning du chantier\":\n      - heading \"Planning du chantier\" [level=2]\n      - paragraph: Les actions, les dates clés et les rendez-vous, dans leur contexte.\n      - button \"Actualiser le planning\"\n      - button \"Planifier une action\"\n      - list \"Dates clés du dossier\":\n        - listitem:\n          - strong: Livraison\n          - text: 25 novembre · Date confirmée\n          - button \"Source\"\n      - button \"Frise\" [pressed]\n      - button \"Liste\"\n      - text: Échelle\n      - combobox \"Échelle\":\n        - option \"Jours\" [selected]\n        - option \"Semaines\"\n        - option \"Mois\"\n      - status\n      - img\n      - text: Octobre Novembre 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28\n      - alert: La frise ne peut pas être affichée. La liste et les formulaires restent disponibles.\n      - paragraph: Glissez une barre pour déplacer ses dates, ou cliquez dessus pour ouvrir le formulaire. L’avancement vide reste non renseigné.\n      - heading \"Rendez-vous des agendas 1\" [level=3]\n      - link \"Gérer les connexions\":\n        - /url: \"#/parametres?section=connections\"\n      - list:\n        - listitem:\n          - strong: Visite préparatoire du portail — exemple\n          - paragraph: 20 novembre · Toute la journée · Service travaux · exemple · À confirmer\n- region \"Notifications alt+T\"\n"
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "expected_http": [],
+  "external_requests": [],
+  "blocked_mutations": [],
+  "screens": [],
+  "scope": "Only GET plus two fictional private chat questions; no project, calendar, connector, notification or server onboarding mutation.",
+  "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+  "calendar_count": 2
+}

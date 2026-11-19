@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Les données de votre compte MayorTech, leur utilisation et votre contact pour la protection des données.">
+  <title>Confidentialité · MayorTech</title>
+  <link rel="stylesheet" href="/src/legal.css">
+</head>
+<body>
+  <a class="legal-skip" href="#contenu">Aller au contenu</a>
+  <header class="legal-header">
+    <a class="legal-brand" href="/connexion.html" aria-label="MayorTech, connexion">MayorTech<span aria-hidden="true">.</span></a>
+    <a class="legal-login" href="/connexion.html">Se connecter</a>
+  </header>
+  <div class="legal-layout">
+    <aside class="legal-toc">
+      <nav aria-label="Sommaire de la confidentialité">
+        <a href="#responsable">Votre contact</a>
+        <a href="#compte">Compte et connexion</a>
+        <a href="#organisation">Organisation test</a>
+        <a href="#conservation">Conservation</a>
+        <a href="#prestataires">Prestataires</a>
+        <a href="#sauvegardes">Sauvegardes</a>
+        <a href="#droits">Vos droits</a>
+      </nav>
+      <a class="legal-related" href="/mentions-legales.html">Lire les mentions légales</a>
+    </aside>
+    <main id="contenu" class="legal-document" tabindex="-1">
+      <h1>Confidentialité</h1>
+      <p class="legal-intro">Cette page décrit les données des comptes personnels et le fonctionnement de l’espace de test actuellement disponible dans MayorTech.</p>
+      <p class="legal-date">Mise à jour le 18 novembre 2026</p>
+
+      <section id="responsable" aria-labelledby="titre-responsable">
+        <h2 id="titre-responsable">Votre contact pour les données</h2>
+        <p>Le service est édité par <strong>Gauthier Le Gall (LE GALL CORP)</strong>, entrepreneur individuel, 17 Rue du Deuxième R.I.C., 29200 Brest, France.</p>
+        <p>Pour toute demande sur vos données, écrivez à <a href="mailto:gauthier29n@gmail.com">gauthier29n@gmail.com</a>. Cette adresse est le contact pour la protection des données ; elle ne constitue pas l’annonce d’une désignation de délégué à la protection des données.</p>
+      </section>
+
+      <section id="compte" aria-labelledby="titre-compte">
+        <h2 id="titre-compte">Compte et connexion</h2>
+        <p>Les informations de compte servent à vous identifier, à gérer votre accès à une organisation et à protéger les dossiers auxquels vous êtes autorisé à accéder.</p>
+        <ul>
+          <li><strong>Service d’identité Keycloak :</strong> nom, prénom, adresse email, vérification de l’adresse, empreinte du mot de passe et paramètres de double authentification. Le mot de passe n’est pas stocké en clair et n’est pas transmis à l’application de suivi des dossiers.</li>
+          <li><strong>Application MayorTech :</strong> identifiant de compte, nom affiché, demandes d’accès, organisation et habilitations. Une adresse email ne donne pas automatiquement accès aux données d’une collectivité.</li>
+          <li><strong>Protection des accès :</strong> événements d’authentification et informations techniques nécessaires à la prévention des tentatives abusives, notamment l’adresse IP et la date de connexion.</li>
+        </ul>
+        <p>Le navigateur reçoit des cookies techniques de connexion. La session de l’application est opaque : elle ne contient ni mot de passe ni jeton du fournisseur d’identité. Les jetons de connexion de Keycloak ne sont pas conservés par l’application MayorTech.</p>
+        <p>Ces pages d’information ne déposent pas de cookie et n’appellent pas l’API métier. Aucun outil de mesure d’audience ni suivi publicitaire n’est activé dans cette version.</p>
+      </section>
+
+      <section id="organisation" aria-labelledby="titre-organisation">
+        <h2 id="titre-organisation">Une organisation test avec des données fictives</h2>
+        <p>Les comptes sont personnels, mais les dossiers de l’organisation test sont fictifs. Utilisez uniquement des documents et des informations fictifs dans cet espace.</p>
+        <p>Les connexions aux messageries externes et les envois de données métier à un fournisseur d’IA distant sont bloqués dans ce profil. L’ouverture d’un espace pour les données réelles d’une collectivité nécessite un paramétrage et une information distincts.</p>
+      </section>
+
+      <section id="conservation" aria-labelledby="titre-conservation">
+        <h2 id="titre-conservation">Durées de conservation</h2>
+        <p>La session d’accès à l’application dure au maximum <strong>8 heures</strong>. La session temporaire permettant de choisir une organisation est limitée à <strong>15 minutes</strong> et ne donne pas accès aux dossiers.</p>
+        <p>Les événements d’authentification Keycloak ont une durée de conservation configurée de <strong>7 jours</strong>. Les demandes d’accès, habilitations et historiques de l’application sont distincts de ces journaux.</p>
+        <p>La rectification et la suppression des données de compte sont traitées manuellement sur demande au contact indiqué plus haut. Aucun effacement automatique des comptes ou des historiques métier n’est actuellement programmé dans cet espace de test.</p>
+      </section>
+
+      <section id="prestataires" aria-labelledby="titre-prestataires">
+        <h2 id="titre-prestataires">Prestataires utilisés</h2>
+        <dl class="legal-processors">
+          <div><dt>Hetzner Online GmbH</dt><dd>Hébergeur déclaré pour les services et les bases de données. La localisation exacte du serveur MayorTech n’est pas encore qualifiée.</dd></div>
+          <div><dt>Resend</dt><dd>Envoi des emails de validation et de récupération de compte. Le domaine d’envoi est configuré sur la région européenne <span class="legal-nowrap">eu-west-1</span>.</dd></div>
+          <div><dt>Cloudflare</dt><dd>DNS, proxy et protection réseau. Son infrastructure est internationale.</dd></div>
+        </dl>
+        <p>La région d’envoi des emails ne garantit pas à elle seule que tous les traitements d’un prestataire restent dans l’Union européenne. La qualification contractuelle et les conditions des éventuels transferts hors UE restent à finaliser. Aucun traitement intégralement en France ou dans l’UE n’est revendiqué.</p>
+      </section>
+
+      <section id="sauvegardes" aria-labelledby="titre-sauvegardes">
+        <h2 id="titre-sauvegardes">Sécurité et sauvegardes</h2>
+        <p>Les accès utilisent HTTPS, un compte personnel et une double authentification. Les droits sont vérifiés avant l’accès aux dossiers. Les fonctions d’administration de l’identité ne sont pas exposées sur le site public.</p>
+        <p>Les copies de sauvegarde actuelles restent sur le serveur. Leur intégrité est contrôlée et leur accès est restreint, mais elles ne sont pas encore chiffrées ni recopiées vers un stockage indépendant. Elles ne constituent pas un plan de reprise d’activité qualifié.</p>
+        <p>Cette description de l’état du service ne constitue pas une certification RGPD, ANSSI ou SecNumCloud.</p>
+      </section>
+
+      <section id="droits" aria-labelledby="titre-droits">
+        <h2 id="titre-droits">Exercer vos droits</h2>
+        <p>Vous pouvez demander l’accès à vos données, leur rectification ou leur effacement et, selon votre situation, leur portabilité, la limitation du traitement ou vous y opposer. Adressez votre demande à <a href="mailto:gauthier29n@gmail.com">gauthier29n@gmail.com</a>, en précisant le compte concerné.</p>
+        <p>La CNIL présente <a href="https://www.cnil.fr/fr/mes-demarches/les-droits-pour-maitriser-vos-donnees-personnelles" rel="noreferrer">les droits sur vos données personnelles</a> et <a href="https://www.cnil.fr/fr/adresser-une-plainte" rel="noreferrer">la démarche pour lui adresser une réclamation</a>.</p>
+      </section>
+    </main>
+  </div>
+  <footer class="legal-footer">
+    <span>MayorTech · un produit <a href="https://kerforge.com" rel="noreferrer">Kerforge</a></span>
+    <nav aria-label="Informations du site"><a href="/mentions-legales.html">Mentions légales</a><a href="/confidentialite.html" aria-current="page">Confidentialité</a><a href="/connexion.html">Connexion</a></nav>
+  </footer>
+</body>
+</html>

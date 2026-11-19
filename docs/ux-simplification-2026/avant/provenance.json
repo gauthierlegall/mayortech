@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-15",
+  "method": "Chrome headless neuf. Authentification privée en mémoire ; navigation uniquement. POST technique ensure-page remplacé par la métadonnée réelle de sa page existante lue en GET ; aucune donnée fabriquée et aucune mutation de contenu autorisée.",
+  "page_revisions_unchanged": true,
+  "assets": [
+    {
+      "file": "1920-documents.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=documents",
+      "captured_at_utc": "2026-11-15T10:29:53.065316+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "2fe1859ab004a93796b8129114f7e4ea78e0066129d0b581f9928435afc8ce3d",
+      "bytes": 81222
+    },
+    {
+      "file": "1920-echanges.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=exchanges",
+      "captured_at_utc": "2026-11-15T10:29:54.178383+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "f6c0129e9411b9ce95838a3ceceba34931c130d52e3d812fceb9f84b1e0f03e1",
+      "bytes": 99862
+    },
+    {
+      "file": "1920-kanban.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=kanban",
+      "captured_at_utc": "2026-11-15T10:29:48.780803+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "669c91a77df8ccda49a1620f94908aa63fe16baf05ded9ec655287e8272d0b57",
+      "bytes": 80227
+    },
+    {
+      "file": "1920-page.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=page",
+      "captured_at_utc": "2026-11-15T10:29:50.472254+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "7b325719df84872c17824d212f603044c29164e592d9a29aed2c2b90d377bf03",
+      "bytes": 93959
+    },
+    {
+      "file": "1920-tableau.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=table",
+      "captured_at_utc": "2026-11-15T10:29:52.162179+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "16c1ba32cc55174f91cc5fdf75ad1e10d2db483944097ab471cded7d9fc227d1",
+      "bytes": 83867
+    },
+    {
+      "file": "390-documents.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=documents",
+      "captured_at_utc": "2026-11-15T10:30:00.019559+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "a54ea7707a0d0a9be4c03c2489b50d7f216662d6c3e5bdf6a5552084513dea7a",
+      "bytes": 42188
+    },
+    {
+      "file": "390-echanges.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=exchanges",
+      "captured_at_utc": "2026-11-15T10:30:01.123105+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "1159523828f70f7a6efc8b57d146d1248aef84119499ede29330bfc212960148",
+      "bytes": 46750
+    },
+    {
+      "file": "390-kanban.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=kanban",
+      "captured_at_utc": "2026-11-15T10:29:55.796160+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "280d9ddc88fe3aeff59abb8c1afcb2196df4f0727fb8845f7d0e85a38b86000c",
+      "bytes": 36449
+    },
+    {
+      "file": "390-navigation.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=kanban",
+      "captured_at_utc": "2026-11-15T10:29:45.923654+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "58941cd203f5360fe8ddbfecad9f29e4be2b3368cfe1593ff8c73c8984d6e032",
+      "bytes": 37690
+    },
+    {
+      "file": "390-page.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=page",
+      "captured_at_utc": "2026-11-15T10:29:57.477362+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "61147d0eca77921fa63bc386c4d4a7155f784e5e4cb6252c0e901f23eeff4615",
+      "bytes": 38571
+    },
+    {
+      "file": "390-tableau.png",
+      "source_url": "https://travaux.kerforge.com/#/project/d6f5b38c-9bd7-4f7f-bbb5-50252af2ef5a?view=table",
+      "captured_at_utc": "2026-11-15T10:29:59.116281+00:00",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "capture_reelle_staging_protege",
+      "interaction": "Lecture de la vue ; navigation mobile ouverte seulement pour 390-navigation.png.",
+      "sha256": "0a1143f69b1d0ffba6c6ff03fb318376f2624d5b0ee0d267f698e45748adbff1",
+      "bytes": 37239
+    }
+  ]
+}

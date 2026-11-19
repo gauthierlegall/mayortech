@@ -1,0 +1,481 @@
+{
+  "assets": {
+    "documents/devis-portail-v1.pdf": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+    "documents/devis-portail-v2.pdf": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce",
+    "mail/m1.eml": "63a42b5891757f8fb0f431c3e2c72e17d8366b1a1134da9318d38f770c4eba82",
+    "mail/m10.eml": "382e73155069d4880ea1cd0162a4d1a4f9f16e42c9824a6e46dd1b8f527bcf59",
+    "mail/m2.eml": "6458a4298d53095f988d06916cbcec65832b22835cdfb8682cec3688c10b5543",
+    "mail/m3.eml": "aea45cc0c007e73273ea8b1d7f64f9bccea42a4a2b143df5b6eec208ad944ac1",
+    "mail/m4.eml": "2cbeb5135086898c0c933a6bba813c096152696b9cb35485c716a97736c3caa5",
+    "mail/m5.eml": "c7ac1a7971cb6eb9ceaeb79f934b9d4a12c898f720c6973cb44c691e968edc0c",
+    "mail/m6.eml": "1857494068c7a6e931c7716df9c3fd194cbcd8611a8613549a9e460e1bc8a4c9",
+    "mail/m7.eml": "5c33392780ada476c2cab7505995d71923351ee4cf1a2d6db35778e9969098a2",
+    "mail/m8.eml": "ffb8ce2c0f05c7b802f277d5dccab8a7a7ec1bd992ee0317d106bb9d673ea071",
+    "mail/m9.eml": "e33baa785f81a91f7f0ace82e896b36ae532683691ec3419e1cebe12ab6b24da"
+  },
+  "messages": [
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "location",
+          "kind": "text",
+          "quote": "Lieu : École de Ker Avel · Plougastel",
+          "value": "École de Ker Avel · Plougastel"
+        },
+        {
+          "accepted": true,
+          "field": "category",
+          "kind": "text",
+          "quote": "Catégorie : Bâtiments scolaires",
+          "value": "Bâtiments scolaires"
+        },
+        {
+          "accepted": true,
+          "field": "owner",
+          "kind": "text",
+          "quote": "Responsable du suivi (personnage fictif) : Thomas Le Gall",
+          "value": "Thomas Le Gall"
+        },
+        {
+          "accepted": true,
+          "field": "contractor",
+          "kind": "text",
+          "quote": "Entreprise : Armor Fermetures",
+          "value": "Armor Fermetures"
+        }
+      ],
+      "filename": "mail/m1.eml",
+      "key": "m1",
+      "native_actions": [],
+      "phase": "baseline",
+      "project": "portail"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "delivery_date",
+          "kind": "date",
+          "quote": "Livraison : 2026-11-18",
+          "value": "2026-11-18"
+        },
+        {
+          "accepted": true,
+          "field": "budget_raw",
+          "kind": "text",
+          "quote": "Budget : 4 850,00 EUR HT",
+          "value": "4 850,00 EUR HT"
+        },
+        {
+          "accepted": true,
+          "field": "decision",
+          "kind": "text",
+          "quote": "Décision : Devis AF-2026-184 version 1 validé.",
+          "value": "Devis AF-2026-184 version 1 validé."
+        },
+        {
+          "accepted": true,
+          "field": "action.15596836ea66",
+          "kind": "text",
+          "quote": "Action : Valider le devis initial",
+          "value": "Valider le devis initial"
+        }
+      ],
+      "filename": "mail/m2.eml",
+      "key": "m2",
+      "native_actions": [
+        {
+          "description": "Devis AF-2026-184 validé dans le courriel du 5 novembre.",
+          "due": "2026-11-05",
+          "owner": "Thomas Le Gall",
+          "priority": "Normale",
+          "status": "Terminé",
+          "title": "Valider le devis initial"
+        }
+      ],
+      "phase": "baseline",
+      "project": "portail"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "dimensions",
+          "kind": "text",
+          "quote": "une ouverture de 3,50 mètres",
+          "value": "Ouverture de 3,50 mètres"
+        },
+        {
+          "accepted": true,
+          "field": "finish",
+          "kind": "text",
+          "quote": "Le portail sera thermolaqué vert et équipé d’une serrure sécurisée.",
+          "value": "Thermolaqué vert et serrure sécurisée"
+        }
+      ],
+      "filename": "mail/m3.eml",
+      "key": "m3",
+      "native_actions": [],
+      "phase": "baseline",
+      "project": "portail"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "action.a12c2fb32d6b",
+          "kind": "text",
+          "quote": "Action : Préparer la sécurisation de l’entrée",
+          "value": "Préparer la sécurisation de l’entrée"
+        }
+      ],
+      "filename": "mail/m4.eml",
+      "key": "m4",
+      "native_actions": [
+        {
+          "description": "Prévoir un cheminement provisoire pour les élèves.",
+          "due": "2026-11-17",
+          "owner": "Marie Kervella",
+          "priority": "Haute",
+          "status": "En cours",
+          "title": "Préparer la sécurisation de l’entrée"
+        }
+      ],
+      "phase": "baseline",
+      "project": "portail"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "progress",
+          "kind": "text",
+          "quote": "Avancement : Fabrication en cours ; créneau de livraison à confirmer",
+          "value": "Fabrication en cours ; créneau de livraison à confirmer"
+        }
+      ],
+      "filename": "mail/m5.eml",
+      "key": "m5",
+      "native_actions": [],
+      "phase": "baseline",
+      "project": "portail"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "progress",
+          "kind": "text",
+          "quote": "Avancement : Préparation du plan de circulation",
+          "value": "Préparation du plan de circulation"
+        },
+        {
+          "accepted": true,
+          "field": "location",
+          "kind": "text",
+          "quote": "Lieu : Centre-bourg · Plougastel",
+          "value": "Centre-bourg · Plougastel"
+        },
+        {
+          "accepted": true,
+          "field": "category",
+          "kind": "text",
+          "quote": "Catégorie : Voirie",
+          "value": "Voirie"
+        },
+        {
+          "accepted": true,
+          "field": "owner",
+          "kind": "text",
+          "quote": "Responsable du suivi (personnage fictif) : Marie Kervella",
+          "value": "Marie Kervella"
+        },
+        {
+          "accepted": true,
+          "field": "contractor",
+          "kind": "text",
+          "quote": "Entreprise : Iroise Travaux Publics",
+          "value": "Iroise Travaux Publics"
+        },
+        {
+          "accepted": true,
+          "field": "delivery_date",
+          "kind": "date",
+          "quote": "Livraison initiale du scénario : 2026-12-04",
+          "value": "2026-12-04"
+        },
+        {
+          "accepted": true,
+          "field": "action.c8d85ed608e6",
+          "kind": "text",
+          "quote": "Action : Confirmer le plan de circulation",
+          "value": "Confirmer le plan de circulation"
+        }
+      ],
+      "filename": "mail/m7.eml",
+      "key": "m7",
+      "native_actions": [
+        {
+          "description": "Faire valider la déviation par le service voirie.",
+          "due": "2026-11-16",
+          "owner": "Marie Kervella",
+          "priority": "Haute",
+          "status": "À faire",
+          "title": "Confirmer le plan de circulation"
+        }
+      ],
+      "phase": "baseline",
+      "project": "voirie"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "progress",
+          "kind": "text",
+          "quote": "Avancement : Visite technique à préparer",
+          "value": "Visite technique à préparer"
+        },
+        {
+          "accepted": true,
+          "field": "location",
+          "kind": "text",
+          "quote": "Lieu : Gymnase de la Pointe · Plougastel",
+          "value": "Gymnase de la Pointe · Plougastel"
+        },
+        {
+          "accepted": true,
+          "field": "category",
+          "kind": "text",
+          "quote": "Catégorie : Équipements sportifs",
+          "value": "Équipements sportifs"
+        },
+        {
+          "accepted": true,
+          "field": "owner",
+          "kind": "text",
+          "quote": "Responsable du suivi (personnage fictif) : Thomas Le Gall",
+          "value": "Thomas Le Gall"
+        },
+        {
+          "accepted": true,
+          "field": "contractor",
+          "kind": "text",
+          "quote": "Entreprise : Élec Armor",
+          "value": "Élec Armor"
+        },
+        {
+          "accepted": true,
+          "field": "delivery_date",
+          "kind": "date",
+          "quote": "Livraison initiale du scénario : 2026-12-16",
+          "value": "2026-12-16"
+        },
+        {
+          "accepted": true,
+          "field": "action.f69f8945b179",
+          "kind": "text",
+          "quote": "Action : Organiser la visite technique",
+          "value": "Organiser la visite technique"
+        }
+      ],
+      "filename": "mail/m8.eml",
+      "key": "m8",
+      "native_actions": [
+        {
+          "description": "Relever les points lumineux avec Élec Armor.",
+          "due": "2026-11-20",
+          "owner": "Thomas Le Gall",
+          "priority": "Normale",
+          "status": "À faire",
+          "title": "Organiser la visite technique"
+        }
+      ],
+      "phase": "baseline",
+      "project": "gymnase"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "action.5724b9134032",
+          "kind": "text",
+          "quote": "Action : Recevoir les résultats des essais",
+          "value": "Recevoir les résultats des essais"
+        }
+      ],
+      "filename": "mail/m9.eml",
+      "key": "m9",
+      "native_actions": [
+        {
+          "description": "Attendre le rapport de portance du laboratoire.",
+          "due": "2026-11-18",
+          "owner": "Lucie Prigent",
+          "priority": "Normale",
+          "status": "En attente",
+          "title": "Recevoir les résultats des essais"
+        }
+      ],
+      "phase": "baseline",
+      "project": "voirie"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": true,
+          "field": "progress",
+          "kind": "text",
+          "quote": "Avancement : Travaux terminés, réception réalisée",
+          "value": "Travaux terminés, réception réalisée"
+        },
+        {
+          "accepted": true,
+          "field": "acceptance_date",
+          "kind": "date",
+          "quote": "réception a été réalisée le 6 novembre 2026",
+          "value": "2026-11-06"
+        },
+        {
+          "accepted": true,
+          "field": "location",
+          "kind": "text",
+          "quote": "Lieu : Ty Glas · Plougastel",
+          "value": "Ty Glas · Plougastel"
+        },
+        {
+          "accepted": true,
+          "field": "category",
+          "kind": "text",
+          "quote": "Catégorie : Espaces publics",
+          "value": "Espaces publics"
+        },
+        {
+          "accepted": true,
+          "field": "owner",
+          "kind": "text",
+          "quote": "Responsable du suivi (personnage fictif) : Lucie Prigent",
+          "value": "Lucie Prigent"
+        },
+        {
+          "accepted": true,
+          "field": "contractor",
+          "kind": "text",
+          "quote": "Entreprise : Paysages du Ponant",
+          "value": "Paysages du Ponant"
+        },
+        {
+          "accepted": true,
+          "field": "delivery_date",
+          "kind": "date",
+          "quote": "Livraison initiale du scénario : 2026-11-06",
+          "value": "2026-11-06"
+        }
+      ],
+      "filename": "mail/m10.eml",
+      "key": "m10",
+      "native_actions": [],
+      "phase": "baseline",
+      "project": "parc"
+    },
+    {
+      "candidates": [
+        {
+          "accepted": false,
+          "field": "delivery_date",
+          "kind": "date",
+          "quote": "Livraison : 2026-11-25",
+          "value": "2026-11-25"
+        },
+        {
+          "accepted": false,
+          "field": "budget_raw",
+          "kind": "text",
+          "quote": "Budget : 5 120,00 EUR HT",
+          "value": "5 120,00 EUR HT"
+        },
+        {
+          "accepted": true,
+          "field": "action.46dbd3b5279e",
+          "kind": "text",
+          "quote": "Action : Confirmer l’accès vendredi",
+          "value": "Confirmer l’accès vendredi"
+        }
+      ],
+      "filename": "mail/m6.eml",
+      "key": "m6",
+      "native_actions": [
+        {
+          "description": "Confirmer l’accès le vendredi 20 novembre pour la visite préparatoire d’Armor Fermetures ; cette tâche ne confirme pas que l’accès est déjà accordé.",
+          "due": "2026-11-20",
+          "owner": "Thomas Le Gall",
+          "priority": "Haute",
+          "status": "À faire",
+          "title": "Confirmer l’accès vendredi"
+        }
+      ],
+      "phase": "revision",
+      "project": "portail"
+    }
+  ],
+  "projects": [
+    {
+      "category": "Bâtiments scolaires",
+      "company": "Armor Fermetures",
+      "delivery": "2026-11-18",
+      "description": "Remplacement du portail d’entrée et sécurisation des accès de l’école de Ker Avel. Coordination avec l’entreprise et le service scolaire.",
+      "intro": "m1",
+      "key": "portail",
+      "location": "École de Ker Avel · Plougastel",
+      "name": "Remplacement du portail de l’école",
+      "note": "Préserver un cheminement provisoire pour les élèves. Informer la direction de l’école avant l’intervention. Ne pas annoncer le report comme confirmé avant relecture du courriel de l’entreprise.",
+      "owner": "Thomas Le Gall",
+      "reference": "TRV-2026-042",
+      "status": "active"
+    },
+    {
+      "category": "Voirie",
+      "company": "Iroise Travaux Publics",
+      "delivery": "2026-12-04",
+      "description": "Réfection de la chaussée, reprise des trottoirs et mise en accessibilité des traversées piétonnes.",
+      "intro": "m7",
+      "key": "voirie",
+      "location": "Centre-bourg · Plougastel",
+      "name": "Réfection de la rue de la Fontaine",
+      "note": "Maintenir les accès riverains pendant la préparation de la déviation. Le rapport de portance reste attendu.",
+      "owner": "Marie Kervella",
+      "reference": "TRV-2026-038",
+      "status": "active"
+    },
+    {
+      "category": "Équipements sportifs",
+      "company": "Élec Armor",
+      "delivery": "2026-12-16",
+      "description": "Remplacement des luminaires par des équipements LED. Intervention programmée pendant la fermeture de l’équipement.",
+      "intro": "m8",
+      "key": "gymnase",
+      "location": "Gymnase de la Pointe · Plougastel",
+      "name": "Rénovation de l’éclairage du gymnase",
+      "note": "Organiser l’accès du prestataire au gymnase pour le relevé des luminaires. Le chantier est en préparation.",
+      "owner": "Thomas Le Gall",
+      "reference": "TRV-2026-045",
+      "status": "planned"
+    },
+    {
+      "category": "Espaces publics",
+      "company": "Paysages du Ponant",
+      "delivery": "2026-11-06",
+      "description": "Installation du mobilier et réaménagement des cheminements du parc.",
+      "intro": "m10",
+      "key": "parc",
+      "location": "Ty Glas · Plougastel",
+      "name": "Aménagement du parc de Ty Glas",
+      "note": "Le chantier est terminé dans ce scénario fictif ; conserver le retour de réception dans le dossier.",
+      "owner": "Lucie Prigent",
+      "reference": "TRV-2026-031",
+      "status": "completed"
+    }
+  ],
+  "provenance": "Scénario Lovable fourni par l’utilisateur ; courriels fictifs reconstitués, deux PDF repris octet pour octet depuis mayor-project-hub.zip.",
+  "storyline_id": "lovable-travaux-v1"
+}

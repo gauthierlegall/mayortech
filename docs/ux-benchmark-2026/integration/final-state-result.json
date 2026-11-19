@@ -1,0 +1,40 @@
+{
+  "summary_id": "b40a99b4-bae7-479a-b7eb-205832312d0e",
+  "summary_current_at_final_observation": true,
+  "single_current_human_note": true,
+  "note_origin": "manual_affine",
+  "native_text_equals_current_note": true,
+  "current_note_source_id": "e34a49ae-97f2-40f0-9cb9-4b6534f88833",
+  "citations": [
+    {
+      "source_id": "e34a49ae-97f2-40f0-9cb9-4b6534f88833",
+      "exact_quote": true,
+      "source_hash": "0459d51f659fc80d162a363dc9e04723d9a7e52ddec8e6cd4a617f47a2c51e9b"
+    }
+  ],
+  "native_revision": 13,
+  "native_history_versions": 13,
+  "all_native_versions_retained": true,
+  "mobile_card_ids_equal_desktop": true,
+  "native_ids": [
+    "hNkWPe3EE-",
+    "_y57n6Jvn1",
+    "Dx_OqQ1xmY"
+  ],
+  "mobile_metrics": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "sidebarRight": 0,
+      "sidebarInert": true,
+      "skipLinkBottom": -52.75
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "sidebarRight": 0,
+      "sidebarInert": true,
+      "skipLinkBottom": -52.75
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "checks": [
+    {
+      "name": "version 0.8 public bundle active",
+      "passed": true
+    },
+    {
+      "name": "initial project and action are empty",
+      "passed": true
+    },
+    {
+      "name": "no owner is proposed before an action is selected",
+      "passed": true
+    },
+    {
+      "name": "TRV-2026-042 choices belong only to its canonical actions",
+      "passed": true
+    },
+    {
+      "name": "TRV-2026-042 saved owner is kept without visitor substitution",
+      "passed": true
+    },
+    {
+      "name": "TRV-2026-038 choices belong only to its canonical actions",
+      "passed": true
+    },
+    {
+      "name": "TRV-2026-038 saved owner is kept without visitor substitution",
+      "passed": true
+    },
+    {
+      "name": "non-member responsible can be typed without choosing the visitor",
+      "passed": true
+    },
+    {
+      "name": "project change can keep the unsaved responsible",
+      "passed": true
+    },
+    {
+      "name": "confirmed project change clears action and owner choice",
+      "passed": true
+    },
+    {
+      "name": "1920 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 dialog stays within viewport",
+      "passed": true
+    },
+    {
+      "name": "1920 Lovable typeface retained",
+      "passed": true
+    },
+    {
+      "name": "390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390 dialog stays within viewport",
+      "passed": true
+    },
+    {
+      "name": "390 Lovable typeface retained",
+      "passed": true
+    },
+    {
+      "name": "320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320 dialog stays within viewport",
+      "passed": true
+    },
+    {
+      "name": "320 Lovable typeface retained",
+      "passed": true
+    },
+    {
+      "name": "selected action exposes its actual source",
+      "passed": true
+    },
+    {
+      "name": "reading source keeps current project and responsible draft",
+      "passed": true
+    },
+    {
+      "name": "opened project is named and locked",
+      "passed": true
+    },
+    {
+      "name": "project dialog has no implicit action and excludes other projects",
+      "passed": true
+    },
+    {
+      "name": "create link preserves selected project",
+      "passed": true
+    },
+    {
+      "name": "canonical facts and notes unchanged in both projects",
+      "passed": true
+    },
+    {
+      "name": "native state bytes and revisions unchanged in both projects",
+      "passed": true
+    },
+    {
+      "name": "zero PUT PATCH or DELETE",
+      "passed": true
+    },
+    {
+      "name": "zero browser or HTTP errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "mutation_requests": [],
+  "tls_bypass": false,
+  "api_substitution": false,
+  "asset_substitution": false,
+  "scope": "Read-only public data; typed fields discarded with Annuler; no Save/PUT/PATCH/DELETE.",
+  "preserved_hashes": {
+    "98d50277-8cda-49c8-8db4-3cd571fdb79b": {
+      "facts": "50547de68b777ad3b5bff2977d5c7f5f98c585ae870d422483758f87cb9c15b8",
+      "notes": "f708d44e22ae941e0c6366e3e539a5c67422d684337b69a9608bc809825fcf33",
+      "native_state": "615fc46edd440a7e56608ad171e18f0447e256c243203c0730f4a3c346fb011a"
+    },
+    "a06c2a34-8075-4cb9-ba61-e2798a45a9fa": {
+      "facts": "3c62557ffa7417acb4af064885168c67eba8e71c3489bfb629cbe772082abc12",
+      "notes": "5d1326bb496783f0594015f5d7751cf85b44ba2adef96c540986cca9ce969929",
+      "native_state": "044c12dcb1ebb8224282ce409e46a7d0637a6be9511dc9f584ee987ca445e487"
+    }
+  },
+  "passed": true
+}

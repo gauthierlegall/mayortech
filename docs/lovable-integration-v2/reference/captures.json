@@ -1,0 +1,148 @@
+{
+  "fixture": true,
+  "source_archive_sha256": "5667d2a6d1d03259a3067863c2478243dc5ed582cd7ebd5bcd3812119fe46680",
+  "base": "http://127.0.0.1:18772",
+  "provider_connections": false,
+  "blocked_requests": [],
+  "errors": [],
+  "captures": [
+    {
+      "file": "1920-planning.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Planning"
+      ]
+    },
+    {
+      "file": "1920-planning-edit.png",
+      "width": 1920,
+      "height": 1080,
+      "dialog": "Dates et responsable de l’intervention, source ZIPv2"
+    },
+    {
+      "file": "1920-projects.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Chantiers"
+      ]
+    },
+    {
+      "file": "1920-project.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Remplacement du portail de l’école"
+      ]
+    },
+    {
+      "file": "1920-actions.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Actions"
+      ]
+    },
+    {
+      "file": "1920-mail.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Messagerie"
+      ]
+    },
+    {
+      "file": "1920-settings.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Paramètres"
+      ]
+    },
+    {
+      "file": "1920-terrain.png",
+      "width": 1920,
+      "height": 1080,
+      "scroll_width": 1920,
+      "title": [
+        "Suivi terrain"
+      ]
+    },
+    {
+      "file": "390-planning.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Planning"
+      ]
+    },
+    {
+      "file": "390-planning-edit.png",
+      "width": 390,
+      "height": 844,
+      "dialog": "Dates et responsable de l’intervention, source ZIPv2"
+    },
+    {
+      "file": "390-projects.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Chantiers"
+      ]
+    },
+    {
+      "file": "390-project.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Remplacement du portail de l’école"
+      ]
+    },
+    {
+      "file": "390-actions.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Actions"
+      ]
+    },
+    {
+      "file": "390-mail.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Messagerie"
+      ]
+    },
+    {
+      "file": "390-settings.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Paramètres"
+      ]
+    },
+    {
+      "file": "390-terrain.png",
+      "width": 390,
+      "height": 844,
+      "scroll_width": 390,
+      "title": [
+        "Suivi terrain"
+      ]
+    }
+  ]
+}

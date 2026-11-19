@@ -1,0 +1,138 @@
+{
+  "checks": [
+    {
+      "name": "editor_inert_while_original_state_loading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "save_disabled_while_loading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "editor_enabled_after_full_mount",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "block_menu_escape_closes_and_restores_focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "block_menu_outside_click_closes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "view_arrow_home_end_navigation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "one_tab_stop_in_viewlist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "keyboard_enter_activates_table_mode",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_link_has_accessible_name",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_link_visually_aliased",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "four_native_kanban_groups",
+      "passed": true,
+      "details": [
+        {
+          "text": "À faire\n2\nConfirmer le cheminement piéton avant la visite\nVérifier les barrières — action manuelle de recette",
+          "rect": {
+            "x": 320,
+            "y": 419.390625,
+            "width": 240,
+            "height": 230,
+            "top": 419.390625,
+            "right": 560,
+            "bottom": 649.390625,
+            "left": 320
+          }
+        },
+        {
+          "text": "En cours",
+          "rect": {
+            "x": 580,
+            "y": 419.390625,
+            "width": 240,
+            "height": 230,
+            "top": 419.390625,
+            "right": 820,
+            "bottom": 649.390625,
+            "left": 580
+          }
+        },
+        {
+          "text": "En attente",
+          "rect": {
+            "x": 840,
+            "y": 419.390625,
+            "width": 240,
+            "height": 230,
+            "top": 419.390625,
+            "right": 1080,
+            "bottom": 649.390625,
+            "left": 840
+          }
+        },
+        {
+          "text": "Terminé",
+          "rect": {
+            "x": 1100,
+            "y": 419.390625,
+            "width": 240,
+            "height": 230,
+            "top": 419.390625,
+            "right": 1340,
+            "bottom": 649.390625,
+            "left": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "no_empty_ungroup_column",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_four_columns_in_desktop_view",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "kanban_has_no_visible_raw_mail_url",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390: menu_escape_restores_focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320: menu_escape_restores_focus",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "license": "Apache-2.0",
+    "repo": "deepset-ai/haystack",
+    "commit": "4b4346b6d798338d9b43e70115006494012b1756",
+    "path": "haystack/components/retrievers/in_memory/bm25_retriever.py",
+    "url": "https://github.com/deepset-ai/haystack/blob/4b4346b6d798338d9b43e70115006494012b1756/haystack/components/retrievers/in_memory/bm25_retriever.py",
+    "used": "Reviewed filter-before-retrieval and BM25 component contract; framework not embedded.",
+    "sha256": "79c830b6405863e863bcf9786b7611af5984d19188f8653048ddd1bedbd7e465"
+  },
+  {
+    "license": "CC0-1.0 example",
+    "repo": "python-telegram-bot/python-telegram-bot",
+    "commit": "41e3633bd1b4e51693ee57059828a59a9773618a",
+    "path": "examples/customwebhookbot/starlettebot.py",
+    "url": "https://github.com/python-telegram-bot/python-telegram-bot/blob/41e3633bd1b4e51693ee57059828a59a9773618a/examples/customwebhookbot/starlettebot.py",
+    "used": "Reviewed queue-first webhook integration; adapted to encrypted durable SQLite inbox rather than process memory.",
+    "sha256": "8f0572a23eb8579377ae980a0ec032e7c7854bb1fbbc652317c2eafa54c2a0b9"
+  },
+  {
+    "license": "CC0-1.0 example",
+    "repo": "python-telegram-bot/python-telegram-bot",
+    "commit": "41e3633bd1b4e51693ee57059828a59a9773618a",
+    "path": "examples/deeplinking.py",
+    "url": "https://github.com/python-telegram-bot/python-telegram-bot/blob/41e3633bd1b4e51693ee57059828a59a9773618a/examples/deeplinking.py",
+    "used": "Reviewed /start payload linking; implemented one-time, actor-scoped, expiring pairing.",
+    "sha256": "fdd6dbb6a202d8c22d71d75244ab02effffd52840c1ce26540ae14db24b53a1b"
+  }
+]

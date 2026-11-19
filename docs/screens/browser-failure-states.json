@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Panne réseau injectée dans le navigateur, message utile et reprise réelle",
+    "Dossier absent : retour fonctionnel aux chantiers",
+    "Preuve : fermeture Échap et retour du focus au bouton d’ouverture"
+  ],
+  "network_failure": "injected-browser-only",
+  "data": "fictitious"
+}

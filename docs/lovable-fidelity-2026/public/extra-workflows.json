@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "public contextual Assistant explains sourced proposed report",
+      "passed": true
+    },
+    {
+      "name": "public Assistant identifies latest approved original quote",
+      "passed": true
+    },
+    {
+      "name": "public inline PDF is byte-identical to conserved original",
+      "passed": true
+    },
+    {
+      "name": "public PDF framing is sandboxed and restricted to same origin",
+      "passed": true
+    },
+    {
+      "name": "public original PDF preview opens within the application",
+      "passed": true
+    },
+    {
+      "name": "public reply close keeps project mail context",
+      "passed": true
+    },
+    {
+      "name": "public reply draft saved locally without server writes",
+      "passed": true
+    },
+    {
+      "name": "missing recipient headers explicitly reported in reply-all dialog",
+      "passed": true
+    },
+    {
+      "name": "no JS or HTTP error in public additional flows",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "server_draft_writes": []
+}

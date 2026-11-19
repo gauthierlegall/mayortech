@@ -1,0 +1,15 @@
+{
+  "wheel": "travaux_mairie-0.4.0-py3-none-any.whl",
+  "wheel_sha256": "0c03439fafd336c6164493a60d25786139202f09fc03a18884f6aad49d791ef4",
+  "built_from_sdist": true,
+  "compiled_frontend": true,
+  "local_font_faces": 4,
+  "literal_vendor_hashes": {
+    "travaux/vendor/casbin_domains/rbac_with_domains_model.conf": "61dd2bd62fd2276924d7f4d2cdb208535bd5939654203efa2f947f1b9681532f",
+    "travaux/web/vendor/nodemailer-addressparser.js": "3756ae3ec8a84a51182df90c4032762215a061d1cf8178373a10333a691b6e4f"
+  },
+  "external_environment_file": false,
+  "frontend_sourcemaps": false,
+  "native_development_maps_in_portable_wheel": 305,
+  "deployed_archive_excludes_all_maps": true
+}

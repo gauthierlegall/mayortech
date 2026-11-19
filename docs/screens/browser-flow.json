@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Rattachement manuel du mail sans référence au bon chantier",
+    "Import EML réel et extraction de propositions",
+    "Consultation du mail source sur mobile",
+    "Confirmation explicite d’une proposition sourcée",
+    "Correction avec provenance humaine distincte",
+    "Rejet d’une proposition avec motif",
+    "Note conservée, provenance affichée, HTML rendu comme texte",
+    "Génération depuis la mémoire et les notes humaines",
+    "Édition enregistrée comme nouvelle version et redirection",
+    "Validation contrôlée de la version courante",
+    "Export réel de la version approuvée avec ses preuves"
+  ],
+  "errors": [],
+  "passed": true
+}

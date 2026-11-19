@@ -1,0 +1,53 @@
+{
+  "package": "zod",
+  "version": "3.25.76",
+  "upstream_fix": "https://github.com/colinhacks/zod/commit/a0ebf970f2d752e5f58527cd2942ff48be4f46bd",
+  "scope": "Backport upper bound early rejection for Zod3 arrays/sets; unconstrained collections remain subject to application input limits.",
+  "files": [
+    {
+      "path": "v3/types.js",
+      "before": "9763a2938f0e7f983363ef4bf6530e7583e3f2d54f8a4a6684efad58febc6e8e",
+      "after": "b3ae3c9b226da875dc7fa996ecf4af9a219b14f8379216d3f5266a1b1570384d",
+      "operations": [
+        {
+          "offset": 65808,
+          "insert": "// Travaux security backport: fail upper bounds before visiting members.\n        if ((def.exactLength !== null && ctx.data.length > def.exactLength.value) || (def.maxLength !== null && ctx.data.length > def.maxLength.value)) return INVALID;\n        "
+        },
+        {
+          "offset": 99982,
+          "insert": "// Travaux security backport: fail upper bounds before visiting members.\n        if (def.maxSize !== null && ctx.data.size > def.maxSize.value) return INVALID;\n        "
+        }
+      ]
+    },
+    {
+      "path": "v3/types.cjs",
+      "before": "06487cc05ed45c5dd29789bf0aa75734d1ce06592a7f2665ba4ca90a68e8a3e1",
+      "after": "fe83d2c0e9d430464c27ad25b23f6a928998614ffec0b3e41587302c3642b8e0",
+      "operations": [
+        {
+          "offset": 71165,
+          "insert": "// Travaux security backport: fail upper bounds before visiting members.\n        if ((def.exactLength !== null && ctx.data.length > def.exactLength.value) || (def.maxLength !== null && ctx.data.length > def.maxLength.value)) return parseUtil_js_1.INVALID;\n        "
+        },
+        {
+          "offset": 106878,
+          "insert": "// Travaux security backport: fail upper bounds before visiting members.\n        if (def.maxSize !== null && ctx.data.size > def.maxSize.value) return parseUtil_js_1.INVALID;\n        "
+        }
+      ]
+    },
+    {
+      "path": "src/v3/types.ts",
+      "before": "70309a0877c35d036842e291fe7c8a4439d5db49411d233f8a22bf8a59c41419",
+      "after": "16061b8092c0f7fd70c44c9592d1cfb5a538f13f0582739ffd55c5cd6802f454",
+      "operations": [
+        {
+          "offset": 74223,
+          "insert": "// Travaux security backport: fail upper bounds before visiting members.\n    if ((def.exactLength !== null && ctx.data.length > def.exactLength.value) || (def.maxLength !== null && ctx.data.length > def.maxLength.value)) return INVALID;\n    "
+        },
+        {
+          "offset": 117571,
+          "insert": "// Travaux security backport: fail upper bounds before visiting members.\n    if (def.maxSize !== null && ctx.data.size > def.maxSize.value) return INVALID;\n    "
+        }
+      ]
+    }
+  ]
+}

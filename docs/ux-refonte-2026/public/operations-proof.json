@@ -1,0 +1,14 @@
+{
+  "release": "20261114T185316Z-4bb73e",
+  "worker_actual_queued_job_completed": true,
+  "job_attempts": 1,
+  "online_backup_integrity_ok": true,
+  "restored_to_new_temporary_database": true,
+  "restored_counts": {
+    "projects": 8,
+    "page_rows": 3,
+    "original_documents": 3,
+    "originals_digest": "5fdac613263ec52ec6679d1c43e6191f2ff47c11352c4cea1c111a20f37d6c18"
+  },
+  "live_database_replaced": false
+}

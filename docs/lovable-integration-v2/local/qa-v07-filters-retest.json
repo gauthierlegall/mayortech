@@ -1,0 +1,103 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "asset_substitution": false,
+  "api_substitution": false,
+  "checks": [
+    {
+      "name": "390_initially_closed",
+      "passed": true,
+      "detail": {
+        "native_loading_when_clicked": true
+      }
+    },
+    {
+      "name": "390_click_opens",
+      "passed": true
+    },
+    {
+      "name": "390_stays_open_after_native_load",
+      "passed": true
+    },
+    {
+      "name": "390_enter_closes",
+      "passed": true
+    },
+    {
+      "name": "390_space_opens",
+      "passed": true
+    },
+    {
+      "name": "390_filter_works",
+      "passed": true
+    },
+    {
+      "name": "390_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "390_click_closes",
+      "passed": true
+    },
+    {
+      "name": "320_initially_closed",
+      "passed": true,
+      "detail": {
+        "native_loading_when_clicked": true
+      }
+    },
+    {
+      "name": "320_click_opens",
+      "passed": true
+    },
+    {
+      "name": "320_stays_open_after_native_load",
+      "passed": true
+    },
+    {
+      "name": "320_enter_closes",
+      "passed": true
+    },
+    {
+      "name": "320_space_opens",
+      "passed": true
+    },
+    {
+      "name": "320_filter_works",
+      "passed": true
+    },
+    {
+      "name": "320_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "320_click_closes",
+      "passed": true
+    },
+    {
+      "name": "390_properties_closed_on_fresh_page",
+      "passed": true
+    },
+    {
+      "name": "390_properties_accessible",
+      "passed": true
+    },
+    {
+      "name": "320_properties_closed_on_fresh_page",
+      "passed": true
+    },
+    {
+      "name": "320_properties_accessible",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "captures": [
+    "390-actions-filters-retest.png",
+    "320-actions-filters-retest.png"
+  ],
+  "assets": [
+    "http://127.0.0.1:8766/web/product/assets/index-C7hSDCby.js"
+  ],
+  "passed": true
+}

@@ -1,0 +1,94 @@
+/* Lovable ZIP v2 Mail.tsx / styles.css: same three-column structure and classes
+   adapted to the existing audited mailbox controller and real project links.
+   Archive SHA256 5667d2a6d1d03259a3067863c2478243dc5ed582cd7ebd5bcd3812119fe46680. */
+.mail-page.integrated-panel .lovable-mail .inbox-heading{align-items:center;margin:0 0 25px;gap:18px}
+.mail-page.integrated-panel .lovable-mail .inbox-heading-copy{display:block;min-width:0}
+.mail-page.integrated-panel .lovable-mail .inbox-heading h1{font-size:28px;font-weight:650;line-height:1.25}
+.mail-page.integrated-panel .lovable-mail .inbox-caption{margin-top:8px;color:var(--muted-foreground);font-size:11px}
+.mail-page.integrated-panel .lovable-mail .inbox-heading>div:last-child{align-items:center;gap:8px}
+.mail-page.integrated-panel .lovable-mail [data-inbox=refresh]{padding:8px;font-size:11px;border:0;background:transparent;color:var(--muted-foreground);min-height:34px}
+.mail-page.integrated-panel .lovable-mail [data-inbox=compose]{font-size:12px;min-height:36px;white-space:normal}
+.mail-page.integrated-panel .lovable-mail .inbox-connect{font-size:12px;min-height:36px;white-space:normal;text-align:center}
+.mail-page.integrated-panel .lovable-mail>.inbox-layout{grid-template-columns:170px 310px minmax(0,1fr);border:0;border-top:1px solid var(--border);border-radius:0;min-height:calc(100vh - 190px);overflow:visible}
+.mail-page.integrated-panel .lovable-mail .inbox-folders{min-width:0;padding:20px 15px 0 0}
+.mail-page.integrated-panel .mail-folder-options,.mail-page.integrated-panel .mail-project-options{display:grid;gap:7px}
+.mail-page.integrated-panel .inbox-folders a{display:flex;align-items:center;gap:10px;min-width:0;min-height:35px;padding:9px 11px;border-radius:5px;font-size:11px;line-height:1.5}
+.mail-page.integrated-panel .inbox-folders a>svg{flex-shrink:0;color:var(--muted-foreground)}
+.mail-page.integrated-panel .inbox-folders a>span{min-width:0;overflow-wrap:anywhere}
+.mail-page.integrated-panel .inbox-folders a>small{margin-left:auto;font-size:10px}
+.mail-page.integrated-panel .inbox-folders a.selected{background:var(--secondary);box-shadow:0 1px 3px #14202e12}
+.mail-page.integrated-panel .inbox-folders a.selected>svg{color:var(--foreground)}
+.mail-page.integrated-panel .inbox-folders a:hover{background:var(--muted)}
+.mail-page.integrated-panel .inbox-folders a:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.mail-page.integrated-panel .mail-project-options .nav-label{margin:35px 12px 8px;font-size:10px}
+.mail-page.integrated-panel .mail-project-options a small{display:block;margin-top:3px;font-size:9px;color:var(--muted-foreground)}
+.mail-page.integrated-panel .mail-mobile-project{display:none}
+.mail-page.integrated-panel .lovable-mail .inbox-list{border-left:1px solid var(--border);border-right:1px solid var(--border);padding-top:15px}
+.mail-page.integrated-panel .lovable-mail .inbox-search{padding:0 12px 12px;border-bottom:0;gap:0;position:relative}
+.mail-page.integrated-panel .lovable-mail .inbox-search input{height:36px;border:1px solid var(--border);border-radius:5px;padding:0 38px 0 11px;min-width:0;font-size:12px}
+.mail-page.integrated-panel .lovable-mail .inbox-search button{position:absolute;right:15px;top:2px;width:32px;min-height:32px;height:32px;border:0;background:transparent;font-size:0;color:var(--muted-foreground);border-radius:4px;padding:0}
+.mail-page.integrated-panel .lovable-mail .inbox-search button::before{content:'';display:block;width:12px;height:12px;border:1.5px solid currentColor;border-radius:50%;position:absolute;left:8px;top:7px}
+.mail-page.integrated-panel .lovable-mail .inbox-search button::after{content:'';position:absolute;left:19px;top:19px;width:6px;border-top:1.5px solid currentColor;transform:rotate(45deg)}
+.mail-page.integrated-panel .lovable-mail .inbox-search button:focus-visible{outline:2px solid var(--primary);outline-offset:-2px}
+.mail-page.integrated-panel .lovable-mail .inbox-list-title{padding:0 17px 10px}
+.mail-page.integrated-panel .lovable-mail .inbox-list-title h2,.mail-page.integrated-panel .lovable-mail .inbox-list-title>span{font-size:10px;color:var(--muted-foreground);font-weight:400}
+.mail-page.integrated-panel .lovable-mail .inbox-row{padding:0;border-bottom:1px solid var(--border)}
+.mail-page.integrated-panel .lovable-mail .inbox-star{width:25px;font-size:17px;padding:15px 0 0 5px;color:var(--muted-foreground)}
+.mail-page.integrated-panel .lovable-mail .inbox-message-link{padding:17px 17px 17px 4px;gap:7px;min-width:0}
+.mail-page.integrated-panel .lovable-mail .inbox-row-top{align-items:flex-start;gap:7px}
+.mail-page.integrated-panel .lovable-mail .inbox-row-top strong{font-size:11px;white-space:normal;overflow-wrap:anywhere}
+.mail-page.integrated-panel .lovable-mail .inbox-row-top time{font-size:9px;flex-shrink:0}
+.mail-page.integrated-panel .lovable-mail .inbox-subject{font-size:12px;line-height:1.6;white-space:normal;overflow-wrap:anywhere}
+.mail-page.integrated-panel .lovable-mail .inbox-preview{font-size:10px;line-height:1.7;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.mail-page.integrated-panel .lovable-mail .inbox-project-reference{font-size:9px;color:var(--muted-foreground);overflow-wrap:anywhere}
+.mail-page.integrated-panel .lovable-mail .inbox-reader{padding:20px 28px;min-width:0}
+.mail-page.integrated-panel .lovable-mail .inbox-reader>.inbox-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:480px;text-align:center;color:var(--muted-foreground)}
+.mail-page.integrated-panel .lovable-mail .inbox-empty h3{font-size:14px;font-weight:500}
+.mail-page.integrated-panel .lovable-mail .inbox-empty p{font-size:12px}
+.mail-page.integrated-panel .mail-history-link{font-size:11px;color:var(--muted-foreground);padding:12px 0 16px}
+.mail-page.integrated-panel .mail-history-link a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1250px){
+ .mail-page.integrated-panel .lovable-mail>.inbox-layout{grid-template-columns:145px 270px minmax(0,1fr)}
+ .mail-page.integrated-panel .lovable-mail .inbox-folders{padding-right:8px}
+ .mail-page.integrated-panel .inbox-folders a{padding:8px 7px;gap:7px}
+ .mail-page.integrated-panel .lovable-mail .inbox-reader{padding:20px}
+}
+@media(max-width:950px){
+ .mail-page.integrated-panel .lovable-mail>.inbox-layout{grid-template-columns:135px minmax(0,1fr)}
+ .mail-page.integrated-panel .lovable-mail .inbox-reader{display:none;grid-column:2;padding:20px}
+ .mail-page.integrated-panel .lovable-mail .inbox-reader.has-selection{display:block}
+ .mail-page.integrated-panel .lovable-mail .inbox-layout:has(.has-selection) .inbox-list{display:none}
+ .mail-page.integrated-panel .lovable-mail .inbox-back{display:block}
+}
+@media(max-width:800px){
+ .mail-page.integrated-panel .lovable-mail .inbox-heading{flex-wrap:wrap}
+ .mail-page.integrated-panel .lovable-mail .inbox-heading>div:last-child{width:100%;flex-wrap:wrap}
+ .mail-page.integrated-panel .lovable-mail .inbox-connect{min-height:44px;flex:1}
+ .mail-page.integrated-panel .lovable-mail>.inbox-layout{display:block;min-height:60vh;overflow:hidden}
+ .mail-page.integrated-panel .lovable-mail .inbox-folders{display:block;padding:10px 0;min-width:0;max-width:100%}
+ .mail-page.integrated-panel .mail-folder-options{display:flex;overflow-x:auto;gap:6px;padding:2px 2px 7px;scrollbar-width:thin}
+ .mail-page.integrated-panel .mail-folder-options a{flex-shrink:0;white-space:nowrap;min-height:40px;font-size:11px;gap:6px;padding:8px}
+ .mail-page.integrated-panel .mail-project-options{display:none}
+ .mail-page.integrated-panel .mail-mobile-project{display:flex;align-items:center;gap:10px;margin-top:8px;font-size:11px;color:var(--muted-foreground)}
+ .mail-page.integrated-panel .mail-mobile-project select{min-width:0;flex:1;max-width:100%;height:36px;font-size:11px}
+ .mail-page.integrated-panel .lovable-mail .inbox-list{border:0;padding-top:12px}
+ .mail-page.integrated-panel .lovable-mail .inbox-layout:has(.has-selection) .inbox-folders{display:none}
+ .mail-page.integrated-panel .lovable-mail .inbox-reader{display:none;padding:17px 0}
+ .mail-page.integrated-panel .lovable-mail .inbox-reader.has-selection{display:block}
+ .mail-page.integrated-panel .lovable-mail .inbox-layout:has(.has-selection) .inbox-list{display:none}
+ .mail-page.integrated-panel .lovable-mail .inbox-search{padding:0 0 12px}
+ .mail-page.integrated-panel .lovable-mail .inbox-search button{right:3px}
+ .mail-page.integrated-panel .lovable-mail .inbox-heading{align-items:flex-start;gap:10px;margin-bottom:20px}
+ .mail-page.integrated-panel .lovable-mail .inbox-heading>div:last-child{gap:4px}
+ .mail-page.integrated-panel .lovable-mail .inbox-heading h1{font-size:25px}
+ .mail-page.integrated-panel .lovable-mail [data-inbox=compose]{max-width:144px;font-size:11px;min-height:36px;padding:8px 10px}
+ .mail-page.integrated-panel .lovable-mail [data-inbox=refresh]{display:none}
+ .mail-page.integrated-panel .lovable-mail .inbox-caption{font-size:10px;line-height:1.7}
+ .mail-page.integrated-panel .lovable-mail .inbox-message-link{padding:16px 10px 16px 4px}
+ .mail-page.integrated-panel .lovable-mail .inbox-subject{font-size:13px}
+ .mail-page.integrated-panel .lovable-mail .inbox-row-top strong{font-size:12px;max-width:none}
+ .mail-page.integrated-panel .lovable-mail .inbox-row-top time{font-size:10px}
+ .mail-page.integrated-panel .lovable-mail .inbox-preview{font-size:11px}
+ .mail-page.integrated-panel .lovable-mail .inbox-reader .mail-body{overflow-wrap:anywhere}
+ .mail-page.integrated-panel .lovable-mail .inbox-pagination{padding:12px 0;flex-wrap:wrap}
+}

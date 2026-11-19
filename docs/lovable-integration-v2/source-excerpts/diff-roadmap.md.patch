@@ -1,0 +1,10 @@
+--- zip-v1/roadmap.md
++++ zip-v2/roadmap.md
+@@ -3,4 +3,7 @@
+ - [x] Sauvegarder la démonstration et proposer sa réinitialisation.
+ - [x] Intégrer BlockSuite et vérifier sa licence.
+ - [x] Vérifier le scénario du portail et les écrans ordinateur et téléphone.
+-- [x] Documenter les simulations et les raccordements de production.+- [x] Documenter les simulations et les raccordements de production.
++- [x] Ajouter un planning Gantt partagé avec les actions et livraisons confirmées.
++- [x] Ajouter le suivi terrain lié aux chantiers et aux actions.
++- [x] Vérifier les nouveaux parcours et l’affichage sur téléphone.

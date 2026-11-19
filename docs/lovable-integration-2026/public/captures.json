@@ -1,0 +1,132 @@
+{
+  "base": "https://travaux.kerforge.com",
+  "errors": [],
+  "metrics": [
+    {
+      "name": "1920-projects.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Chantiers"
+    },
+    {
+      "name": "1920-notes.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "1920-kanban.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "1920-documents.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "1920-mail.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Messagerie"
+    },
+    {
+      "name": "1920-appearance.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Paramètres"
+    },
+    {
+      "name": "1920-roles.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "h1": "Paramètres"
+    },
+    {
+      "name": "390-projects.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Chantiers"
+    },
+    {
+      "name": "390-notes.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "390-kanban.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "390-documents.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "390-mail.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Messagerie"
+    },
+    {
+      "name": "390-appearance.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Paramètres"
+    },
+    {
+      "name": "390-roles.png",
+      "width": 390,
+      "scroll_width": 390,
+      "h1": "Paramètres"
+    },
+    {
+      "name": "320-projects.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Chantiers"
+    },
+    {
+      "name": "320-notes.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "320-kanban.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "320-documents.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Parvis de l'école des Alizés"
+    },
+    {
+      "name": "320-mail.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Messagerie"
+    },
+    {
+      "name": "320-appearance.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Paramètres"
+    },
+    {
+      "name": "320-roles.png",
+      "width": 320,
+      "scroll_width": 320,
+      "h1": "Paramètres"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "pages": [
+    {
+      "width": 1440,
+      "route": "overview",
+      "heading": "Le point sur les travaux."
+    },
+    {
+      "width": 1440,
+      "route": "projects",
+      "heading": "Chantiers"
+    },
+    {
+      "width": 1440,
+      "route": "review",
+      "heading": "À vérifier"
+    },
+    {
+      "width": 1440,
+      "route": "imports",
+      "heading": "Imports de messagerie"
+    },
+    {
+      "width": 1440,
+      "route": "summaries",
+      "heading": "Récapitulatifs"
+    },
+    {
+      "width": 1440,
+      "route": "settings",
+      "heading": "Connexions et accès"
+    },
+    {
+      "width": 1440,
+      "route": "project/83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+      "heading": "Parvis de l'école des Alizés"
+    },
+    {
+      "width": 1440,
+      "route": "summary/7c13189d-0e65-4c2f-885a-2f81384bc3bd",
+      "heading": "Parvis de l'école des Alizés"
+    },
+    {
+      "width": 390,
+      "route": "overview",
+      "heading": "Le point sur les travaux."
+    },
+    {
+      "width": 390,
+      "route": "projects",
+      "heading": "Chantiers"
+    },
+    {
+      "width": 390,
+      "route": "review",
+      "heading": "À vérifier"
+    },
+    {
+      "width": 390,
+      "route": "imports",
+      "heading": "Imports de messagerie"
+    },
+    {
+      "width": 390,
+      "route": "summaries",
+      "heading": "Récapitulatifs"
+    },
+    {
+      "width": 390,
+      "route": "settings",
+      "heading": "Connexions et accès"
+    },
+    {
+      "width": 390,
+      "route": "project/83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+      "heading": "Parvis de l'école des Alizés"
+    },
+    {
+      "width": 390,
+      "route": "summary/7c13189d-0e65-4c2f-885a-2f81384bc3bd",
+      "heading": "Parvis de l'école des Alizés"
+    },
+    {
+      "width": 320,
+      "route": "overview",
+      "heading": "Le point sur les travaux."
+    },
+    {
+      "width": 320,
+      "route": "projects",
+      "heading": "Chantiers"
+    },
+    {
+      "width": 320,
+      "route": "review",
+      "heading": "À vérifier"
+    },
+    {
+      "width": 320,
+      "route": "imports",
+      "heading": "Imports de messagerie"
+    },
+    {
+      "width": 320,
+      "route": "summaries",
+      "heading": "Récapitulatifs"
+    },
+    {
+      "width": 320,
+      "route": "settings",
+      "heading": "Connexions et accès"
+    },
+    {
+      "width": 320,
+      "route": "project/83fb488e-8e19-47f1-82bf-87a0f5f84eb6",
+      "heading": "Parvis de l'école des Alizés"
+    },
+    {
+      "width": 320,
+      "route": "summary/7c13189d-0e65-4c2f-885a-2f81384bc3bd",
+      "heading": "Parvis de l'école des Alizés"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "overflow": [],
+  "passed": true
+}

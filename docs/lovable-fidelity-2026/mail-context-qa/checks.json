@@ -1,0 +1,31 @@
+{
+  "base": "http://127.0.0.1:8766/",
+  "checks": [
+    "1920: click/reload/back retain contextual exchanges route",
+    "390: click/reload/back retain contextual exchanges route",
+    "Reply edited and closed immediately: durable shared local draft preserved; project context retained; no send",
+    "Contextual reply appears in the global shared Brouillons folder",
+    "Reply-all, forwarding and explicitly non-AI template create drafts without invented recipients or sending",
+    "Manual action created in canonical native database; reload preserves it and Message lié opens exact source mail",
+    "390px reply dialog visible without page horizontal overflow; closing retains project context"
+  ],
+  "errors": [],
+  "http_errors": [],
+  "screens": [
+    "1920-context-message.png",
+    "390-context-message.png",
+    "1920-reply-all.png",
+    "1920-forward.png",
+    "1920-template.png",
+    "1920-created-action-proof.png",
+    "390-reply.png"
+  ],
+  "created_local_action_title": "Relire le devis du portillon — recette locale 1794767996",
+  "passed": true,
+  "cleanup": {
+    "row_id": "Gkiipn8eMd",
+    "deleted_only_own_row": true,
+    "other_rows_unchanged": true,
+    "previous_rows": 3
+  }
+}

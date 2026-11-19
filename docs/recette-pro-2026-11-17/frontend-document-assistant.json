@@ -1,0 +1,127 @@
+{
+  "scope": "Production frontend with explicitly simulated same-origin APIs. Fictional documents, projects and chat; no provider/backend extraction or LLM integration qualified here. Root verifies real API separately.",
+  "checks": [
+    {
+      "name": "Unsupported file is rejected locally without transfer",
+      "passed": true
+    },
+    {
+      "name": "Ambiguous upload preserves selected file and offers an explicit retry",
+      "passed": true
+    },
+    {
+      "name": "Retry uses identical bytes and identifier without duplicate original",
+      "passed": true
+    },
+    {
+      "name": "Uploaded original appears with document source instead of a fictitious email",
+      "passed": true
+    },
+    {
+      "name": "Extraction does not automatically accept a dossier fact",
+      "passed": true
+    },
+    {
+      "name": "Conversation defaults to a question with visible intent choices",
+      "passed": true
+    },
+    {
+      "name": "Question sends explicit read-only intent without a proposal",
+      "passed": true
+    },
+    {
+      "name": "Change mode prepares exact project and value without applying",
+      "passed": true
+    },
+    {
+      "name": "Chat proposal and intent controls fit mobile",
+      "passed": true
+    },
+    {
+      "name": "Preservation barrier blocks confirmation while document upload is in flight",
+      "passed": true
+    },
+    {
+      "name": "Failed extraction keeps the original and shows honest analysis failure",
+      "passed": true
+    },
+    {
+      "name": "Revision conflict keeps proposal visible and never automatically replays confirmation",
+      "passed": true
+    },
+    {
+      "name": "Lost confirmation response never claims success or automatically repeats the mutation",
+      "passed": true
+    },
+    {
+      "name": "Explicit confirmation posts the reviewed hash and refreshes actual project state",
+      "passed": true
+    },
+    {
+      "name": "Applied proposal offers no second mutation control",
+      "passed": true
+    },
+    {
+      "name": "Action proposal can be abandoned without changing the dossier",
+      "passed": true
+    },
+    {
+      "name": "Document controls and receipt fit mobile",
+      "passed": true
+    },
+    {
+      "name": "Public demonstration has no upload input",
+      "passed": true
+    },
+    {
+      "name": "Reader has no document upload control",
+      "passed": true
+    },
+    {
+      "name": "Reader cannot enter modification mode",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript error or external provider request",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "1920-01-document-ajoute.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "836cf082fab6f61fac9e4c9bc7bfcc644c8367aaff5f2985feb8346042cabab3"
+    },
+    {
+      "file": "1920-02-proposition.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "d61e8f4cd99db0b2fae2ea8ff18e8365472e22e6aad01d7711dbeef5a69be382"
+    },
+    {
+      "file": "390-03-proposition.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "71ef37ee694da3f3323e5be30069d68bd20193f8f43cab44a73102732aaaafa5"
+    },
+    {
+      "file": "390-04-documents.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "4cf31a955c3083161cccf39eb1d8d1f13f00d5126de886db5e2334a253594c79"
+    }
+  ],
+  "js_errors": [],
+  "external_requests": [],
+  "local_server_stopped": true,
+  "passed": true
+}

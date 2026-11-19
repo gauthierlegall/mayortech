@@ -1,0 +1,35 @@
+[
+  {
+    "Repository": "actions/checkout",
+    "Release": "v7.0.1",
+    "Commit": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "Runtime": [
+      "      runner access; fetching and executing a fork's code in that trusted\r",
+      "  using: node24\r"
+    ]
+  },
+  {
+    "Repository": "actions/setup-node",
+    "Release": "v7.1.0",
+    "Commit": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+    "Runtime": [
+      "name: 'Setup Node.js environment'",
+      "description: 'Setup a Node.js environment by adding problem matchers and optionally downloading and adding it to the PATH.'",
+      "  node-version:",
+      "  node-version-file:",
+      "    description: 'File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .node-version, .tool-versions, mise.toml.'",
+      "    description: Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.",
+      "    description: 'Used to specify an alternative mirror to download Node.js binaries from'",
+      "  node-version:"
+    ]
+  },
+  {
+    "Repository": "astral-sh/setup-uv",
+    "Release": "v10.3.3",
+    "Commit": "68559e99cc807c1eb7e9238fd43a15bba460eec2",
+    "Runtime": [
+      "    description: \"Enable the GitHub Actions cache for uv. 'auto' enables caching on GitHub-hosted runners except for release, tag push, pull_request_target, and workflow_run events.\"",
+      "  using: \"node24\""
+    ]
+  }
+]

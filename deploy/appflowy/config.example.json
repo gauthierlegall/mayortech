@@ -1,0 +1,9 @@
+{
+  "tenant_id": "REMPLACER_PAR_LE_TENANT_SERVEUR",
+  "workspace_id": "00000000-0000-0000-0000-000000000001",
+  "endpoint": "https://appflowy.example/mcp",
+  "parent_id": "00000000-0000-0000-0000-000000000002",
+  "egress_approved": false,
+  "license_verified": false,
+  "notes": []
+}

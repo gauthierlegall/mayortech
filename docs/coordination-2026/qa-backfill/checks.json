@@ -1,0 +1,69 @@
+{
+  "kind": "browser-with-real-private-api-in-process-and-fixture-exchange",
+  "real_exchange_connected": false,
+  "tls_network_test": false,
+  "checks": [
+    {
+      "name": "private login",
+      "passed": true
+    },
+    {
+      "name": "preview no network",
+      "passed": true
+    },
+    {
+      "name": "preview date and approved folders",
+      "passed": true
+    },
+    {
+      "name": "plan creation no network",
+      "passed": true
+    },
+    {
+      "name": "pause durable and no invented percent",
+      "passed": true
+    },
+    {
+      "name": "completed counters",
+      "passed": true
+    },
+    {
+      "name": "all selected folders completed",
+      "passed": true
+    },
+    {
+      "name": "no candidate automatically accepted",
+      "passed": true
+    },
+    {
+      "name": "no body overflow 1920",
+      "passed": true
+    },
+    {
+      "name": "no body overflow 390",
+      "passed": true
+    },
+    {
+      "name": "no body overflow 320",
+      "passed": true
+    },
+    {
+      "name": "second period replay no duplicate originals",
+      "passed": true
+    },
+    {
+      "name": "disconnect preserves a cancellable history job",
+      "passed": true
+    },
+    {
+      "name": "cancel durable",
+      "passed": true
+    },
+    {
+      "name": "no javascript errors",
+      "passed": true
+    }
+  ],
+  "passed": 15,
+  "errors": []
+}

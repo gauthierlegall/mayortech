@@ -1,0 +1,376 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "checks": [
+    {
+      "name": "all 14 editable labels and attachment property are present",
+      "passed": true,
+      "detail": [
+        "Dossier",
+        "Catégorie",
+        "Statut",
+        "Priorité",
+        "Date demande",
+        "Échéance",
+        "Demandeur",
+        "Service / Responsable",
+        "Entreprise",
+        "Lieu",
+        "Coût estimé",
+        "Coût réel",
+        "Notes",
+        "Observation"
+      ]
+    },
+    {
+      "name": "comma money and one cent are saved exactly",
+      "passed": true,
+      "detail": {
+        "estimated": "1234.56",
+        "actual": "0.01"
+      }
+    },
+    {
+      "name": "Notes and Observation remain independent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "request date and deadline never rewrite confirmed delivery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "property values persist after reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "navigation autosaves the last property edit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920 six project tabs and Assistant are usable hit targets",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "buttons": [
+          {
+            "name": "Page",
+            "width": 82.484375,
+            "height": 44,
+            "right": 467.484375,
+            "left": 385,
+            "hit": true,
+            "scrollWidth": 82,
+            "clientWidth": 82
+          },
+          {
+            "name": "Actions2",
+            "width": 111.71875,
+            "height": 44,
+            "right": 591.203125,
+            "left": 479.484375,
+            "hit": true,
+            "scrollWidth": 112,
+            "clientWidth": 112
+          },
+          {
+            "name": "Planning",
+            "width": 102.40625,
+            "height": 44,
+            "right": 705.609375,
+            "left": 603.203125,
+            "hit": true,
+            "scrollWidth": 102,
+            "clientWidth": 102
+          },
+          {
+            "name": "Terrain",
+            "width": 93.65625,
+            "height": 44,
+            "right": 811.265625,
+            "left": 717.609375,
+            "hit": true,
+            "scrollWidth": 94,
+            "clientWidth": 94
+          },
+          {
+            "name": "Documents0",
+            "width": 135.09375,
+            "height": 44,
+            "right": 958.359375,
+            "left": 823.265625,
+            "hit": true,
+            "scrollWidth": 135,
+            "clientWidth": 135
+          },
+          {
+            "name": "Échanges",
+            "width": 109.265625,
+            "height": 44,
+            "right": 1079.625,
+            "left": 970.359375,
+            "hit": true,
+            "scrollWidth": 109,
+            "clientWidth": 109
+          },
+          {
+            "name": "Assistant",
+            "width": 101.484375,
+            "height": 44,
+            "right": 1779,
+            "left": 1677.515625,
+            "hit": true,
+            "scrollWidth": 99,
+            "clientWidth": 99
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920 property page has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 six project tabs and Assistant are usable hit targets",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "buttons": [
+          {
+            "name": "Page",
+            "width": 100.328125,
+            "height": 44,
+            "right": 118.328125,
+            "left": 18,
+            "hit": true,
+            "scrollWidth": 100,
+            "clientWidth": 100
+          },
+          {
+            "name": "Actions2",
+            "width": 100.328125,
+            "height": 44,
+            "right": 221.65625,
+            "left": 121.328125,
+            "hit": true,
+            "scrollWidth": 100,
+            "clientWidth": 100
+          },
+          {
+            "name": "Planning",
+            "width": 100.34375,
+            "height": 44,
+            "right": 325,
+            "left": 224.65625,
+            "hit": true,
+            "scrollWidth": 100,
+            "clientWidth": 100
+          },
+          {
+            "name": "Terrain",
+            "width": 100.328125,
+            "height": 44,
+            "right": 118.328125,
+            "left": 18,
+            "hit": true,
+            "scrollWidth": 100,
+            "clientWidth": 100
+          },
+          {
+            "name": "Documents0",
+            "width": 100.328125,
+            "height": 44,
+            "right": 221.65625,
+            "left": 121.328125,
+            "hit": true,
+            "scrollWidth": 100,
+            "clientWidth": 100
+          },
+          {
+            "name": "Échanges",
+            "width": 100.34375,
+            "height": 44,
+            "right": 325,
+            "left": 224.65625,
+            "hit": true,
+            "scrollWidth": 100,
+            "clientWidth": 100
+          },
+          {
+            "name": "Assistant",
+            "width": 44,
+            "height": 44,
+            "right": 372,
+            "left": 328,
+            "hit": true,
+            "scrollWidth": 42,
+            "clientWidth": 42
+          }
+        ]
+      }
+    },
+    {
+      "name": "390 property page has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 six project tabs and Assistant are usable hit targets",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "scrollWidth": 320,
+        "buttons": [
+          {
+            "name": "Page",
+            "width": 77,
+            "height": 44,
+            "right": 95,
+            "left": 18,
+            "hit": true,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          {
+            "name": "Actions2",
+            "width": 77,
+            "height": 44,
+            "right": 175,
+            "left": 98,
+            "hit": true,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          {
+            "name": "Planning",
+            "width": 77,
+            "height": 44,
+            "right": 255,
+            "left": 178,
+            "hit": true,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          {
+            "name": "Terrain",
+            "width": 77,
+            "height": 44,
+            "right": 95,
+            "left": 18,
+            "hit": true,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          {
+            "name": "Documents0",
+            "width": 77,
+            "height": 44,
+            "right": 175,
+            "left": 98,
+            "hit": true,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          {
+            "name": "Échanges",
+            "width": 77,
+            "height": 44,
+            "right": 255,
+            "left": 178,
+            "hit": true,
+            "scrollWidth": 77,
+            "clientWidth": 77
+          },
+          {
+            "name": "Assistant",
+            "width": 44,
+            "height": 44,
+            "right": 302,
+            "left": 258,
+            "hit": true,
+            "scrollWidth": 42,
+            "clientWidth": 42
+          }
+        ]
+      }
+    },
+    {
+      "name": "320 property page has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "a stale profile save is rejected with409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conflict keeps the complete form and its draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "refresh keeps the draft and shows the conflicting server value",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reviewed conflict cannot be auto-overwritten merely by navigating",
+      "passed": true,
+      "detail": {
+        "server_value_after_navigation": "Version B enregistrée par un autre onglet",
+        "properties_still_visible": true,
+        "navigation_patch_count": 0
+      }
+    },
+    {
+      "name": "explicit save resolves the re-read draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "navigation succeeds after explicit conflict review save",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no unexpected HTTP errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "bugs": [],
+  "errors": [],
+  "http_errors": [],
+  "expected_cas_conflicts": [
+    {
+      "status": 409,
+      "url": "http://127.0.0.1:8766/api/v1/projects/749e7ac0-d3ba-4e61-86bc-652e204dc0b3/properties"
+    }
+  ],
+  "screens": [
+    "1920-properties.png",
+    "1920-properties-full.png",
+    "390-properties.png",
+    "390-properties-full.png",
+    "320-properties.png",
+    "320-properties-full.png",
+    "1920-properties-cas-conflict.png",
+    "1920-properties-review.png",
+    "1920-properties-after-review-navigation.png",
+    "1920-properties-after-explicit-save.png"
+  ],
+  "data_scope": "A newly created fictional QA project only. No real photo or primary project modified.",
+  "project_id": "749e7ac0-d3ba-4e61-86bc-652e204dc0b3",
+  "reference": "QA-PROP-F25014BA7A"
+}

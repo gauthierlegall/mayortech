@@ -1,0 +1,70 @@
+{
+  "kind": "independent public UI variant audit",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "mutations": [],
+  "errors": [],
+  "checks": [
+    {
+      "name": "real account setup is unavailable in current public deployment",
+      "passed": true
+    },
+    {
+      "name": "public account step has no credential fields",
+      "passed": true
+    }
+  ],
+  "live_hub": {
+    "public_demo": true,
+    "can_manage": false,
+    "external_connections_enabled": false,
+    "connections": [],
+    "providers": [
+      {
+        "id": "exchange",
+        "label": "Exchange local / prestataire",
+        "available": false,
+        "status": "requires_server_configuration",
+        "requires_server_configuration": true,
+        "reason": "Disponible dans un espace protégé après autorisation du serveur."
+      },
+      {
+        "id": "caldav",
+        "label": "CalDAV / Nextcloud",
+        "available": false,
+        "status": "requires_server_configuration",
+        "requires_server_configuration": true,
+        "reason": "Disponible dans un espace protégé après autorisation du serveur."
+      },
+      {
+        "id": "google",
+        "label": "Google Agenda",
+        "available": false,
+        "status": "requires_server_configuration",
+        "requires_server_configuration": true,
+        "reason": "Le raccordement OAuth de ce fournisseur n’est pas implémenté dans cette version. Utilisez un compte Exchange EWS, CalDAV ou un fichier .ics compatible."
+      },
+      {
+        "id": "microsoft365",
+        "label": "Microsoft 365",
+        "available": false,
+        "status": "requires_server_configuration",
+        "requires_server_configuration": true,
+        "reason": "Le raccordement OAuth de ce fournisseur n’est pas implémenté dans cette version. Utilisez un compte Exchange EWS, CalDAV ou un fichier .ics compatible."
+      },
+      {
+        "id": "ics",
+        "label": "Fichier calendrier (.ics)",
+        "available": false,
+        "status": "requires_server_configuration",
+        "requires_server_configuration": true,
+        "reason": "Disponible dans un espace protégé après autorisation du serveur."
+      }
+    ]
+  },
+  "backtrack_folder_selected": false,
+  "backtrack_continue_disabled": true,
+  "no_real_account_created": true
+}

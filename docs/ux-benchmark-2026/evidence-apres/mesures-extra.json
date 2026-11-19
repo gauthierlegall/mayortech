@@ -1,0 +1,117 @@
+{
+  "exact_search": "TRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir",
+  "keyboard_from_skip": [
+    {
+      "tag": "BUTTON",
+      "text": "Ouvrir la navigation",
+      "x": 13,
+      "y": 10,
+      "w": 34,
+      "h": 44
+    },
+    {
+      "tag": "A",
+      "text": "Importer un mail",
+      "x": 16,
+      "y": 232.0625,
+      "w": 150.15625,
+      "h": 44
+    },
+    {
+      "tag": "A",
+      "text": "Consulter",
+      "x": 82,
+      "y": 505.046875,
+      "w": 93.6875,
+      "h": 44
+    },
+    {
+      "tag": "A",
+      "text": "Parvis de l'école des Alizés · TRV-2026-014Proposition · AvancementTerrassement terminé, attente de validation du plan de circulation14 nov. 2026, 16:43 · À confirmer",
+      "x": 16,
+      "y": 632.84375,
+      "w": 358,
+      "h": 143.609375
+    },
+    {
+      "tag": "A",
+      "text": "Parvis de l'école des Alizés · TRV-2026-014Proposition · Livraison2026-12-1814 nov. 2026, 16:43 · À confirmer",
+      "x": 16,
+      "y": 722.453125,
+      "w": 358,
+      "h": 121.921875
+    },
+    {
+      "tag": "A",
+      "text": "Parvis de l'école des Alizés · TRV-2026-014Proposition · ActionConfirmer le cheminement piéton avec le service scolaire14 nov. 2026, 16:43 · À confirmer",
+      "x": 16,
+      "y": 350.375,
+      "w": 358,
+      "h": 142.609375
+    },
+    {
+      "tag": "A",
+      "text": "Voir tous les chantiers",
+      "x": 254.703125,
+      "y": 526.078125,
+      "w": 119.296875,
+      "h": 18.59375
+    },
+    {
+      "tag": "A",
+      "text": "TRV-2026-014Parvis de l'école des AlizésAvancement confirméPréparation du terrassement14 nov. 2026En cours3 à vérifierOuvrir",
+      "x": 17,
+      "y": 562.78125,
+      "w": 356,
+      "h": 193.71875
+    },
+    {
+      "tag": "A",
+      "text": "TRV-2026-003Éclairage du port des DunesAvancement confirméTravaux terminés, réserves levées14 nov. 2026TerminéOuvrir",
+      "x": 17,
+      "y": 650.5,
+      "w": 356,
+      "h": 193.71875
+    },
+    {
+      "tag": "A",
+      "text": "TRV-2026-017Vestiaires des GoélandsAvancement confirméVentilation en cours de pose14 nov. 2026En coursOuvrir",
+      "x": 17,
+      "y": 325.21875,
+      "w": 356,
+      "h": 193.71875
+    }
+  ],
+  "contrast-overview": [],
+  "contrast-projects": [],
+  "contrast-project": [],
+  "contrast-review": [],
+  "contrast-summaries": [],
+  "contrast-imports": [],
+  "contrast-settings": [],
+  "notes_input_border": {
+    "border": "rgb(134, 151, 127)",
+    "bg": "rgb(255, 255, 255)",
+    "font": "13px",
+    "rect": {
+      "x": 298,
+      "y": 616.65625,
+      "width": 765,
+      "height": 120,
+      "top": 616.65625,
+      "right": 1063,
+      "bottom": 736.65625,
+      "left": 298
+    }
+  },
+  "text_resize_200": {
+    "innerWidth": 1440,
+    "scrollWidth": 1440,
+    "bodyWidth": 1440,
+    "sidebarWidth": 236,
+    "sidebarScroll": 236
+  },
+  "native_note_fixture": "appflowy:actor_unverified\n14 nov. 2026, 11:00\n\nConstat relevé sur place : maintenir un cheminement accessible.\n\nNote ajoutée au dossier",
+  "error_503": "T\nOuverture de l’espace travaux\n\nConnexion au service local…",
+  "empty": "T\nOuverture de l’espace travaux\n\nConnexion au service local…"
+}

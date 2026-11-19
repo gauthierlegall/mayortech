@@ -1,0 +1,29 @@
+{
+  "page_id": "04250459-f311-4c1a-970d-ce83c602a4cc",
+  "native_row_id": "hNkWPe3EE-",
+  "saved_revision": 7,
+  "text": "Chantier fictif — recette intégrée\n\n Note terrain de recette INTEGRE-1794678073452471900 : maintenir le passage accessible. RECETTE-A- RECETTE-A-1794678135527805800 RECETTE-B-17946781355278058001794678103071488800\n| Intitulé                   | Description                         | Montant indiqué | Statut |\n| -------------------------- | ----------------------------------- | --------------- | ------ |\n| Visite de recette integree | Acces fictif a verifier avant lundi | 12345           |        |\n|                            |                                     |                 |        |\n|                            |                                     |                 |        |\n\n",
+  "mobile": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "allIds": [
+        "hNkWPe3EE-",
+        "_y57n6Jvn1",
+        "Dx_OqQ1xmY"
+      ],
+      "active": "SUMMARY"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "allIds": [
+        "hNkWPe3EE-",
+        "_y57n6Jvn1",
+        "Dx_OqQ1xmY"
+      ],
+      "active": "SUMMARY"
+    }
+  ],
+  "errors": []
+}

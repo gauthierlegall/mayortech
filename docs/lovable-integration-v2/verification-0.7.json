@@ -1,0 +1,301 @@
+{
+  "version": "0.7.0",
+  "date": "2026-11-15",
+  "frontend_base": "user-provided mayor-project-hub (1).zip",
+  "reference_sha256": "5667d2a6d1d03259a3067863c2478243dc5ed582cd7ebd5bcd3812119fe46680",
+  "public_release": "20261115T212740Z-53de17",
+  "public_url": "https://travaux.kerforge.com",
+  "python_application_and_deployment_tests_passed": 396,
+  "frontend_and_domain_node_tests_passed": 80,
+  "native_module_node_tests_passed": 27,
+  "typescript_product_check": "passed",
+  "frontend_production_build": "passed",
+  "native_production_build": "passed",
+  "ruff": "passed",
+  "lock_check": "passed",
+  "local_browser_checks": {
+    "planning": 31,
+    "properties": 20,
+    "persistent_popup": 20,
+    "terrain_action_link_retry": 12,
+    "mail_backfill_with_simulated_exchange": 15,
+    "mobile_actions_filter_retest": 20
+  },
+  "public_browser_checks": {
+    "planning": 65,
+    "persistent_popup": 19,
+    "mail_actions_properties_terrain": 34,
+    "deployment_contract": 27,
+    "final_notes_projection_and_native_smoke": 15
+  },
+  "public_browser_evidence_scope": {
+    "full_planning_popup_and_transverse_suites": "20261115T211012Z-707e4a",
+    "contract_and_notes_projection_native_smoke": "20261115T212740Z-53de17",
+    "followup_scope": "Read-only notes projection; action persistence and ordinary getText/save are unchanged."
+  },
+  "responsive_widths_tested": [
+    1920,
+    390,
+    320
+  ],
+  "public_screenshots": {
+    "lovable-integration-v2/public/1920-mail.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "8997bed78f84413d2cd3e521b5002e96e5e548110ac096f2e019334757321c62"
+    },
+    "lovable-integration-v2/public/1920-planning-loaded.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "3434a92cc28b8611f3f824cedf8781ec1526adab0b6aee11370d6f8fb4fa2959"
+    },
+    "lovable-integration-v2/public/1920-planning.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "8f93d2b56127e5816c2525729435d9ed61d34938933d2f42308d82b49169f66f"
+    },
+    "lovable-integration-v2/public/1920-project-page.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "cb963e99ef0bf36cba5b9b898290e3f365ae6f498660c20f681b76c0724628e4"
+    },
+    "lovable-integration-v2/public/390-actions-filters-loaded.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "f548c67f6903da6a58f71318f126780e1127c538963f5dff9bd4e1d7008eba60"
+    },
+    "lovable-integration-v2/public/390-actions-filters.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "872df57057ff6ebb269b896914d72784e881090c94094bca239f4adc56638d7c"
+    },
+    "lovable-integration-v2/public/390-mail-reader.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "9a366c1a200e54f2c460a63b0e823b4dbdfa463009c00f6d66bf64ab2f048053"
+    },
+    "lovable-integration-v2/public/390-mail.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "8c1e23f1380121c89eda72dd1fcaf951fff40203dafca1abb2ea7c107ea97c5e"
+    },
+    "lovable-integration-v2/public/390-terrain.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "9ef79f2b70494c58c1fcde33dad012039f601104c0c71a3cf97812aab0b1b5c8"
+    },
+    "lovable-integration-v2/public/planning/1920-global-timeline.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "3434a92cc28b8611f3f824cedf8781ec1526adab0b6aee11370d6f8fb4fa2959"
+    },
+    "lovable-integration-v2/public/planning/1920-project-frappe.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "6fb6a02ccbb816b89016523da44c816c9c999a5940f8e36e435e9a83e41a8055"
+    },
+    "lovable-integration-v2/public/planning/1920-project-monthly.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "f1fe06111a55c06e38ea36c978437589dc163b236c3734c7d84a7a21803b08cd"
+    },
+    "lovable-integration-v2/public/planning/1920-project-popup.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "cc674118a49d416b0317c263ad01b3199331c35fb53da302eb275d46a92fc981"
+    },
+    "lovable-integration-v2/public/planning/320-global-list.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "6903b43b18b2cd275d0a86076ae732065ff0e5c0d3414e393e4ff74a0e78e83e"
+    },
+    "lovable-integration-v2/public/planning/320-global-sticky.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "25e24d20ba57d7c89bf26095a83b5dd1a86867ca82fba167f086fd7c17730342"
+    },
+    "lovable-integration-v2/public/planning/320-global-timeline.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "1a2b06aad4dad26d6fc714b1c0f955091b5ab9924063ac27b9cd9fa59574fe84"
+    },
+    "lovable-integration-v2/public/planning/320-project-frappe.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "3f599f391b66af78ed75fa6a03844025dcf776482430c17c26acdab3a33dec89"
+    },
+    "lovable-integration-v2/public/planning/320-project-list.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "707752e6eb1cf38733dd1ee717793b391db36d7ac60558fa049269c6b702e104"
+    },
+    "lovable-integration-v2/public/planning/320-project-monthly.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "afeb5b2d08b61f33da80ad93cba9dc1a712b7fce9576150cfa980816d8605a34"
+    },
+    "lovable-integration-v2/public/planning/320-project-popup.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "519cb2562738b06a631061daf126ba56db3714c4075c64059df4e8573cc327d1"
+    },
+    "lovable-integration-v2/public/planning/390-global-list.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "6472ea718369b2a93c93c604a63a4f3949305c2073f3a8a99c7614e903f8e7cf"
+    },
+    "lovable-integration-v2/public/planning/390-global-sticky.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "a2eeea9a29a71f21b2554d2b766b303c3c03ebfd9669215d81242ed4841b475f"
+    },
+    "lovable-integration-v2/public/planning/390-global-timeline.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "8069937ba2173dec6690428bb8a248f8a63cfc428ae13245eb3eaa562fa9597d"
+    },
+    "lovable-integration-v2/public/planning/390-project-frappe.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "685e79239313105fa66f6c2bcd4165ba02558e133e50788daedf1a04371f9a47"
+    },
+    "lovable-integration-v2/public/planning/390-project-list.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "6a4867382221446557aab0d238be6e2531d52e1d1582a92b014696e79213e4b8"
+    },
+    "lovable-integration-v2/public/planning/390-project-monthly.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "482953a135a2b81e4534e8168e130923c46d397c1c95569cf0c96237301df98e"
+    },
+    "lovable-integration-v2/public/planning/390-project-popup.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "16a35669bbc94e04942ce255fb15adbb7c0fe3b3c05db669319affa12775f348"
+    },
+    "lovable-integration-v2/public/notes-final/1920-notes.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "c4a930826a0abe5de5415651661c25492102c18a3a6c5605009350c77163d463"
+    },
+    "lovable-integration-v2/public/notes-final/320-notes.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "01edf39072fdefdfff85b6bd649bfc11e22adb8c4449f0a3b1e2158b9a9d964e"
+    },
+    "lovable-integration-v2/public/notes-final/390-notes.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "93066c5eb7da4a731410a70d77baae30e5211775aa6aa448586b4d6511ac1d4c"
+    },
+    "coordination-2026/public-popup/1920-popup.png": {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "sha256": "8b1b3f340d9f614491a2a70f6d24a41b3ebfba3b451c6022033309bbf4aa1b6d"
+    },
+    "coordination-2026/public-popup/320-popup.png": {
+      "pixels": [
+        320,
+        760
+      ],
+      "sha256": "e497f5c06122107c9706727cb1c1098bdb6fffa5add834e7aac42f57ec2aef28"
+    },
+    "coordination-2026/public-popup/390-popup.png": {
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "ef01a7b7b007ac0c92b2d52095e3fdb761d83c1982da399c158a492173341b42"
+    }
+  },
+  "public_demo_without_password": true,
+  "public_demo_database_separated_from_former_private_database": true,
+  "real_municipal_data_used": false,
+  "private_reference_photos_used_only_for_field_names_and_types": true,
+  "real_exchange_connected": false,
+  "real_caldav_connected": false,
+  "real_mail_transport_connected": false,
+  "mistral_connected": false,
+  "telegram_connected": false,
+  "individual_identity_provider_connected": false,
+  "physical_mobile_device_tested": false,
+  "certifies_rgpd_or_rgaa": false,
+  "python_runtime_dependencies_audited": 63,
+  "python_runtime_known_advisories_at_check": 0,
+  "new_client_production_npm_audit_advisories_at_check": 0,
+  "native_root_npm_advisory": "Zod3 bounded-collection backport retained; upstream advisory remains reported",
+  "design_skill": "impeccable",
+  "design_detector_findings": 0,
+  "public_evidence": "lovable-integration-v2/README.md",
+  "source_ledger": "lovable-integration-v2/provenance.json",
+  "limitations": [
+    "Institutional Exchange/CalDAV, actual email sending, Mistral, Telegram and individual identity provider not connected.",
+    "Google Calendar and Microsoft 365 OAuth are explicitly marked as not implemented.",
+    "Historical Exchange browser checks use a simulated server; they do not prove a connection to a real institution.",
+    "The public demo uses fictional data shared for projects; visitor conversations remain isolated.",
+    "Physical phone testing, a municipal production deployment, and RGPD/RGAA certification were not performed."
+  ]
+}

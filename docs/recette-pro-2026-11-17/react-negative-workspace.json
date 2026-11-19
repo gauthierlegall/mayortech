@@ -1,0 +1,48 @@
+{
+  "fixture": true,
+  "baseline": false,
+  "negative_control": false,
+  "negative_workspace_observation": true,
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "real": [
+    "Chrome",
+    "React",
+    "production AuthGate, BlockEditor and Actions",
+    "native scope guard",
+    "panel lifecycle",
+    "WorkspaceProvider, QueryClient and loadWorkspace (cases 6 and 7)"
+  ],
+  "not_qualified": [
+    "OIDC",
+    "BlockSuite renderer",
+    "backend persistence",
+    "real identity provider"
+  ],
+  "results": [
+    {
+      "name": "session-b-read-business-failure-masks-cached-a",
+      "passed": false,
+      "explicit_mocks": [
+        "API transport"
+      ],
+      "error": "The observed account switch must purge the real QueryClient's old identity and project cache even when B's business load fails",
+      "page_errors": [],
+      "request_failures": [],
+      "blocked_requests": [],
+      "controllers": {
+        "cachedActor": "account-a",
+        "requests": [
+          "session:account-a",
+          "bootstrap:account-a",
+          "projects:account-a",
+          "session:account-b",
+          "bootstrap:account-b",
+          "projects:account-b"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Rendu isolé de code ZIPv2 exact, contexte mémoire fictif substitué",
+  "source_sha256": "5667d2a6d1d03259a3067863c2478243dc5ed582cd7ebd5bcd3812119fe46680",
+  "original_files": {
+    "src/features/workspace/Planning.tsx": "cd7f8ac45ec6bf9ae6a5814e7aa1f41b63ff312d150a613cdeb3142a52fd6de0",
+    "src/features/workspace/Terrain.tsx": "a77846781c476dd1fa772ca5376775bb985e56e0b28c9e29e1da870673010cbb",
+    "src/features/workspace/planning-model.ts": "43da61a652536e61af174e470679bded7a508867a8fca9eddd61862ef11c9c9c",
+    "src/features/workspace/model.ts": "7118378bf56b361b7904338b08c5e201ab84b376fef4218f6f74b121015d2248",
+    "src/features/workspace/Shell.tsx": "cb6947b29e6a521fefedc96620c1c71edab85c8f5b400345270efa3f3c4f6701",
+    "src/components/ui/button.tsx": "e39813b666ba434660ec088356a0349246b6803a4e99961295d0c82bab1ab862",
+    "src/components/ui/dialog.tsx": "e3a6de153fb15597ea95be9c4549211a297c060267787915599e3d680d476bd9",
+    "src/lib/utils.ts": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27",
+    "src/styles.css": "0f7b7a467373ef8ff453ce59f3a96ec4d8e67886a2d4470b6c03ff453782bc98",
+    "src/features/workspace/Projects.tsx": "50bfcdae1aabf235041c535b236a0d0d7b985f1a7a3c8a17f1e9afe9cb2c754b",
+    "src/features/workspace/ProjectDetail.tsx": "bed766c35d5322674d6d69f92d5f010554a87ef5b0858e0ad4a5c2857fc47091",
+    "src/features/workspace/Actions.tsx": "3852f19c5ba710c79bba1abbe8c7879c85a0b5f1e7d9774b4cf93de75b7e8e15",
+    "src/features/workspace/Documents.tsx": "e0a91a7de6c143330e4e3b3b79647e008ae1547796748be29e395f93c17636d3",
+    "src/features/workspace/Mail.tsx": "69c6bd7b36bca50bf79bfecf670da9940631fd3b08a2b6e1e88c6e73ca659235",
+    "src/features/workspace/Settings.tsx": "239f95667c49502c02709a940021c4cd3f2cced9264507872d394015449d1e1e",
+    "src/features/workspace/BlockEditor.tsx": "124f0365736ea2821ed4c393519705d781eee0293b68607595902f994b31fddf",
+    "src/assets/ecole-portail.jpg": "0847fab32fef52dd0ad9d6219fbc070d0ba65763eaf50f7691af9f8c75f1944b",
+    "public/documents/devis-portail-v1.pdf": "15b64a163d12d207d3e25f6bc0d02c9c427fcc2792421c7e4154bf38c926d39c",
+    "public/documents/devis-portail-v2.pdf": "e823e0577376872b9894529875f852c8b1154c0a3645649d9828fca4bd359fce"
+  },
+  "adapted_files": [
+    "src/reference.tsx",
+    "src/features/workspace/context.tsx",
+    "index.html",
+    "vite.config.mjs",
+    "package.json"
+  ],
+  "dependency_directory": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\frontend-lovable\\node_modules",
+  "external_providers": false,
+  "database_access": false,
+  "fonts": "@fontsource-variable/dm-sans local",
+  "date_fns": {
+    "version": "4.4.0",
+    "license": "MIT",
+    "path": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\outputs\\travaux-mairie\\native-editor\\node_modules\\date-fns",
+    "reuse": "existing package in native editor; no install or mutation"
+  },
+  "cache_directory": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-11-14\\je-x20\\work\\lovable-reference-v2-client\\.vite-cache"
+}

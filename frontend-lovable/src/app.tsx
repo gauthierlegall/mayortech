@@ -1,0 +1,58 @@
+import React,{Suspense,useEffect,lazy} from 'react';
+import {QueryClient,QueryClientProvider} from '@tanstack/react-query';
+import {createRoot} from 'react-dom/client';
+import {createRouter,createRoute,createRootRoute,createHashHistory,RouterProvider,Outlet} from '@tanstack/react-router';
+import {Toaster} from 'sonner';
+import {WorkspaceProvider,useWorkspace} from './features/workspace/context';
+import {OrganizationModulesProvider} from './features/workspace/organization-modules-context';
+import {AuthGate} from './features/workspace/AuthGate';
+import {Shell} from './features/workspace/Shell';
+import {Projects} from './features/workspace/Projects';
+import {ProjectDetail} from './features/workspace/ProjectDetail';
+import {Mail} from './features/workspace/Mail';
+import {Settings} from './features/workspace/Settings';
+import {FirstConnectionGuide} from './features/workspace/FirstConnectionGuide';
+import {preservePanels} from './features/workspace/panel-lifecycle';
+import {ReviewPage,LegacySummaryRedirect,AllActions} from './features/workspace/ServicePages';
+import '@fontsource-variable/dm-sans';
+import './styles.css';
+import './integration.css';
+
+const queryClient=new QueryClient({defaultOptions:{queries:{retry:1,refetchOnWindowFocus:false}}});
+const Agenda=lazy(()=>import('./features/workspace/Agenda').then(module=>({default:module.Agenda})));
+const GlobalPlanning=lazy(()=>import('./features/workspace/GlobalPlanning').then(module=>({default:module.GlobalPlanning})));
+const Terrain=lazy(()=>import('./features/workspace/Terrain').then(module=>({default:module.Terrain})));
+const ConversationPage=lazy(()=>import('./features/workspace/Conversation').then(module=>({default:module.ConversationPage})));
+const ConnectionsPage=lazy(()=>import('./features/workspace/Connections').then(module=>({default:module.ConnectionsPage})));
+const OnboardingPage=lazy(()=>import('./features/workspace/Connections').then(module=>({default:module.OnboardingPage})));
+const MayorFlowPage=lazy(()=>import('./features/workflow/MayorFlowView').then(module=>({default:module.MayorFlowView})));
+const QuickSignPage=lazy(()=>import('./features/workflow/validation/QuickSignPage').then(module=>({default:module.QuickSignPage})));
+const TodayDashboardView=lazy(()=>import('./features/workspace/TodayDashboardView').then(module=>({default:module.TodayDashboardView})));
+function Root(){return <QueryClientProvider client={queryClient}><Suspense fallback={<main className="content"><p role="status">Ouverture de l’espace travaux…</p></main>}><WorkspaceProvider><OrganizationModulesProvider><AuthGate><FirstConnectionGuide/><Shell><div id="main-content" tabIndex={-1}><Outlet/></div></Shell></AuthGate><Toaster position="bottom-right" richColors/></OrganizationModulesProvider></WorkspaceProvider></Suspense></QueryClientProvider>;}
+const root=createRootRoute({component:Root,errorComponent:({error})=><main className="content"><h1>La page n’a pas pu être ouverte</h1><p>{error instanceof Error?error.message:'Rechargez cette page.'}</p><a href="#/">Revenir aux chantiers</a></main>});
+const route=(path:string,component:()=>React.ReactNode)=>createRoute({getParentRoute:()=>root,path,beforeLoad:async()=>{await preservePanels();},component});
+const home=route('/',()=><TodayDashboardView/>);
+const today=route('/today',()=><TodayDashboardView/>);
+const dossiers=route('/dossiers',Projects);
+const project=route('/chantiers/$id',()=>{const {id}=project.useParams();return <ProjectDetail key={id} id={id}/>;});
+function LegacyProject({id}:{id:string}){const {state,session}=useWorkspace();const fallback=state.projects.find(project=>project.ref==='TRV-2026-014')||state.projects[0];useEffect(()=>{if(session?.public_demo&&!state.projects.some(project=>project.id===id)&&fallback)location.replace('#/chantiers/'+fallback.id);},[id,state.projects,session]);return <ProjectDetail key={id} id={id}/>;}
+const oldProject=route('/project/$id',()=>{const {id}=oldProject.useParams();return <LegacyProject id={id}/>;});
+const mail=route('/messagerie',()=> <Mail/>),oldMail=route('/mail',()=> <Mail/>);
+const mailMessage=route('/mail/$id',()=> <Mail/>);
+const settings=route('/parametres',Settings),oldSettings=route('/settings',Settings),settingsSection=route('/settings/$id',Settings);
+const review=route('/review',ReviewPage),reviewId=route('/review/$id',ReviewPage);
+const summaries=route('/summaries',()=> <LegacySummaryRedirect/>),recapitulatifs=route('/recapitulatifs',()=> <LegacySummaryRedirect/>);
+const summary=route('/summary/$id',()=>{const {id}=summary.useParams();return <LegacySummaryRedirect id={id}/>;});
+const oldSummaryPlural=route('/summaries/$id',()=>{const {id}=oldSummaryPlural.useParams();return <LegacySummaryRedirect id={id}/>;});
+const oldSummaryFrench=route('/recapitulatifs/$id',()=>{const {id}=oldSummaryFrench.useParams();return <LegacySummaryRedirect id={id}/>;});
+const overview=route('/overview',Projects),oldProjects=route('/projects',Projects),actions=route('/actions',AllActions);
+const planning=route('/planning',()=> <GlobalPlanning/>),terrain=route('/terrain',()=> <Terrain/>);
+const agenda=route('/agenda',()=> <Agenda/>),assistant=route('/assistant',()=> <ConversationPage/>),connections=route('/connexions',()=> <ConnectionsPage/>),onboarding=route('/connexion',()=> <OnboardingPage/>);
+const workflows=route('/workflows',()=> <MayorFlowPage/>),oldWorkflows=route('/processus',()=> <MayorFlowPage/>);
+const quickSign=route('/quick-sign/$token',()=>{const {token}=quickSign.useParams();return <QuickSignPage token={token}/>;});
+const quickSignBase=route('/quick-sign',()=> <QuickSignPage/>);
+const router=createRouter({history:createHashHistory(),routeTree:root.addChildren([home,today,dossiers,project,oldProject,mail,oldMail,mailMessage,settings,oldSettings,settingsSection,review,reviewId,summaries,recapitulatifs,summary,oldSummaryPlural,oldSummaryFrench,overview,oldProjects,actions,planning,terrain,agenda,assistant,connections,onboarding,workflows,oldWorkflows,quickSign,quickSignBase]),defaultPreload:false});
+// Keep editor/draft data safe when following native links that do not use React.
+document.addEventListener('click',event=>{const anchor=(event.target as Element)?.closest?.('a[href^="#/"]') as HTMLAnchorElement|null;if(!anchor||event.defaultPrevented||event.ctrlKey||event.metaKey||event.shiftKey)return;event.preventDefault();void preservePanels().then(()=>{location.hash=anchor.hash;}).catch(()=>{});},true);
+window.addEventListener('beforeunload',event=>{if(document.querySelector('[data-unsaved="true"]')){event.preventDefault();event.returnValue='';}});
+createRoot(document.getElementById('root')!).render(<RouterProvider router={router}/>);

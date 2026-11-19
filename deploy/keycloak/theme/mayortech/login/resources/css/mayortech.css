@@ -1,0 +1,55 @@
+/* MayorTech presentation only. All forms and security behavior remain Keycloak's. */
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url("../fonts/dm-sans-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url("../fonts/dm-sans-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+:root {
+  color-scheme: light;
+  --pf-v5-global--FontFamily--sans-serif: "DM Sans",system-ui,sans-serif;
+  --pf-v5-global--FontFamily--heading--sans-serif: "DM Sans",system-ui,sans-serif;
+  --pf-v5-global--primary-color--100: #1762c4;
+  --pf-v5-global--primary-color--200: #124c98;
+  --pf-v5-global--link--Color: #1558ad;
+  --pf-v5-global--link--Color--hover: #103e7b;
+  --pf-v5-global--Color--100: #17233a;
+  --pf-v5-global--Color--200: #536175;
+  --pf-v5-global--BackgroundColor--100: #fff;
+  --keycloak-card-top-color: #1762c4;
+}
+html,body { min-height:100%;font-family:"DM Sans",system-ui,sans-serif; }
+body { background:#f4f7fb;color:#17233a; }
+.login-pf body { background:#f4f7fb; }
+.pf-v5-c-login { background:#f4f7fb;min-height:100dvh;padding:48px 24px; }
+.pf-v5-c-login__container { width:min(100%,490px);max-width:490px;padding-inline:0;grid-template-columns:minmax(0,1fr);margin-inline:auto; }
+.pf-v5-c-login__main { border:1px solid #dce3ed;border-radius:16px;box-shadow:0 12px 40px rgb(23 35 58 / 7%); }
+.pf-v5-c-login__main-header,.pf-v5-c-login__main-body,.pf-v5-c-login__main-footer { padding-inline:32px; }
+#kc-header-wrapper { color:#17233a!important;font-weight:700;font-size:20px;letter-spacing:-.02em;text-align:center;text-transform:none; }
+#kc-header-wrapper::before { content:"";display:block;width:52px;height:52px;margin:0 auto 16px;background:url("../img/mayortech-mark.svg") center/contain no-repeat; }
+#kc-page-title { font-weight:650;font-size:26px;line-height:1.25;letter-spacing:-.025em;color:#17233a; }
+.pf-v5-c-form-control { border-radius:7px;min-height:44px; }
+.pf-v5-c-button { min-height:44px;border-radius:7px;font-weight:600; }
+.pf-v5-c-button.pf-m-primary { background:#1762c4;color:#fff; }
+.pf-v5-c-button.pf-m-primary:hover { background:#124c98; }
+.pf-v5-c-form__label { font-weight:550;color:#25334a; }
+a { text-underline-offset:3px; }
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible { outline:3px solid #4c8ddd;outline-offset:3px; }
+.pf-v5-c-alert { border-radius:8px; }
+#kc-info-wrapper { background:#f7f9fc;border-top:1px solid #e4e9f0; }
+@media(max-width:560px) {
+  .pf-v5-c-login { padding:24px 14px; }
+  .pf-v5-c-login__main-header,.pf-v5-c-login__main-body,.pf-v5-c-login__main-footer { padding-inline:22px; }
+  #kc-page-title { font-size:24px; }
+}
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important;transition:none!important; } }

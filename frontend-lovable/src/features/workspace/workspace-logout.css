@@ -1,0 +1,7 @@
+.workspace-logout{width:100%;min-width:0}
+.workspace-logout .workspace-logout-button{width:100%;min-height:44px;height:auto;justify-content:flex-start;gap:11px;padding:11px 13px;white-space:normal;text-align:left;font-size:12px;font-weight:500;color:var(--muted-foreground)}
+.workspace-logout-button>svg{flex-shrink:0}
+.workspace-logout .workspace-logout-button:hover{color:var(--foreground);background:var(--accent)}
+.workspace-logout .workspace-logout-button:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+.workspace-logout .workspace-logout-button:disabled{cursor:wait}
+.workspace-logout-error{color:var(--destructive);font-size:12px;line-height:1.6;overflow-wrap:anywhere;padding:6px 13px 10px;margin:0}

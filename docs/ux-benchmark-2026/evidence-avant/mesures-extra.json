@@ -1,0 +1,132 @@
+{
+  "exact_search": "TRV-2026-014\nParvis de l'école des Alizés\n\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n3 à vérifier\nOuvrir",
+  "keyboard_from_skip": [
+    {
+      "tag": "A",
+      "text": "TravauxLe suivi municipal",
+      "x": -237,
+      "y": 29,
+      "w": 219,
+      "h": 65.28125
+    },
+    {
+      "tag": "A",
+      "text": "Vue d’ensemble",
+      "x": -237,
+      "y": 168.421875,
+      "w": 219,
+      "h": 45.6875
+    },
+    {
+      "tag": "A",
+      "text": "Chantiers",
+      "x": -237,
+      "y": 219.109375,
+      "w": 219,
+      "h": 45.6875
+    },
+    {
+      "tag": "A",
+      "text": "À vérifier3",
+      "x": -237,
+      "y": 269.796875,
+      "w": 219,
+      "h": 45.6875
+    },
+    {
+      "tag": "A",
+      "text": "Imports",
+      "x": -237,
+      "y": 320.484375,
+      "w": 219,
+      "h": 45.6875
+    },
+    {
+      "tag": "A",
+      "text": "Récapitulatifs",
+      "x": -237,
+      "y": 371.171875,
+      "w": 219,
+      "h": 45.6875
+    },
+    {
+      "tag": "A",
+      "text": "Connexions et accès",
+      "x": -237,
+      "y": 464.859375,
+      "w": 219,
+      "h": 45.6875
+    },
+    {
+      "tag": "A",
+      "text": "Voir les prérequis",
+      "x": -227,
+      "y": 749.859375,
+      "w": 199,
+      "h": 31.140625
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Ouvrir la navigation",
+      "x": 13,
+      "y": 10,
+      "w": 34,
+      "h": 44
+    },
+    {
+      "tag": "A",
+      "text": "Importer un mail",
+      "x": 16,
+      "y": 232.0625,
+      "w": 150.15625,
+      "h": 44
+    }
+  ],
+  "contrast-overview": [],
+  "contrast-projects": [],
+  "contrast-project": [],
+  "contrast-review": [
+    {
+      "text": "Parvis de l'école des Alizés",
+      "tag": "SPAN",
+      "cls": "",
+      "fore": "rgb(101, 114, 107)",
+      "back": [
+        232,
+        239,
+        228
+      ],
+      "ratio": 4.2894512154064115,
+      "size": "11px",
+      "weight": "400"
+    }
+  ],
+  "contrast-summaries": [],
+  "contrast-imports": [],
+  "contrast-settings": [],
+  "notes_input_border": {
+    "border": "rgb(203, 209, 198)",
+    "bg": "rgb(255, 255, 255)",
+    "font": "13px",
+    "rect": {
+      "x": 298,
+      "y": 616.65625,
+      "width": 765,
+      "height": 120,
+      "top": 616.65625,
+      "right": 1063,
+      "bottom": 736.65625,
+      "left": 298
+    }
+  },
+  "text_resize_200": {
+    "innerWidth": 1440,
+    "scrollWidth": 1440,
+    "bodyWidth": 1440,
+    "sidebarWidth": 236,
+    "sidebarScroll": 249
+  },
+  "native_note_fixture": "appflowy:actor_unverified\n14 nov. 2026, 11:00\n\nConstat relevé sur place : maintenir un cheminement accessible.\n\nNote ajoutée au dossier",
+  "error_503": "T\nOuverture de l’espace travaux\n\nConnexion au service local…",
+  "empty": "T\nOuverture de l’espace travaux\n\nConnexion au service local…"
+}

@@ -1,0 +1,15 @@
+.env
+.env.*
+**/.env*
+.git
+.venv
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/*.map
+**/*.sqlite*
+**/*.log
+owner.json
+secrets
+credentials*
+data

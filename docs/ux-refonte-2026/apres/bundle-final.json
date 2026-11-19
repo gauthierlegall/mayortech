@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "final_bundle_table_has_two_expected_rows",
+    "final_bundle_switch_to_real_kanban_same_ids",
+    "final_bundle_reload_does_not_duplicate_import",
+    "final_bundle_390_kanban_cards_same_native_ids",
+    "final_bundle_320_kanban_cards_same_native_ids",
+    "default_workspace_opens_native_project"
+  ],
+  "errors": [],
+  "native_database_id": "SRLEvue7GX",
+  "rows": [
+    {
+      "id": "TK5HHPYtyT",
+      "title": "Confirmer le cheminement piéton avant la visite"
+    },
+    {
+      "id": "l3EFmnzjvK",
+      "title": "Vérifier les barrières — action manuelle de recette"
+    }
+  ],
+  "fixture_project": "fc0aa546-6715-416f-b231-a28b17cd3279",
+  "final_bundle_reloaded": true
+}

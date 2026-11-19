@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-15T11:38:44.327281+00:00",
+  "scope": "archive temporaire de test construite depuis les vrais fichiers courants, sans apply ni gate de publication",
+  "checks": {
+    "full_deployment_tests_passed": 48,
+    "fresh_compiled_product_tests_passed": 5,
+    "index_and_css_js_asset_references_resolve": true,
+    "font_files_and_OFL_notice_present": true,
+    "seven_casbin_nodemailer_runtime_resources_present": true,
+    "no_env_supabase_runtime_or_sourcemaps": true
+  },
+  "resource_sha256": {
+    "src/travaux/vendor/casbin_domains/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "src/travaux/vendor/casbin_domains/UPSTREAM.json": "613bd8e0e4ee18ddccbfcc528545e74070de12599eacb7316d4d784358188077",
+    "src/travaux/vendor/casbin_domains/rbac_with_domains_model.conf": "61dd2bd62fd2276924d7f4d2cdb208535bd5939654203efa2f947f1b9681532f",
+    "web/index.html": "3455ea8dbaa17499b4dd41b09a0c41b99cae31edb446050ddbf994555f11becb",
+    "web/product/THIRD-PARTY-NOTICES.txt": "531f54652c6680782da7e90415777bdb1bd106cd8257bf25a81f31cfa2355a65",
+    "web/product/THIRD-PARTY-PACKAGES.json": "e5742f342145b2214a34f169dac87ef6241f6398e633e8280b43e94a4272bb9b",
+    "web/product/assets/dm-sans-latin-400-normal-BwCSEQnW.woff": "38702875fe179437d200e7ba6f7fab4d497ffe48117ef332029b2081751186ad",
+    "web/product/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006",
+    "web/product/assets/dm-sans-latin-500-normal-B9HHJjqV.woff2": "19bf1984956517c35c2bd35b6cdedac12a21d6fcd3596c614ecdfb88b648909d",
+    "web/product/assets/dm-sans-latin-500-normal-Dr3UlScf.woff": "7deb957e430b780ee3272d801af4f9f2211b1330ec40a312a8f25309eacb4034",
+    "web/product/assets/dm-sans-latin-600-normal-Aqo67rzb.woff2": "6bb2b2645ba5eeaecf56322c543fa3a75b87b927977b9c03b1dabc4205089120",
+    "web/product/assets/dm-sans-latin-600-normal-BmdmIIQ2.woff": "e7351257e49400eff05aca30a2007289194a900860d30c30770d8b8732897564",
+    "web/product/assets/dm-sans-latin-700-normal-CUSSCpQX.woff": "af422a448ac00679a8dbb13532db3616829c5a35b58d3eeea5903ce17ad2e36a",
+    "web/product/assets/dm-sans-latin-700-normal-DvUfVpUG.woff2": "35c5efa0e5daa52ee5c6500f5be354bf751fb65c4e49e1d6806c6eb5883e8fe9",
+    "web/product/assets/ecole-portail-BiY2ffs0.jpg": "0847fab32fef52dd0ad9d6219fbc070d0ba65763eaf50f7691af9f8c75f1944b",
+    "web/product/assets/index-C9vvBWb0.js": "2d544cff30e9671987a8279048b4d3130f2c2765797561dd2f28e56c5f420c31",
+    "web/product/assets/index-D4MOvrDO.css": "b3d9f18a0876b7f7af992dfff1dcb8d2be8e82b5f9f60983305161b69047d299",
+    "web/vendor/NODEMAILER-LICENSE.txt": "4f814dcacd2da618d62829ea1f6238701cf421f18a6b36c91c5d8212245e2c78",
+    "web/vendor/NODEMAILER-NOTICE.md": "c4950f01f3dcf70b271c9a56ffc3bae0b0ad501a4c0419018df73d14808d01b4",
+    "web/vendor/NODEMAILER-UPSTREAM.json": "0ae251d280631cad0c09374fc205ef929b4bc8e3134c9bb06d42780c9885e510",
+    "web/vendor/nodemailer-addressparser.js": "3756ae3ec8a84a51182df90c4032762215a061d1cf8178373a10333a691b6e4f"
+  },
+  "test_file": "deploy/hetzner/tests/test_product_bundle.py",
+  "test_file_sha256": "b13930cc8e05ffee9e10578833d1889f3d53307ab87c814d52225cae9c9afa92",
+  "ui_review": {
+    "mobile_capture": "docs/lovable-integration-2026/local/390-kanban.png",
+    "mobile_capture_sha256": "e1cb2f488920da9e1c305c8bf824f68dc173d90fa258afb29da6ca04c1992ed1",
+    "result": "Fiches visibles dans le premier ecran, premiere fiche vers y460 ; ancienne reserve vide corrigee. Aucun autre chevauchement bloquant confirme."
+  },
+  "rollforward_review": {
+    "contract": {
+      "mode": "public_demo",
+      "db_path": "/data/public-demo.sqlite3",
+      "tenant_id": "public-demo-travaux"
+    },
+    "legacy_private_database_untouched": true,
+    "backup_reads_previous_database_in_read_only_mode": true,
+    "probe_no_password_and_import_403": true,
+    "schema_guard_still_blocks_same_database_changes": true,
+    "remote_action_performed": false
+  },
+  "limits": [
+    "Ce rapport ne publie pas et ne remplace pas la gate finale de la racine apres son dernier changement backend.",
+    "Le garde de schema surveille sa liste explicite de modules ; il ne constitue pas un outil general de migration."
+  ]
+}

@@ -1,0 +1,1939 @@
+{
+  "date": "2026-11-14",
+  "target": "https://travaux.kerforge.com",
+  "viewports": [
+    {
+      "width": 1440,
+      "arrivee": {
+        "label": "arrivee",
+        "url": "https://travaux.kerforge.com/#/overview",
+        "scrollY": 0,
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "title": "Vue d’ensemble — Travaux",
+        "headings": [
+          {
+            "text": "Le point sur les travaux.",
+            "rect": {
+              "x": 274,
+              "y": 114,
+              "width": 411.671875,
+              "height": 46.796875,
+              "top": 114,
+              "right": 685.671875,
+              "bottom": 160.796875,
+              "left": 274
+            }
+          },
+          {
+            "text": "4 informations à vérifier",
+            "rect": {
+              "x": 359,
+              "y": 333.875,
+              "width": 336.421875,
+              "height": 27.890625,
+              "top": 333.875,
+              "right": 695.421875,
+              "bottom": 361.765625,
+              "left": 359
+            }
+          },
+          {
+            "text": "Les changements à relire",
+            "rect": {
+              "x": 274,
+              "y": 432.359375,
+              "width": 188.578125,
+              "height": 26.34375,
+              "top": 432.359375,
+              "right": 462.578125,
+              "bottom": 458.703125,
+              "left": 274
+            }
+          },
+          {
+            "text": "Les chantiers suivis",
+            "rect": {
+              "x": 274,
+              "y": 832.828125,
+              "width": 144.890625,
+              "height": 26.34375,
+              "top": 832.828125,
+              "right": 418.890625,
+              "bottom": 859.171875,
+              "left": 274
+            }
+          },
+          {
+            "text": "Les prochaines échéances",
+            "rect": {
+              "x": 1102,
+              "y": 314.875,
+              "width": 300,
+              "height": 23.25,
+              "top": 314.875,
+              "right": 1402,
+              "bottom": 338.125,
+              "left": 1102
+            }
+          },
+          {
+            "text": "Dernière synchronisation",
+            "rect": {
+              "x": 1102,
+              "y": 592.234375,
+              "width": 300,
+              "height": 23.25,
+              "top": 592.234375,
+              "right": 1402,
+              "bottom": 615.484375,
+              "left": 1102
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 9,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n7\nchantiers suivis\n4\nà vérifier\n0\nactions ouvertes\n4 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 18:56 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 18:56 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 18:56 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n4 à vérifier\nOuvrir\nRECETTE-HTTPS-1794679253516200400\nRecette HTTPS — chantier entièrement fictif\n\nAvancement confirmé\nÀ renseigner\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports"
+      },
+      "chantier": {
+        "label": "chantier",
+        "url": "https://travaux.kerforge.com/#/project/b9d16287-89c2-45e7-b303-c9c4b32d7886",
+        "scrollY": 0,
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "title": "Recette HTTPS — chantier entièrement fictif — Travaux",
+        "headings": [
+          {
+            "text": "Recette HTTPS — chantier entièrement fictif",
+            "rect": {
+              "x": 274,
+              "y": 151,
+              "width": 554.46875,
+              "height": 36,
+              "top": 151,
+              "right": 828.46875,
+              "bottom": 187,
+              "left": 274
+            }
+          },
+          {
+            "text": "Repères du dossier",
+            "rect": {
+              "x": 1165,
+              "y": 339.828125,
+              "width": 141.03125,
+              "height": 24.796875,
+              "top": 339.828125,
+              "right": 1306.03125,
+              "bottom": 364.625,
+              "left": 1165
+            }
+          }
+        ],
+        "tabs": [
+          {
+            "text": "Page du chantier",
+            "selected": "true",
+            "rect": {
+              "x": 274,
+              "y": 245.6875,
+              "width": 102.71875,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 376.71875,
+              "bottom": 293.828125,
+              "left": 274
+            }
+          },
+          {
+            "text": "Mémoire du chantier",
+            "selected": "false",
+            "rect": {
+              "x": 398.71875,
+              "y": 245.6875,
+              "width": 120.09375,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 518.8125,
+              "bottom": 293.828125,
+              "left": 398.71875
+            }
+          },
+          {
+            "text": "Actions (0)",
+            "selected": "false",
+            "rect": {
+              "x": 540.8125,
+              "y": 245.6875,
+              "width": 60.859375,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 601.671875,
+              "bottom": 293.828125,
+              "left": 540.8125
+            }
+          },
+          {
+            "text": "Sources (1)",
+            "selected": "false",
+            "rect": {
+              "x": 623.671875,
+              "y": 245.6875,
+              "width": 63.140625,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 686.8125,
+              "bottom": 293.828125,
+              "left": 623.671875
+            }
+          },
+          {
+            "text": "Notes humaines (1)",
+            "selected": "false",
+            "rect": {
+              "x": 708.8125,
+              "y": 245.6875,
+              "width": 111.390625,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 820.203125,
+              "bottom": 293.828125,
+              "left": 708.8125
+            }
+          }
+        ],
+        "nativeToolbar": [
+          {
+            "text": "Ajouter un paragraphe",
+            "disabled": false,
+            "rect": {
+              "x": 291,
+              "y": 336.828125,
+              "width": 163.9375,
+              "height": 40,
+              "top": 336.828125,
+              "right": 454.9375,
+              "bottom": 376.828125,
+              "left": 291
+            }
+          },
+          {
+            "text": "Ajouter une base",
+            "disabled": false,
+            "rect": {
+              "x": 462.9375,
+              "y": 336.828125,
+              "width": 130.015625,
+              "height": 40,
+              "top": 336.828125,
+              "right": 592.953125,
+              "bottom": 376.828125,
+              "left": 462.9375
+            }
+          },
+          {
+            "text": "Enregistrer",
+            "disabled": false,
+            "rect": {
+              "x": 1006.125,
+              "y": 336.828125,
+              "width": 93.875,
+              "height": 40,
+              "top": 336.828125,
+              "right": 1100,
+              "bottom": 376.828125,
+              "left": 1006.125
+            }
+          }
+        ],
+        "nativeHost": {
+          "x": 275,
+          "y": 438.828125,
+          "width": 841,
+          "height": 560,
+          "top": 438.828125,
+          "right": 1116,
+          "bottom": 998.828125,
+          "left": 275
+        },
+        "nativeHint": {
+          "x": 295,
+          "y": 1018.828125,
+          "width": 528.28125,
+          "height": 44.78125,
+          "top": 1018.828125,
+          "right": 823.28125,
+          "bottom": 1063.609375,
+          "left": 295
+        },
+        "nativeEditor": true,
+        "databases": 1,
+        "mobileRecords": 3,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Retour aux chantiers\nRecette HTTPS — chantier entièrement fictif\n\nDossier de suivi des travaux\n\nOuvrir la page\nPréparer un récap\nPage du chantier\nMémoire du chantier\nActions (0)\nSources (1)\nNotes humaines (1)\nAjouter un paragraphe\nAjouter une base\nEnregistrer\n\nPage enregistrée\n\nNote de terrain entierement fictive RECETTE-HTTPS-1794679253516200400 : maintenir le cheminement accessible.\nUntitled\nSuivi du chantier\nListe\nCartes\nNew Record\nIntitulé\nDescription\nMontant indiqué\nStatut\nControle fictif du passage\n​\n​\nNew Record\nCalculate\nCalculate\nCalculate\nCalculate\n​\n\nÉcrivez directement dans la page. Tapez / pour les blocs disponibles. Vos notes sont conservées dans le contexte du chantier.\n\nRepères du dossier\nRéférence\nRECETTE-HTTPS-1794679253516200400\nÉtat\nEn cours\nVersion de mémoire\n1\nCréé le\n14 nov. 2026, 19:00\nVotre dossier de chantier\n\nPages, bases, notes, courriels et preuves restent dans ce même espace. Vos saisies enrichissent le contexte du récapitulatif."
+      },
+      "chantier_editeur": {
+        "label": "chantier_editeur",
+        "url": "https://travaux.kerforge.com/#/project/b9d16287-89c2-45e7-b303-c9c4b32d7886",
+        "scrollY": 0,
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "title": "Recette HTTPS — chantier entièrement fictif — Travaux",
+        "headings": [
+          {
+            "text": "Recette HTTPS — chantier entièrement fictif",
+            "rect": {
+              "x": 274,
+              "y": 151,
+              "width": 554.46875,
+              "height": 36,
+              "top": 151,
+              "right": 828.46875,
+              "bottom": 187,
+              "left": 274
+            }
+          },
+          {
+            "text": "Repères du dossier",
+            "rect": {
+              "x": 1165,
+              "y": 339.828125,
+              "width": 141.03125,
+              "height": 24.796875,
+              "top": 339.828125,
+              "right": 1306.03125,
+              "bottom": 364.625,
+              "left": 1165
+            }
+          }
+        ],
+        "tabs": [
+          {
+            "text": "Page du chantier",
+            "selected": "true",
+            "rect": {
+              "x": 274,
+              "y": 245.6875,
+              "width": 102.71875,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 376.71875,
+              "bottom": 293.828125,
+              "left": 274
+            }
+          },
+          {
+            "text": "Mémoire du chantier",
+            "selected": "false",
+            "rect": {
+              "x": 398.71875,
+              "y": 245.6875,
+              "width": 120.09375,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 518.8125,
+              "bottom": 293.828125,
+              "left": 398.71875
+            }
+          },
+          {
+            "text": "Actions (0)",
+            "selected": "false",
+            "rect": {
+              "x": 540.8125,
+              "y": 245.6875,
+              "width": 60.859375,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 601.671875,
+              "bottom": 293.828125,
+              "left": 540.8125
+            }
+          },
+          {
+            "text": "Sources (1)",
+            "selected": "false",
+            "rect": {
+              "x": 623.671875,
+              "y": 245.6875,
+              "width": 63.140625,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 686.8125,
+              "bottom": 293.828125,
+              "left": 623.671875
+            }
+          },
+          {
+            "text": "Notes humaines (1)",
+            "selected": "false",
+            "rect": {
+              "x": 708.8125,
+              "y": 245.6875,
+              "width": 111.390625,
+              "height": 48.140625,
+              "top": 245.6875,
+              "right": 820.203125,
+              "bottom": 293.828125,
+              "left": 708.8125
+            }
+          }
+        ],
+        "nativeToolbar": [
+          {
+            "text": "Ajouter un paragraphe",
+            "disabled": false,
+            "rect": {
+              "x": 291,
+              "y": 336.828125,
+              "width": 163.9375,
+              "height": 40,
+              "top": 336.828125,
+              "right": 454.9375,
+              "bottom": 376.828125,
+              "left": 291
+            }
+          },
+          {
+            "text": "Ajouter une base",
+            "disabled": false,
+            "rect": {
+              "x": 462.9375,
+              "y": 336.828125,
+              "width": 130.015625,
+              "height": 40,
+              "top": 336.828125,
+              "right": 592.953125,
+              "bottom": 376.828125,
+              "left": 462.9375
+            }
+          },
+          {
+            "text": "Enregistrer",
+            "disabled": false,
+            "rect": {
+              "x": 1006.125,
+              "y": 336.828125,
+              "width": 93.875,
+              "height": 40,
+              "top": 336.828125,
+              "right": 1100,
+              "bottom": 376.828125,
+              "left": 1006.125
+            }
+          }
+        ],
+        "nativeHost": {
+          "x": 275,
+          "y": 438.828125,
+          "width": 841,
+          "height": 560,
+          "top": 438.828125,
+          "right": 1116,
+          "bottom": 998.828125,
+          "left": 275
+        },
+        "nativeHint": {
+          "x": 295,
+          "y": 1018.828125,
+          "width": 528.28125,
+          "height": 44.78125,
+          "top": 1018.828125,
+          "right": 823.28125,
+          "bottom": 1063.609375,
+          "left": 295
+        },
+        "nativeEditor": true,
+        "databases": 1,
+        "mobileRecords": 3,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Retour aux chantiers\nRecette HTTPS — chantier entièrement fictif\n\nDossier de suivi des travaux\n\nOuvrir la page\nPréparer un récap\nPage du chantier\nMémoire du chantier\nActions (0)\nSources (1)\nNotes humaines (1)\nAjouter un paragraphe\nAjouter une base\nEnregistrer\n\nPage enregistrée\n\nNote de terrain entierement fictive RECETTE-HTTPS-1794679253516200400 : maintenir le cheminement accessible.\nUntitled\nSuivi du chantier\nListe\nCartes\nNew Record\nIntitulé\nDescription\nMontant indiqué\nStatut\nControle fictif du passage\n​\n​\nNew Record\nCalculate\nCalculate\nCalculate\nCalculate\n​\n\nÉcrivez directement dans la page. Tapez / pour les blocs disponibles. Vos notes sont conservées dans le contexte du chantier.\n\nRepères du dossier\nRéférence\nRECETTE-HTTPS-1794679253516200400\nÉtat\nEn cours\nVersion de mémoire\n1\nCréé le\n14 nov. 2026, 19:00\nVotre dossier de chantier\n\nPages, bases, notes, courriels et preuves restent dans ce même espace. Vos saisies enrichissent le contexte du récapitulatif."
+      },
+      "courriels": {
+        "label": "courriels",
+        "url": "https://travaux.kerforge.com/#/mail",
+        "scrollY": 0,
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "title": "Courriels — Travaux",
+        "headings": [
+          {
+            "text": "Courriels",
+            "rect": {
+              "x": 274,
+              "y": 114,
+              "width": 332.765625,
+              "height": 36,
+              "top": 114,
+              "right": 606.765625,
+              "bottom": 150,
+              "left": 274
+            }
+          },
+          {
+            "text": "Messages des chantiers",
+            "rect": {
+              "x": 274,
+              "y": 230.1875,
+              "width": 368.28125,
+              "height": 37.1875,
+              "top": 230.1875,
+              "right": 642.28125,
+              "bottom": 267.375,
+              "left": 274
+            }
+          },
+          {
+            "text": "Les échanges, dans leur contexte",
+            "rect": {
+              "x": 867.15625,
+              "y": 671.21875,
+              "width": 241.6875,
+              "height": 25.5,
+              "top": 671.21875,
+              "right": 1108.84375,
+              "bottom": 696.71875,
+              "left": 867.15625
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Courriels\n\nLisez les messages et retrouvez leur contexte chantier.\n\nESPACE DE TRAVAIL\nMessages des chantiers\n\nLes messages disponibles dans cet espace, reliés à vos chantiers.\n\nLecture seule\nDonnées fictives\nRechercher dans les messages\nRechercher\nChantier\nTous les chantiers\nRECETTE-HTTPS-1794679253516200400 · Recette HTTPS — chantier entièrement fictif\nTRV-2026-003 · Éclairage du port des Dunes\nTRV-2026-008 · Salle du Rivage\nTRV-2026-014 · Parvis de l'école des Alizés\nTRV-2026-017 · Vestiaires des Goélands\nTRV-2026-021 · Rue des Ajoncs\nTRV-2026-032 · Chemin de Kerbrume\nRattachement\nTous les courriers\nRattachés\nSans chantier\nÀ départager\n\n7 courriers disponibles.\n\n7 courriers\nconducteur@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Nouveau point et livraison\n\nBonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le che\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-014] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-014. Avancement : Préparation du terrassement Entreprise : Entreprise Fictive 1 Budget : 42000 EUR HT Livraison : 2026-12-10\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-021] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-021. Avancement : Réseau pluvial posé à 60 % Entreprise : Entreprise Fictive 2 Budget : 60500 EUR HT Livraison : 2026-12-11 C\n\nTRV-2026-021\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-008] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-008. Avancement : Isolation des combles terminée Entreprise : Entreprise Fictive 3 Budget : 79000 EUR HT Livraison : 2026-12-\n\nTRV-2026-008\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-032] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-032. Avancement : Études en cours Entreprise : Entreprise Fictive 4 Budget : 97500 EUR HT Livraison : 2026-12-13 Cordialement\n\nTRV-2026-032\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-017] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-017. Avancement : Ventilation en cours de pose Entreprise : Entreprise Fictive 5 Budget : 116000 EUR HT Livraison : 2026-12-1\n\nTRV-2026-017\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-003] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-003. Avancement : Travaux terminés, réserves levées Entreprise : Entreprise Fictive 6 Budget : 134500 EUR HT Livraison : 2026\n\nTRV-2026-003\nLes échanges, dans leur contexte\n\nChoisissez un courrier pour lire son contenu et retrouver son chantier."
+      },
+      "courriel": {
+        "label": "courriel",
+        "url": "https://travaux.kerforge.com/#/mail/c33b044e-07f3-4b43-8b69-e3195529d1fc",
+        "scrollY": 0,
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "title": "Courriels — Travaux",
+        "headings": [
+          {
+            "text": "Courriels",
+            "rect": {
+              "x": 274,
+              "y": 114,
+              "width": 332.765625,
+              "height": 36,
+              "top": 114,
+              "right": 606.765625,
+              "bottom": 150,
+              "left": 274
+            }
+          },
+          {
+            "text": "Messages des chantiers",
+            "rect": {
+              "x": 274,
+              "y": 230.1875,
+              "width": 368.28125,
+              "height": 37.1875,
+              "top": 230.1875,
+              "right": 642.28125,
+              "bottom": 267.375,
+              "left": 274
+            }
+          },
+          {
+            "text": "[TRV-2026-014] Nouveau point et livraison",
+            "rect": {
+              "x": 602,
+              "y": 502.25,
+              "width": 537,
+              "height": 32.390625,
+              "top": 502.25,
+              "right": 1139,
+              "bottom": 534.640625,
+              "left": 602
+            }
+          },
+          {
+            "text": "Chantier lié",
+            "rect": {
+              "x": 1185,
+              "y": 484.0625,
+              "width": 198,
+              "height": 19.59375,
+              "top": 484.0625,
+              "right": 1383,
+              "bottom": 503.65625,
+              "left": 1185
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Courriels\n\nLisez les messages et retrouvez leur contexte chantier.\n\nESPACE DE TRAVAIL\nMessages des chantiers\n\nLes messages disponibles dans cet espace, reliés à vos chantiers.\n\nLecture seule\nDonnées fictives\nRechercher dans les messages\nRechercher\nChantier\nTous les chantiers\nRECETTE-HTTPS-1794679253516200400 · Recette HTTPS — chantier entièrement fictif\nTRV-2026-003 · Éclairage du port des Dunes\nTRV-2026-008 · Salle du Rivage\nTRV-2026-014 · Parvis de l'école des Alizés\nTRV-2026-017 · Vestiaires des Goélands\nTRV-2026-021 · Rue des Ajoncs\nTRV-2026-032 · Chemin de Kerbrume\nRattachement\nTous les courriers\nRattachés\nSans chantier\nÀ départager\n\n7 courriers disponibles.\n\n7 courriers\nconducteur@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Nouveau point et livraison\n\nBonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le che\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-014] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-014. Avancement : Préparation du terrassement Entreprise : Entreprise Fictive 1 Budget : 42000 EUR HT Livraison : 2026-12-10\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-021] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-021. Avancement : Réseau pluvial posé à 60 % Entreprise : Entreprise Fictive 2 Budget : 60500 EUR HT Livraison : 2026-12-11 C\n\nTRV-2026-021\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-008] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-008. Avancement : Isolation des combles terminée Entreprise : Entreprise Fictive 3 Budget : 79000 EUR HT Livraison : 2026-12-\n\nTRV-2026-008\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-032] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-032. Avancement : Études en cours Entreprise : Entreprise Fictive 4 Budget : 97500 EUR HT Livraison : 2026-12-13 Cordialement\n\nTRV-2026-032\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-017] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-017. Avancement : Ventilation en cours de pose Entreprise : Entreprise Fictive 5 Budget : 116000 EUR HT Livraison : 2026-12-1\n\nTRV-2026-017\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-003] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-003. Avancement : Travaux terminés, réserves levées Entreprise : Entreprise Fictive 6 Budget : 134500 EUR HT Livraison : 2026\n\nTRV-2026-003\nRattaché\nLecture seule\n[TRV-2026-014] Nouveau point et livraison\nDe\nconducteur@entreprise-fictive.invalid\nReçu le\n14 novembre 2026 à 10:15\nBonjour,\n\nNouveau point pour TRV-2026-014.\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nLivraison : 2026-12-18\nAction : Confirmer le cheminement piéton avec le service scolaire\n\nMerci,\nEntreprise Fictive 1\n\nContenu affiché en texte brut. Les images et liens distants du message ne sont pas chargés.\n\nDANS LE MÊME ESPACE\nChantier lié\nTRV-2026-014\nParvis de l'école des Alizés\nOuvrir le chantier\nModifier le rattachement\nLe message reste une source\n\nSon rattachement ne valide pas automatiquement les informations qu’il contient. Retrouvez les propositions dans le chantier."
+      }
+    },
+    {
+      "width": 390,
+      "arrivee": {
+        "label": "arrivee",
+        "url": "https://travaux.kerforge.com/#/overview",
+        "scrollY": 0,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Vue d’ensemble — Travaux",
+        "headings": [
+          {
+            "text": "Le point sur les travaux.",
+            "rect": {
+              "x": 16,
+              "y": 88,
+              "width": 294.609375,
+              "height": 76.78125,
+              "top": 88,
+              "right": 310.609375,
+              "bottom": 164.78125,
+              "left": 16
+            }
+          },
+          {
+            "text": "4 informations à vérifier",
+            "rect": {
+              "x": 84,
+              "y": 428.0625,
+              "width": 207,
+              "height": 24.796875,
+              "top": 428.0625,
+              "right": 291,
+              "bottom": 452.859375,
+              "left": 84
+            }
+          },
+          {
+            "text": "Les changements à relire",
+            "rect": {
+              "x": 16,
+              "y": 594.046875,
+              "width": 177.484375,
+              "height": 24.796875,
+              "top": 594.046875,
+              "right": 193.484375,
+              "bottom": 618.84375,
+              "left": 16
+            }
+          },
+          {
+            "text": "Les chantiers suivis",
+            "rect": {
+              "x": 16,
+              "y": 1070.984375,
+              "width": 136.359375,
+              "height": 24.796875,
+              "top": 1070.984375,
+              "right": 152.359375,
+              "bottom": 1095.78125,
+              "left": 16
+            }
+          },
+          {
+            "text": "Les prochaines échéances",
+            "rect": {
+              "x": 16,
+              "y": 2344.484375,
+              "width": 358,
+              "height": 23.25,
+              "top": 2344.484375,
+              "right": 374,
+              "bottom": 2367.734375,
+              "left": 16
+            }
+          },
+          {
+            "text": "Dernière synchronisation",
+            "rect": {
+              "x": 16,
+              "y": 2603.15625,
+              "width": 358,
+              "height": 23.25,
+              "top": 2603.15625,
+              "right": 374,
+              "bottom": 2626.40625,
+              "left": 16
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 9,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n7\nchantiers suivis\n4\nà vérifier\n0\nactions ouvertes\n4 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 18:56 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 18:56 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 18:56 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n4 à vérifier\nOuvrir\nRECETTE-HTTPS-1794679253516200400\nRecette HTTPS — chantier entièrement fictif\n\nAvancement confirmé\nÀ renseigner\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports"
+      },
+      "chantier": {
+        "label": "chantier",
+        "url": "https://travaux.kerforge.com/#/project/b9d16287-89c2-45e7-b303-c9c4b32d7886",
+        "scrollY": 0,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Recette HTTPS — chantier entièrement fictif — Travaux",
+        "headings": [
+          {
+            "text": "Recette HTTPS — chantier entièrement fictif",
+            "rect": {
+              "x": 16,
+              "y": 125,
+              "width": 358,
+              "height": 64.78125,
+              "top": 125,
+              "right": 374,
+              "bottom": 189.78125,
+              "left": 16
+            }
+          },
+          {
+            "text": "Repères du dossier",
+            "rect": {
+              "x": 35,
+              "y": 480.921875,
+              "width": 141.03125,
+              "height": 24.796875,
+              "top": 480.921875,
+              "right": 176.03125,
+              "bottom": 505.71875,
+              "left": 35
+            }
+          }
+        ],
+        "tabs": [
+          {
+            "text": "Page du chantier",
+            "selected": "true",
+            "rect": {
+              "x": 17,
+              "y": 304.921875,
+              "width": 178,
+              "height": 44,
+              "top": 304.921875,
+              "right": 195,
+              "bottom": 348.921875,
+              "left": 17
+            }
+          },
+          {
+            "text": "Mémoire du chantier",
+            "selected": "false",
+            "rect": {
+              "x": 195,
+              "y": 304.921875,
+              "width": 178,
+              "height": 44,
+              "top": 304.921875,
+              "right": 373,
+              "bottom": 348.921875,
+              "left": 195
+            }
+          },
+          {
+            "text": "Actions (0)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": 348.921875,
+              "width": 178,
+              "height": 44,
+              "top": 348.921875,
+              "right": 195,
+              "bottom": 392.921875,
+              "left": 17
+            }
+          },
+          {
+            "text": "Sources (1)",
+            "selected": "false",
+            "rect": {
+              "x": 195,
+              "y": 348.921875,
+              "width": 178,
+              "height": 44,
+              "top": 348.921875,
+              "right": 373,
+              "bottom": 392.921875,
+              "left": 195
+            }
+          },
+          {
+            "text": "Notes humaines (1)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": 392.921875,
+              "width": 178,
+              "height": 44,
+              "top": 392.921875,
+              "right": 195,
+              "bottom": 436.921875,
+              "left": 17
+            }
+          }
+        ],
+        "nativeToolbar": [
+          {
+            "text": "Ajouter un paragraphe",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": 750.15625,
+              "width": 162,
+              "height": 59.1875,
+              "top": 750.15625,
+              "right": 191,
+              "bottom": 809.34375,
+              "left": 29
+            }
+          },
+          {
+            "text": "Ajouter une base",
+            "disabled": false,
+            "rect": {
+              "x": 199,
+              "y": 750.15625,
+              "width": 162,
+              "height": 59.1875,
+              "top": 750.15625,
+              "right": 361,
+              "bottom": 809.34375,
+              "left": 199
+            }
+          },
+          {
+            "text": "Enregistrer",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": 817.34375,
+              "width": 332,
+              "height": 44,
+              "top": 817.34375,
+              "right": 361,
+              "bottom": 861.34375,
+              "left": 29
+            }
+          }
+        ],
+        "nativeHost": {
+          "x": 17,
+          "y": 919.34375,
+          "width": 356,
+          "height": 650.390625,
+          "top": 919.34375,
+          "right": 373,
+          "bottom": 1569.734375,
+          "left": 17
+        },
+        "nativeHint": {
+          "x": 29,
+          "y": 1581.734375,
+          "width": 332,
+          "height": 67.171875,
+          "top": 1581.734375,
+          "right": 361,
+          "bottom": 1648.90625,
+          "left": 29
+        },
+        "nativeEditor": true,
+        "databases": 1,
+        "mobileRecords": 3,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Retour aux chantiers\nRecette HTTPS — chantier entièrement fictif\n\nDossier de suivi des travaux\n\nOuvrir la page\nPréparer un récap\nPage du chantier\nMémoire du chantier\nActions (0)\nSources (1)\nNotes humaines (1)\nAjouter un paragraphe\nAjouter une base\nEnregistrer\n\nPage enregistrée\n\nNote de terrain entierement fictive RECETTE-HTTPS-1794679253516200400 : maintenir le cheminement accessible.\n​\nSuivi du chantier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nControle fictif du passage\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\n\nÉcrivez directement dans la page. Tapez / pour les blocs disponibles. Vos notes sont conservées dans le contexte du chantier.\n\nRepères du dossier\nRéférence\nRECETTE-HTTPS-1794679253516200400\nÉtat\nEn cours\nVersion de mémoire\n1\nCréé le\n14 nov. 2026, 19:00"
+      },
+      "chantier_editeur": {
+        "label": "chantier_editeur",
+        "url": "https://travaux.kerforge.com/#/project/b9d16287-89c2-45e7-b303-c9c4b32d7886",
+        "scrollY": 823,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Recette HTTPS — chantier entièrement fictif — Travaux",
+        "headings": [
+          {
+            "text": "Recette HTTPS — chantier entièrement fictif",
+            "rect": {
+              "x": 16,
+              "y": -698,
+              "width": 358,
+              "height": 64.78125,
+              "top": -698,
+              "right": 374,
+              "bottom": -633.21875,
+              "left": 16
+            }
+          },
+          {
+            "text": "Repères du dossier",
+            "rect": {
+              "x": 35,
+              "y": -342.078125,
+              "width": 141.03125,
+              "height": 24.796875,
+              "top": -342.078125,
+              "right": 176.03125,
+              "bottom": -317.28125,
+              "left": 35
+            }
+          }
+        ],
+        "tabs": [
+          {
+            "text": "Page du chantier",
+            "selected": "true",
+            "rect": {
+              "x": 17,
+              "y": -518.078125,
+              "width": 178,
+              "height": 44,
+              "top": -518.078125,
+              "right": 195,
+              "bottom": -474.078125,
+              "left": 17
+            }
+          },
+          {
+            "text": "Mémoire du chantier",
+            "selected": "false",
+            "rect": {
+              "x": 195,
+              "y": -518.078125,
+              "width": 178,
+              "height": 44,
+              "top": -518.078125,
+              "right": 373,
+              "bottom": -474.078125,
+              "left": 195
+            }
+          },
+          {
+            "text": "Actions (0)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": -474.078125,
+              "width": 178,
+              "height": 44,
+              "top": -474.078125,
+              "right": 195,
+              "bottom": -430.078125,
+              "left": 17
+            }
+          },
+          {
+            "text": "Sources (1)",
+            "selected": "false",
+            "rect": {
+              "x": 195,
+              "y": -474.078125,
+              "width": 178,
+              "height": 44,
+              "top": -474.078125,
+              "right": 373,
+              "bottom": -430.078125,
+              "left": 195
+            }
+          },
+          {
+            "text": "Notes humaines (1)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": -430.078125,
+              "width": 178,
+              "height": 44,
+              "top": -430.078125,
+              "right": 195,
+              "bottom": -386.078125,
+              "left": 17
+            }
+          }
+        ],
+        "nativeToolbar": [
+          {
+            "text": "Ajouter un paragraphe",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": -72.84375,
+              "width": 162,
+              "height": 59.1875,
+              "top": -72.84375,
+              "right": 191,
+              "bottom": -13.65625,
+              "left": 29
+            }
+          },
+          {
+            "text": "Ajouter une base",
+            "disabled": false,
+            "rect": {
+              "x": 199,
+              "y": -72.84375,
+              "width": 162,
+              "height": 59.1875,
+              "top": -72.84375,
+              "right": 361,
+              "bottom": -13.65625,
+              "left": 199
+            }
+          },
+          {
+            "text": "Enregistrer",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": -5.65625,
+              "width": 332,
+              "height": 44,
+              "top": -5.65625,
+              "right": 361,
+              "bottom": 38.34375,
+              "left": 29
+            }
+          }
+        ],
+        "nativeHost": {
+          "x": 17,
+          "y": 96.34375,
+          "width": 356,
+          "height": 650.390625,
+          "top": 96.34375,
+          "right": 373,
+          "bottom": 746.734375,
+          "left": 17
+        },
+        "nativeHint": {
+          "x": 29,
+          "y": 758.734375,
+          "width": 332,
+          "height": 67.171875,
+          "top": 758.734375,
+          "right": 361,
+          "bottom": 825.90625,
+          "left": 29
+        },
+        "nativeEditor": true,
+        "databases": 1,
+        "mobileRecords": 3,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Retour aux chantiers\nRecette HTTPS — chantier entièrement fictif\n\nDossier de suivi des travaux\n\nOuvrir la page\nPréparer un récap\nPage du chantier\nMémoire du chantier\nActions (0)\nSources (1)\nNotes humaines (1)\nAjouter un paragraphe\nAjouter une base\nEnregistrer\n\nPage enregistrée\n\nNote de terrain entierement fictive RECETTE-HTTPS-1794679253516200400 : maintenir le cheminement accessible.\n​\nSuivi du chantier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nControle fictif du passage\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\n\nÉcrivez directement dans la page. Tapez / pour les blocs disponibles. Vos notes sont conservées dans le contexte du chantier.\n\nRepères du dossier\nRéférence\nRECETTE-HTTPS-1794679253516200400\nÉtat\nEn cours\nVersion de mémoire\n1\nCréé le\n14 nov. 2026, 19:00"
+      },
+      "courriels": {
+        "label": "courriels",
+        "url": "https://travaux.kerforge.com/#/mail",
+        "scrollY": 0,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Courriels — Travaux",
+        "headings": [
+          {
+            "text": "Courriels",
+            "rect": {
+              "x": 16,
+              "y": 88,
+              "width": 358,
+              "height": 32.390625,
+              "top": 88,
+              "right": 374,
+              "bottom": 120.390625,
+              "left": 16
+            }
+          },
+          {
+            "text": "Messages des chantiers",
+            "rect": {
+              "x": 16,
+              "y": 195.03125,
+              "width": 210,
+              "height": 69.59375,
+              "top": 195.03125,
+              "right": 226,
+              "bottom": 264.625,
+              "left": 16
+            }
+          },
+          {
+            "text": "Les échanges, dans leur contexte",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Courriels\n\nLisez les messages et retrouvez leur contexte chantier.\n\nESPACE DE TRAVAIL\nMessages des chantiers\n\nLes messages disponibles dans cet espace, reliés à vos chantiers.\n\nLecture seule\nDonnées fictives\nRechercher dans les messages\nRechercher\nChantier\nTous les chantiers\nRECETTE-HTTPS-1794679253516200400 · Recette HTTPS — chantier entièrement fictif\nTRV-2026-003 · Éclairage du port des Dunes\nTRV-2026-008 · Salle du Rivage\nTRV-2026-014 · Parvis de l'école des Alizés\nTRV-2026-017 · Vestiaires des Goélands\nTRV-2026-021 · Rue des Ajoncs\nTRV-2026-032 · Chemin de Kerbrume\nRattachement\nTous les courriers\nRattachés\nSans chantier\nÀ départager\n\n7 courriers disponibles.\n\n7 courriers\nconducteur@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Nouveau point et livraison\n\nBonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le che\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-014] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-014. Avancement : Préparation du terrassement Entreprise : Entreprise Fictive 1 Budget : 42000 EUR HT Livraison : 2026-12-10\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-021] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-021. Avancement : Réseau pluvial posé à 60 % Entreprise : Entreprise Fictive 2 Budget : 60500 EUR HT Livraison : 2026-12-11 C\n\nTRV-2026-021\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-008] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-008. Avancement : Isolation des combles terminée Entreprise : Entreprise Fictive 3 Budget : 79000 EUR HT Livraison : 2026-12-\n\nTRV-2026-008\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-032] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-032. Avancement : Études en cours Entreprise : Entreprise Fictive 4 Budget : 97500 EUR HT Livraison : 2026-12-13 Cordialement\n\nTRV-2026-032\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-017] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-017. Avancement : Ventilation en cours de pose Entreprise : Entreprise Fictive 5 Budget : 116000 EUR HT Livraison : 2026-12-1\n\nTRV-2026-017\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-003] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-003. Avancement : Travaux terminés, réserves levées Entreprise : Entreprise Fictive 6 Budget : 134500 EUR HT Livraison : 2026\n\nTRV-2026-003"
+      },
+      "courriel": {
+        "label": "courriel",
+        "url": "https://travaux.kerforge.com/#/mail/c33b044e-07f3-4b43-8b69-e3195529d1fc",
+        "scrollY": 0,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "title": "Courriels — Travaux",
+        "headings": [
+          {
+            "text": "Courriels",
+            "rect": {
+              "x": 16,
+              "y": 88,
+              "width": 358,
+              "height": 32.390625,
+              "top": 88,
+              "right": 374,
+              "bottom": 120.390625,
+              "left": 16
+            }
+          },
+          {
+            "text": "Messages des chantiers",
+            "rect": {
+              "x": 16,
+              "y": 195.03125,
+              "width": 210,
+              "height": 69.59375,
+              "top": 195.03125,
+              "right": 226,
+              "bottom": 264.625,
+              "left": 16
+            }
+          },
+          {
+            "text": "[TRV-2026-014] Nouveau point et livraison",
+            "rect": {
+              "x": 36,
+              "y": 429.703125,
+              "width": 318,
+              "height": 67.1875,
+              "top": 429.703125,
+              "right": 354,
+              "bottom": 496.890625,
+              "left": 36
+            }
+          },
+          {
+            "text": "Chantier lié",
+            "rect": {
+              "x": 36,
+              "y": 1066.796875,
+              "width": 318,
+              "height": 23.796875,
+              "top": 1066.796875,
+              "right": 354,
+              "bottom": 1090.59375,
+              "left": 36
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Courriels\n\nLisez les messages et retrouvez leur contexte chantier.\n\nESPACE DE TRAVAIL\nMessages des chantiers\nLecture seule\nDonnées fictives\nTous les courriers\nRattaché\nLecture seule\n[TRV-2026-014] Nouveau point et livraison\nDe\nconducteur@entreprise-fictive.invalid\nReçu le\n14 novembre 2026 à 10:15\nBonjour,\n\nNouveau point pour TRV-2026-014.\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nLivraison : 2026-12-18\nAction : Confirmer le cheminement piéton avec le service scolaire\n\nMerci,\nEntreprise Fictive 1\n\nContenu affiché en texte brut. Les images et liens distants du message ne sont pas chargés.\n\nDANS LE MÊME ESPACE\nChantier lié\nTRV-2026-014\nParvis de l'école des Alizés\nOuvrir le chantier\nModifier le rattachement\nLe message reste une source\n\nSon rattachement ne valide pas automatiquement les informations qu’il contient. Retrouvez les propositions dans le chantier."
+      }
+    },
+    {
+      "width": 320,
+      "arrivee": {
+        "label": "arrivee",
+        "url": "https://travaux.kerforge.com/#/overview",
+        "scrollY": 0,
+        "width": 320,
+        "height": 844,
+        "scrollWidth": 320,
+        "title": "Vue d’ensemble — Travaux",
+        "headings": [
+          {
+            "text": "Le point sur les travaux.",
+            "rect": {
+              "x": 16,
+              "y": 88,
+              "width": 288,
+              "height": 76.78125,
+              "top": 88,
+              "right": 304,
+              "bottom": 164.78125,
+              "left": 16
+            }
+          },
+          {
+            "text": "4 informations à vérifier",
+            "rect": {
+              "x": 34,
+              "y": 478.0625,
+              "width": 207,
+              "height": 24.796875,
+              "top": 478.0625,
+              "right": 241,
+              "bottom": 502.859375,
+              "left": 34
+            }
+          },
+          {
+            "text": "Les changements à relire",
+            "rect": {
+              "x": 16,
+              "y": 644.046875,
+              "width": 177.484375,
+              "height": 24.796875,
+              "top": 644.046875,
+              "right": 193.484375,
+              "bottom": 668.84375,
+              "left": 16
+            }
+          },
+          {
+            "text": "Les chantiers suivis",
+            "rect": {
+              "x": 16,
+              "y": 1120.984375,
+              "width": 136.359375,
+              "height": 24.796875,
+              "top": 1120.984375,
+              "right": 152.359375,
+              "bottom": 1145.78125,
+              "left": 16
+            }
+          },
+          {
+            "text": "Les prochaines échéances",
+            "rect": {
+              "x": 16,
+              "y": 2394.484375,
+              "width": 288,
+              "height": 23.25,
+              "top": 2394.484375,
+              "right": 304,
+              "bottom": 2417.734375,
+              "left": 16
+            }
+          },
+          {
+            "text": "Dernière synchronisation",
+            "rect": {
+              "x": 16,
+              "y": 2671.84375,
+              "width": 288,
+              "height": 23.25,
+              "top": 2671.84375,
+              "right": 304,
+              "bottom": 2695.09375,
+              "left": 16
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 9,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Le point sur les travaux.\n\nVos chantiers, les dernières informations et les décisions à prendre.\n\nImporter un mail\n7\nchantiers suivis\n4\nà vérifier\n0\nactions ouvertes\n4 informations à vérifier\n\nDes changements attendent votre lecture et votre confirmation.\n\nConsulter\nLes changements à relire\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Avancement\n\nTerrassement terminé, attente de validation du plan de circulation\n\n14 nov. 2026, 18:56 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Livraison\n\n2026-12-18\n\n14 nov. 2026, 18:56 · À confirmer\n\nParvis de l'école des Alizés · TRV-2026-014\n\nProposition · Action\n\nConfirmer le cheminement piéton avec le service scolaire\n\n14 nov. 2026, 18:56 · À confirmer\nLes chantiers suivis\nVoir tous les chantiers\nTRV-2026-014\nParvis de l'école des Alizés\n\nAvancement confirmé\nPréparation du terrassement\n\n14 nov. 2026\nEn cours\n4 à vérifier\nOuvrir\nRECETTE-HTTPS-1794679253516200400\nRecette HTTPS — chantier entièrement fictif\n\nAvancement confirmé\nÀ renseigner\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-003\nÉclairage du port des Dunes\n\nAvancement confirmé\nTravaux terminés, réserves levées\n\n14 nov. 2026\nTerminé\nOuvrir\nTRV-2026-017\nVestiaires des Goélands\n\nAvancement confirmé\nVentilation en cours de pose\n\n14 nov. 2026\nEn cours\nOuvrir\nTRV-2026-032\nChemin de Kerbrume\n\nAvancement confirmé\nÉtudes en cours\n\n14 nov. 2026\nEn préparation\nOuvrir\nTRV-2026-008\nSalle du Rivage\n\nAvancement confirmé\nIsolation des combles terminée\n\n14 nov. 2026\nEn cours\nOuvrir\nLes prochaines échéances\n\nAucune échéance confirmée à afficher. Les dates proposées restent dans la revue.\n\nVos sources, vos décisions\n\nLa mémoire des chantiers conserve les preuves. Une proposition de l’IA reste à vérifier jusqu’à votre décision.\n\nVoir les connexions\nDernière synchronisation\n\nAucune connexion Exchange active n’est présumée.\n\nConsulter les imports"
+      },
+      "chantier": {
+        "label": "chantier",
+        "url": "https://travaux.kerforge.com/#/project/b9d16287-89c2-45e7-b303-c9c4b32d7886",
+        "scrollY": 0,
+        "width": 320,
+        "height": 844,
+        "scrollWidth": 320,
+        "title": "Recette HTTPS — chantier entièrement fictif — Travaux",
+        "headings": [
+          {
+            "text": "Recette HTTPS — chantier entièrement fictif",
+            "rect": {
+              "x": 16,
+              "y": 125,
+              "width": 288,
+              "height": 97.171875,
+              "top": 125,
+              "right": 304,
+              "bottom": 222.171875,
+              "left": 16
+            }
+          },
+          {
+            "text": "Repères du dossier",
+            "rect": {
+              "x": 35,
+              "y": 567.3125,
+              "width": 141.03125,
+              "height": 24.796875,
+              "top": 567.3125,
+              "right": 176.03125,
+              "bottom": 592.109375,
+              "left": 35
+            }
+          }
+        ],
+        "tabs": [
+          {
+            "text": "Page du chantier",
+            "selected": "true",
+            "rect": {
+              "x": 17,
+              "y": 391.3125,
+              "width": 143,
+              "height": 44,
+              "top": 391.3125,
+              "right": 160,
+              "bottom": 435.3125,
+              "left": 17
+            }
+          },
+          {
+            "text": "Mémoire du chantier",
+            "selected": "false",
+            "rect": {
+              "x": 160,
+              "y": 391.3125,
+              "width": 143,
+              "height": 44,
+              "top": 391.3125,
+              "right": 303,
+              "bottom": 435.3125,
+              "left": 160
+            }
+          },
+          {
+            "text": "Actions (0)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": 435.3125,
+              "width": 143,
+              "height": 44,
+              "top": 435.3125,
+              "right": 160,
+              "bottom": 479.3125,
+              "left": 17
+            }
+          },
+          {
+            "text": "Sources (1)",
+            "selected": "false",
+            "rect": {
+              "x": 160,
+              "y": 435.3125,
+              "width": 143,
+              "height": 44,
+              "top": 435.3125,
+              "right": 303,
+              "bottom": 479.3125,
+              "left": 160
+            }
+          },
+          {
+            "text": "Notes humaines (1)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": 479.3125,
+              "width": 143,
+              "height": 44,
+              "top": 479.3125,
+              "right": 160,
+              "bottom": 523.3125,
+              "left": 17
+            }
+          }
+        ],
+        "nativeToolbar": [
+          {
+            "text": "Ajouter un paragraphe",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": 886.046875,
+              "width": 127,
+              "height": 59.1875,
+              "top": 886.046875,
+              "right": 156,
+              "bottom": 945.234375,
+              "left": 29
+            }
+          },
+          {
+            "text": "Ajouter une base",
+            "disabled": false,
+            "rect": {
+              "x": 164,
+              "y": 886.046875,
+              "width": 127,
+              "height": 59.1875,
+              "top": 886.046875,
+              "right": 291,
+              "bottom": 945.234375,
+              "left": 164
+            }
+          },
+          {
+            "text": "Enregistrer",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": 953.234375,
+              "width": 262,
+              "height": 44,
+              "top": 953.234375,
+              "right": 291,
+              "bottom": 997.234375,
+              "left": 29
+            }
+          }
+        ],
+        "nativeHost": {
+          "x": 17,
+          "y": 1055.234375,
+          "width": 286,
+          "height": 703.171875,
+          "top": 1055.234375,
+          "right": 303,
+          "bottom": 1758.40625,
+          "left": 17
+        },
+        "nativeHint": {
+          "x": 29,
+          "y": 1770.40625,
+          "width": 262,
+          "height": 67.171875,
+          "top": 1770.40625,
+          "right": 291,
+          "bottom": 1837.578125,
+          "left": 29
+        },
+        "nativeEditor": true,
+        "databases": 1,
+        "mobileRecords": 3,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Retour aux chantiers\nRecette HTTPS — chantier entièrement fictif\n\nDossier de suivi des travaux\n\nOuvrir la page\nPréparer un récap\nPage du chantier\nMémoire du chantier\nActions (0)\nSources (1)\nNotes humaines (1)\nAjouter un paragraphe\nAjouter une base\nEnregistrer\n\nPage enregistrée\n\nNote de terrain entierement fictive RECETTE-HTTPS-1794679253516200400 : maintenir le cheminement accessible.\n​\nSuivi du chantier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nControle fictif du passage\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\n\nÉcrivez directement dans la page. Tapez / pour les blocs disponibles. Vos notes sont conservées dans le contexte du chantier.\n\nRepères du dossier\nRéférence\nRECETTE-HTTPS-1794679253516200400\nÉtat\nEn cours\nVersion de mémoire\n1\nCréé le\n14 nov. 2026, 19:00"
+      },
+      "chantier_editeur": {
+        "label": "chantier_editeur",
+        "url": "https://travaux.kerforge.com/#/project/b9d16287-89c2-45e7-b303-c9c4b32d7886",
+        "scrollY": 985,
+        "width": 320,
+        "height": 844,
+        "scrollWidth": 320,
+        "title": "Recette HTTPS — chantier entièrement fictif — Travaux",
+        "headings": [
+          {
+            "text": "Recette HTTPS — chantier entièrement fictif",
+            "rect": {
+              "x": 16,
+              "y": -860,
+              "width": 288,
+              "height": 97.171875,
+              "top": -860,
+              "right": 304,
+              "bottom": -762.828125,
+              "left": 16
+            }
+          },
+          {
+            "text": "Repères du dossier",
+            "rect": {
+              "x": 35,
+              "y": -417.6875,
+              "width": 141.03125,
+              "height": 24.796875,
+              "top": -417.6875,
+              "right": 176.03125,
+              "bottom": -392.890625,
+              "left": 35
+            }
+          }
+        ],
+        "tabs": [
+          {
+            "text": "Page du chantier",
+            "selected": "true",
+            "rect": {
+              "x": 17,
+              "y": -593.6875,
+              "width": 143,
+              "height": 44,
+              "top": -593.6875,
+              "right": 160,
+              "bottom": -549.6875,
+              "left": 17
+            }
+          },
+          {
+            "text": "Mémoire du chantier",
+            "selected": "false",
+            "rect": {
+              "x": 160,
+              "y": -593.6875,
+              "width": 143,
+              "height": 44,
+              "top": -593.6875,
+              "right": 303,
+              "bottom": -549.6875,
+              "left": 160
+            }
+          },
+          {
+            "text": "Actions (0)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": -549.6875,
+              "width": 143,
+              "height": 44,
+              "top": -549.6875,
+              "right": 160,
+              "bottom": -505.6875,
+              "left": 17
+            }
+          },
+          {
+            "text": "Sources (1)",
+            "selected": "false",
+            "rect": {
+              "x": 160,
+              "y": -549.6875,
+              "width": 143,
+              "height": 44,
+              "top": -549.6875,
+              "right": 303,
+              "bottom": -505.6875,
+              "left": 160
+            }
+          },
+          {
+            "text": "Notes humaines (1)",
+            "selected": "false",
+            "rect": {
+              "x": 17,
+              "y": -505.6875,
+              "width": 143,
+              "height": 44,
+              "top": -505.6875,
+              "right": 160,
+              "bottom": -461.6875,
+              "left": 17
+            }
+          }
+        ],
+        "nativeToolbar": [
+          {
+            "text": "Ajouter un paragraphe",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": -98.953125,
+              "width": 127,
+              "height": 59.1875,
+              "top": -98.953125,
+              "right": 156,
+              "bottom": -39.765625,
+              "left": 29
+            }
+          },
+          {
+            "text": "Ajouter une base",
+            "disabled": false,
+            "rect": {
+              "x": 164,
+              "y": -98.953125,
+              "width": 127,
+              "height": 59.1875,
+              "top": -98.953125,
+              "right": 291,
+              "bottom": -39.765625,
+              "left": 164
+            }
+          },
+          {
+            "text": "Enregistrer",
+            "disabled": false,
+            "rect": {
+              "x": 29,
+              "y": -31.765625,
+              "width": 262,
+              "height": 44,
+              "top": -31.765625,
+              "right": 291,
+              "bottom": 12.234375,
+              "left": 29
+            }
+          }
+        ],
+        "nativeHost": {
+          "x": 17,
+          "y": 70.234375,
+          "width": 286,
+          "height": 703.171875,
+          "top": 70.234375,
+          "right": 303,
+          "bottom": 773.40625,
+          "left": 17
+        },
+        "nativeHint": {
+          "x": 29,
+          "y": 785.40625,
+          "width": 262,
+          "height": 67.171875,
+          "top": 785.40625,
+          "right": 291,
+          "bottom": 852.578125,
+          "left": 29
+        },
+        "nativeEditor": true,
+        "databases": 1,
+        "mobileRecords": 3,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Retour aux chantiers\nRecette HTTPS — chantier entièrement fictif\n\nDossier de suivi des travaux\n\nOuvrir la page\nPréparer un récap\nPage du chantier\nMémoire du chantier\nActions (0)\nSources (1)\nNotes humaines (1)\nAjouter un paragraphe\nAjouter une base\nEnregistrer\n\nPage enregistrée\n\nNote de terrain entierement fictive RECETTE-HTTPS-1794679253516200400 : maintenir le cheminement accessible.\n​\nSuivi du chantier\n\nLecture en fiches sur mobile. Les bases se modifient sur ordinateur.\n\nControle fictif du passage\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\nFiche sans titre\nVoir tous les champs\n\nÉcrivez directement dans la page. Tapez / pour les blocs disponibles. Vos notes sont conservées dans le contexte du chantier.\n\nRepères du dossier\nRéférence\nRECETTE-HTTPS-1794679253516200400\nÉtat\nEn cours\nVersion de mémoire\n1\nCréé le\n14 nov. 2026, 19:00"
+      },
+      "courriels": {
+        "label": "courriels",
+        "url": "https://travaux.kerforge.com/#/mail",
+        "scrollY": 0,
+        "width": 320,
+        "height": 844,
+        "scrollWidth": 320,
+        "title": "Courriels — Travaux",
+        "headings": [
+          {
+            "text": "Courriels",
+            "rect": {
+              "x": 16,
+              "y": 88,
+              "width": 288,
+              "height": 32.390625,
+              "top": 88,
+              "right": 304,
+              "bottom": 120.390625,
+              "left": 16
+            }
+          },
+          {
+            "text": "Messages des chantiers",
+            "rect": {
+              "x": 16,
+              "y": 215.171875,
+              "width": 176,
+              "height": 64.78125,
+              "top": 215.171875,
+              "right": 192,
+              "bottom": 279.953125,
+              "left": 16
+            }
+          },
+          {
+            "text": "Les échanges, dans leur contexte",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Courriels\n\nLisez les messages et retrouvez leur contexte chantier.\n\nESPACE DE TRAVAIL\nMessages des chantiers\n\nLes messages disponibles dans cet espace, reliés à vos chantiers.\n\nLecture seule\nDonnées fictives\nRechercher dans les messages\nRechercher\nChantier\nTous les chantiers\nRECETTE-HTTPS-1794679253516200400 · Recette HTTPS — chantier entièrement fictif\nTRV-2026-003 · Éclairage du port des Dunes\nTRV-2026-008 · Salle du Rivage\nTRV-2026-014 · Parvis de l'école des Alizés\nTRV-2026-017 · Vestiaires des Goélands\nTRV-2026-021 · Rue des Ajoncs\nTRV-2026-032 · Chemin de Kerbrume\nRattachement\nTous les courriers\nRattachés\nSans chantier\nÀ départager\n\n7 courriers disponibles.\n\n7 courriers\nconducteur@entreprise-fictive.invalid\n14 nov.\n[TRV-2026-014] Nouveau point et livraison\n\nBonjour, Nouveau point pour TRV-2026-014. Avancement : Terrassement terminé, attente de validation du plan de circulation Livraison : 2026-12-18 Action : Confirmer le che\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-014] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-014. Avancement : Préparation du terrassement Entreprise : Entreprise Fictive 1 Budget : 42000 EUR HT Livraison : 2026-12-10\n\nTRV-2026-014\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-021] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-021. Avancement : Réseau pluvial posé à 60 % Entreprise : Entreprise Fictive 2 Budget : 60500 EUR HT Livraison : 2026-12-11 C\n\nTRV-2026-021\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-008] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-008. Avancement : Isolation des combles terminée Entreprise : Entreprise Fictive 3 Budget : 79000 EUR HT Livraison : 2026-12-\n\nTRV-2026-008\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-032] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-032. Avancement : Études en cours Entreprise : Entreprise Fictive 4 Budget : 97500 EUR HT Livraison : 2026-12-13 Cordialement\n\nTRV-2026-032\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-017] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-017. Avancement : Ventilation en cours de pose Entreprise : Entreprise Fictive 5 Budget : 116000 EUR HT Livraison : 2026-12-1\n\nTRV-2026-017\nsuivi@entreprise-fictive.invalid\n12 nov.\n[TRV-2026-003] Point chantier\n\nBonjour, Point de suivi du chantier TRV-2026-003. Avancement : Travaux terminés, réserves levées Entreprise : Entreprise Fictive 6 Budget : 134500 EUR HT Livraison : 2026\n\nTRV-2026-003"
+      },
+      "courriel": {
+        "label": "courriel",
+        "url": "https://travaux.kerforge.com/#/mail/c33b044e-07f3-4b43-8b69-e3195529d1fc",
+        "scrollY": 0,
+        "width": 320,
+        "height": 844,
+        "scrollWidth": 320,
+        "title": "Courriels — Travaux",
+        "headings": [
+          {
+            "text": "Courriels",
+            "rect": {
+              "x": 16,
+              "y": 88,
+              "width": 288,
+              "height": 32.390625,
+              "top": 88,
+              "right": 304,
+              "bottom": 120.390625,
+              "left": 16
+            }
+          },
+          {
+            "text": "Messages des chantiers",
+            "rect": {
+              "x": 16,
+              "y": 215.171875,
+              "width": 176,
+              "height": 64.78125,
+              "top": 215.171875,
+              "right": 192,
+              "bottom": 279.953125,
+              "left": 16
+            }
+          },
+          {
+            "text": "[TRV-2026-014] Nouveau point et livraison",
+            "rect": {
+              "x": 32,
+              "y": 439.0625,
+              "width": 256,
+              "height": 61.59375,
+              "top": 439.0625,
+              "right": 288,
+              "bottom": 500.65625,
+              "left": 32
+            }
+          },
+          {
+            "text": "Chantier lié",
+            "rect": {
+              "x": 32,
+              "y": 1112.703125,
+              "width": 256,
+              "height": 23.796875,
+              "top": 1112.703125,
+              "right": 288,
+              "bottom": 1136.5,
+              "left": 32
+            }
+          }
+        ],
+        "tabs": [],
+        "nativeToolbar": [],
+        "nativeHost": null,
+        "nativeHint": null,
+        "nativeEditor": false,
+        "databases": 0,
+        "mobileRecords": 0,
+        "projectCards": 0,
+        "visibleKanbanControls": [],
+        "nav": [
+          "Vue d’ensemble",
+          "Chantiers",
+          "À vérifier4",
+          "Courriels",
+          "Imports",
+          "Récapitulatifs",
+          "Connexions et accès"
+        ],
+        "mainText": "Courriels\n\nLisez les messages et retrouvez leur contexte chantier.\n\nESPACE DE TRAVAIL\nMessages des chantiers\nLecture seule\nDonnées fictives\nTous les courriers\nRattaché\nLecture seule\n[TRV-2026-014] Nouveau point et livraison\nDe\nconducteur@entreprise-fictive.invalid\nReçu le\n14 novembre 2026 à 10:15\nBonjour,\n\nNouveau point pour TRV-2026-014.\nAvancement : Terrassement terminé, attente de validation du plan de circulation\nLivraison : 2026-12-18\nAction : Confirmer le cheminement piéton avec le service scolaire\n\nMerci,\nEntreprise Fictive 1\n\nContenu affiché en texte brut. Les images et liens distants du message ne sont pas chargés.\n\nDANS LE MÊME ESPACE\nChantier lié\nTRV-2026-014\nParvis de l'école des Alizés\nOuvrir le chantier\nModifier le rattachement\nLe message reste une source\n\nSon rattachement ne valide pas automatiquement les informations qu’il contient. Retrouvez les propositions dans le chantier."
+      }
+    }
+  ],
+  "errors": [],
+  "blocked_writes": [],
+  "automatic_page_ensure": [
+    "/api/v1/projects/b9d16287-89c2-45e7-b303-c9c4b32d7886/page",
+    "/api/v1/projects/b9d16287-89c2-45e7-b303-c9c4b32d7886/page",
+    "/api/v1/projects/b9d16287-89c2-45e7-b303-c9c4b32d7886/page"
+  ],
+  "project_id": "b9d16287-89c2-45e7-b303-c9c4b32d7886",
+  "project_reference": "RECETTE-HTTPS-1794679253516200400",
+  "project_name": "Recette HTTPS — chantier entièrement fictif",
+  "native_page_preexisting": true,
+  "source_id": "c33b044e-07f3-4b43-8b69-e3195529d1fc",
+  "initial_native_revisions": {
+    "fe4bac6e-9d50-4785-8300-058d6e7282ab": 1
+  },
+  "final_native_revisions": {
+    "fe4bac6e-9d50-4785-8300-058d6e7282ab": 1
+  },
+  "existing_page_revisions_unchanged": true
+}

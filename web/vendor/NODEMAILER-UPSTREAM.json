@@ -1,0 +1,26 @@
+{
+  "component": "Nodemailer addressparser only",
+  "version": "10.5.0",
+  "license": "MIT-0",
+  "source_repository": "https://github.com/nodemailer/nodemailer",
+  "tag": "v10.5.0",
+  "commit": "f4bacd5dca6ddc47b8b865acee4084d54a7aa797",
+  "source_path": "src/addressparser/index.ts",
+  "source_url": "https://github.com/nodemailer/nodemailer/blob/f4bacd5dca6ddc47b8b865acee4084d54a7aa797/src/addressparser/index.ts",
+  "copied_from": "package/dist/esm/addressparser/index.js",
+  "npm_tarball": "https://registry.npmjs.org/nodemailer/-/nodemailer-10.5.0.tgz",
+  "npm_integrity": "sha512-L/w/HH5MqpzMDuZD7fQdt/+KqymuvrpaApaIjAH2XA3ILePwlcvXCVVvP75xVrXCEt2ggK2marrrHHFB5Qu0kA==",
+  "archive_sha256": "ff20e6d822a2f4bb311572311d2231fc39925896bf754b59803017a85696134d",
+  "vendored_path": "web/vendor/nodemailer-addressparser.js",
+  "vendored_sha256": "3756ae3ec8a84a51182df90c4032762215a061d1cf8178373a10333a691b6e4f",
+  "vendored_lines": 1398,
+  "license_sha256": "4f814dcacd2da618d62829ea1f6238701cf421f18a6b36c91c5d8212245e2c78",
+  "modifications": "None. Official compiled ESM artifact copied byte-for-byte; no module.exports rewrite needed in this version.",
+  "capabilities": "Parse mailbox lists and groups from To/Cc/Bcc text. No Node imports or SMTP transport.",
+  "limitations": [
+    "Parsing is not address validation, identity validation, HTML sanitization or sending.",
+    "Caller must cap field length, reject control-character/header injection and validate recipients server-side before sending.",
+    "Render name/address as escaped text, never trusted HTML."
+  ],
+  "verified_at_utc": "2026-11-15T10:46:53.046178+00:00"
+}

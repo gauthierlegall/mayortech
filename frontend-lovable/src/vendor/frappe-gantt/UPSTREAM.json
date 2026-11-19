@@ -1,0 +1,39 @@
+{
+  "package": "frappe-gantt",
+  "version": "1.2.2",
+  "license": "MIT",
+  "upstream": "https://github.com/frappe/gantt",
+  "registry_integrity": "sha512-1+uPNRa92LBIeKiZCVhJMiGIifJk5ONaoerXI8eBREXWRZGGoTJR5ATpMpsnAQcyBA6Gnq5wIht4eL+e4eHMBA==",
+  "upstream_files": {
+    "arrow.js": "152f640651e439eb0ce3a27cf8671e998253644dd8a0c05b5b447f2b555dfb20",
+    "bar.js": "230cb1040b4f75a82d3da3e6b64c5a891db48a934fd3839909aae77caeb7aee8",
+    "date_utils.js": "aee855ab2b1ddb623e3df43bde20c225e5eada93dc63a26264ae4486872e434d",
+    "defaults.js": "b05bd99617512ce090c5b5f4eb9860654ae97aad6227fc5b06f224640f6b9b7e",
+    "index.js": "cb094f7cce21ecc1b435deedf02255fdb9bd92907b8d73df013e31a2c6a81e7a",
+    "popup.js": "71b49a80b0bd34b23ca42e1704acb64615ce58acbcb4447d57af9dc80dee6882",
+    "svg_utils.js": "e7f9ec2621ed13d0cb28e70769ecc46995c2fc927f40c382adb15dfa3d8cff6e",
+    "styles/gantt.css": "b499ff574886cafdb7d1895ab3f6a60b0bd04b72d78529a891eb2f7154a5bcee",
+    "styles/themes.css": "764c930ecb23d01604ceee6a867aac2ee40f094ce31fc05c0ac84bb383228965"
+  },
+  "vendored_files": {
+    "arrow.js": "152f640651e439eb0ce3a27cf8671e998253644dd8a0c05b5b447f2b555dfb20",
+    "bar.js": "0761615963b115d3fd788032a21132573145cd2d867ac920a7b8f2caafda28ce",
+    "date_utils.js": "aee855ab2b1ddb623e3df43bde20c225e5eada93dc63a26264ae4486872e434d",
+    "defaults.js": "b05bd99617512ce090c5b5f4eb9860654ae97aad6227fc5b06f224640f6b9b7e",
+    "index.js": "8e0f73b8dc1cee266e7f70c0c5942c14fa57bda5a3bc592282dd98d1b9596859",
+    "popup.js": "71b49a80b0bd34b23ca42e1704acb64615ce58acbcb4447d57af9dc80dee6882",
+    "svg_utils.js": "e7f9ec2621ed13d0cb28e70769ecc46995c2fc927f40c382adb15dfa3d8cff6e",
+    "styles/gantt.css": "b499ff574886cafdb7d1895ab3f6a60b0bd04b72d78529a891eb2f7154a5bcee",
+    "styles/themes.css": "764c930ecb23d01604ceee6a867aac2ee40f094ce31fc05c0ac84bb383228965"
+  },
+  "adaptations": [
+    "index.js: name the document mouseup listener and add destroy() to remove it and the detached DOM. No global DOM monkeypatch.",
+    "bar.js: split whitespace-separated custom_class into individual DOMTokenList.add arguments. Unknown progress and completed status use multiple CSS classes; a real Chromium regression test covers both."
+  ],
+  "integration_notes": [
+    "Source is copied from the installed version, never fetched at runtime.",
+    "React wrapper batches continuous date_change callbacks and writes once on mouseup to canonical Yjs actions.",
+    "Task labels are escaped before reaching upstream SVG innerHTML; upstream popup is disabled.",
+    "No start, progress, dependency or resource is inferred from a deadline or an email."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prepared_at": "2026-11-15T11:05:05.166093+00:00",
+  "version": "0.4.0",
+  "scope": "preparation locale uniquement, sans deploiement",
+  "runtime": {
+    "mode": "public_demo",
+    "db_path": "/data/public-demo.sqlite3",
+    "tenant_id": "public-demo-travaux"
+  },
+  "checks": {
+    "deployment_pytest": {
+      "passed": 43,
+      "command": ".venv/Scripts/python.exe -m pytest deploy/hetzner/tests -q"
+    },
+    "py_compile": true,
+    "uv_lock_check": true,
+    "local_plan": {
+      "file_count_at_check": 381,
+      "deploy_performed": false
+    },
+    "wheel": {
+      "version": "0.4.0",
+      "seven_vendor_resources_byte_identical": true,
+      "sha256": "0553106d25f51b0eb2caab75709766844e86f1ac9a7eb0b36b6529a50f252c2b"
+    },
+    "installed_pycasbin": "2.8.0",
+    "old_casbin_distribution_present": false
+  },
+  "venv_sync": {
+    "completed": false,
+    "reason": "Windows error32: travaux.exe utilise par un processus existant, aucun arret force",
+    "installed_project_metadata": "0.3.0",
+    "required_next_step": "uv --system-certs sync --frozen --extra dev --extra documents --inexact lors du prochain arret du serveur"
+  },
+  "not_performed": [
+    "SSH",
+    "Docker",
+    "apply",
+    "rollback",
+    "gate de recette globale",
+    "package release de production",
+    "recette HTTPS publique"
+  ],
+  "files_frozen_in_this_scope": {
+    "deploy/hetzner/common.py": "4db55b01864c6157e89d374c92e8ba40afa489fec7a588ae1bcad653770e3fef",
+    "deploy/hetzner/deploy.py": "dc37f514a4547caa511063b5dbc7c1f654d521dc8d390c16e095b378f5fd99f4",
+    "deploy/hetzner/remote.py": "ccf4323cb6f61e489e68683df1aebc6eeb79f4a1b1305bc5e1570f787ba92e5f",
+    "deploy/hetzner/compose.yaml": "be0a08537b9e949de5f274f84f25d0eeaccb8efeee58951fa8b30fd6b163a5eb",
+    "deploy/hetzner/README.md": "2a38cee73ed6f5bfd940cef00afabd860c20f2fd9f98349a1ee6a8b09302706f",
+    "deploy/hetzner/tests/test_deploy.py": "dd9301975719bc7efa9dbaa908cb01af498685cb9f38af4641f19858c962b0d5",
+    "deploy/hetzner/tests/test_public_release.py": "70d2eb732d8a54c3a9ad22fb0d2434ec4d4e3dc6212fdd0d15341824b13bec23",
+    "pyproject.toml": "3eabf5d848d586c2704ca447d9afa39fdb47c1c531d17e8acb861e24bfc3c063",
+    "uv.lock": "ffb0c861f57044a97b3c5c23f4533b1ae480dccb9755506b662321ef89799065"
+  },
+  "limits": [
+    "Le frontend/API sont encore modifies par les autres agents ; ceci ne gele pas tout le produit.",
+    "Le wheel est une verification de packaging, pas une archive autorisee pour apply.",
+    "La validation HTTPS et Docker devra avoir lieu lors de la publication explicite."
+  ]
+}

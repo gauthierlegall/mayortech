@@ -1,0 +1,589 @@
+{
+  "product": "notion",
+  "requested_url": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks",
+  "url": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks",
+  "title": "Getting started with projects and tasks",
+  "http_status": 200,
+  "captured_at": "2026-11-14T18:20:17.906980+00:00",
+  "text": "Voir cette page dans votre langue préférée.\nChanger vers Français (France)\n→\nProduct\nResources\nPricing\nRequest a demo\nLog in\nGet Notion free\nSearch help center\nHelp Center\nGet started\nWorkspace basics\nCreate & format pages\nBuild databases\nShare & collaborate\nAutomation & connections\nWork with Notion AI\nAgents in Notion\nAdmin & security\nCalendar & Apps\nGet started on marketplace\nManage your plan\nFix a problem\nDeveloper Platform\nGet certified\nNotion Academy\nSupport\nTalk with sales\nChat with us\nJoin our community\nFind a consultant\nHelp Center\nDatabases\nGetting started with projects and tasks\nProjects and tasks live side by side with your notes and docs for a seamless project management experience. Learn more about how to get started.\nProject Management\n8 min read\nPlay\n\nIn Notion, project and task management lives alongside your docs, notes and company knowledge. Instead of switching between tools, losing focus and efficiency, team members will find everything they need to get work done in one place.\n\nLeaders can oversee their team’s progress, and different departments can collaborate with clarity - from the high-level goals that drive each objective to granular tasks that move projects forward.\n\nStarting with a projects & tasks template that’s ready to go, you can create a fully customized system that suits the way you work best. In this guide, we’ll show you what’s possible with task and project management in Notion.\n\nGo straight to the templates\n\nCheck out our in-app template picker here.\n\nBuild your projects and tasks databases with our template.\nGetting to know Projects & Tasks\n\nThere are few things more important than managing your team’s projects and tasks. After all, you need an efficient system to get things done, and track what gets done.\n\nBut you don’t want your employees relying on memory to know what tasks they have to do. You need a reliable system that all employees trust and use, where nothing slips through the cracks, gets missed or forgotten.\n\nPlus, leaders need a high-level view of what’s going on so they know how much work each team member has on their plate and how close projects are to completion.\n\nWith Notion’s Projects & Tasks databases, project management is straightforward and intuitive. You can manage everything you and your team need to do without wasting time navigating an overly complex system or jumping back and forth between tools. Connecting all aspects of the work, from meeting notes to documents, means everyone has access to relevant information and context.\n\nAdding a project tracker in Notion\n\nThe Projects and tasks template is only available in the Notion app, so to start a project tracking system from the template, go to Templates in the sidebar.\n\nYour system can’t be too clunky or process-heavy, and should facilitate getting on with what matters (the work), not slow down the team with too much admin.\n\nThere are three built-in project management templates in Notion, each with a designated use case in mind. Regardless of which one you start with, you’ll be able to customize it by adding more properties later on.\n\nTo-do list — This is a single database for simple task management where you can create, organize, and track your tasks. It’s best used for one-off projects or individual task management where you want to keep your system as minimal as possible.\n\nProjects & tasks — Ideal for team project management, these databases allow you to organize tasks by project and track progress across your team. Projects and tasks are two separate but related databases. You can record different information in each database and link them with one another.\n\nProjects, tasks & sprints — Selecting this template adds another layer to your projects and tasks, allowing you to arrange tasks into time-boxed sprints, ideal for project and issue tracking for engineering teams.\n\nSelect templates from the template picker in the sidebar.\nTour the template\n\nLarge projects become more manageable as you break them down into smaller chunks and assign tasks to different team members. Having your tasks and projects connected means every task can form part of a larger objective, and you’ll see your projects move forward with every completed task.\n\nWhen you add new tasks or projects to the database, you can outline task details and scope projects directly in the database page. This means pertinent information related to each task and project is always within everyone’s reach.\n\nHere are some things to know about how tasks and projects relate to each other:\n\nProjects are the parent of tasks — One project can have many tasks, but each task should only relate to a single project. You can think of tasks as stepping stones towards completing a project.\n\nProjects have project properties — Your projects have properties like status, people, related tasks, and related task completion percent.\n\nTasks have task properties — Tasks have properties for the assignee, due date and status.\n\nProject progress is measured by completed tasks — The completion property calculates the number of completed tasks per project and displays the percentage as a progress bar.\n\nTasks can also relate to sprints — If you are using Tasks, Projects & Sprints, you’ll have a relation between tasks and sprints. This means you can add tasks to do to your current sprint, giving everyone a clear set of objectives for the sprint.\n\nKeep key information about your project inside the database page.\nPermissions\n\nWhen you add Projects & Tasks to a teamspace, everyone in the teamspace has access to those databases. This means that the whole team has visibility into what they need to do, and can take an active role in logging their progress in the database.\n\nRead our full permissions guide to see how permissions work in teamspaces.\n\nCustomizing your project tracker\n\nNotion gives you the flexibility to visualize the same information set in different ways. You can create contextual views to focus on whatever matters in the moment, whether it be a view of one person’s assigned tasks, tasks grouped by their parent project, or everything due in the next 7 days.\n\nYou can easily navigate from projects through to related tasks, and back.\nEach database has multiple views for different contexts\n\nThe projects database should be your home for general management since all tasks should relate to a parent project.\n\nYou can use task views when you want to dive into your day-to-day work.\n\nThe projects database comes with views that allow you to:\n\nSee active projects in a kanban board view — The “Active” view hides all projects that aren’t marked as “Planning” or “In progress” to focus on and manage active projects.\n\nView only your projects — “Mine” view filters the database to show projects that you’re tagged in dynamically. Selecting “Me” rather than your name means this filter will apply to whoever is logged in and viewing the database at the time.\n\nGet an overview of all projects — The “All” table layout shows everything in the database. This view is useful for making bulk changes or getting a sense of all properties related to multiple projects.\n\nAssess workload with “Timeline” view — Here, you’ll see your projects arranged according to start and end date. By seeing how commitments overlap, you can make sure the workload is balanced and judge your team’s capacity for new projects.\n\nYou can create various useful views for your projects database.\n\nIn the tasks database, you’ll have views where you can:\n\nSee tasks grouped by their parent project — The “By project” view splits your task list by related project.\n\nView all tasks assigned to you — In “Mine”, the database is filtered to show only tasks assigned to “Me” (just like in the projects database, this is a dynamic property depending on who is logged in and viewing the database.)\n\nArrange tasks by assignee — The “People” view is ideal for giving managers a view of each team member’s to-do list.\n\nAdd different views to your tasks database to group by project, assignee, and more.\n\nIn both databases, you can create any new views that you and your team would find helpful.\n\nUse suggested properties tailor-made for project management\n\nTo add a new property to the database click on options …, Properties, and + New property.\n\nYou’ll see that the Projects & Tasks template has some suggested properties designed specifically for project management.so/product/projects. Here are some ways to use these properties:\n\nAssign a priority score to projects and tasks — Using the priority property, you can create different priority scores (Low, Medium, High, or P0, P1, P2) and then sort items by their importance.\n\nTag different types of tasks — Using the Task type property, you can create tags for different kinds of tasks. You could even create a view based off of these tags, handy for task batching.\n\nGive projects a description — Add a text property to your projects database where you can write a short description of the project. This is easy for everyone to view at a glance.\n\nAssign a reporter to a task or project — If you’re using these databases for issue reporting and fixing, the reporter is a “Created by” property which will record the person who first noticed the bug.\n\nChoose from a variety of purpose-built suggested properties.\nBuild your own properties\n\nUsing any of Notion’s property types, you can build your own properties specific to your team’s needs.\n\nFor example:\n\nCreate a relation to GitHub task board — You can create synced databases to pull GitHub tasks into Notion. If you relate this synced database to your task board, you can pull through tasks from GitHub into your tasks database.\n\nBuild a RICE impact formula for project prioritization — Use 4 separate properties: Reach (number), Impact (high, medium, low), Confidence (percentage) and Effort (number). Then you can create a formula in Notion to calculate a project’s score according to the RICE framework. We have a step-by-step guide on how to do this\n\nhere.\n\nLet coworkers or the public upvote tasks — Using a formula, you can create an\n\nupvote property in your Tasks database and let your team members vote to decide on the priority of tasks.\n\nLevel up with custom layouts\n\nYou have several options for how to view the information in databases. You can change the database layout by going to the options menu … and Layout.\n\nChoose from table, board, timeline, calendar, list or gallery layouts. Within one database, you can create multiple views, each with a different type of layout.\n\nSo, your projects database might have a table, a board and a timeline, while your tasks database could contain a list, a board and a table.\n\nEach of these layouts can then be filtered and sorted in different ways to create shortcuts to view a sub-section of the information in the database.\n\nYou can learn more about database properties and views here.\n\nResources:\n\nA guide to databases properties and views here.\n\nHow to use synced databases to pull information from different tools here.\n\nA guide to permissions in teamspaces here.\n\nGIVE FEEDBACK\nWas this resource helpful?\n👍👎\nStart with a template\n\nBrowse over 10,000 templates in our template gallery\n\nSomething we didn’t cover?\n\nVisit the help center\nSubscribe on Youtube\nChat with us\nCONTENTS\nGetting to know Projects & Tasks\nAdding a project tracker in Notion\nTour the template\nPermissions\nCustomizing your project tracker\nEach database has multiple views for different contexts\nUse suggested properties tailor-made for project management\nBuild your own properties\nLevel up with custom layouts\nWe shape our tools,\nand thereafter our tools shape us.\nMarshall McLuhan\nProduct\nFeatures\nWhat's New\nNotion AI\nPricing\nRequest a demo\nDownload\nExplore more→\nResources\nCustomer stories\nConnections\nMarketplace\nHelp Center\nAcademy\nCommunity\nCompany\nAbout us\nCareers\nSecurity\nStatus\nTerms & privacy\nYour privacy rights\nNotion for\nEnterprise\nSmall businesses\nStartups\nDevelopers\nEnglish (US)\nCookie settings\n\n© 2026 Notion Labs, Inc.",
+  "links": [
+    {
+      "text": "Changer vers Français (France)→",
+      "href": "https://www.notion.com/fr/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "See all features→",
+      "href": "https://www.notion.com/product/features"
+    },
+    {
+      "text": "See what’s new→",
+      "href": "https://www.notion.com/releases"
+    },
+    {
+      "text": "Notion App→",
+      "href": "https://www.notion.com/download"
+    },
+    {
+      "text": "Enterprise",
+      "href": "https://www.notion.com/enterprise"
+    },
+    {
+      "text": "Small businesses",
+      "href": "https://www.notion.com/teams"
+    },
+    {
+      "text": "Startups",
+      "href": "https://www.notion.com/startups"
+    },
+    {
+      "text": "Developers",
+      "href": "https://www.notion.com/product/dev"
+    },
+    {
+      "text": "What's New",
+      "href": "https://www.notion.com/releases"
+    },
+    {
+      "text": "Customer stories",
+      "href": "https://www.notion.com/customers"
+    },
+    {
+      "text": "Webinars",
+      "href": "https://www.notion.com/webinars"
+    },
+    {
+      "text": "Templates",
+      "href": "https://www.notion.com/templates"
+    },
+    {
+      "text": "Consultants",
+      "href": "https://www.notion.com/explore-consultants"
+    },
+    {
+      "text": "Academy",
+      "href": "https://academy.notion.com/"
+    },
+    {
+      "text": "Product tours",
+      "href": "https://www.notion.com/product/demos"
+    },
+    {
+      "text": "Help Center",
+      "href": "https://www.notion.com/help"
+    },
+    {
+      "text": "Pricing",
+      "href": "https://www.notion.com/pricing"
+    },
+    {
+      "text": "Request a demo",
+      "href": "https://www.notion.com/contact-sales"
+    },
+    {
+      "text": "Log in",
+      "href": "https://www.notion.com/login?from=marketing&pathname=%2Fhelp%2Fguides%2Fgetting-started-with-projects-and-tasks&tid=w_d3f83be1e17e48178a1f05b5f57ea270"
+    },
+    {
+      "text": "Get Notion free",
+      "href": "https://www.notion.com/signup?from=marketing&pathname=%2Fhelp%2Fguides%2Fgetting-started-with-projects-and-tasks&tid=w_d3f83be1e17e48178a1f05b5f57ea270"
+    },
+    {
+      "text": "Notion basics",
+      "href": "https://www.notion.com/help/category/new-to-notion"
+    },
+    {
+      "text": "Sidebar navigation",
+      "href": "https://www.notion.com/help/category/sidebar-navigation"
+    },
+    {
+      "text": "Workspace settings",
+      "href": "https://www.notion.com/help/category/meet-your-workspace"
+    },
+    {
+      "text": "Settings & preferences",
+      "href": "https://www.notion.com/help/category/account-settings-and-privacy"
+    },
+    {
+      "text": "Pages & blocks",
+      "href": "https://www.notion.com/help/category/write-edit-and-customize"
+    },
+    {
+      "text": "Databases",
+      "href": "https://www.notion.com/help/category/databases"
+    },
+    {
+      "text": "Database views",
+      "href": "https://www.notion.com/help/category/database-views"
+    },
+    {
+      "text": "Sharing & permissions",
+      "href": "https://www.notion.com/help/category/sharing-and-collaboration"
+    },
+    {
+      "text": "Notion Sites",
+      "href": "https://www.notion.com/help/category/notion-sites"
+    },
+    {
+      "text": "Import & export your data",
+      "href": "https://www.notion.com/help/category/import-export-and-integrate"
+    },
+    {
+      "text": "Connections",
+      "href": "https://www.notion.com/help/category/connections"
+    },
+    {
+      "text": "Automations",
+      "href": "https://www.notion.com/help/category/automations"
+    },
+    {
+      "text": "Notion AI",
+      "href": "https://www.notion.com/help/category/notion-ai"
+    },
+    {
+      "text": "Notion AI Connectors",
+      "href": "https://www.notion.com/help/category/notion-ai-connectors"
+    },
+    {
+      "text": "AI Meeting Notes",
+      "href": "https://www.notion.com/help/category/ai-meeting-notes"
+    },
+    {
+      "text": "Custom Agents",
+      "href": "https://www.notion.com/help/category/custom-agents"
+    },
+    {
+      "text": "External Agents",
+      "href": "https://www.notion.com/help/category/external-agents"
+    },
+    {
+      "text": "Administer your workspace",
+      "href": "https://www.notion.com/help/category/enterprise-admin"
+    },
+    {
+      "text": "Privacy & security",
+      "href": "https://www.notion.com/help/category/security-and-privacy"
+    },
+    {
+      "text": "Notion AI security",
+      "href": "https://www.notion.com/help/category/notion-ai-security"
+    },
+    {
+      "text": "Notion on desktop, web, & mobile",
+      "href": "https://www.notion.com/help/category/notion-apps"
+    },
+    {
+      "text": "Notion Calendar",
+      "href": "https://www.notion.com/help/category/notion-calendar"
+    },
+    {
+      "text": "Marketplace & templates",
+      "href": "https://www.notion.com/help/category/template-gallery"
+    },
+    {
+      "text": "Notion credits",
+      "href": "https://www.notion.com/help/category/notion-credits"
+    },
+    {
+      "text": "Plans & billing",
+      "href": "https://www.notion.com/help/category/plans-billing-and-payment"
+    },
+    {
+      "text": "Troubleshoot",
+      "href": "https://www.notion.com/help/category/troubleshooting"
+    },
+    {
+      "text": "Explore developer tools",
+      "href": "https://www.notion.com/help/category/developer-platform"
+    },
+    {
+      "text": "Notion Academy",
+      "href": "https://academy.notion.com/?from=marketing&pathname=%2Fhelp%2Fguides%2Fgetting-started-with-projects-and-tasks&tid=w_d3f83be1e17e48178a1f05b5f57ea270"
+    },
+    {
+      "text": "Talk with sales",
+      "href": "https://www.notion.com/contact-sales?help_center_source=%2Fhelp%2Fguides%2Fgetting-started-with-projects-and-tasks&help_center_entrypoint=sidebar"
+    },
+    {
+      "text": "Join our community",
+      "href": "https://www.notion.so/notion/04f306fbf59a413fae15f42e2a1ab029"
+    },
+    {
+      "text": "Find a consultant",
+      "href": "https://www.notion.com/explore-consultants"
+    },
+    {
+      "text": "Help Center",
+      "href": "https://www.notion.com/help"
+    },
+    {
+      "text": "Databases",
+      "href": "https://www.notion.com/help/category/databases"
+    },
+    {
+      "text": "← Databases",
+      "href": "https://www.notion.com/help/category/databases"
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/watch?v=ENC6QBbBqb8"
+    },
+    {
+      "text": "here",
+      "href": "https://notion.so/?tg=gallery"
+    },
+    {
+      "text": "Getting to know Projects & Tasks",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#getting-to-know-projects-&-tasks"
+    },
+    {
+      "text": "Adding a project tracker in Notion",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#adding-a-project-tracker-in-notion"
+    },
+    {
+      "text": "Tour the template",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#tour-the-template"
+    },
+    {
+      "text": "Permissions",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#permissions"
+    },
+    {
+      "text": "permissions guide",
+      "href": "https://www.notion.so/help/guides/grant-access-teamspaces"
+    },
+    {
+      "text": "Customizing your project tracker",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#customizing-your-project-tracker"
+    },
+    {
+      "text": "Each database has multiple views for different contexts",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#each-database-has-multiple-views-for-different-contexts"
+    },
+    {
+      "text": "Use suggested properties tailor-made for project management",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#use-suggested-properties-tailor-made-for-project-management"
+    },
+    {
+      "text": "project management",
+      "href": "https://www.notion.so/product/projects"
+    },
+    {
+      "text": "Build your own properties",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#build-your-own-properties"
+    },
+    {
+      "text": "here",
+      "href": "https://www.notion.so/2734f24366ac4d3fb84818e317a3073f"
+    },
+    {
+      "text": "upvote property",
+      "href": "https://www.notion.so/help/guides/create-and-use-an-upvote-formula-for-team-decisions"
+    },
+    {
+      "text": "Level up with custom layouts",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#level-up-with-custom-layouts"
+    },
+    {
+      "text": "here",
+      "href": "https://www.notion.so/help/guides/database-properties-help-organize-your-teams-information"
+    },
+    {
+      "text": "here",
+      "href": "https://www.notion.so/help/guides/database-properties-help-organize-your-teams-information"
+    },
+    {
+      "text": "here",
+      "href": "https://www.notion.so/help/guides/synced-databases-bridge-different-tools"
+    },
+    {
+      "text": "here",
+      "href": "https://www.notion.so/help/guides/grant-access-teamspaces"
+    },
+    {
+      "text": "template gallery",
+      "href": "https://www.notion.com/templates"
+    },
+    {
+      "text": "Visit the help center",
+      "href": "https://www.notion.com/help"
+    },
+    {
+      "text": "Subscribe on Youtube",
+      "href": "https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg"
+    },
+    {
+      "text": "Getting to know Projects & Tasks",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#getting-to-know-projects-&-tasks"
+    },
+    {
+      "text": "Adding a project tracker in Notion",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#adding-a-project-tracker-in-notion"
+    },
+    {
+      "text": "Tour the template",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#tour-the-template"
+    },
+    {
+      "text": "Permissions",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#permissions"
+    },
+    {
+      "text": "Customizing your project tracker",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#customizing-your-project-tracker"
+    },
+    {
+      "text": "Each database has multiple views for different contexts",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#each-database-has-multiple-views-for-different-contexts"
+    },
+    {
+      "text": "Use suggested properties tailor-made for project management",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#use-suggested-properties-tailor-made-for-project-management"
+    },
+    {
+      "text": "Build your own properties",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#build-your-own-properties"
+    },
+    {
+      "text": "Level up with custom layouts",
+      "href": "https://www.notion.com/help/guides/getting-started-with-projects-and-tasks#level-up-with-custom-layouts"
+    },
+    {
+      "text": "Features",
+      "href": "https://www.notion.com/product/features"
+    },
+    {
+      "text": "What's New",
+      "href": "https://www.notion.com/releases"
+    },
+    {
+      "text": "Notion AI",
+      "href": "https://www.notion.com/product/ai"
+    },
+    {
+      "text": "Pricing",
+      "href": "https://www.notion.com/pricing"
+    },
+    {
+      "text": "Request a demo",
+      "href": "https://www.notion.com/contact-sales"
+    },
+    {
+      "text": "Download",
+      "href": "https://www.notion.com/download"
+    },
+    {
+      "text": "Explore more→",
+      "href": "https://www.notion.com/explore"
+    },
+    {
+      "text": "Customer stories",
+      "href": "https://www.notion.com/customers"
+    },
+    {
+      "text": "Connections",
+      "href": "https://www.notion.com/connections"
+    },
+    {
+      "text": "Marketplace",
+      "href": "https://www.notion.com/templates"
+    },
+    {
+      "text": "Help Center",
+      "href": "https://www.notion.com/help"
+    },
+    {
+      "text": "Academy",
+      "href": "https://academy.notion.com/"
+    },
+    {
+      "text": "Community",
+      "href": "https://www.notion.com/community"
+    },
+    {
+      "text": "About us",
+      "href": "https://www.notion.com/about"
+    },
+    {
+      "text": "Careers",
+      "href": "https://www.notion.com/careers"
+    },
+    {
+      "text": "Security",
+      "href": "https://www.notion.com/security"
+    },
+    {
+      "text": "Status",
+      "href": "https://www.notion-status.com/"
+    },
+    {
+      "text": "Terms & privacy",
+      "href": "https://www.notion.so/28ffdd083dc3473e9c2da6ec011b58ac"
+    },
+    {
+      "text": "Your privacy rights",
+      "href": "https://www.notion.com/trust/privacy-policy#california"
+    },
+    {
+      "text": "Enterprise",
+      "href": "https://www.notion.com/enterprise"
+    },
+    {
+      "text": "Small businesses",
+      "href": "https://www.notion.com/teams"
+    },
+    {
+      "text": "Startups",
+      "href": "https://www.notion.com/startups"
+    },
+    {
+      "text": "Developers",
+      "href": "https://developers.notion.com/"
+    },
+    {
+      "text": "Explore more→",
+      "href": "https://www.notion.com/explore"
+    },
+    {
+      "text": "English (US)",
+      "href": "https://www.notion.com/en-US/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Bahasa Indonesia",
+      "href": "https://www.notion.com/id/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Dansk",
+      "href": "https://www.notion.com/da/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Deutsch",
+      "href": "https://www.notion.com/de/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "English (UK)",
+      "href": "https://www.notion.com/en-GB/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Español (España)",
+      "href": "https://www.notion.com/es-ES/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Español (Latinoamérica)",
+      "href": "https://www.notion.com/es/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Français (France)",
+      "href": "https://www.notion.com/fr/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Italiano",
+      "href": "https://www.notion.com/it/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Nederlands",
+      "href": "https://www.notion.com/nl/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Norsk",
+      "href": "https://www.notion.com/nb/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Português (Brasil)",
+      "href": "https://www.notion.com/pt/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Suomi",
+      "href": "https://www.notion.com/fi/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Svenska",
+      "href": "https://www.notion.com/sv/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Tiếng Việt",
+      "href": "https://www.notion.com/vi/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "עברית",
+      "href": "https://www.notion.com/he/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "العربية",
+      "href": "https://www.notion.com/ar/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "ภาษาไทย",
+      "href": "https://www.notion.com/th/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "한국어",
+      "href": "https://www.notion.com/ko/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "日本語",
+      "href": "https://www.notion.com/ja/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "简体中文",
+      "href": "https://www.notion.com/zh-CN/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "繁體中文",
+      "href": "https://www.notion.com/zh-TW/help/guides/getting-started-with-projects-and-tasks"
+    },
+    {
+      "text": "Consultez notre politique de confidentialité",
+      "href": "https://www.notion.so/notion/Cookie-Notice-bc186044eed5488a8387a9e94b14e58c"
+    }
+  ],
+  "images": [
+    {
+      "alt": "Capture",
+      "src": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fnav%2FallFeaturesNav%2Fcapture.png&w=256&q=75",
+      "width": 256,
+      "height": 189
+    },
+    {
+      "alt": "Find",
+      "src": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fnav%2FallFeaturesNav%2Ffind.png&w=256&q=75",
+      "width": 256,
+      "height": 189
+    },
+    {
+      "alt": "Automate",
+      "src": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fnav%2FallFeaturesNav%2Fautomate.png&w=256&q=75",
+      "width": 256,
+      "height": 189
+    },
+    {
+      "alt": "",
+      "src": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FENC6QBbBqb8%2Fmaxresdefault.jpg&w=1920&q=100",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "",
+      "src": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fillustrated-icons%2FcatLookingUp.png&w=384&q=75",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "src": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fshared%2Fcallouts%2Ftemplates-illustration-v5.png&w=48&q=75",
+      "width": 48,
+      "height": 47
+    },
+    {
+      "alt": "Build your projects and tasks databases with our template.",
+      "src": "https://images.ctfassets.net/spoqsaf9291f/2wLG1IRp651zLjBdMMFZH9/afc1469dc51b66123b10bf8467bc40ae/projects.png?w=1920&q=55&fm=webp",
+      "width": 1440,
+      "height": 982
+    },
+    {
+      "alt": "",
+      "src": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fshared%2Fcallouts%2Fresources-illustration-v3.png&w=96&q=75",
+      "width": 0,
+      "height": 0
+    }
+  ]
+}

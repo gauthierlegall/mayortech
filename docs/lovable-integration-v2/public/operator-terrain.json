@@ -1,0 +1,20 @@
+{
+  "operator_action": true,
+  "fictitious": true,
+  "reports": [
+    {
+      "id": "2c0ac5ce-9277-494f-8d3b-3f094662a1c0",
+      "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+      "title": "Visite préparatoire — exemple fictif",
+      "status": "À traiter",
+      "confirmed_facts_unchanged": true
+    },
+    {
+      "id": "b71cd3c8-ee40-49f8-8274-1891b3fd37c1",
+      "project_id": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+      "title": "Point de vigilance — exemple fictif",
+      "status": "À traiter",
+      "confirmed_facts_unchanged": true
+    }
+  ]
+}

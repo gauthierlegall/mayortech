@@ -1,0 +1,14 @@
+.venv
+.git
+.env
+data
+dist
+**/__pycache__
+.pytest_cache
+.ruff_cache
+docs/screens
+*.sqlite*
+*.log
+**/node_modules
+**/.tools
+.local

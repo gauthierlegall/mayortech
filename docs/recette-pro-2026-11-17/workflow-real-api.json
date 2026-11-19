@@ -1,0 +1,67 @@
+{
+  "kind": "Real local API/SQLite/PDF/Yjs; fake LLM transport; OIDC excluded",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "checks": [
+    {
+      "name": "QA uses a newly created real project",
+      "passed": true
+    },
+    {
+      "name": "UI upload commits original and completed extraction",
+      "passed": true
+    },
+    {
+      "name": "download returns exactly the submitted PDF",
+      "passed": true
+    },
+    {
+      "name": "document facts stay pending for human validation",
+      "passed": true
+    },
+    {
+      "name": "RAG answer cites an actual stored source",
+      "passed": true
+    },
+    {
+      "name": "proposal leaves the project unchanged",
+      "passed": true
+    },
+    {
+      "name": "human confirmation updates the real project table",
+      "passed": true
+    },
+    {
+      "name": "proposed action is not an accepted fact yet",
+      "passed": true
+    },
+    {
+      "name": "confirmed action exists exactly once as an accepted fact",
+      "passed": true
+    },
+    {
+      "name": "native Yjs action survives a full reload without duplication",
+      "passed": true
+    },
+    {
+      "name": "mobile popup stays inside the viewport",
+      "passed": true
+    },
+    {
+      "name": "no browser JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "failed_requests": [],
+  "project_id": "9f1b6171-d330-4eca-810c-8382b8ac8fc9",
+  "receipt": {
+    "status": "needs_review",
+    "job_status": "done",
+    "extraction_status": "extracted",
+    "candidate_count": 1,
+    "replayed": false
+  }
+}

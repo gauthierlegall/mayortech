@@ -1,0 +1,36 @@
+{
+  "release": "20261117T203341Z-ee169c",
+  "tls_verification": true,
+  "read_only": true,
+  "index_http_status": 200,
+  "index_sha256": "a4cce9f6471c68e34c86fc3dae306f83c3946e0b8b84efc7a7f55c7a7e002217",
+  "index_matches_local_bundle": true,
+  "entry_assets": [
+    {
+      "path": "/web/product/assets/index-D0WygkQZ.js",
+      "http_status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "/web/product/assets/index-BHLLIYs_.css",
+      "http_status": 200,
+      "matches_local": true
+    }
+  ],
+  "health_http_status": 200,
+  "session": {
+    "authenticated": true,
+    "public_demo": true,
+    "auth_required": false
+  },
+  "integrations": {
+    "public_demo": true,
+    "external_connections_enabled": false
+  },
+  "server": {
+    "backup_exists": true,
+    "backup_integrity_ok": true,
+    "current_release": "20261117T203341Z-ee169c"
+  },
+  "passed": true
+}

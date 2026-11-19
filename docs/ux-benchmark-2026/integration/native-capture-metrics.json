@@ -1,0 +1,302 @@
+{
+  "revision_unchanged": true,
+  "native_revision": 13,
+  "measurements": [
+    {
+      "width": 390,
+      "state": "top",
+      "before_capture": {
+        "width": 390,
+        "scrollY": 0,
+        "scrollWidth": 390,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      },
+      "after_capture": {
+        "width": 390,
+        "scrollY": 0,
+        "scrollWidth": 390,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      }
+    },
+    {
+      "width": 390,
+      "state": "scrolled",
+      "before_capture": {
+        "width": 390,
+        "scrollY": 1100,
+        "scrollWidth": 390,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      },
+      "after_capture": {
+        "width": 390,
+        "scrollY": 1100,
+        "scrollWidth": 390,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      }
+    },
+    {
+      "width": 320,
+      "state": "top",
+      "before_capture": {
+        "width": 320,
+        "scrollY": 0,
+        "scrollWidth": 320,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      },
+      "after_capture": {
+        "width": 320,
+        "scrollY": 0,
+        "scrollWidth": 320,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      }
+    },
+    {
+      "width": 320,
+      "state": "scrolled",
+      "before_capture": {
+        "width": 320,
+        "scrollY": 1100,
+        "scrollWidth": 320,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      },
+      "after_capture": {
+        "width": 320,
+        "scrollY": 1100,
+        "scrollWidth": 320,
+        "sidebar": {
+          "rect": {
+            "x": -255,
+            "y": 0,
+            "width": 255,
+            "height": 844,
+            "top": 0,
+            "right": 0,
+            "bottom": 844,
+            "left": -255
+          },
+          "position": "fixed",
+          "transform": "matrix(1, 0, 0, 1, -255, 0)",
+          "inert": true,
+          "ariaHidden": "true"
+        },
+        "skipLink": {
+          "rect": {
+            "x": 16,
+            "y": -100,
+            "width": 148.453125,
+            "height": 47.25,
+            "top": -100,
+            "right": 164.453125,
+            "bottom": -52.75,
+            "left": 16
+          },
+          "focused": false
+        },
+        "active": "MAIN"
+      }
+    }
+  ]
+}

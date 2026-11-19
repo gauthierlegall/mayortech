@@ -1,0 +1,23 @@
+{
+  "fresh_frontend_isolated_build": true,
+  "base": "http://127.0.0.1:8766",
+  "api_intercepted": false,
+  "writes": [],
+  "errors": [],
+  "captures": [
+    {
+      "file": "1920-mail.png",
+      "width": 1920,
+      "scroll_width": 1920,
+      "grid": "170px 310px 1136px",
+      "project_filter_visible": false
+    },
+    {
+      "file": "390-mail.png",
+      "width": 390,
+      "scroll_width": 390,
+      "grid": "135px minmax(0px, 1fr)",
+      "project_filter_visible": true
+    }
+  ]
+}

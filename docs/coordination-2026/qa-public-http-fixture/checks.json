@@ -1,0 +1,143 @@
+{
+  "base": "http://127.0.0.1:8768",
+  "scope": "HTTP loopback public_demo fixture: UI and GET only; no TLS or POST proof",
+  "checks": [
+    {
+      "name": "public fixture mode 1920",
+      "passed": true
+    },
+    {
+      "name": "onboarding local resume 1920",
+      "passed": true
+    },
+    {
+      "name": "1920 onboarding no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "1920 onboarding no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 connections no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "1920 connections no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 notifications no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "1920 notifications no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "onboarding writes stay browser-local 1920",
+      "passed": true
+    },
+    {
+      "name": "public fixture mode 390",
+      "passed": true
+    },
+    {
+      "name": "onboarding local resume 390",
+      "passed": true
+    },
+    {
+      "name": "390 onboarding no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "390 onboarding no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 connections no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "390 connections no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "390 notifications no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "390 notifications no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "onboarding writes stay browser-local 390",
+      "passed": true
+    },
+    {
+      "name": "public fixture mode 320",
+      "passed": true
+    },
+    {
+      "name": "onboarding local resume 320",
+      "passed": true
+    },
+    {
+      "name": "320 onboarding no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "320 onboarding no horizontal page overflow",
+      "passed": false
+    },
+    {
+      "name": "320 connections no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "320 connections no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "320 notifications no secret inputs",
+      "passed": true
+    },
+    {
+      "name": "320 notifications no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "onboarding writes stay browser-local 320",
+      "passed": true
+    },
+    {
+      "name": "no attempted server mutation in public read-only fixture",
+      "passed": true
+    },
+    {
+      "name": "no browser errors in public fixture",
+      "passed": true
+    },
+    {
+      "name": "no HTTP errors in public fixture",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "http_errors": [],
+  "blocked_mutations": [],
+  "screens": [
+    "1920-onboarding.png",
+    "1920-connections.png",
+    "1920-notifications.png",
+    "390-onboarding.png",
+    "390-connections.png",
+    "390-notifications.png",
+    "320-onboarding.png",
+    "320-connections.png",
+    "320-notifications.png"
+  ],
+  "bugs": [
+    "320 onboarding no horizontal page overflow"
+  ]
+}

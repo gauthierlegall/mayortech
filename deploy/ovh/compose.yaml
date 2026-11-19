@@ -1,0 +1,83 @@
+# Candidat mono-hote prive. Validation statique seulement, aucun deploiement.
+# Le fichier Compose de controle ne contient que chemins et reference d'image.
+x-runtime: &runtime
+  image: ${TRAVAUX_IMAGE:?Reference image revue avec digest sha256 requise}
+  pull_policy: never
+  restart: unless-stopped
+  init: true
+  user: "10001:10001"
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  tmpfs:
+    - /tmp:size=96m,mode=1777,noexec,nosuid,nodev
+  pids_limit: 128
+  stop_grace_period: 120s
+  env_file:
+    - path: ${TRAVAUX_PRIVATE_ENV_FILE:?Chemin absolu du profil prive requis}
+      required: true
+      format: raw
+  environment:
+    # Les chemins du profil hote sont remappes vers ces chemins du conteneur.
+    TRAVAUX_DB: /data/travaux.sqlite3
+    TRAVAUX_AUTH_MODE: oidc
+    TRAVAUX_PASSWORD_HASH: ""
+    TRAVAUX_CONNECTOR_KEY_FILE: /run/secrets/connector-vault.keys
+    TRAVAUX_CONNECTOR_SECRET_KEYS: ""
+    TRAVAUX_CONNECTOR_SECRET_KEY: ""
+    SSLKEYLOGFILE: ""
+    QUICLOGDIR: ""
+  volumes:
+    - type: bind
+      source: ${TRAVAUX_DATA_DIRECTORY:?Repertoire donnees privees existant requis}
+      target: /data
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${TRAVAUX_VAULT_KEY_HOST_FILE:?Fichier de cle hors donnees existant requis}
+      target: /run/secrets/connector-vault.keys
+      read_only: true
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ./healthcheck.py
+      target: /run/travaux/healthcheck.py
+      read_only: true
+      bind:
+        create_host_path: false
+  networks: [private_runtime]
+  logging:
+    driver: json-file
+    options:
+      max-size: "5m"
+      max-file: "3"
+services:
+  app:
+    <<: *runtime
+    command: ["python", "-m", "travaux", "serve", "--host", "0.0.0.0", "--port", "8765"]
+    ports: ["127.0.0.1:8765:8765"]
+    mem_limit: 1024m
+    cpus: "1.5"
+    healthcheck:
+      test: ["CMD", "python", "/run/travaux/healthcheck.py", "app"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+  worker:
+    <<: *runtime
+    command: ["python", "-m", "travaux", "worker"]
+    mem_limit: 768m
+    cpus: "1.0"
+    depends_on:
+      app:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "/run/travaux/healthcheck.py", "worker"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+networks:
+  private_runtime:
+    driver: bridge

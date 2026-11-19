@@ -1,0 +1,802 @@
+{
+  "fictitious": true,
+  "operator_action": true,
+  "projects": [
+    {
+      "project_id": "98d50277-8cda-49c8-8db4-3cd571fdb79b",
+      "changed": [
+        {
+          "row_id": "_jcotIbh_V",
+          "title": "Valider le devis initial",
+          "start": "2026-11-04",
+          "due": "2026-11-05"
+        },
+        {
+          "row_id": "5PL-EYKJkg",
+          "title": "Préparer la sécurisation de l’entrée",
+          "start": "2026-11-16",
+          "due": "2026-11-17"
+        },
+        {
+          "row_id": "YmxNmOn-yd",
+          "title": "Confirmer l’accès vendredi",
+          "start": "2026-11-20",
+          "due": "2026-11-20"
+        }
+      ],
+      "preserved": [],
+      "metadata": {
+        "pageId": "f089d060-0aca-4ca3-809e-531f10026341",
+        "presentation": "page",
+        "structureOpen": false,
+        "managedActionDatabaseId": "zCsXcll6jS",
+        "blocks": [
+          {
+            "id": "whgzdW8VLQ",
+            "flavour": "affine:page",
+            "type": null
+          },
+          {
+            "id": "AY_RfvLWuJ",
+            "flavour": "affine:surface",
+            "type": null
+          },
+          {
+            "id": "BrjdvsAXEj",
+            "flavour": "affine:note",
+            "type": null
+          },
+          {
+            "id": "61Su0uimdn",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "zCsXcll6jS",
+            "flavour": "affine:database",
+            "type": null
+          },
+          {
+            "id": "_jcotIbh_V",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "5PL-EYKJkg",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "YmxNmOn-yd",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "pZHMLcADlN",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "xRANzImxvC",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          }
+        ],
+        "blockCount": 10,
+        "databases": [
+          {
+            "id": "zCsXcll6jS",
+            "managedActions": true,
+            "title": "Actions du dossier",
+            "properties": [
+              {
+                "id": "title",
+                "name": "Intitulé",
+                "type": "title"
+              },
+              {
+                "id": "yWbz-MhtaZ",
+                "name": "Description",
+                "type": "rich-text"
+              },
+              {
+                "id": "fwLfNI6Our",
+                "name": "Statut",
+                "type": "select"
+              },
+              {
+                "id": "U5knDkRNP-",
+                "name": "Échange",
+                "type": "link"
+              },
+              {
+                "id": "pYG_JthSIF",
+                "name": "Responsable",
+                "type": "rich-text"
+              },
+              {
+                "id": "EAUKndgIxP",
+                "name": "Priorité",
+                "type": "rich-text"
+              },
+              {
+                "id": "2GGv1FKTl6",
+                "name": "Échéance",
+                "type": "date"
+              },
+              {
+                "id": "siEvxQvblu",
+                "name": "Début",
+                "type": "date"
+              }
+            ],
+            "views": [
+              {
+                "id": "nai0t5XmZl",
+                "name": "Liste",
+                "mode": "table"
+              },
+              {
+                "id": "4iX4yv1WCa",
+                "name": "Cartes",
+                "mode": "kanban"
+              }
+            ],
+            "activeViewId": "nai0t5XmZl",
+            "activeView": "table",
+            "groups": [],
+            "rows": [
+              {
+                "id": "_jcotIbh_V",
+                "sourceKey": "df5748c8-8c0c-4039-8900-9a85cb40905f",
+                "sourceUrl": "#/mail/42a077e3-7747-4268-9720-c295994ab37c",
+                "fields": [
+                  {
+                    "id": "title",
+                    "name": "Intitulé",
+                    "type": "title",
+                    "text": "Valider le devis initial"
+                  },
+                  {
+                    "id": "yWbz-MhtaZ",
+                    "name": "Description",
+                    "type": "rich-text",
+                    "text": "Devis AF-2026-184 validé dans le courriel du 5 novembre."
+                  },
+                  {
+                    "id": "fwLfNI6Our",
+                    "name": "Statut",
+                    "type": "select",
+                    "text": "Terminé"
+                  },
+                  {
+                    "id": "U5knDkRNP-",
+                    "name": "Échange",
+                    "type": "link",
+                    "text": "https://travaux.kerforge.com/#/mail/42a077e3-7747-4268-9720-c295994ab37c"
+                  },
+                  {
+                    "id": "pYG_JthSIF",
+                    "name": "Responsable",
+                    "type": "rich-text",
+                    "text": "Thomas Le Gall"
+                  },
+                  {
+                    "id": "EAUKndgIxP",
+                    "name": "Priorité",
+                    "type": "rich-text",
+                    "text": "Normale"
+                  },
+                  {
+                    "id": "2GGv1FKTl6",
+                    "name": "Échéance",
+                    "type": "date",
+                    "text": "2026-11-05"
+                  },
+                  {
+                    "id": "siEvxQvblu",
+                    "name": "Début",
+                    "type": "date",
+                    "text": "2026-11-04"
+                  }
+                ]
+              },
+              {
+                "id": "5PL-EYKJkg",
+                "sourceKey": "86fc7303-e087-45fb-bae7-04af31c99a3d",
+                "sourceUrl": "#/mail/68fe811f-68e1-4eaf-989c-353a99b5b932",
+                "fields": [
+                  {
+                    "id": "title",
+                    "name": "Intitulé",
+                    "type": "title",
+                    "text": "Préparer la sécurisation de l’entrée"
+                  },
+                  {
+                    "id": "yWbz-MhtaZ",
+                    "name": "Description",
+                    "type": "rich-text",
+                    "text": "Prévoir un cheminement provisoire pour les élèves."
+                  },
+                  {
+                    "id": "fwLfNI6Our",
+                    "name": "Statut",
+                    "type": "select",
+                    "text": "En cours"
+                  },
+                  {
+                    "id": "U5knDkRNP-",
+                    "name": "Échange",
+                    "type": "link",
+                    "text": "https://travaux.kerforge.com/#/mail/68fe811f-68e1-4eaf-989c-353a99b5b932"
+                  },
+                  {
+                    "id": "pYG_JthSIF",
+                    "name": "Responsable",
+                    "type": "rich-text",
+                    "text": "Marie Kervella"
+                  },
+                  {
+                    "id": "EAUKndgIxP",
+                    "name": "Priorité",
+                    "type": "rich-text",
+                    "text": "Haute"
+                  },
+                  {
+                    "id": "2GGv1FKTl6",
+                    "name": "Échéance",
+                    "type": "date",
+                    "text": "2026-11-17"
+                  },
+                  {
+                    "id": "siEvxQvblu",
+                    "name": "Début",
+                    "type": "date",
+                    "text": "2026-11-16"
+                  }
+                ]
+              },
+              {
+                "id": "YmxNmOn-yd",
+                "sourceKey": "d7e5169b-d006-4d08-a631-6f4227ceb82e",
+                "sourceUrl": "#/mail/ac041f71-6091-4e7b-8242-2ef3b41b435d",
+                "fields": [
+                  {
+                    "id": "title",
+                    "name": "Intitulé",
+                    "type": "title",
+                    "text": "Confirmer l’accès vendredi"
+                  },
+                  {
+                    "id": "yWbz-MhtaZ",
+                    "name": "Description",
+                    "type": "rich-text",
+                    "text": "Confirmer l’accès le vendredi 20 novembre pour la visite préparatoire d’Armor Fermetures ; cette tâche ne confirme pas que l’accès est déjà accordé."
+                  },
+                  {
+                    "id": "fwLfNI6Our",
+                    "name": "Statut",
+                    "type": "select",
+                    "text": "À faire"
+                  },
+                  {
+                    "id": "U5knDkRNP-",
+                    "name": "Échange",
+                    "type": "link",
+                    "text": "https://travaux.kerforge.com/#/mail/ac041f71-6091-4e7b-8242-2ef3b41b435d"
+                  },
+                  {
+                    "id": "pYG_JthSIF",
+                    "name": "Responsable",
+                    "type": "rich-text",
+                    "text": "Thomas Le Gall"
+                  },
+                  {
+                    "id": "EAUKndgIxP",
+                    "name": "Priorité",
+                    "type": "rich-text",
+                    "text": "Haute"
+                  },
+                  {
+                    "id": "2GGv1FKTl6",
+                    "name": "Échéance",
+                    "type": "date",
+                    "text": "2026-11-20"
+                  },
+                  {
+                    "id": "siEvxQvblu",
+                    "name": "Début",
+                    "type": "date",
+                    "text": "2026-11-20"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "activeDatabaseId": "zCsXcll6jS",
+        "activeView": "table"
+      },
+      "confirmed_facts_unchanged": true
+    },
+    {
+      "project_id": "a06c2a34-8075-4cb9-ba61-e2798a45a9fa",
+      "changed": [
+        {
+          "row_id": "BvjY3b55EP",
+          "title": "Confirmer le plan de circulation",
+          "start": "2026-11-16",
+          "due": "2026-11-16"
+        },
+        {
+          "row_id": "-6YdcyrGDT",
+          "title": "Recevoir les résultats des essais",
+          "start": "2026-11-18",
+          "due": "2026-11-18"
+        }
+      ],
+      "preserved": [],
+      "metadata": {
+        "pageId": "ac796b8d-c0ef-45af-bdb6-4f40a29026d2",
+        "presentation": "page",
+        "structureOpen": false,
+        "managedActionDatabaseId": "JCx8Oi5EMm",
+        "blocks": [
+          {
+            "id": "NpGXYYcc9j",
+            "flavour": "affine:page",
+            "type": null
+          },
+          {
+            "id": "X-ULStQ1nG",
+            "flavour": "affine:surface",
+            "type": null
+          },
+          {
+            "id": "iNFrgZbmzS",
+            "flavour": "affine:note",
+            "type": null
+          },
+          {
+            "id": "81PAWfabKP",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "JCx8Oi5EMm",
+            "flavour": "affine:database",
+            "type": null
+          },
+          {
+            "id": "BvjY3b55EP",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "-6YdcyrGDT",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "U3UP6UdnKt",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "G09NN5trzU",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          }
+        ],
+        "blockCount": 9,
+        "databases": [
+          {
+            "id": "JCx8Oi5EMm",
+            "managedActions": true,
+            "title": "Actions du dossier",
+            "properties": [
+              {
+                "id": "title",
+                "name": "Intitulé",
+                "type": "title"
+              },
+              {
+                "id": "biLQI-NGp9",
+                "name": "Description",
+                "type": "rich-text"
+              },
+              {
+                "id": "mDHcCK_uIF",
+                "name": "Statut",
+                "type": "select"
+              },
+              {
+                "id": "2Gn8fglTKC",
+                "name": "Échange",
+                "type": "link"
+              },
+              {
+                "id": "uf86xB5f4k",
+                "name": "Responsable",
+                "type": "rich-text"
+              },
+              {
+                "id": "TuiiPBIFkq",
+                "name": "Priorité",
+                "type": "rich-text"
+              },
+              {
+                "id": "Qywp2VAK0a",
+                "name": "Échéance",
+                "type": "date"
+              },
+              {
+                "id": "OaBFpsDSc7",
+                "name": "Début",
+                "type": "date"
+              }
+            ],
+            "views": [
+              {
+                "id": "ZQDpyECgTr",
+                "name": "Liste",
+                "mode": "table"
+              },
+              {
+                "id": "n774G1P8iF",
+                "name": "Cartes",
+                "mode": "kanban"
+              }
+            ],
+            "activeViewId": "ZQDpyECgTr",
+            "activeView": "table",
+            "groups": [],
+            "rows": [
+              {
+                "id": "BvjY3b55EP",
+                "sourceKey": "b7849f55-91e5-417e-bdb6-74ca18f956a0",
+                "sourceUrl": "#/mail/61c1f4cd-ad92-4f04-ab10-dcf47b66dd8f",
+                "fields": [
+                  {
+                    "id": "title",
+                    "name": "Intitulé",
+                    "type": "title",
+                    "text": "Confirmer le plan de circulation"
+                  },
+                  {
+                    "id": "biLQI-NGp9",
+                    "name": "Description",
+                    "type": "rich-text",
+                    "text": "Faire valider la déviation par le service voirie."
+                  },
+                  {
+                    "id": "mDHcCK_uIF",
+                    "name": "Statut",
+                    "type": "select",
+                    "text": "À faire"
+                  },
+                  {
+                    "id": "2Gn8fglTKC",
+                    "name": "Échange",
+                    "type": "link",
+                    "text": "https://travaux.kerforge.com/#/mail/61c1f4cd-ad92-4f04-ab10-dcf47b66dd8f"
+                  },
+                  {
+                    "id": "uf86xB5f4k",
+                    "name": "Responsable",
+                    "type": "rich-text",
+                    "text": "Marie Kervella"
+                  },
+                  {
+                    "id": "TuiiPBIFkq",
+                    "name": "Priorité",
+                    "type": "rich-text",
+                    "text": "Haute"
+                  },
+                  {
+                    "id": "Qywp2VAK0a",
+                    "name": "Échéance",
+                    "type": "date",
+                    "text": "2026-11-16"
+                  },
+                  {
+                    "id": "OaBFpsDSc7",
+                    "name": "Début",
+                    "type": "date",
+                    "text": "2026-11-16"
+                  }
+                ]
+              },
+              {
+                "id": "-6YdcyrGDT",
+                "sourceKey": "bfc371e1-f62b-4e59-a986-59cf483102c5",
+                "sourceUrl": "#/mail/f6561a3d-2943-4c65-8d69-257430563bd0",
+                "fields": [
+                  {
+                    "id": "title",
+                    "name": "Intitulé",
+                    "type": "title",
+                    "text": "Recevoir les résultats des essais"
+                  },
+                  {
+                    "id": "biLQI-NGp9",
+                    "name": "Description",
+                    "type": "rich-text",
+                    "text": "Attendre le rapport de portance du laboratoire."
+                  },
+                  {
+                    "id": "mDHcCK_uIF",
+                    "name": "Statut",
+                    "type": "select",
+                    "text": "En attente"
+                  },
+                  {
+                    "id": "2Gn8fglTKC",
+                    "name": "Échange",
+                    "type": "link",
+                    "text": "https://travaux.kerforge.com/#/mail/f6561a3d-2943-4c65-8d69-257430563bd0"
+                  },
+                  {
+                    "id": "uf86xB5f4k",
+                    "name": "Responsable",
+                    "type": "rich-text",
+                    "text": "Lucie Prigent"
+                  },
+                  {
+                    "id": "TuiiPBIFkq",
+                    "name": "Priorité",
+                    "type": "rich-text",
+                    "text": "Normale"
+                  },
+                  {
+                    "id": "Qywp2VAK0a",
+                    "name": "Échéance",
+                    "type": "date",
+                    "text": "2026-11-18"
+                  },
+                  {
+                    "id": "OaBFpsDSc7",
+                    "name": "Début",
+                    "type": "date",
+                    "text": "2026-11-18"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "activeDatabaseId": "JCx8Oi5EMm",
+        "activeView": "table"
+      },
+      "confirmed_facts_unchanged": true
+    },
+    {
+      "project_id": "2483fd03-cd07-4f6c-bdd9-d12b9c99caa1",
+      "changed": [
+        {
+          "row_id": "Zrk3NZpHvS",
+          "title": "Organiser la visite technique",
+          "start": "2026-11-20",
+          "due": "2026-11-20"
+        }
+      ],
+      "preserved": [],
+      "metadata": {
+        "pageId": "dcfb188e-6ddd-4cff-8af3-33db03194cf2",
+        "presentation": "page",
+        "structureOpen": false,
+        "managedActionDatabaseId": "Bl8KZSlrBl",
+        "blocks": [
+          {
+            "id": "g66ve0MOiS",
+            "flavour": "affine:page",
+            "type": null
+          },
+          {
+            "id": "uBAIP9SyOw",
+            "flavour": "affine:surface",
+            "type": null
+          },
+          {
+            "id": "4dKedjLDxr",
+            "flavour": "affine:note",
+            "type": null
+          },
+          {
+            "id": "MlhAGVs-bx",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "Bl8KZSlrBl",
+            "flavour": "affine:database",
+            "type": null
+          },
+          {
+            "id": "Zrk3NZpHvS",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "VL3vcnqTos",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "ihcq4JNhpQ",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          }
+        ],
+        "blockCount": 8,
+        "databases": [
+          {
+            "id": "Bl8KZSlrBl",
+            "managedActions": true,
+            "title": "Actions du dossier",
+            "properties": [
+              {
+                "id": "title",
+                "name": "Intitulé",
+                "type": "title"
+              },
+              {
+                "id": "uPeoNHezi9",
+                "name": "Description",
+                "type": "rich-text"
+              },
+              {
+                "id": "hl492Hm1PM",
+                "name": "Statut",
+                "type": "select"
+              },
+              {
+                "id": "Jnb2lOpsVf",
+                "name": "Échange",
+                "type": "link"
+              },
+              {
+                "id": "aXACK33Lw-",
+                "name": "Responsable",
+                "type": "rich-text"
+              },
+              {
+                "id": "V4BIRZ-qXK",
+                "name": "Priorité",
+                "type": "rich-text"
+              },
+              {
+                "id": "EGQABSSPuZ",
+                "name": "Échéance",
+                "type": "date"
+              },
+              {
+                "id": "wJfBq19Wyd",
+                "name": "Début",
+                "type": "date"
+              }
+            ],
+            "views": [
+              {
+                "id": "nyvF-84s-t",
+                "name": "Liste",
+                "mode": "table"
+              },
+              {
+                "id": "i8UNWhX7Gv",
+                "name": "Cartes",
+                "mode": "kanban"
+              }
+            ],
+            "activeViewId": "nyvF-84s-t",
+            "activeView": "table",
+            "groups": [],
+            "rows": [
+              {
+                "id": "Zrk3NZpHvS",
+                "sourceKey": "6de30e38-8da5-47fb-831a-5f863d00b0fc",
+                "sourceUrl": "#/mail/aa096725-786f-4424-85dc-33afd532b60d",
+                "fields": [
+                  {
+                    "id": "title",
+                    "name": "Intitulé",
+                    "type": "title",
+                    "text": "Organiser la visite technique"
+                  },
+                  {
+                    "id": "uPeoNHezi9",
+                    "name": "Description",
+                    "type": "rich-text",
+                    "text": "Relever les points lumineux avec Élec Armor."
+                  },
+                  {
+                    "id": "hl492Hm1PM",
+                    "name": "Statut",
+                    "type": "select",
+                    "text": "À faire"
+                  },
+                  {
+                    "id": "Jnb2lOpsVf",
+                    "name": "Échange",
+                    "type": "link",
+                    "text": "https://travaux.kerforge.com/#/mail/aa096725-786f-4424-85dc-33afd532b60d"
+                  },
+                  {
+                    "id": "aXACK33Lw-",
+                    "name": "Responsable",
+                    "type": "rich-text",
+                    "text": "Thomas Le Gall"
+                  },
+                  {
+                    "id": "V4BIRZ-qXK",
+                    "name": "Priorité",
+                    "type": "rich-text",
+                    "text": "Normale"
+                  },
+                  {
+                    "id": "EGQABSSPuZ",
+                    "name": "Échéance",
+                    "type": "date",
+                    "text": "2026-11-20"
+                  },
+                  {
+                    "id": "wJfBq19Wyd",
+                    "name": "Début",
+                    "type": "date",
+                    "text": "2026-11-20"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "activeDatabaseId": "Bl8KZSlrBl",
+        "activeView": "table"
+      },
+      "confirmed_facts_unchanged": true
+    },
+    {
+      "project_id": "06cbde91-6553-4b05-b2b3-0e7ce82e4a58",
+      "changed": [],
+      "preserved": [],
+      "metadata": {
+        "pageId": "755dcdb4-ef38-4216-b16d-d318e96c4039",
+        "presentation": "page",
+        "structureOpen": false,
+        "managedActionDatabaseId": null,
+        "blocks": [
+          {
+            "id": "_sDeIBijO4",
+            "flavour": "affine:page",
+            "type": null
+          },
+          {
+            "id": "c2xhT0I6z5",
+            "flavour": "affine:surface",
+            "type": null
+          },
+          {
+            "id": "0fD7Imtpt2",
+            "flavour": "affine:note",
+            "type": null
+          },
+          {
+            "id": "U1l4TI7TKu",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          },
+          {
+            "id": "99crTwyHKQ",
+            "flavour": "affine:paragraph",
+            "type": "text"
+          }
+        ],
+        "blockCount": 5,
+        "databases": [],
+        "activeDatabaseId": null,
+        "activeView": null
+      },
+      "confirmed_facts_unchanged": true
+    }
+  ]
+}

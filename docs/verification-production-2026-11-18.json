@@ -1,0 +1,438 @@
+{
+  "date": "2026-11-18",
+  "version": "0.8.1",
+  "status": "deployed_test_space_verified",
+  "scope": "Espace fictif publié : compte personnel, mot de passe natif et TOTP, code obligatoire, Mairie test automatiquement acceptée. Validation humaine des organisations réelles développée et testée localement ; aucune boîte municipale ou IA métier externe raccordée.",
+  "release_gate_status": "cleared_for_test_space_source_delivery_with_documented_limits",
+  "public_url": "https://travaux.kerforge.com",
+  "public_release": "20261118T214358Z-33fde3",
+  "public_release_deployed": true,
+  "private_url": "https://espace.kerforge.com",
+  "identity_issuer": "https://identite.kerforge.com/realms/mayortech",
+  "private_release_verification_status": "organization_code_and_real_mfa_verified_with_disposable_prevalidated_fixture",
+  "private_release": "20261118T214358Z-33fde3",
+  "private_application_update": {
+    "status": "applied_per_operator_receipt",
+    "receipt": "/opt/apps/mayortech-private/app-updates/20261119T095753Z-ff922550/receipt.json",
+    "sqlite_backup_standalone_integrity": "passed_per_operator_receipt",
+    "final_browser_workflow": "passed_30_organization_code_and_native_mfa_checks",
+    "only_app_and_worker_recreated": true,
+    "identity_and_provider_configuration_changed": false
+  },
+  "private_theme_update": {
+    "status": "applied_per_operator_receipt",
+    "jar_sha256": "4288841cc62f7f3ed06373c178741835e08b13a2c4fa5106e1a092861fa13afd",
+    "operator_source_sha256": "17b54dd155cb3013de4439b343302d70d5a3630b76502ffb4d995032cc8e9da5",
+    "operator_source_path": "deploy/private-site/theme_update.py",
+    "receipt": "/opt/apps/mayortech-private/theme-updates/20261118T112341Z-01bb3471/receipt.json",
+    "previous_css_repair_review": {
+      "jar_sha256": "5c8846381580c89e73e98bab770977c9f2017ba1e0002f11d7e21e3d559b7069",
+      "operator_source_sha256": "424e71211af1483fc249e6ee13068d3a6817ac5a61cd2ddc4b77907cc8c1ffca",
+      "evidence": "test-results/private-identity-causal/theme-source-review.md",
+      "tests_passed": 15,
+      "tests_skipped": "1 POSIX boundary on Windows"
+    },
+    "css_filename": "mayortech-20261118-1.css",
+    "css_source_path": "deploy/keycloak/theme/mayortech/login/resources/css/mayortech.css",
+    "css_sha256": "f02631604b720096f19f215156d222944480f8b82f2fb19eb71232062d5f85d8",
+    "css_bytes": 3284,
+    "realm_changed": false,
+    "edge_style_freshness": "verified_versioned_filename_origin_identity_gzip_and_new_chrome_edge",
+    "operator_review_evidence": "test-results/native-css-diagnostic-20261118/theme-filename-source-review.json",
+    "operator_targeted_tests_passed": 30,
+    "operator_targeted_tests_windows_skipped": 1,
+    "theme_packager_tests_passed": 3,
+    "theme_packager_tests_windows_skipped": 1
+  },
+  "public_private_handoff": "deployed_and_browser_verified_without_auth_start_or_write",
+  "public_demo": true,
+  "private_organization": "test_fictional_only",
+  "real_municipal_data": false,
+  "municipal_connectors_connected": false,
+  "live_business_models_called": false,
+  "publisher": {
+    "source": "SaaS Kit lib/company.ts, source publique déclarée",
+    "source_sha256": "5311b4496dca78738623464459e5b5a97f8f592f667adf1fa5649701ae6fc960",
+    "legal_name": "Gauthier Le Gall (LE GALL CORP)",
+    "legal_form": "Entrepreneur individuel",
+    "siren": "910 346 410",
+    "rcs": "RCS Brest 910 346 410",
+    "address": "17 Rue du Deuxième R.I.C., 29200 Brest, France",
+    "contact": "gauthier29n@gmail.com",
+    "privacy_contact": "gauthier29n@gmail.com",
+    "designated_dpo_claimed": false,
+    "independent_registry_verification": false,
+    "public_pages": [
+      "https://travaux.kerforge.com/mentions-legales.html",
+      "https://travaux.kerforge.com/confidentialite.html"
+    ]
+  },
+  "identity": {
+    "provider": "Keycloak 26.8.2, native forms",
+    "personal_accounts_configured": true,
+    "mfa_policy": [
+      "pwd",
+      "otp"
+    ],
+    "basic_auth_time_contract": "corrected_native_scope_link_without_static_claim",
+    "basic_link_and_native_auth_time_mapper_verified_after_update": true,
+    "signed_claim_comparison": "initial_totp_enrollment_pwd_then_normal_login_pwd_otp",
+    "first_enrollment_backend_behavior": "reauthenticate_without_application_session",
+    "final_browser_workflow_status": "passed_30_organization_code_and_native_mfa_checks",
+    "registration_email_workflow_status": "not_exercised_pending_authorized_recipient",
+    "password_creation_status": "passed_native_required_action_with_prevalidated_fixture",
+    "password_recovery_status": "email_recovery_not_exercised_end_to_end",
+    "native_update_password_action": {
+      "status": "applied_and_live_required_action_verified",
+      "present": true,
+      "enabled": true,
+      "defaultAction": false,
+      "priority": 15,
+      "migration_applied": true,
+      "performed_by": "root operator",
+      "backup": "/opt/apps/mayortech-private/backups/required-action-before-20261118T114301Z-67e41017.json",
+      "operator_source_path": "deploy/private-site/required_action.py",
+      "operator_source_sha256": "e19b96ec5bbae14ccaebf750806f6a8240cf902b214db64b286fd8ca507ff35e",
+      "independent_review_evidence": "test-results/private-activation-20261117/required-action-independent-review-20261118.json",
+      "migration_tests_passed": 22,
+      "fixture_preparation_tests_passed": 2,
+      "private_operator_suite_passed": 105,
+      "private_operator_suite_skipped": 8,
+      "private_operator_suite_provenance": "root-confirmed targeted private suite; counts overlap earlier runs and are not summed",
+      "live_required_action_qa_status": "passed_24_checks_10_captures_prevalidated_fixture",
+      "pre_migration_read_only_evidence": "test-results/private-native-entry-final/post-theme-preservation.json",
+      "post_migration_evidence": "test-results/private-native-entry-final/post-required-action.json",
+      "post_migration_preservation_evidence": "test-results/private-native-entry-final/post-password-action-preservation.json",
+      "live_required_action_qa_evidence": "test-results/private-password-update-live/checks.json",
+      "email_first_and_mfa_requirements_preserved": true,
+      "test_message_sent": false
+    },
+    "expected_registration_flow": [
+      "name_and_email",
+      "email_verification",
+      "password_via_UPDATE_PASSWORD",
+      "totp",
+      "reauthentication",
+      "organization"
+    ],
+    "native_deferred_password_source": "https://raw.githubusercontent.com/keycloak/keycloak/26.8.2/services/src/main/java/org/keycloak/authentication/forms/RegistrationPassword.java",
+    "initial_signup_page_without_password_is_expected": true,
+    "read_only_signup_form_inspection_is_not_live_registration_validation": true,
+    "smtp_provider": "Resend, European region configured",
+    "smtp_configuration_status": "configured",
+    "smtp_port": 2465,
+    "smtp_tls_and_auth_without_message_status": "passed",
+    "smtp_evidence": "test-results/private-identity-causal/smtp-no-message-2465.json",
+    "smtp_probe_message_sent": false,
+    "email_delivery_status": "pending_authorized_recipient_not_attested",
+    "email_reception_status": "pending_authorized_recipient_not_attested",
+    "smtp_keycloak_namespace_probe": {
+      "status": "passed_tls_ehlo_quit_without_auth_or_message",
+      "smtp_auth_tested": false,
+      "test_message_sent": false,
+      "temporary_container_removed": true,
+      "evidence": "test-results/private-native-entry-final/smtp-keycloak-namespace.json"
+    }
+  },
+  "public_legal_browser_qa": {
+    "status": "passed_for_named_public_release_only",
+    "release": "20261118T104852Z-928989",
+    "checks_passed": 190,
+    "screenshots": 14,
+    "visually_reviewed_screenshots": 10,
+    "viewports": [
+      "1920x1080",
+      "390x844"
+    ],
+    "browser": "Chrome 157.0.8103.79",
+    "request_methods": [
+      "GET"
+    ],
+    "private_origin_contacted": false,
+    "auth_start_called": false,
+    "account_created": false,
+    "cookie_deposited": false,
+    "tls_bypass": false,
+    "tls_scope_limit": "Chrome valide la chaîne système interceptée par Avast Web/Mail Shield Root ; ce contrôle n'est pas un audit direct du certificat d'origine.",
+    "evidence": "test-results/site-real-20261118/public-legal/20261118T105530Z/checks.json",
+    "visual_evidence": "test-results/site-real-20261118/public-legal/20261118T105530Z/visual-review.json"
+  },
+  "private_browser_qa": {
+    "status": "passed",
+    "release": "20261118T104852Z-928989",
+    "checks_passed": 20,
+    "screenshots": 8,
+    "scope": "Live HTTPS and native Keycloak, password/TOTP, first-enrollment refusal, organization choice, dossier boundaries, logout and revocation.",
+    "fixture": "disposable_preverified_invalid_domain_account",
+    "fixture_deleted": true,
+    "fixture_workspace_access_revoked": true,
+    "registration_with_real_email_tested": false,
+    "mail_sent": false,
+    "evidence": "test-results/private-identity-live/checks.json"
+  },
+  "native_entry_forms_read_only_qa": {
+    "status": "passed_first_forms_only",
+    "signup_checks_passed": 12,
+    "recovery_checks_passed": 11,
+    "native_forms_submitted": false,
+    "account_created": false,
+    "mail_sent": false,
+    "signup_evidence": "test-results/private-native-entry-final/checks-signup.json",
+    "recovery_evidence": "test-results/private-native-entry-final/checks-recovery.json",
+    "form_inspection_alone_validates_password_execution": false,
+    "combined_checks_passed": 23,
+    "combined_screenshots": 8,
+    "combined_evidence": "test-results/private-native-entry-final/checks.json"
+  },
+  "public_handoff_browser_qa": {
+    "status": "passed",
+    "release": "20261118T111023Z-cf023b",
+    "checks_passed": 38,
+    "screenshots": 12,
+    "auth_start_called": false,
+    "writes_performed": false,
+    "evidence": "test-results/site-handoff-20261118/checks.json"
+  },
+  "hashidentity_legal": {
+    "status": "origin_match_and_explicit_edge_transformation_reviewed",
+    "release": "20261118T111023Z-cf023b",
+    "origin_match": true,
+    "origin_check": "Direct loopback GET in the deployed public application container matches the local gated HTML SHA256.",
+    "edge_bytes_equal": false,
+    "edge_obfuscation_reviewed": true,
+    "expected_public_contact": "gauthier29n@gmail.com",
+    "email_rewrite_counts": {
+      "mentions-legales.html": 3,
+      "confidentialite.html": 2
+    },
+    "decoded_addresses_match_exact_contact": true,
+    "strict_reconstruction_matches_source_bytes": true,
+    "crlf_normalization_used": false,
+    "only_allowed_addition": "One exact /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js element per legal document.",
+    "any_other_text_url_or_script_change_is_refused": true,
+    "helper_tests_passed": 4,
+    "helper_tests": "../../work/test_probe_auth_portal_release.py",
+    "evidence": "test-results/auth-portal-live/20261118T111023Z-cf023b/deployment-probe.json",
+    "diagnostic_evidence": "test-results/auth-portal-live/20261118T111023Z-cf023b/legal-edge-classification-20261118T111953Z.json"
+  },
+  "final_delivery_checks": {
+    "python_application_and_deployment_suite": "passed_601_application_2_skipped_and_169_deployment_8_skipped",
+    "frontend_and_domain_suite": "passed_157",
+    "native_module_suite": "passed_27",
+    "typescript_product_check": "passed",
+    "frontend_production_build": "passed",
+    "public_portals_demo_and_assets_match_reviewed_source": "passed_strict_bytes_legal_html_origin_and_reviewed_edge_transformation_separate",
+    "private_theme_asset_freshness": "passed_origin_identity_gzip_and_edge_css_byte_match_plus_new_chrome_layout",
+    "private_mfa_browser_workflow": "passed_30_organization_code_and_native_mfa_checks",
+    "native_password_creation_required_action": "passed_native_required_action_with_prevalidated_fixture",
+    "native_password_recovery": "email_recovery_not_exercised_end_to_end",
+    "document_chat_business_database_workflow": "not_exercised_live_models_absent_and_test_organization_egress_blocked",
+    "archive_rebuilt_by_documentation_task": false,
+    "deployment_performed_by_documentation_task": false
+  },
+  "test_and_build_runs": {
+    "scope_limit": "Root-observed frozen source checks before packaging this release; overlapping targeted checks not summed.",
+    "python_application": {
+      "command": ".venv/Scripts/python.exe -m pytest -q",
+      "passed": 601,
+      "skipped": 2
+    },
+    "python_deployment": {
+      "command": ".venv/Scripts/python.exe -m pytest -q deploy/hetzner/tests deploy/private-site/tests",
+      "passed": 169,
+      "skipped": 8
+    },
+    "frontend_domain": {
+      "command": "node --test <all frontend-lovable/src and web *.test.mjs>",
+      "passed": 157
+    },
+    "native": {
+      "command": "node --test <all native-editor/tests *.test.mjs>",
+      "passed": 27
+    },
+    "typescript_and_build": {
+      "status": "passed"
+    },
+    "evidence": "test-results/organization-code-delivery/local-verification.json"
+  },
+  "live_business_document_chat_workflow": {
+    "status": "not_exercised_live",
+    "reason": "Model credentials are absent from this space and the fictional test organization blocks business egress.",
+    "mocked_transport_contract_tests_are_not_live_model_validation": true
+  },
+  "private_read_only_preservation_qa": {
+    "status": "passed",
+    "checks_passed": 19,
+    "scope": "Native basic/auth_time, UPDATE_PASSWORD present/enabled/nondefault/priority15, email-first registration, SMTP TLS/auth/debug/hostname and five healthy services; no account fixture or message.",
+    "evidence": "test-results/private-native-entry-final/post-password-action-preservation.json",
+    "previous_pre_required_action_scope_evidence": "test-results/private-identity-causal/post-theme-preservation.json"
+  },
+  "private_theme_post_versioning_qa": {
+    "status": "passed",
+    "static_public_gets_only": true,
+    "credentials_entered": false,
+    "origin_identity_and_gzip_decoded_css_match": true,
+    "edge_versioned_css_match": true,
+    "old_css_filename_still_referenced": false,
+    "fhd_card_width_px": 490,
+    "mobile_viewport_width_px": 390,
+    "mobile_card_width_px": 362,
+    "container_padding_inline_px": 0,
+    "mobile_horizontal_overflow": false,
+    "screenshots_visually_reviewed": true,
+    "origin_evidence": "test-results/native-css-diagnostic-20261118/versioned-origin-encoding.json",
+    "edge_evidence": "test-results/native-css-diagnostic-20261118/post-versioned/edge-measurements.json",
+    "screenshots": [
+      "test-results/native-css-diagnostic-20261118/post-versioned/1920-native-current.png",
+      "test-results/native-css-diagnostic-20261118/post-versioned/390-native-current.png"
+    ]
+  },
+  "private_origin_tls": {
+    "status": "passed",
+    "scope": "Linux origin loopback TLS handshake with SNI, default system CA, chain and hostname validation; no HTTP or account flow.",
+    "origins": [
+      "espace.kerforge.com",
+      "identite.kerforge.com"
+    ],
+    "protocol": "TLSv1.3",
+    "interception_proxy": false,
+    "tls_bypass": false,
+    "evidence": "test-results/private-activation-20261117/tls-origin-20261118.json"
+  },
+  "operations": {
+    "declared_host": "Hetzner Online GmbH",
+    "exact_vps_region_qualified": false,
+    "public_proxy": "Cloudflare",
+    "all_processing_in_france_or_eu_claimed": false,
+    "backup_encrypted": false,
+    "backup_offsite": false,
+    "full_restore_drill_qualified": false,
+    "account_retention": "manual_request_without_invented_automated_deadline",
+    "certifies_rgpd_or_rgaa_or_cybersecurity": false
+  },
+  "remaining": [
+    "Tester séparément l’inscription et la vérification d’un email réel sur un destinataire maîtrisé ; le compte prévalidé ne qualifie pas ces étapes.",
+    "Attester séparément l’émission, la réception et le parcours de récupération par email sur un destinataire maîtrisé.",
+    "Conserver les mails municipaux et l’IA métier externe désactivés dans l’organisation test.",
+    "Qualifier contrats, hébergement exact, sauvegarde chiffrée indépendante et restauration avant toute donnée municipale réelle."
+  ],
+  "evidence_packaging": "Source ZIP rebuilt after organization-code deployment and live MFA/code QA. Private receipts, test-results, account data and environment secrets remain excluded.",
+  "documentation": "MISE_EN_SERVICE_PRIVEE_2026.md",
+  "private_password_update_browser_qa": {
+    "status": "passed",
+    "release": "20261118T104852Z-928989",
+    "checks_passed": 24,
+    "screenshots": 10,
+    "scope": "Native required password definition, new password plus TOTP, first-return refusal until fresh MFA, organization grants, logout, invalid OTP refusal and fixture cleanup.",
+    "fixture": "disposable_preverified_invalid_domain_account_with_UPDATE_PASSWORD_required",
+    "password_update_required": true,
+    "new_password_used_for_mfa_login": true,
+    "fixture_deleted": true,
+    "fixture_workspace_access_revoked": true,
+    "old_application_session_refused_after_cleanup": true,
+    "registration_with_real_email_tested": false,
+    "email_recovery_flow_tested": false,
+    "mail_sent": false,
+    "passwords_or_seeds_recorded": false,
+    "evidence": "test-results/private-password-update-live/checks.json"
+  },
+  "previous_organization_release": {
+    "public_release": "20261118T111023Z-cf023b",
+    "private_release": "20261118T104852Z-928989",
+    "private_application_update": {
+      "status": "applied_per_operator_receipt",
+      "receipt": "/opt/apps/mayortech-private/app-updates/20261118T110552Z-b32e262a/receipt.json",
+      "sqlite_backup_standalone_integrity": "passed_per_operator_receipt",
+      "final_browser_workflow": "passed_24_native_password_update_new_password_totp_and_test_organization_checks"
+    },
+    "test_and_build_runs": {
+      "scope_limit": "Full suites and build precede the latest public conditioning and theme filename maintenance; the application binary was unchanged according to the operator. Targeted compose/handoff and theme postchecks are separate. Counts overlap and are not summed.",
+      "python": {
+        "passed": 620,
+        "skipped": 1,
+        "evidence": "../../work/site-real-20261118-python.txt"
+      },
+      "frontend_domain": {
+        "passed": 149,
+        "evidence": "../../work/site-real-20261118-js.txt"
+      },
+      "native": {
+        "passed": 27,
+        "evidence": "../../work/site-real-20261118-native.txt"
+      },
+      "typescript_and_build": {
+        "status": "passed",
+        "evidence": "../../work/site-real-20261118-build.txt"
+      },
+      "compose_and_handoff": {
+        "passed": 69,
+        "scope": "deploy/hetzner/tests and tests/test_auth_portal.py",
+        "provenance": "operator-confirmed targeted run"
+      }
+    }
+  },
+  "organization_membership": {
+    "organization": "Mairie test",
+    "test_code": "MAIRIE-TEST",
+    "new_members_autoapproved": true,
+    "new_members_role": "editor",
+    "admin_rights_granted": false,
+    "real_organization_approval": "administrator_accept_or_reject_with_revision_check",
+    "real_organization_role_on_approval": "reader_without_implicit_project_grants",
+    "real_organization_admin_browser_tested_live": false,
+    "real_organization_admin_backend_tests_passed": true,
+    "rejected_or_disabled_self_reactivation": false,
+    "organization_registry": "one_organization_per_instance",
+    "code_configuration": "TRAVAUX_ORGANIZATION_JOIN_CODE",
+    "independent_review_blocking_findings": 0,
+    "documentation": "adhesion-organisation.md"
+  },
+  "organization_code_browser_qa": {
+    "status": "passed",
+    "release": "20261118T125514Z-369c1f",
+    "checks_passed": 30,
+    "screenshots": 11,
+    "selected_screenshots_visually_reviewed": [
+      "1920-organization-choice.png",
+      "390-organization-code-error.png",
+      "390-first-connection-guide.png"
+    ],
+    "scope": "Live HTTPS, real Keycloak, password and TOTP; disposable preverified .invalid fixture; no mail delivery test",
+    "password_update_required": true,
+    "organization_code_required": true,
+    "fixture_deleted": true,
+    "fixture_workspace_access_revoked": true,
+    "registration_with_real_email_tested": false,
+    "email_recovery_flow_tested": false,
+    "mail_sent": false,
+    "passwords_or_seeds_recorded": false,
+    "evidence": "test-results/private-organization-code-live/checks.json"
+  },
+  "organization_ui_fixture_qa": {
+    "status": "passed",
+    "checks_passed": 33,
+    "screenshots": 14,
+    "scope": "Actual frontend served by Vite, simulated account and organization API replies. No real account, authorization, MFA, provider or deployment validated.",
+    "viewports": [
+      "1920x1080",
+      "390x844"
+    ],
+    "evidence": "../organization-code-2026-11-18/frontend/checks.json"
+  },
+  "email_delivery_observation": {
+    "separate_from_registration_qa": true,
+    "generic_authorized_gmail_probe_sent_once": true,
+    "sender": "connexion@kerforge.com",
+    "user_confirmed_gmail_inbox": true,
+    "institutional_inbox_receipt_confirmed": false,
+    "new_emails_sent_by_organization_code_work": false,
+    "evidence": "test-results/account-email-delivery-20261118/gmail-send-receipt.json"
+  },
+  "public_bundle_probe_current": {
+    "status": "passed",
+    "release": "20261118T125514Z-369c1f",
+    "routes": 8,
+    "legal_cloudflare_transformation_reviewed_separately": true,
+    "evidence": "test-results/auth-portal-live/20261118T125514Z-369c1f/deployment-probe.json"
+  }
+}
