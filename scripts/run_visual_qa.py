@@ -1,47 +1,48 @@
-import sys
-import time
 import subprocess
-import threading
+import time
+import socket
+import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "src"))
+PORT = 19860
 
-from travaux.api import create_app
-from travaux.config import Settings
-import uvicorn
+def listening():
+    with socket.socket() as s:
+        s.settimeout(0.3)
+        return s.connect_ex(("127.0.0.1", PORT)) == 0
 
-PORT = 19862
+def main():
+    server = None
+    if not listening():
+        print(f"Starting server on port {PORT}...")
+        server = subprocess.Popen(
+            [sys.executable, "scripts/capture_audit_epuration.py", "--serve-only"],
+            cwd=str(Path(__file__).resolve().parents[1])
+        )
+        for _ in range(50):
+            if listening():
+                break
+            time.sleep(0.2)
+        if not listening():
+            raise RuntimeError("Server failed to start")
 
-def serve():
-    data_dir = ROOT / ".agent" / "tmp" / "server-data"
-    data_dir.mkdir(parents=True, exist_ok=True)
-    settings = Settings(
-        mode="demo",
-        db_path=data_dir / "gallery.sqlite3",
-        tenant_id="plougastel-audit",
-        llm="demo",
-        allowed_hosts=("127.0.0.1", "localhost"),
-        password_hash="test-hash",
-        auth_mode="password",
-    )
-    app = create_app(settings)
-    uvicorn.run(app, host="127.0.0.1", port=PORT, log_level="warning")
+    try:
+        print("Running node .agent/skills/visual-qa/scripts/audit.mjs...")
+        res = subprocess.run(
+            ["node", ".agent/skills/visual-qa/scripts/audit.mjs", f"http://127.0.0.1:{PORT}/demo.html"],
+            capture_output=True,
+            text=True
+        )
+        print("STDOUT:")
+        print(res.stdout)
+        if res.stderr:
+            print("STDERR:")
+            print(res.stderr)
+        if res.returncode != 0:
+            sys.exit(res.returncode)
+    finally:
+        if server:
+            server.terminate()
 
 if __name__ == "__main__":
-    t = threading.Thread(target=serve, daemon=True)
-    t.start()
-
-    time.sleep(1.5)
-
-    res = subprocess.run(
-        ["node", ".agent/skills/visual-qa/scripts/audit.mjs", f"http://127.0.0.1:{PORT}/demo.html#/workflows"],
-        capture_output=True,
-        text=True,
-        cwd=str(ROOT),
-    )
-    print(res.stdout)
-    if res.stderr:
-        print(res.stderr)
-
-    sys.exit(res.returncode)
+    main()

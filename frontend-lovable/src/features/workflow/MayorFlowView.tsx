@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import {
   Inbox,
-  PenTool,
   Sparkles,
-  Layers,
   Plus,
   GitFork,
-  CheckCircle2,
-  Send
+  CheckCircle2
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
@@ -48,90 +45,72 @@ export function MayorFlowView() {
     toast.success(`Circuit « ${newDossier.title} » initié et disponible dans votre file !`);
   };
 
-  const navItems: { id: MayorFlowMainTab; label: string; icon: React.ReactNode; badge?: number }[] = [
+  const navItems: { id: MayorFlowMainTab; label: string; badge?: number }[] = [
     {
       id: 'validation',
       label: 'À valider',
-      icon: <Inbox size={15} className="text-[#102A4C]" />,
       badge: pendingCount,
     },
     {
       id: 'suivi',
       label: 'Suivi du circuit',
-      icon: <GitFork size={15} className="text-emerald-600" />,
     },
     {
       id: 'concepteur',
       label: 'Concepteur',
-      icon: <Sparkles size={15} className="text-purple-600" />,
     },
   ];
 
   return (
-    <div className="w-full max-w-7xl mx-auto space-y-3 font-sans text-slate-900 pb-10">
-      {/* Hide floating assistant FAB on mobile view and keep it under drawer on desktop */}
-      <style>{`
-        @media (max-width: 768px) {
-          .assistant-widget {
-            display: none !important;
-          }
-        }
-        .assistant-widget {
-          z-index: 20 !important;
-        }
-      `}</style>
+    <div className="w-full max-w-7xl mx-auto space-y-3 font-sans text-stone-900 pb-10">
+      {/* Barre 1 (En-tête unifié de vue) : Titre à gauche, les 3 onglets centrés/alignés sur la même ligne, et le bouton + Nouvelle validation en #102A4C text-white à droite */}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-stone-200 pb-3">
+        <h1 className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight shrink-0">
+          Circuits de validation
+        </h1>
 
-      {/* Header: Circuits de validation + Ville de Plougastel-Daoulas + Button + Lancer une validation */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 pb-3">
-        <div className="flex items-center gap-2.5 flex-wrap">
-          <h1 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
-            Circuits de validation
-          </h1>
-          <span className="text-xs text-slate-500 bg-slate-100 border border-slate-200 px-2.5 py-0.5 rounded-md font-medium">
-            Ville de Plougastel-Daoulas
-          </span>
+        {/* 3-Tab Rail */}
+        <div className="flex items-center gap-1.5 overflow-x-auto text-xs py-0.5">
+          {navItems.map((item) => {
+            const isActive = activeTab === item.id;
+            return (
+              <button
+                key={item.id}
+                onClick={() => setActiveTab(item.id)}
+                className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-bold transition-all shrink-0 cursor-pointer ${
+                  isActive
+                    ? 'bg-[#102A4C] text-white shadow-3xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                }`}
+              >
+                {item.id === 'validation' && <Inbox size={15} className={isActive ? 'text-white' : 'text-[#102A4C]'} />}
+                {item.id === 'suivi' && <GitFork size={15} className={isActive ? 'text-white' : 'text-emerald-600'} />}
+                {item.id === 'concepteur' && <Sparkles size={15} className={isActive ? 'text-white' : 'text-purple-600'} />}
+                <span className={isActive ? 'text-white' : ''}>{item.label}</span>
+                {item.badge !== undefined && item.badge > 0 && (
+                  <span
+                    className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono font-bold ${
+                      isActive ? 'bg-white/20 text-white' : 'bg-stone-100 text-[#102A4C]'
+                    }`}
+                  >
+                    {item.badge}
+                  </span>
+                )}
+              </button>
+            );
+          })}
         </div>
 
-        {/* Primary Action Button: + Lancer une validation */}
-        <div className="flex items-center gap-2">
+        {/* Primary Action Button: + Nouvelle validation */}
+        <div className="flex items-center gap-2 shrink-0">
           <Button
             onClick={() => setIsLaunchModalOpen(true)}
-            className="bg-[#102A4C] hover:bg-[#193D6B] text-white font-semibold text-xs px-3.5 py-2 rounded-md flex items-center gap-1.5 shadow-sm transition-all cursor-pointer"
+            className="bg-[#102A4C] hover:bg-[#193D6B] text-white font-semibold text-xs px-3.5 py-1.5 rounded-lg flex items-center gap-1.5 shadow-3xs transition-all cursor-pointer"
           >
-            <Plus className="w-4 h-4" />
-            <span>Lancer une validation</span>
+            <Plus className="w-4 h-4 text-white" />
+            <span className="text-white font-semibold">+ Nouvelle validation</span>
           </Button>
         </div>
-      </div>
-
-      {/* Directive 3-Tab Rail */}
-      <div className="flex items-center gap-2 border-b border-stone-200/80 pb-2 text-xs">
-        {navItems.map((item) => {
-          const isActive = activeTab === item.id;
-          return (
-            <button
-              key={item.id}
-              onClick={() => setActiveTab(item.id)}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-md font-bold transition-all duration-150 shrink-0 ${
-                isActive
-                  ? 'bg-[#102A4C] text-white shadow-xs'
-                  : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
-              }`}
-            >
-              {item.icon}
-              <span>{item.label}</span>
-              {item.badge !== undefined && item.badge > 0 && (
-                <span
-                  className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono font-bold ${
-                    isActive ? 'bg-white/20 text-white' : 'bg-stone-100 text-[#102A4C]'
-                  }`}
-                >
-                  {item.badge}
-                </span>
-              )}
-            </button>
-          );
-        })}
       </div>
 
       {/* Tab Views */}

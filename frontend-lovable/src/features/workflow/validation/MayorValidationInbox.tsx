@@ -29,7 +29,9 @@ import {
   Play,
   X,
   UserCheck,
-  Pencil
+  Pencil,
+  SlidersHorizontal,
+  ChevronDown
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
@@ -62,6 +64,7 @@ export function MayorValidationInbox({
   // Parapheur en rafale & validation par lot
   const [selectedBatchIds, setSelectedBatchIds] = useState<string[]>([]);
   const [isParapheurModeOpen, setIsParapheurModeOpen] = useState(false);
+  const [isMoreActionsOpen, setIsMoreActionsOpen] = useState(false);
   const [parapheurIndex, setParapheurIndex] = useState(0);
 
   // Delegation
@@ -362,32 +365,32 @@ export function MayorValidationInbox({
 
   return (
     <div className="space-y-4 font-sans text-slate-900">
-      {/* Filter Tabs & Search Bar */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-3 sm:p-4 shadow-2xs flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+      {/* Barre 2 (Filtres compacts + Mode Parapheur sans 2e barre de recherche) */}
+      <div className="bg-white border border-stone-200/90 rounded-xl p-2 sm:p-2.5 shadow-3xs flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2">
         {/* Pills */}
-        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 md:pb-0 text-xs">
+        <div className="flex items-center gap-1 overflow-x-auto text-xs py-0.5">
           {[
             { id: 'my_tasks', label: 'Mes validations', count: dossiers.filter(d => d.status === 'pending' && d.currentStepIndex === 2).length },
             { id: 'service_pool', label: 'Service / Pool', count: dossiers.filter(d => d.status === 'pending' && d.currentStepIndex < 2).length },
-            { id: 'pending_dgs', label: 'En attente DGS / Maire', count: dossiers.filter(d => d.status === 'pending' && d.currentStepIndex >= 2).length },
-            { id: 'history', label: 'Historique / Signés', count: dossiers.filter(d => d.status === 'signed' || d.status === 'rejected').length },
+            { id: 'pending_dgs', label: 'En attente DGS', count: dossiers.filter(d => d.status === 'pending' && d.currentStepIndex >= 2).length },
+            { id: 'history', label: 'Historique', count: dossiers.filter(d => d.status === 'signed' || d.status === 'rejected').length },
           ].map((tab) => {
             const isSelected = activeFilter === tab.id;
             return (
               <button
                 key={tab.id}
                 onClick={() => setActiveFilter(tab.id as any)}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold whitespace-nowrap transition-all ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-semibold whitespace-nowrap transition-all cursor-pointer ${
                   isSelected
-                    ? 'bg-[#102A4C] text-white shadow-2xs'
+                    ? 'bg-[#102A4C] text-white shadow-3xs'
                     : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                 }`}
               >
-                <span>{tab.label}</span>
+                <span className={isSelected ? 'text-white' : ''}>{tab.label}</span>
                 {tab.count > 0 && (
                   <span
                     className={`text-[10px] px-1.5 py-0.2 rounded-full font-bold ${
-                      isSelected ? 'bg-white/20 text-white' : 'bg-slate-200 text-slate-700'
+                      isSelected ? 'bg-white/20 text-white' : 'bg-stone-200 text-stone-700'
                     }`}
                   >
                     {tab.count}
@@ -398,31 +401,18 @@ export function MayorValidationInbox({
           })}
         </div>
 
-        {/* Mode Parapheur Button & Search Input */}
-        <div className="flex items-center gap-2">
-          <Button
-            size="sm"
-            onClick={() => {
-              setParapheurIndex(0);
-              setIsParapheurModeOpen(true);
-            }}
-            className="bg-[#102A4C] hover:bg-[#193D6B] text-white font-bold text-xs px-3.5 py-1.5 rounded-md shadow-xs flex items-center gap-1.5 shrink-0 cursor-pointer"
-          >
-            <Play className="w-3.5 h-3.5 fill-current" />
-            <span>Mode Parapheur ({filteredDossiers.filter(d => d.status === 'pending').length})</span>
-          </Button>
-
-          <div className="relative w-full md:w-64">
-            <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Rechercher un dossier..."
-              className="w-full pl-8 pr-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50/50 hover:bg-white focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-xs text-slate-800 font-medium transition-colors"
-            />
-          </div>
-        </div>
+        {/* Mode Parapheur Button */}
+        <Button
+          size="sm"
+          onClick={() => {
+            setParapheurIndex(0);
+            setIsParapheurModeOpen(true);
+          }}
+          className="bg-[#102A4C] hover:bg-[#193D6B] text-white font-bold text-xs px-3.5 py-1.5 rounded-lg shadow-3xs flex items-center justify-center gap-1.5 shrink-0 cursor-pointer w-full sm:w-auto"
+        >
+          <Play className="w-3.5 h-3.5 fill-current text-white" />
+          <span className="text-white">Mode Parapheur ({filteredDossiers.filter(d => d.status === 'pending').length})</span>
+        </Button>
       </div>
 
       {/* Main Directive Split View: Dossier List (Left/Top) + Directive Treatment Panel (Right) */}
@@ -431,9 +421,9 @@ export function MayorValidationInbox({
         <div className="lg:col-span-4 space-y-2.5">
           {/* Floating/Sticky Batch Action Bar */}
           {selectedBatchIds.length > 0 && (
-            <div className="p-3 bg-blue-50 border border-blue-200 rounded-xl shadow-sm flex items-center justify-between gap-2 text-xs animate-in fade-in duration-150">
-              <div className="flex items-center gap-1.5 font-bold text-blue-900">
-                <CheckSquare className="w-4 h-4 text-blue-600" />
+            <div className="p-3 bg-stone-100 border border-stone-200 rounded-xl shadow-sm flex items-center justify-between gap-2 text-xs animate-in fade-in duration-150">
+              <div className="flex items-center gap-1.5 font-bold text-stone-900">
+                <CheckSquare className="w-4 h-4 text-[#102A4C]" />
                 <span>{selectedBatchIds.length} sélectionné(s)</span>
               </div>
               <div className="flex items-center gap-1.5">
@@ -493,7 +483,7 @@ export function MayorValidationInbox({
                     onClick={() => setSelectedDossierId(d.id)}
                     className={`bg-white rounded-xl border p-3.5 cursor-pointer transition-all duration-150 relative shadow-2xs ${
                       isSelected
-                        ? 'border-blue-500 ring-2 ring-blue-500/20 shadow-md bg-blue-50/10'
+                        ? 'border-[#102A4C] ring-2 ring-[#102A4C]/20 shadow-md bg-stone-50/50'
                         : 'border-slate-200 hover:border-slate-300 hover:shadow-xs'
                     }`}
                   >
@@ -506,11 +496,11 @@ export function MayorValidationInbox({
                             e.stopPropagation();
                             setSelectedBatchIds(prev => prev.includes(d.id) ? prev.filter(x => x !== d.id) : [...prev, d.id]);
                           }}
-                          className="p-0.5 text-slate-400 hover:text-blue-600 cursor-pointer"
+                          className="p-0.5 text-slate-400 hover:text-[#102A4C] cursor-pointer"
                           title="Sélectionner pour visa par lot"
                         >
                           {isChecked ? (
-                            <CheckSquare className="w-4 h-4 text-blue-600" />
+                            <CheckSquare className="w-4 h-4 text-[#102A4C]" />
                           ) : (
                             <Square className="w-4 h-4 text-slate-300 hover:text-slate-500" />
                           )}
@@ -614,7 +604,7 @@ export function MayorValidationInbox({
                       key={st.id}
                       className={`p-2.5 rounded-xl border flex flex-col justify-between transition-all ${
                         isActive
-                          ? 'border-blue-500 bg-blue-50/30 ring-2 ring-blue-500/20 shadow-xs'
+                          ? 'border-[#102A4C] bg-stone-100/60 ring-2 ring-[#102A4C]/20 shadow-xs'
                           : isCompleted
                           ? 'border-emerald-200 bg-emerald-50/20'
                           : isReturned
@@ -632,8 +622,8 @@ export function MayorValidationInbox({
                             <span>Signé</span>
                           </span>
                         ) : isActive ? (
-                          <span className="flex items-center gap-1 text-[9px] font-bold text-blue-700 bg-blue-100 px-1.5 py-0.2 rounded-full animate-pulse">
-                            <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />
+                          <span className="flex items-center gap-1 text-[9px] font-bold text-[#102A4C] bg-stone-200 px-1.5 py-0.2 rounded-full animate-pulse">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#102A4C]" />
                             <span>En cours</span>
                           </span>
                         ) : isReturned ? (
@@ -664,7 +654,7 @@ export function MayorValidationInbox({
                 <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-2xs space-y-4">
                   <div className="flex items-center justify-between border-b border-slate-100 pb-3 flex-wrap gap-2">
                     <div className="flex items-center gap-2">
-                      <FileText className="w-4 h-4 text-blue-600" />
+                      <FileText className="w-4 h-4 text-[#102A4C]" />
                       <h3 className="text-xs font-bold uppercase tracking-wider text-slate-700">
                         Projet d’Acte Municipal
                       </h3>
@@ -674,8 +664,8 @@ export function MayorValidationInbox({
                         Réf: {selectedDossier.id}
                       </span>
                       {selectedDossier.isEditedInReview && (
-                        <span className="text-[10px] font-mono font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-3xs">
-                          <span className="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse" />
+                        <span className="text-[10px] font-mono font-bold text-[#102A4C] bg-stone-100 border border-stone-200 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-3xs">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#102A4C] animate-pulse" />
                           <span>Modifié en relecture ({selectedDossier.editVersion || 'v1.1'})</span>
                         </span>
                       )}
@@ -686,10 +676,10 @@ export function MayorValidationInbox({
                             setEditedArticleText(selectedDossier.previewArticle);
                             setIsEditingArticle(true);
                           }}
-                          className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-slate-200 hover:border-blue-300 bg-slate-50 hover:bg-blue-50/50 text-slate-700 hover:text-blue-700 text-xs font-semibold transition-colors shadow-3xs cursor-pointer ml-1"
+                          className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-slate-200 hover:border-stone-300 bg-slate-50 hover:bg-stone-100 text-slate-700 hover:text-[#102A4C] text-xs font-semibold transition-colors shadow-3xs cursor-pointer ml-1"
                           title="Corriger directement une faute ou un numéro sans renvoyer le dossier"
                         >
-                          <Pencil className="w-3.5 h-3.5 text-blue-600" />
+                          <Pencil className="w-3.5 h-3.5 text-[#102A4C]" />
                           <span>Corriger une coquille</span>
                         </button>
                       )}
@@ -730,7 +720,7 @@ export function MayorValidationInbox({
 
                   {/* Official Letterhead Preview */}
                   <div className="rounded-xl bg-[#FFFEFC] border border-stone-200/90 shadow-[0_1px_2px_rgba(16,42,76,0.04)] overflow-hidden">
-                    <div className="filet-tricolore" />
+                    <div className="h-[2px] w-full bg-gradient-to-r from-[#102A4C] via-stone-200 to-[#9F1239]" />
                     <div className="p-4 sm:p-5 space-y-3.5">
                       <div className="text-center border-b border-stone-200/70 pb-3 font-sans">
                         <p className="text-[10px] font-bold tracking-widest uppercase text-stone-500">
@@ -756,7 +746,7 @@ export function MayorValidationInbox({
 
                       {isEditingArticle ? (
                         <div className="space-y-2 font-sans pt-1">
-                          <div className="flex items-center justify-between text-[11px] text-blue-700 font-semibold">
+                          <div className="flex items-center justify-between text-[11px] text-[#102A4C] font-semibold">
                             <span>Édition en direct du texte de l'acte (tracée) :</span>
                             <span className="text-stone-400 font-normal">Version v1.1 en préparation</span>
                           </div>
@@ -764,7 +754,7 @@ export function MayorValidationInbox({
                             value={editedArticleText}
                             onChange={(e) => setEditedArticleText(e.target.value)}
                             rows={6}
-                            className="w-full p-3 font-sans text-xs text-stone-800 leading-relaxed border-2 border-blue-400 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+                            className="w-full p-3 font-sans text-xs text-stone-800 leading-relaxed border-2 border-[#102A4C]/50 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-[#102A4C]/30"
                           />
                           <div className="flex items-center justify-end gap-2 pt-1">
                             <button
@@ -842,7 +832,7 @@ export function MayorValidationInbox({
                           className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-slate-100/60 text-xs transition-colors"
                         >
                           <div className="flex items-center gap-2 truncate">
-                            <FileText className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                            <FileText className="w-3.5 h-3.5 text-[#102A4C] shrink-0" />
                             <span className="font-medium text-slate-800 truncate">{doc.name}</span>
                             <span className="text-[10px] text-slate-400 font-mono">({doc.size})</span>
                           </div>
@@ -928,7 +918,7 @@ export function MayorValidationInbox({
                           </p>
                           {entry.sha256 && (
                             <div className="flex items-center gap-1 text-[10px] font-mono text-slate-400 mt-0.5">
-                              <Hash className="w-2.5 h-2.5 text-blue-500" />
+                              <Hash className="w-2.5 h-2.5 text-[#102A4C]" />
                               <span>Empreinte cryptographique : {entry.sha256}</span>
                             </div>
                           )}
@@ -983,7 +973,7 @@ export function MayorValidationInbox({
                     <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-4 sticky top-4">
                       <div className="border-b border-slate-100 pb-3">
                         <div className="flex items-center gap-1.5 mb-1">
-                          <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200">
+                          <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-stone-100 text-[#102A4C] border border-stone-200">
                             Panneau de Décision
                           </span>
                         </div>
@@ -1006,65 +996,88 @@ export function MayorValidationInbox({
                           value={decisionComment}
                           onChange={(e) => setDecisionComment(e.target.value)}
                           placeholder="Indiquez vos motifs, réserves ou remarques de validation..."
-                          className="w-full px-3 py-2 rounded-xl border border-slate-200 text-slate-900 bg-slate-50/50 hover:bg-white focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-xs shadow-2xs font-medium resize-none transition-colors"
+                          className="w-full px-3 py-2 rounded-xl border border-slate-200 text-slate-900 bg-slate-50/50 hover:bg-white focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#102A4C]/20 focus:border-[#102A4C] text-xs shadow-2xs font-medium resize-none transition-colors"
                         />
                       </div>
 
-                      {/* Decision Action Buttons */}
+                      {/* Decision Action Buttons : Exactly 2 prominent buttons + Collapsible "Autres actions ▾" */}
                       <div className="space-y-2 pt-1">
-                        {/* Primary Button */}
+                        {/* 1. Action Primaire: Vert Sceau #0F766E text-white */}
                         <button
+                          type="button"
                           onClick={handleValidateAndSign}
-                          className="w-full py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-colors cursor-pointer"
+                          className="w-full py-2.5 px-4 rounded-xl bg-[#0F766E] hover:bg-[#0D655E] text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-colors cursor-pointer"
                         >
-                          <CheckCircle2 className="w-4 h-4" />
-                          <span>{dynamicPrimaryCta}</span>
+                          <CheckCircle2 className="w-4 h-4 text-white" />
+                          <span className="text-white">{dynamicPrimaryCta}</span>
                         </button>
 
-                        {/* Parapheur External Push Button */}
+                        {/* 2. Action Secondaire: Contour sobre */}
                         <button
-                          onClick={() => {
-                            handleValidateAndSign();
-                            toast.success('Dossier télétransmis sur i-Parapheur pour signature eIDAS RGS**.');
-                          }}
-                          className="w-full py-2 px-3 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 font-bold text-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-2xs"
-                        >
-                          <Cpu className="w-3.5 h-3.5 text-indigo-600" />
-                          <span>Viser et pousser vers i-Parapheur</span>
-                        </button>
-
-                        {/* Secondary Button */}
-                        <button
+                          type="button"
                           onClick={() => setIsRollbackModalOpen(true)}
-                          className="w-full py-2.5 px-4 rounded-xl border border-amber-300 bg-amber-50/70 hover:bg-amber-100 text-amber-900 font-bold text-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-2xs"
+                          className="w-full py-2 px-4 rounded-xl border border-stone-300 bg-white hover:bg-stone-50 text-stone-800 font-bold text-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-3xs"
                         >
-                          <RotateCcw className="w-4 h-4 text-amber-700" />
+                          <RotateCcw className="w-4 h-4 text-stone-600" />
                           <span>{dynamicRollbackCta}</span>
                         </button>
 
-                        {/* Mobile Quick Sign Magic Link Button */}
-                        <button
-                          onClick={() => {
-                            const token = `${selectedDossier.id}.1763789000.9f86d081884c7d65`;
-                            const url = `${window.location.origin}/#/quick-sign/${token}`;
-                            navigator.clipboard?.writeText(url);
-                            toast.success(`Lien d'émargement rapide Élu copié ! Prêt pour smartphone (validité 72h).`);
-                          }}
-                          className="w-full py-2 px-3 rounded-xl border border-blue-200 bg-blue-50/70 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-2xs"
-                          title="Copier le lien direct pour signature sur smartphone sans mot de passe"
-                        >
-                          <Smartphone className="w-3.5 h-3.5 text-blue-600" />
-                          <span>Lien rapide Élu (Smartphone)</span>
-                        </button>
+                        {/* Collapsible / Dropdown "Autres actions ▾" */}
+                        <div className="pt-1">
+                          <button
+                            type="button"
+                            onClick={() => setIsMoreActionsOpen(!isMoreActionsOpen)}
+                            className="w-full py-1.5 px-3 rounded-lg border border-dashed border-stone-200 hover:border-stone-300 bg-stone-50/50 hover:bg-stone-100/70 text-stone-600 hover:text-stone-900 font-semibold text-xs flex items-center justify-between transition-colors cursor-pointer"
+                          >
+                            <span className="flex items-center gap-1.5">
+                              <SlidersHorizontal className="w-3.5 h-3.5 text-stone-500" />
+                              <span>Autres actions</span>
+                            </span>
+                            <ChevronDown size={14} className={`text-stone-400 transition-transform ${isMoreActionsOpen ? 'rotate-180' : ''}`} />
+                          </button>
 
-                        {/* Tertiary Button: Refuser */}
-                        <button
-                          onClick={handleReject}
-                          className="w-full py-1.5 px-3 rounded-xl border border-slate-200 hover:border-rose-300 text-slate-500 hover:text-rose-700 hover:bg-rose-50/50 font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
-                        >
-                          <XCircle className="w-3.5 h-3.5" />
-                          <span>Refuser le dossier</span>
-                        </button>
+                          {isMoreActionsOpen && (
+                            <div className="mt-1.5 p-1.5 bg-stone-50 border border-stone-200 rounded-xl space-y-1 text-xs shadow-3xs animate-in fade-in duration-100">
+                              {/* Action: Pousser vers i-Parapheur */}
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  handleValidateAndSign();
+                                  toast.success('Dossier télétransmis sur i-Parapheur pour signature eIDAS RGS**.');
+                                }}
+                                className="w-full p-2 rounded-lg hover:bg-white text-stone-700 hover:text-[#102A4C] font-semibold flex items-center gap-2 text-left transition-colors cursor-pointer"
+                              >
+                                <Cpu className="w-3.5 h-3.5 text-[#102A4C] shrink-0" />
+                                <span>Pousser vers i-Parapheur (eIDAS)</span>
+                              </button>
+
+                              {/* Action: Lien rapide Élu */}
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const token = `${selectedDossier.id}.1763789000.9f86d081884c7d65`;
+                                  const url = `${window.location.origin}/#/quick-sign/${token}`;
+                                  navigator.clipboard?.writeText(url);
+                                  toast.success("Lien d'émargement rapide Élu copié ! Prêt pour smartphone (validité 72h).");
+                                }}
+                                className="w-full p-2 rounded-lg hover:bg-white text-stone-700 hover:text-[#102A4C] font-semibold flex items-center gap-2 text-left transition-colors cursor-pointer"
+                              >
+                                <Smartphone className="w-3.5 h-3.5 text-[#102A4C] shrink-0" />
+                                <span>Lien rapide Élu (Smartphone)</span>
+                              </button>
+
+                              {/* Action: Refuser */}
+                              <button
+                                type="button"
+                                onClick={handleReject}
+                                className="w-full p-2 rounded-lg hover:bg-rose-50 text-stone-600 hover:text-rose-700 font-semibold flex items-center gap-2 text-left transition-colors cursor-pointer border-t border-stone-200/60"
+                              >
+                                <XCircle className="w-3.5 h-3.5 text-rose-600 shrink-0" />
+                                <span>Refuser le dossier</span>
+                              </button>
+                            </div>
+                          )}
+                        </div>
                       </div>
 
                   {/* SLA Summary */}
@@ -1222,7 +1235,7 @@ export function MayorValidationInbox({
             {/* Parapheur Header */}
             <div className="px-6 py-4 border-b border-slate-100 flex items-center justify-between bg-slate-50/70">
               <div className="flex items-center gap-3">
-                <span className="w-8 h-8 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-2xs">
+                <span className="w-8 h-8 rounded-xl bg-[#102A4C] text-white flex items-center justify-center font-bold text-xs shadow-2xs">
                   <Play className="w-4 h-4 fill-current" />
                 </span>
                 <div>
@@ -1230,7 +1243,7 @@ export function MayorValidationInbox({
                     <h2 className="text-sm sm:text-base font-bold text-slate-900">
                       Mode Parapheur · Traitement en rafale
                     </h2>
-                    <span className="px-2 py-0.5 rounded-full text-[11px] font-bold bg-blue-100 text-blue-800">
+                    <span className="px-2 py-0.5 rounded-full text-[11px] font-bold bg-stone-200 text-stone-800">
                       Dossier {Math.min(parapheurIndex + 1, pendingDossiers.length)} sur {pendingDossiers.length}
                     </span>
                   </div>
@@ -1263,7 +1276,7 @@ export function MayorValidationInbox({
                 </p>
                 <Button
                   onClick={() => setIsParapheurModeOpen(false)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-4 py-2 rounded-xl shadow-xs"
+                  className="bg-[#102A4C] hover:bg-[#193D6B] text-white text-xs font-semibold px-4 py-2 rounded-xl shadow-xs"
                 >
                   Revenir à la liste
                 </Button>
@@ -1277,7 +1290,7 @@ export function MayorValidationInbox({
                     <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                       <div>
                         <div className="flex items-center gap-2 mb-1">
-                          <span className="font-mono text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-0.5 rounded border border-blue-200">
+                          <span className="font-mono text-xs font-bold text-[#102A4C] bg-stone-100 px-2.5 py-0.5 rounded border border-stone-200">
                             {cur.id}
                           </span>
                           <span className="text-xs font-bold text-slate-900">{cur.circuitLabel}</span>
@@ -1316,9 +1329,9 @@ export function MayorValidationInbox({
                           ))}
                         </div>
 
-                        <div className="p-3.5 rounded-2xl bg-blue-50/60 border border-blue-200 text-[11px] text-blue-900 space-y-1">
+                        <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 text-[11px] text-stone-900 space-y-1">
                           <span className="font-bold block">Conformité réglementaire</span>
-                          <p className="text-[10px] text-blue-800 leading-relaxed">
+                          <p className="text-[10px] text-stone-800 leading-relaxed">
                             Contrôle préalable conforme aux articles L.2212-2 du CGCT. Visa prêt pour télétransmission @CTES.
                           </p>
                         </div>

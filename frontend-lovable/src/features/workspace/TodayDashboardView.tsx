@@ -3,23 +3,17 @@ import {
   Inbox,
   CheckCircle2,
   Clock,
-  AlertTriangle,
   ArrowRight,
   HardHat,
   Calendar,
-  Sparkles,
   Plus,
   UserCheck,
   FileText,
   Building2,
   MapPin,
-  Eye,
-  SlidersHorizontal,
   ChevronRight,
   ShieldCheck,
   Check,
-  RotateCcw,
-  Maximize2,
   Sun,
   Coins,
   Heart
@@ -42,9 +36,25 @@ function getDocumentSummary(d: ValidationDossier): string {
   return `${d.documents.length} pièces d'instruction et plans`;
 }
 
+interface CommissionScheduleEvent {
+  title: string;
+  badge: string;
+  badgeColor: string;
+  datetime: string;
+  description: string;
+}
+
+interface CommissionActivity {
+  tag: string;
+  tagBg: string;
+  tagColor: string;
+  htmlText: React.ReactNode;
+  timeAgo: string;
+}
+
 export function TodayDashboardView() {
   const { session, state, activeCommissionId } = useWorkspace();
-  const { hasModule, organization } = useOrganizationModules();
+  const { organization } = useOrganizationModules();
   const commissionCfg = getCommissionConfig(activeCommissionId);
 
   const [dossiers, setDossiers] = useState<ValidationDossier[]>(INITIAL_DOSSIERS);
@@ -54,15 +64,6 @@ export function TodayDashboardView() {
 
   const [isLaunchModalOpen, setIsLaunchModalOpen] = useState(false);
   const [isDelegationOpen, setIsDelegationOpen] = useState(false);
-  const [activeEluTab, setActiveEluTab] = useState<'signatures' | 'agenda' | 'dossiers'>('signatures');
-
-  const toggleFocusMode = () => {
-    const next = !isEluFocusMode;
-    setIsEluFocusMode(next);
-    localStorage.setItem('mayortech_focus_elu_mode', String(next));
-    window.dispatchEvent(new CustomEvent('mayortech:focus-elu-changed', { detail: { active: next } }));
-    toast.info(next ? 'Mode Focus Élu activé (zéro distraction)' : 'Mode standard complet réactivé');
-  };
 
   useEffect(() => {
     const handler = (e: Event) => {
@@ -76,8 +77,6 @@ export function TodayDashboardView() {
 
   const allowedDossiers = dossiers.filter((d) => commissionCfg.allowedDossierIds.includes(d.id));
   const pendingDossiers = allowedDossiers.filter((d) => d.status === 'pending');
-  const urgentCount = allowedDossiers.filter((d) => d.slaStatus === 'warning').length;
-  const activeProjectsCount = state.projects.filter((p) => p.status === 'En cours').length || 2;
 
   // Format today's date in french
   const todayFormatted = new Intl.DateTimeFormat('fr-FR', {
@@ -100,72 +99,317 @@ export function TodayDashboardView() {
     toast.success(`Dossier ${dossierId} visé et signé avec succès.`);
   };
 
+  // 100% strict scoping for Schedule & Events
+  const getCommissionEvents = (): CommissionScheduleEvent[] => {
+    if (activeCommissionId === 'commission-1') {
+      return [
+        {
+          title: "Commission d'Appel d'Offres (CAO)",
+          badge: 'Marchés',
+          badgeColor: 'bg-stone-100 text-[#102A4C] border-stone-200',
+          datetime: 'Mardi 24 nov. · 14:00 · Salle des Commissions',
+          description: 'Attribution Lot 2 Voirie & Marché MP-2026-008',
+        },
+        {
+          title: 'Conseil municipal (DOB & Décisions)',
+          badge: 'Finances',
+          badgeColor: 'bg-purple-50 text-purple-800 border-purple-200',
+          datetime: 'Jeudi 26 nov. · 18:30 · Salle d’Honneur',
+          description: 'Arbitrages budgétaires M57 et décisions modificatives',
+        },
+        {
+          title: 'Clôture exercice budgétaire M57',
+          badge: 'Délai légal',
+          badgeColor: 'bg-amber-50 text-amber-800 border-amber-200',
+          datetime: '30 nov. 2026 · Trésorerie Principale',
+          description: 'Transmission des états financiers et mandats',
+        },
+      ];
+    }
+
+    if (activeCommissionId === 'commission-2') {
+      return [
+        {
+          title: 'Commission permanente CCAS',
+          badge: 'Aides urgence',
+          badgeColor: 'bg-rose-50 text-rose-800 border-rose-200',
+          datetime: 'Mercredi 25 nov. · 10:00 · Salle Guérin',
+          description: 'Examen des aides facultatives (Art. L.226-13)',
+        },
+        {
+          title: 'Commission Restauration scolaire',
+          badge: 'Périscolaire',
+          badgeColor: 'bg-stone-100 text-[#102A4C] border-stone-200',
+          datetime: 'Vendredi 27 nov. · 14:30 · Pôle Enfance',
+          description: 'Arbitrage tarification sociale au quotient familial',
+        },
+        {
+          title: 'Renouvellement convention CAF / CCAS',
+          badge: 'Convention',
+          badgeColor: 'bg-purple-50 text-purple-800 border-purple-200',
+          datetime: '05 déc. 2026 · Direction Générale',
+          description: 'Dépôt du bilan d’activité annuel et subvention',
+        },
+      ];
+    }
+
+    if (activeCommissionId === 'commission-3') {
+      return [
+        {
+          title: 'Bureau municipal (Arbitrages voirie)',
+          badge: 'Séance',
+          badgeColor: 'bg-stone-100 text-[#102A4C] border-stone-200',
+          datetime: 'Lundi 23 nov. · 09:30 · Salle du Conseil',
+          description: 'Validation planning chantiers CTM et arrêtés',
+        },
+        {
+          title: 'Fin délai SLA ADS',
+          badge: 'Délai légal',
+          badgeColor: 'bg-amber-50 text-amber-800 border-amber-200',
+          datetime: '20/11/2026 · 18:00 · PC-2026-042',
+          description: 'Pétitionnaire M. Kervadec · Permis Ty-Ar-Braz',
+        },
+        {
+          title: 'Réception de chantier CTM',
+          badge: 'Chantier',
+          badgeColor: 'bg-teal-50 text-teal-800 border-teal-200',
+          datetime: 'Mercredi 25 nov. · 11:00 · Rue de Brest',
+          description: 'Levée des réserves enrobés et réseaux pluviaux',
+        },
+      ];
+    }
+
+    // Default transversal
+    return [
+      {
+        title: 'Bureau municipal',
+        badge: 'Séance',
+        badgeColor: 'bg-stone-100 text-[#102A4C] border-stone-200',
+        datetime: 'Lundi 23 nov. · 09:30 · Salle du Conseil',
+        description: 'Ordre du jour : arbitrages transversaux et instances',
+      },
+      {
+        title: 'Fin délai SLA ADS',
+        badge: 'Délai légal',
+        badgeColor: 'bg-amber-50 text-amber-800 border-amber-200',
+        datetime: '20/11/2026 · 18:00 · PC-2026-042',
+        description: 'Pétitionnaire M. Kervadec',
+      },
+      {
+        title: 'Conseil municipal',
+        badge: 'Délibérations',
+        badgeColor: 'bg-purple-50 text-purple-800 border-purple-200',
+        datetime: 'Jeudi 26 nov. · 18:30 · M57 & Décisions',
+        description: 'Délibérations budgétaires et instances communales',
+      },
+    ];
+  };
+
+  // 100% strict scoping for Recent Activities
+  const getCommissionActivities = (): CommissionActivity[] => {
+    if (activeCommissionId === 'commission-1') {
+      return [
+        {
+          tag: 'FIN',
+          tagBg: 'bg-stone-100',
+          tagColor: 'text-[#102A4C]',
+          htmlText: (
+            <span>
+              <strong>Valérie Gestin (Finances)</strong> a émis le bon de commande M57 pour les fournitures administratives
+            </span>
+          ),
+          timeAgo: 'Il y a 25 minutes · Mandat certifié et scellé',
+        },
+        {
+          tag: 'MP',
+          tagBg: 'bg-purple-100',
+          tagColor: 'text-purple-800',
+          htmlText: (
+            <span>
+              <strong>Rapport d’analyse CAO finalisé</strong> pour le marché public <em>MP-2026-008</em>
+            </span>
+          ),
+          timeAgo: 'Il y a 1 heure · Avis de publication BOAMP transmis',
+        },
+        {
+          tag: '@CTES',
+          tagBg: 'bg-stone-100',
+          tagColor: 'text-stone-700',
+          htmlText: (
+            <span>
+              <strong>Délibération budgétaire télétransmise</strong> à la Préfecture via @CTES
+            </span>
+          ),
+          timeAgo: 'Hier 16:45 · Délibération scellée SHA-256 acquittée',
+        },
+      ];
+    }
+
+    if (activeCommissionId === 'commission-2') {
+      return [
+        {
+          tag: 'CCAS',
+          tagBg: 'bg-rose-100',
+          tagColor: 'text-rose-800',
+          htmlText: (
+            <span>
+              <strong>Commission d’attribution</strong> a instruit le dossier confidentiel <em>CCAS-2026-089</em>
+            </span>
+          ),
+          timeAgo: 'Il y a 30 minutes · Secret professionnel Art. L.226-13',
+        },
+        {
+          tag: 'ENF',
+          tagBg: 'bg-purple-100',
+          tagColor: 'text-purple-800',
+          htmlText: (
+            <span>
+              <strong>Campagne inscriptions scolaires</strong> validée pour 14 familles
+            </span>
+          ),
+          timeAgo: 'Il y a 2 heures · Calculs quotient familial mis à jour',
+        },
+        {
+          tag: '@CTES',
+          tagBg: 'bg-stone-100',
+          tagColor: 'text-stone-700',
+          htmlText: (
+            <span>
+              <strong>Convention CCAS télétransmise</strong> en Préfecture via @CTES
+            </span>
+          ),
+          timeAgo: 'Hier 15:10 · Transmission scellée e-Bourgogne',
+        },
+      ];
+    }
+
+    if (activeCommissionId === 'commission-3') {
+      return [
+        {
+          tag: 'CTM',
+          tagBg: 'bg-emerald-100',
+          tagColor: 'text-emerald-800',
+          htmlText: (
+            <span>
+              <strong>Jean-Marc Morvan (CTM)</strong> a visé l’avis technique pour <em>Rue des Ajoncs</em>
+            </span>
+          ),
+          timeAgo: 'Il y a 25 minutes · Avis favorable sans réserve',
+        },
+        {
+          tag: 'ADS',
+          tagBg: 'bg-stone-100',
+          tagColor: 'text-[#102A4C]',
+          htmlText: (
+            <span>
+              <strong>Nouveau Cerfa déposé</strong> par le pétitionnaire <em>SARL Armor Aménagement</em>
+            </span>
+          ),
+          timeAgo: 'Il y a 1 heure · DP-2026-051 en cours de complétude',
+        },
+        {
+          tag: '@CTES',
+          tagBg: 'bg-stone-100',
+          tagColor: 'text-stone-700',
+          htmlText: (
+            <span>
+              <strong>Arrêté de voirie télétransmis</strong> à la Préfecture via @CTES
+            </span>
+          ),
+          timeAgo: 'Hier 16:45 · Arrêté voirie scellé SHA-256 acquitté',
+        },
+      ];
+    }
+
+    // Default transversal
+    return [
+      {
+        tag: 'CTM',
+        tagBg: 'bg-emerald-100',
+        tagColor: 'text-emerald-800',
+        htmlText: (
+          <span>
+            <strong>Jean-Marc Morvan (CTM)</strong> a visé l’avis technique pour <em>Rue des Ajoncs</em>
+          </span>
+        ),
+        timeAgo: 'Il y a 25 minutes · Avis favorable sans réserve',
+      },
+      {
+        tag: 'FIN',
+        tagBg: 'bg-stone-100',
+        tagColor: 'text-[#102A4C]',
+        htmlText: (
+          <span>
+            <strong>Trésorerie municipale</strong> a visé le mandat M57
+          </span>
+        ),
+        timeAgo: 'Il y a 1 heure · Mandat acquitté',
+      },
+      {
+        tag: '@CTES',
+        tagBg: 'bg-stone-100',
+        tagColor: 'text-stone-700',
+        htmlText: (
+          <span>
+            <strong>Contrôle de légalité télétransmis</strong> à la Préfecture via @CTES
+          </span>
+        ),
+        timeAgo: 'Hier 16:45 · Scellement SHA-256 acquitté',
+      },
+    ];
+  };
+
+  const scheduleEvents = getCommissionEvents();
+  const recentActivities = getCommissionActivities();
+
   return (
     <div className="w-full max-w-7xl mx-auto space-y-5 font-sans text-stone-900 pb-28 sm:pb-12">
-      {/* 1. Contextual Welcome Banner */}
-      <div className="bg-white border border-stone-200/90 rounded-2xl p-5 sm:p-6 shadow-[0_1px_2px_rgba(16,42,76,0.04)] space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2 text-xs font-semibold text-[#102A4C] uppercase tracking-wider">
-              <Sun className="w-3.5 h-3.5 text-amber-500" />
-              <span>{commissionCfg.roleTitle} · {organization?.name || 'Ville de Plougastel-Daoulas'}</span>
-            </div>
-            <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight">
-                Bonjour {commissionCfg.greetingName}
-              </h1>
-              <p className="text-sm text-stone-500">{capitalizedDate}</p>
-            </div>
+      {/* 1. En-tête léger sans carte englobante (Direct sur fond vélin #F7F7F5) */}
+      <div className="space-y-3">
+        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+          <div className="flex items-baseline gap-2.5 flex-wrap">
+            <h1 className="text-2xl font-bold text-stone-900 tracking-tight">
+              Bonjour {commissionCfg.greetingName}
+            </h1>
+            <span className="text-xs text-stone-500 font-medium">· {capitalizedDate}</span>
+          </div>
+          <div className="text-xs font-semibold text-stone-500 flex items-center gap-1.5">
+            <span>{commissionCfg.roleTitle}</span>
+            <span>·</span>
+            <span>{organization?.name || 'Ville de Plougastel-Daoulas'}</span>
           </div>
         </div>
 
-        {/* 3 Clickable KPI Stat Pills */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
-          {commissionCfg.kpis.map((kpi) => (
-            <a
-              key={kpi.id}
-              href={kpi.filterId ? `#/workflows` : kpi.id === 'kpi-3' && commissionCfg.hasChantiers ? '#/dossiers' : '#/workflows'}
-              className="flex items-center justify-between p-3.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200/90 transition-colors group cursor-pointer shadow-3xs"
-            >
-              <div className="flex items-center gap-2.5">
-                <div
-                  className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm shadow-2xs tabular-nums text-white"
-                  style={{
-                    backgroundColor:
-                      kpi.color === 'blue'
-                        ? '#102A4C'
-                        : kpi.color === 'amber'
-                        ? '#B45309'
-                        : kpi.color === 'rose'
-                        ? '#9F1239'
-                        : kpi.color === 'emerald'
-                        ? '#0F766E'
-                        : '#6D28D9'
-                  }}
-                >
-                  {kpi.count}
+        {/* 2. Bande métrique fine sur 1 ligne (3 colonnes, divide-x, chiffres tabular-nums en #102A4C) - Masquée en Focus Élu */}
+        {!isEluFocusMode && (
+          <div className="grid grid-cols-3 bg-white border border-stone-200/90 rounded-xl divide-x divide-stone-200 shadow-3xs overflow-hidden">
+            {commissionCfg.kpis.map((kpi) => (
+              <a
+                key={kpi.id}
+                href={kpi.filterId ? `#/workflows` : kpi.id === 'kpi-3' && commissionCfg.hasChantiers ? '#/dossiers' : '#/workflows'}
+                className="px-4 py-3 hover:bg-stone-50/80 transition-colors flex items-center justify-between group cursor-pointer"
+              >
+                <div className="min-w-0">
+                  <p className="text-[11px] font-semibold text-stone-500 uppercase tracking-wider truncate">{kpi.title}</p>
+                  <p className="text-xl font-bold text-[#102A4C] tabular-nums tracking-tight mt-0.5">{kpi.count}</p>
                 </div>
-                <div>
-                  <p className="text-xs font-bold text-stone-900">{kpi.title}</p>
-                  <p className="text-[11px] text-stone-500">{kpi.subtitle}</p>
-                </div>
-              </div>
-              <ArrowRight className="w-4 h-4 text-stone-400 group-hover:translate-x-0.5 transition-transform" />
-            </a>
-          ))}
-        </div>
+                <ArrowRight className="w-4 h-4 text-stone-300 group-hover:text-[#102A4C] group-hover:translate-x-0.5 transition-all hidden sm:inline" />
+              </a>
+            ))}
+          </div>
+        )}
       </div>
 
-      {/* Focus Mode Simplified View Banner (if activated) */}
+      {/* 3. Focus Mode Minimaliste (Zéro carte KPI, salut compact + signatures directes) */}
       {isEluFocusMode ? (
-        <div className="bg-white border-2 border-[#102A4C]/30 rounded-2xl p-6 shadow-sm space-y-6">
-          <div className="flex items-center justify-between pb-4 border-b border-stone-200">
+        <div className="bg-white border border-stone-200/90 rounded-2xl p-5 sm:p-6 shadow-[0_1px_2px_rgba(16,42,76,0.04)] space-y-5">
+          <div className="flex items-center justify-between pb-3 border-b border-stone-200">
             <div>
               <span className="text-[10px] font-bold uppercase tracking-wider text-[#102A4C] bg-stone-100 border border-stone-200 px-2 py-0.5 rounded">
                 Vue Simplifiée Élu · Zéro distraction
               </span>
               <h2 className="text-lg font-bold text-stone-900 mt-1">
-                Vos signatures prioritaires du jour ({pendingDossiers.length})
+                Vos signatures prioritaires ({pendingDossiers.length})
               </h2>
             </div>
           </div>
@@ -176,9 +420,9 @@ export function TodayDashboardView() {
                 key={d.id}
                 className="p-5 rounded-2xl border border-stone-200 bg-[#FFFEFC] hover:border-[#102A4C]/40 hover:shadow-xs transition-all space-y-3"
               >
-                <div className="filet-tricolore" />
+                <div className="h-[2px] w-full bg-gradient-to-r from-[#102A4C] via-stone-200 to-[#9F1239]" />
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <span className="font-mono text-xs font-bold text-[#102A4C] bg-stone-100 border border-stone-200 px-2 py-0.5 rounded">
                       {d.id}
                     </span>
@@ -203,23 +447,23 @@ export function TodayDashboardView() {
                   {d.previewArticle}
                 </p>
 
-                <div className="flex items-center justify-between pt-1">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1">
                   <span className="text-xs text-stone-500 font-medium">
                     Pièces justificatives : {getDocumentSummary(d)}
                   </span>
                   <div className="flex items-center gap-2">
                     <a
                       href={`#/workflows?dossier=${d.id}`}
-                      className="px-3.5 py-1.5 rounded-md border border-stone-200 text-stone-700 hover:bg-stone-50 text-xs font-semibold"
+                      className="px-3.5 py-1.5 rounded-lg border border-stone-200 text-stone-700 hover:bg-stone-50 text-xs font-semibold"
                     >
-                      Voir le dossier complet
+                      Dossier complet
                     </a>
                     <button
                       onClick={() => handleQuickSign(d.id)}
-                      className="px-4 py-1.5 rounded-md bg-[#102A4C] hover:bg-[#193D6B] text-white text-xs font-bold shadow-xs flex items-center gap-1.5 cursor-pointer"
+                      className="px-4 py-1.5 rounded-lg bg-[#102A4C] hover:bg-[#193D6B] text-white text-xs font-bold shadow-3xs flex items-center gap-1.5 cursor-pointer"
                     >
-                      <Check className="w-3.5 h-3.5" />
-                      <span>Viser & Signer</span>
+                      <Check className="w-3.5 h-3.5 text-white" />
+                      <span className="text-white">Viser & Signer</span>
                     </button>
                   </div>
                 </div>
@@ -228,19 +472,19 @@ export function TodayDashboardView() {
           </div>
         </div>
       ) : (
-        /* 2-Column Responsive Layout */
+        /* 4. Vue Standard : 2 Colonnes Responsive */
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
-          {/* Main Column (65% / 8 cols) — Priorités à traiter maintenant */}
+          {/* Colonne Principale (8 cols) — Priorités à traiter & Activité */}
           <div className="lg:col-span-8 space-y-5">
-            {/* Priorités à traiter */}
+            {/* Priorités à traiter (1 seul bouton par ligne, texte blanc garanti, badge collé au titre) */}
             <div className="bg-white border border-stone-200/90 rounded-2xl p-5 shadow-[0_1px_2px_rgba(16,42,76,0.04)] space-y-4">
               <div className="flex items-center justify-between border-b border-stone-100 pb-3">
                 <div className="flex items-center gap-2">
                   <Inbox className="w-4 h-4 text-[#102A4C]" />
                   <h2 className="text-sm font-bold text-stone-900 tracking-tight">
-                    Priorités à traiter maintenant
+                    Priorités à traiter
                   </h2>
-                  <span className="text-[10px] font-bold bg-stone-100 text-stone-800 px-1.5 py-0.5 rounded-full font-mono tabular-nums">
+                  <span className="text-[11px] font-bold bg-stone-100 text-[#102A4C] border border-stone-200 px-2 py-0.5 rounded-full font-mono tabular-nums">
                     {pendingDossiers.length}
                   </span>
                 </div>
@@ -254,17 +498,20 @@ export function TodayDashboardView() {
               </div>
 
               <div className="space-y-3">
-                {pendingDossiers.slice(0, 3).map((d) => (
+                {pendingDossiers.slice(0, 4).map((d) => (
                   <div
                     key={d.id}
-                    className="p-4 rounded-xl border border-stone-200/80 bg-white hover:bg-stone-50 hover:border-stone-300 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-3xs"
+                    onClick={() => {
+                      window.location.hash = `/workflows?dossier=${d.id}`;
+                    }}
+                    className="p-4 rounded-xl border border-stone-200/90 bg-white hover:bg-stone-50/80 hover:border-stone-300 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-3xs cursor-pointer group"
                   >
                     <div className="min-w-0 flex-1 space-y-1">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-mono text-xs font-bold text-[#102A4C] bg-stone-100 border border-stone-200 px-2 py-0.5 rounded shadow-3xs">
                           {d.id}
                         </span>
-                        <span className="text-xs font-bold text-stone-900 truncate">
+                        <span className="text-xs font-bold text-stone-900 truncate group-hover:text-[#102A4C] transition-colors">
                           {d.title}
                         </span>
                         {d.isConfidentialCCAS && (
@@ -280,9 +527,9 @@ export function TodayDashboardView() {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-2 shrink-0 self-end sm:self-center">
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 shrink-0">
                       <span
-                        className={`text-[10px] font-semibold px-2 py-0.5 rounded-md border flex items-center gap-1 ${
+                        className={`text-[10px] font-semibold px-2 py-0.5 rounded-md border flex items-center justify-center gap-1 self-start sm:self-center ${
                           d.slaStatus === 'warning'
                             ? 'bg-amber-50 text-amber-800 border-amber-200'
                             : 'bg-stone-100 text-stone-800 border-stone-200'
@@ -292,20 +539,15 @@ export function TodayDashboardView() {
                         <span>{d.slaDeadline}</span>
                       </span>
 
-                      <a
-                        href={`#/workflows?dossier=${d.id}`}
-                        className="px-2.5 py-1.5 rounded-md border border-stone-200 bg-white hover:bg-stone-50 text-stone-700 font-semibold text-xs transition-colors flex items-center gap-1 shadow-3xs"
-                      >
-                        <Eye className="w-3 h-3 text-stone-500" />
-                        <span>Voir l'acte</span>
-                      </a>
-
+                      {/* Unique Bouton d'action Traiter avec texte blanc strict */}
                       <a
                         href={`#/workflows?dossier=${d.id}&action=sign`}
-                        className="px-3 py-1.5 rounded-md bg-[#102A4C] hover:bg-[#193D6B] text-white font-semibold text-xs shadow-3xs transition-colors flex items-center gap-1 cursor-pointer"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{ color: '#ffffff' }}
+                        className="w-full sm:w-auto px-4 py-1.5 rounded-lg bg-[#102A4C] hover:bg-[#193D6B] !text-white font-semibold text-xs shadow-3xs transition-colors flex items-center justify-center gap-1.5 cursor-pointer shrink-0"
                       >
-                        <Check className="w-3 h-3" />
-                        <span>Ouvrir & Signer</span>
+                        <Check className="w-3.5 h-3.5 text-white" />
+                        <span className="text-white font-semibold">Traiter</span>
                       </a>
                     </div>
                   </div>
@@ -313,7 +555,7 @@ export function TodayDashboardView() {
               </div>
             </div>
 
-            {/* Activité récente des services */}
+            {/* Activité récente des services (Scoping strict 100% sans fuite) */}
             <div className="bg-white border border-stone-200/90 rounded-2xl p-5 shadow-[0_1px_2px_rgba(16,42,76,0.04)] space-y-4">
               <div className="flex items-center justify-between border-b border-stone-100 pb-3">
                 <div className="flex items-center gap-2">
@@ -326,154 +568,46 @@ export function TodayDashboardView() {
               </div>
 
               <div className="space-y-3 text-xs">
-                <div className="flex items-start gap-3 p-3 rounded-xl bg-stone-50/60 border border-stone-100">
-                  <div className="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">
-                    CTM
+                {recentActivities.map((act, actIdx) => (
+                  <div key={actIdx} className="flex items-start gap-3 p-3 rounded-xl bg-stone-50/70 border border-stone-100">
+                    <div className={`w-7 h-7 rounded-lg ${act.tagBg} ${act.tagColor} flex items-center justify-center shrink-0 font-bold text-xs mt-0.5`}>
+                      {act.tag}
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <p className="text-stone-800 font-medium">
+                        {act.htmlText}
+                      </p>
+                      <p className="text-[10px] text-stone-400 mt-0.5">{act.timeAgo}</p>
+                    </div>
                   </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="text-stone-800 font-medium">
-                      <strong>Jean-Marc Morvan (CTM)</strong> a visé l'avis technique pour <em>Rue des Ajoncs</em>
-                    </p>
-                    <p className="text-[10px] text-stone-400 mt-0.5">Il y a 25 minutes · Avis favorable sans réserve</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 p-3 rounded-xl bg-stone-50/60 border border-stone-100">
-                  <div className="w-7 h-7 rounded-lg bg-blue-100 text-blue-800 flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">
-                    ADS
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="text-stone-800 font-medium">
-                      <strong>Nouveau Cerfa déposé</strong> par le pétitionnaire <em>SARL Armor Aménagement</em>
-                    </p>
-                    <p className="text-[10px] text-stone-400 mt-0.5">Il y a 1 heure · DP-2026-051 en cours de complétude</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 p-3 rounded-xl bg-stone-50/60 border border-stone-100">
-                  <div className="w-7 h-7 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">
-                    @CTES
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="text-stone-800 font-medium">
-                      <strong>Contrôle de légalité télétransmis</strong> à la Préfecture via @CTES
-                    </p>
-                    <p className="text-[10px] text-stone-400 mt-0.5">Hier 16:45 · Arrêté voirie scellé SHA-256 acquitté</p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
 
-          {/* Lateral Column (35% / 4 cols) — Échéances & Raccourcis */}
+          {/* Colonne Latérale (4 cols) — Uniquement Prochaines échéances (Raccourcis supprimé) */}
           <div className="lg:col-span-4 space-y-5">
-            {/* Prochaines échéances & Séances */}
             <div className="bg-white border border-stone-200/90 rounded-2xl p-5 shadow-[0_1px_2px_rgba(16,42,76,0.04)] space-y-4">
               <div className="flex items-center gap-2 border-b border-stone-100 pb-3">
-                <Calendar className="w-4 h-4 text-stone-600" />
+                <Calendar className="w-4 h-4 text-[#102A4C]" />
                 <h3 className="text-sm font-bold text-stone-900 tracking-tight">
                   Prochaines échéances & Séances
                 </h3>
               </div>
 
               <div className="space-y-3 text-xs">
-                <div className="p-3 rounded-xl bg-stone-50 border border-stone-200/80 space-y-1">
-                  <div className="flex items-center justify-between">
-                    <span className="font-bold text-stone-900">Bureau municipal</span>
-                    <span className="text-[10px] font-bold text-[#102A4C] bg-stone-100 border border-stone-200 px-1.5 py-0.2 rounded">
-                      Séance
-                    </span>
-                  </div>
-                  <p className="text-[11px] text-stone-600">Lundi 23 nov. · 09:30 · Salle du Conseil</p>
-                  <p className="text-[10px] text-stone-400">Ordre du jour : arbitrages budgétaires et voirie</p>
-                </div>
-
-                <div className="p-3 rounded-xl bg-stone-50 border border-stone-200/80 space-y-1">
-                  <div className="flex items-center justify-between">
-                    <span className="font-bold text-stone-900">Fin délai SLA ADS</span>
-                    <span className="text-[10px] font-bold text-amber-800 bg-amber-50 border border-amber-200 px-1.5 py-0.2 rounded">
-                      Délai légal
-                    </span>
-                  </div>
-                  <p className="text-[11px] text-stone-600">20/11/2026 · 18h · PC-2026-042</p>
-                  <p className="text-[10px] text-stone-400">Pétitionnaire M. Kervadec</p>
-                </div>
-
-                <div className="p-3 rounded-xl bg-stone-50 border border-stone-200/80 space-y-1">
-                  <div className="flex items-center justify-between">
-                    <span className="font-bold text-stone-900">Conseil municipal</span>
-                    <span className="text-[10px] font-bold text-purple-700 bg-purple-50 border border-purple-200 px-1.5 py-0.2 rounded">
-                      Délibérations
-                    </span>
-                  </div>
-                  <p className="text-[11px] text-stone-600">Jeudi 26 nov. · 18:30 · M57 & Décisions</p>
-                  <p className="text-[10px] text-stone-400">Validation des tarifs périscolaires et voirie</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Raccourcis Directs */}
-            <div className="bg-white border border-stone-200/90 rounded-2xl p-5 shadow-[0_1px_2px_rgba(16,42,76,0.04)] space-y-4">
-              <div className="flex items-center gap-2 border-b border-stone-100 pb-3">
-                <Sparkles className="w-4 h-4 text-[#102A4C]" />
-                <h3 className="text-sm font-bold text-stone-900 tracking-tight">
-                  Raccourcis
-                </h3>
-              </div>
-
-              <div className="space-y-2">
-                {commissionCfg.shortcuts.map((sc, scIdx) => {
-                  const isLaunch = sc.actionHash === '/workflows?launch=1';
-                  const isDeleg = sc.actionHash === '#open-delegation';
-                  const displayLabel = sc.label.startsWith('+ ') ? sc.label.slice(2) : sc.label;
-                  if (isLaunch || isDeleg) {
-                    return (
-                      <button
-                        key={scIdx}
-                        type="button"
-                        onClick={() => isLaunch ? setIsLaunchModalOpen(true) : setIsDelegationOpen(true)}
-                        className={`w-full p-2.5 rounded-md font-semibold text-xs flex items-center justify-between transition-colors cursor-pointer shadow-3xs ${
-                          sc.primary ? 'bg-[#102A4C] hover:bg-[#193D6B] text-white' : 'bg-stone-50 hover:bg-stone-100 text-stone-800 border border-stone-200'
-                        }`}
-                      >
-                        <span className="flex items-center gap-2">
-                          {sc.iconName === 'plus' && <Plus className="w-4 h-4" />}
-                          {sc.iconName === 'user-check' && <UserCheck className="w-4 h-4 text-amber-600" />}
-                          {sc.iconName === 'eye' && <Eye className="w-4 h-4" />}
-                          {sc.iconName === 'file-plus' && <FileText className="w-4 h-4" />}
-                          {sc.iconName === 'coins' && <Coins className="w-4 h-4 text-amber-600" />}
-                          {sc.iconName === 'calendar' && <Calendar className="w-4 h-4" />}
-                          {sc.iconName === 'alert-triangle' && <AlertTriangle className="w-4 h-4 text-amber-600" />}
-                          {sc.iconName === 'map' && <MapPin className="w-4 h-4" />}
-                          <span>{displayLabel}</span>
-                        </span>
-                        <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-                      </button>
-                    );
-                  }
-                  return (
-                    <a
-                      key={scIdx}
-                      href={sc.actionHash.startsWith('/') ? `#${sc.actionHash}` : sc.actionHash}
-                      className={`w-full p-2.5 rounded-md font-semibold text-xs flex items-center justify-between transition-colors shadow-3xs ${
-                        sc.primary ? 'bg-[#102A4C] hover:bg-[#193D6B] text-white' : 'bg-stone-50 hover:bg-stone-100 text-stone-800 border border-stone-200'
-                      }`}
-                    >
-                      <span className="flex items-center gap-2">
-                        {sc.iconName === 'plus' && <Plus className="w-4 h-4" />}
-                        {sc.iconName === 'user-check' && <UserCheck className="w-4 h-4 text-amber-600" />}
-                        {sc.iconName === 'eye' && <Eye className="w-4 h-4" />}
-                        {sc.iconName === 'file-plus' && <FileText className="w-4 h-4" />}
-                        {sc.iconName === 'coins' && <Coins className="w-4 h-4 text-amber-600" />}
-                        {sc.iconName === 'calendar' && <Calendar className="w-4 h-4" />}
-                        {sc.iconName === 'alert-triangle' && <AlertTriangle className="w-4 h-4 text-amber-600" />}
-                        {sc.iconName === 'map' && <MapPin className="w-4 h-4" />}
-                        <span>{displayLabel}</span>
+                {scheduleEvents.map((evt, evtIdx) => (
+                  <div key={evtIdx} className="p-3.5 rounded-xl bg-stone-50/70 border border-stone-200/80 space-y-1">
+                    <div className="flex items-center justify-between">
+                      <span className="font-bold text-stone-900">{evt.title}</span>
+                      <span className={`text-[10px] font-bold px-1.5 py-0.2 rounded border ${evt.badgeColor}`}>
+                        {evt.badge}
                       </span>
-                      <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-                    </a>
-                  );
-                })}
+                    </div>
+                    <p className="text-[11px] text-stone-600 font-medium">{evt.datetime}</p>
+                    <p className="text-[10px] text-stone-400">{evt.description}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
