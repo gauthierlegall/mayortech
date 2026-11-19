@@ -377,10 +377,10 @@ export function MayorValidationInbox({
               <button
                 key={tab.id}
                 onClick={() => setActiveFilter(tab.id as any)}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-semibold whitespace-nowrap transition-all ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold whitespace-nowrap transition-all ${
                   isSelected
-                    ? 'bg-blue-600 text-white shadow-2xs'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                    ? 'bg-[#102A4C] text-white shadow-2xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                 }`}
               >
                 <span>{tab.label}</span>
@@ -406,7 +406,7 @@ export function MayorValidationInbox({
               setParapheurIndex(0);
               setIsParapheurModeOpen(true);
             }}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-3.5 py-1.5 rounded-xl shadow-xs flex items-center gap-1.5 shrink-0 cursor-pointer"
+            className="bg-[#102A4C] hover:bg-[#193D6B] text-white font-bold text-xs px-3.5 py-1.5 rounded-md shadow-xs flex items-center gap-1.5 shrink-0 cursor-pointer"
           >
             <Play className="w-3.5 h-3.5 fill-current" />
             <span>Mode Parapheur ({filteredDossiers.filter(d => d.status === 'pending').length})</span>

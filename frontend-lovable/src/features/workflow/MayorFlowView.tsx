@@ -96,7 +96,7 @@ export function MayorFlowView() {
         <div className="flex items-center gap-2">
           <Button
             onClick={() => setIsLaunchModalOpen(true)}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs px-3.5 py-2 rounded-xl flex items-center gap-1.5 shadow-sm transition-all cursor-pointer"
+            className="bg-[#102A4C] hover:bg-[#193D6B] text-white font-semibold text-xs px-3.5 py-2 rounded-md flex items-center gap-1.5 shadow-sm transition-all cursor-pointer"
           >
             <Plus className="w-4 h-4" />
             <span>Lancer une validation</span>
@@ -104,18 +104,18 @@ export function MayorFlowView() {
         </div>
       </div>
 
-      {/* Directive 3-Tab Rail (Iterop Style) */}
-      <div className="flex items-center gap-2 border-b border-slate-200/80 pb-2 text-xs">
+      {/* Directive 3-Tab Rail */}
+      <div className="flex items-center gap-2 border-b border-stone-200/80 pb-2 text-xs">
         {navItems.map((item) => {
           const isActive = activeTab === item.id;
           return (
             <button
               key={item.id}
               onClick={() => setActiveTab(item.id)}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-xl font-bold transition-all duration-150 shrink-0 ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-md font-bold transition-all duration-150 shrink-0 ${
                 isActive
-                  ? 'bg-slate-900 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                  ? 'bg-[#102A4C] text-white shadow-xs'
+                  : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
               }`}
             >
               {item.icon}
@@ -123,7 +123,7 @@ export function MayorFlowView() {
               {item.badge !== undefined && item.badge > 0 && (
                 <span
                   className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono font-bold ${
-                    isActive ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-700'
+                    isActive ? 'bg-white/20 text-white' : 'bg-stone-100 text-[#102A4C]'
                   }`}
                 >
                   {item.badge}

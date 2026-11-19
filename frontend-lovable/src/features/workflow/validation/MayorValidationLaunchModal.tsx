@@ -282,7 +282,7 @@ export function MayorValidationLaunchModal({ isOpen, onClose, onLaunch }: MayorV
             </Button>
             <Button
               type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-4 flex items-center gap-1.5 shadow-xs"
+              className="bg-[#102A4C] hover:bg-[#193D6B] text-white text-xs font-semibold px-4 py-2 rounded-md flex items-center gap-1.5 shadow-xs cursor-pointer"
             >
               <Send className="w-3.5 h-3.5" />
               <span>Démarrer immédiatement la validation</span>

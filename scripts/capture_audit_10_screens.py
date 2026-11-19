@@ -63,6 +63,9 @@ def serve(out_dir: Path):
     )
 
 
+DESKTOP_DIR = Path("C:/Users/Utilisateur/Desktop")
+
+
 def safe_screenshot(target_page, path: Path, full_page: bool = False):
     img_bytes = target_page.screenshot(full_page=full_page)
     for attempt in range(8):
@@ -70,10 +73,16 @@ def safe_screenshot(target_page, path: Path, full_page: bool = False):
             path.parent.mkdir(parents=True, exist_ok=True)
             with open(path, "wb") as f:
                 f.write(img_bytes)
+            # Also save directly on Desktop
+            desktop_target = DESKTOP_DIR / path.name
+            with open(desktop_target, "wb") as f:
+                f.write(img_bytes)
             return
         except Exception:
             time.sleep(0.5)
     with open(path, "wb") as f:
+        f.write(img_bytes)
+    with open(DESKTOP_DIR / path.name, "wb") as f:
         f.write(img_bytes)
 
 
@@ -157,12 +166,12 @@ def run_10_captures():
 
         # -------------------------------------------------------------
         # 4. 04_suivi_bpmn_vue_metier.png
-        # (Onglet Suivi & BPMN par defaut, mode demo masque, AND CTM/ABF)
+        # (Onglet Suivi du circuit par defaut, mode demo masque, AND CTM/ABF)
         # -------------------------------------------------------------
-        suivi_tab = page.locator("button").filter(has_text="Suivi & BPMN")
+        suivi_tab = page.locator("button").filter(has_text="Suivi").first
         if suivi_tab.count() > 0:
-            suivi_tab.first.click()
-            page.wait_for_timeout(1000)
+            suivi_tab.click()
+            page.wait_for_timeout(1200)
 
         img4 = OUTPUT_DIR / "04_suivi_bpmn_vue_metier.png"
         safe_screenshot(page, img4)
@@ -175,7 +184,7 @@ def run_10_captures():
         completude_node = page.locator("[data-node-id='completude'], [data-testid='bpmn-task-completude']").first
         if completude_node.count() > 0:
             completude_node.click()
-            page.wait_for_timeout(600)
+            page.wait_for_timeout(800)
 
         img5 = OUTPUT_DIR / "05_suivi_bpmn_tiroir_actionnable.png"
         safe_screenshot(page, img5)
@@ -185,24 +194,24 @@ def run_10_captures():
         close_drawer = page.locator("button[title='Fermer'], button:has-text('Fermer l\\'inspecteur')").first
         if close_drawer.count() > 0:
             close_drawer.click()
-            page.wait_for_timeout(400)
+            page.wait_for_timeout(500)
 
         # -------------------------------------------------------------
         # 6. 06_suivi_bpmn_pieces_manquantes.png
         # (Activer Mode demo, selectionner 'Pièces Manquantes', pas a pas)
         # -------------------------------------------------------------
-        demo_btn = page.locator("button:has-text('Mode démo / simulation')").first
+        demo_btn = page.locator("button:visible:has-text('Mode démo / simulation'), button:visible:has-text('démo'), button:visible:has-text('simulation')").first
         if demo_btn.count() > 0:
             demo_btn.click()
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(800)
 
-        missing_scenario = page.locator("button:has-text('Pièces Manquantes')").first
+        missing_scenario = page.locator("button:visible:has-text('Pièces Manquantes')").first
         if missing_scenario.count() > 0:
             missing_scenario.click()
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(600)
 
         # Step forward 3 times to activate return loop to depot
-        step_btn = page.locator("button:has-text('Pas à pas')").first
+        step_btn = page.locator("button:visible:has-text('Pas à pas')").first
         if step_btn.count() > 0:
             step_btn.click()
             page.wait_for_timeout(300)
@@ -219,7 +228,7 @@ def run_10_captures():
         # 7. 07_suivi_bpmn_rejet_plu.png
         # (Scenario 'Rejet PLU', avancer jusqu'au noeud rouge)
         # -------------------------------------------------------------
-        rejet_scenario = page.locator("button:has-text('Rejet PLU')").first
+        rejet_scenario = page.locator("button:visible:has-text('Rejet PLU')").first
         if rejet_scenario.count() > 0:
             rejet_scenario.click()
             page.wait_for_timeout(500)
@@ -237,7 +246,7 @@ def run_10_captures():
         # 8. 08_suivi_bpmn_escalade_sla.png
         # (Scenario 'Escalade SLA DGS', connecteur gauche ne coupant pas CTM)
         # -------------------------------------------------------------
-        escalade_scenario = page.locator("button:has-text('Escalade SLA DGS'), button:has-text('Escalade SLA')").first
+        escalade_scenario = page.locator("button:visible:has-text('Escalade SLA')").first
         if escalade_scenario.count() > 0:
             escalade_scenario.click()
             page.wait_for_timeout(500)
@@ -256,13 +265,13 @@ def run_10_captures():
         # 9. 09_onglet_concepteur_prompt_ia.png
         # (Onglet Concepteur avec React Flow, generation d'un prompt extrait)
         # -------------------------------------------------------------
-        concepteur_tab = page.locator("button").filter(has_text="Concepteur")
+        concepteur_tab = page.locator("button:visible").filter(has_text="Concepteur")
         if concepteur_tab.count() > 0:
             concepteur_tab.first.click()
             page.wait_for_timeout(1000)
 
         # Click on preset button Permis de Construire (ADS & ABF 15j)
-        preset_btn = page.locator("button:has-text('Permis de Construire (ADS & ABF 15j)'), button:has-text('Générer le circuit')").first
+        preset_btn = page.locator("button:visible:has-text('Permis de Construire'), button:visible:has-text('Générer le circuit')").first
         if preset_btn.count() > 0:
             preset_btn.click()
             page.wait_for_timeout(1000)
@@ -293,10 +302,10 @@ def run_10_captures():
         page_m.goto(f"{LOCAL_BASE}/demo.html#/workflows", wait_until="networkidle")
         page_m.wait_for_timeout(1000)
 
-        # Switch to Suivi & BPMN tab on mobile
-        suivi_tab_m = page_m.locator("button").filter(has_text="Suivi & BPMN")
+        # Switch to Suivi tab on mobile
+        suivi_tab_m = page_m.locator("button").filter(has_text="Suivi").first
         if suivi_tab_m.count() > 0:
-            suivi_tab_m.first.click()
+            suivi_tab_m.click()
             page_m.wait_for_timeout(800)
 
         img10 = OUTPUT_DIR / "10_mobile_390x844_terrain.png"
