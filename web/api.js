@@ -90,6 +90,14 @@ export const api = {
   recordVote:(sessionId,itemId,payload)=>send(`/sessions/${id(sessionId)}/items/${id(itemId)}/vote`,payload),
   updateAttendance:(sessionId,payload)=>send(`/sessions/${id(sessionId)}/attendance`,payload),
   closeSession:(sessionId,payload)=>send(`/sessions/${id(sessionId)}/close`,payload),
+  councilSessions:(filters={})=>request(`/council-sessions${filters&&typeof filters==='object'&&Object.keys(filters).length?`?${new URLSearchParams(Object.entries(filters).filter(([,v])=>v!==undefined&&v!==null&&v!==''))}`:''}`),
+  councilSession:sessionId=>request(`/council-sessions/${id(sessionId)}`),
+  updateCouncilAttendances:(sessionId,payload)=>send(`/council-sessions/${id(sessionId)}/attendances`,payload),
+  recordCouncilVote:(sessionId,itemId,payload)=>send(`/council-sessions/${id(sessionId)}/items/${id(itemId)}/vote`,payload),
+  transmitCouncilMegalis:(sessionId,itemId)=>send(`/council-sessions/${id(sessionId)}/items/${id(itemId)}/transmit-megalis`,{}),
+  closeCouncilSession:(sessionId,payload)=>send(`/council-sessions/${id(sessionId)}/close`,payload),
+  councilDossierPdfUrl:sessionId=>`${base}/council-sessions/${id(sessionId)}/dossier-elus.pdf`,
+  councilDeliberationsSummary:sessionId=>request(`/council-sessions/${id(sessionId)}/deliberations-summary`),
   specializedInstances:()=>request('/instances/specialized'),
   specializedInstance:instanceId=>request(`/instances/specialized/${id(instanceId)}`),
   specializedRecords:(instanceId,filters={})=>request(`/instances/specialized/${id(instanceId)}/records${filters&&typeof filters==='object'&&Object.keys(filters).length?`?${new URLSearchParams(Object.entries(filters).filter(([,v])=>v!==undefined&&v!==null&&v!==''))}`:''}`),
@@ -166,5 +174,20 @@ export const api = {
   saveMailDraft:(draftId,payload)=>send(`/mailbox/drafts/${id(draftId)}`,payload,'PATCH'),
   deleteMailDraft:draftId=>request(`/mailbox/drafts/${id(draftId)}`,{method:'DELETE'}),
   sendMail:payload=>send('/mailbox/send',payload),
-  nextMail:()=>send('/demo/next-mail',{})
+  nextMail:()=>send('/demo/next-mail',{}),
+  verifyAuditChain:()=>request('/audit/verify'),
+  auditEntries:()=>request('/audit/entries'),
+  downloadSovereignExport:async()=>{
+    const res=await fetch('/api/v1/organizations/current/sovereign-export',{method:'POST',headers:{'X-Requested-With':'Travaux'}});
+    if(!res.ok)throw new ApiError('Échec du téléchargement de l’export souverain.',res.status);
+    const blob=await res.blob();
+    const url=window.URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;
+    a.download=`export_souverain_plougastel_daoulas_${new Date().toISOString().slice(0,10)}.zip`;
+    document.body.appendChild(a);
+    a.click();
+    window.URL.revokeObjectURL(url);
+    a.remove();
+  }
 };

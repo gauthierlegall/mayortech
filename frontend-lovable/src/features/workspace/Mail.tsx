@@ -1,6 +1,6 @@
 import {useEffect,useRef,useState} from 'react';
 import {createPortal} from 'react-dom';
-import {Archive,FileEdit,Forward,HardHat,Inbox,Mail as MailIcon,Plus,Reply,ReplyAll,Send,Sparkles,Trash2} from 'lucide-react';
+import {Archive,FileEdit,Forward,HardHat,Inbox,Mail as MailIcon,Plus,Reply,ReplyAll,Send,Trash2} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Dialog,DialogContent,DialogDescription,DialogTitle} from '@/components/ui/dialog';
 import {useWorkspace} from './context';
@@ -84,20 +84,39 @@ export function Mail({projectId,initialId}:{projectId?:string;initialId?:string}
   <div ref={container} onClickCapture={event=>{const button=(event.target as Element).closest<HTMLElement>('[data-mail-source]');if(!button?.dataset.mailSource)return;event.preventDefault();event.stopPropagation();setSource({id:button.dataset.mailSource,focus:button});}}/>
   {folderTarget&&!projectId&&createPortal(<><nav className="mail-folder-options" aria-label="Dossiers de courrier">{mailboxFolders.map(folder=>{const count=folderCounts.find(item=>item.id===folder.id);return <a key={folder.id} className={location.folder===folder.id?'selected':''} aria-current={location.folder===folder.id?'page':undefined} href={mailboxDestination({folder:folder.id,projectId:location.projectId})}><folder.icon size={17} aria-hidden="true"/><span>{folder.title}</span>{typeof count?.unread==='number'&&count.unread>0&&<small aria-label={`${count.unread} non lus`}>{count.unread}</small>}</a>;})}</nav><nav className="mail-project-options" aria-label="Courriels par chantier"><div className="nav-label">DOSSIERS</div><a className={!location.projectId?'selected':''} aria-current={!location.projectId?'page':undefined} href={mailboxDestination({folder:location.folder})}><HardHat size={16} aria-hidden="true"/><span>Tous les chantiers</span></a>{state.projects.map(project=><a key={project.id} className={location.projectId===project.id?'selected':''} aria-current={location.projectId===project.id?'page':undefined} href={mailboxDestination({folder:location.folder==='drafts'?'inbox':location.folder,projectId:project.id})} title={project.title}><HardHat size={16} aria-hidden="true"/><span>{project.location?.split(' · ')[0]||project.title}<small>{project.ref}</small></span></a>)}</nav><label className="mail-mobile-project"><span>Chantier</span><select aria-label="Filtrer les courriels par chantier" value={location.projectId||''} onChange={event=>{const destination=mailboxDestination({folder:location.folder==='drafts'?'inbox':location.folder,projectId:event.target.value||null});void preservePanels().then(()=>{window.location.hash=destination;}).catch(failure=>setError(failure instanceof Error?failure.message:'Conservez le brouillon avant de changer de dossier.'));}}><option value="">Tous les chantiers</option>{state.projects.map(project=><option key={project.id} value={project.id}>{project.title}</option>)}</select></label></>,folderTarget)}
   {!projectId&&<div className="mail-history-link"><a href="#/connexions">Connexions et reprise des courriels</a></div>}
-  {actionsTarget&&selectedMessage&&createPortal(<><Button variant="outline" size="sm" onClick={()=>startReply('reply')}><Reply size={15}/>Répondre</Button><Button variant="outline" size="sm" onClick={()=>startReply('reply-all')}><ReplyAll size={15}/>À tous</Button><Button variant="outline" size="sm" onClick={()=>startReply('forward')}><Forward size={15}/>Transférer</Button><Button variant="outline" size="sm" onClick={()=>startReply('suggested')}><Sparkles size={15}/>Préparer une réponse</Button><Button variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold flex items-center gap-1.5" onClick={()=>setValidationMail(selectedMessage)}><Plus size={15}/>Lancer une validation</Button><Button variant="outline" size="sm" disabled={!canWrite} onClick={event=>{actionFocus.current=event.currentTarget;setActionError('');setActionOpen(true);}}><Plus size={15}/>Créer une action</Button>{notice&&<p className="w-full text-sm text-muted-foreground" role="status">{notice}</p>}{actionError&&!actionOpen&&<p className="w-full text-sm" role="status">{actionError}</p>}</>,actionsTarget)}
+  {actionsTarget&&selectedMessage&&createPortal(<><Button variant="outline" size="sm" onClick={()=>startReply('reply')}><Reply size={15}/>Répondre</Button><Button variant="outline" size="sm" onClick={()=>startReply('reply-all')}><ReplyAll size={15}/>À tous</Button><Button variant="outline" size="sm" onClick={()=>startReply('forward')}><Forward size={15}/>Transférer</Button><Button variant="outline" size="sm" onClick={()=>startReply('suggested')}><FileEdit size={15}/>Préparer une réponse</Button><Button variant="outline" size="sm" className="border-[#102A4C] text-[#102A4C] hover:bg-stone-100 font-semibold flex items-center gap-1.5 cursor-pointer" onClick={()=>setValidationMail(selectedMessage)}><Plus size={15}/>Transformer en circuit</Button><Button variant="outline" size="sm" disabled={!canWrite} onClick={event=>{actionFocus.current=event.currentTarget;setActionError('');setActionOpen(true);}}><Plus size={15}/>Créer une action</Button>{notice&&<p className="w-full text-sm text-muted-foreground" role="status">{notice}</p>}{actionError&&!actionOpen&&<p className="w-full text-sm" role="status">{actionError}</p>}</>,actionsTarget)}
   {compose&&<MailComposer api={api} open onClose={()=>setCompose(null)} initial={compose} publicDemo={publicDemo}/>}
   <Dialog open={actionOpen} onOpenChange={open=>{if(!actionPending.current)setActionOpen(open);}}><DialogContent className="max-h-[90dvh] overflow-y-auto" onCloseAutoFocus={event=>{event.preventDefault();actionFocus.current?.focus();}}><DialogTitle>Créer une action</DialogTitle><DialogDescription>Action du chantier reliée à ce courriel. Le message et les faits du dossier restent inchangés.</DialogDescription>{selectedMessage&&<form className="form-stack" onSubmit={async event=>{event.preventDefault();if(actionPending.current||!canWrite||!projectId)return;const data=new FormData(event.currentTarget),mail=normalizeMail(selectedMessage);if(!mail.projectIds.includes(projectId))return;actionPending.current=true;setActionBusy(true);setActionError('');try{await createNativeAction(api,projectId,{title:String(data.get('title')||'').trim(),description:String(data.get('description')||''),owner:String(data.get('owner')||''),dueDate:String(data.get('due')||''),priority:String(data.get('priority')||'Normale'),status:'À faire',sourceUrl:`#/mail/${encodeURIComponent(mail.id)}`});setActionOpen(false);setNotice('Action créée dans le chantier, avec le courriel d’origine.');void refresh().catch(()=>{});}catch(failure){setActionError(failure instanceof Error?failure.message:'L’action n’a pas pu être créée.');}finally{actionPending.current=false;setActionBusy(false);}}}><label>Titre<input name="title" required maxLength={500} defaultValue={`Suivre : ${normalizeMail(selectedMessage).subject}`}/></label><label>Responsable<input name="owner" maxLength={200}/></label><label>Échéance<input type="date" name="due"/></label><label>Priorité<select name="priority"><option>Normale</option><option>Haute</option><option>Basse</option></select></label><label>Description<textarea name="description" maxLength={4000} rows={4} defaultValue={normalizeMail(selectedMessage).body.slice(0,4000)}/></label><p className="muted-label">Source : {normalizeMail(selectedMessage).subject}</p>{actionError&&<p className="form-error" role="alert">{actionError}</p>}<Button type="submit" disabled={actionBusy||!canWrite}>{actionBusy?'Création…':'Créer l’action'}</Button></form>}</DialogContent></Dialog>
-  {validationMail&&(
-   <MayorValidationLaunchModal
-    isOpen={Boolean(validationMail)}
-    onClose={()=>setValidationMail(null)}
-    onLaunch={(newDossier)=>{
-     setValidationMail(null);
-     toast.success(`Circuit « ${newDossier.title} » initialisé depuis le courriel.`);
-     window.location.hash='/workflows';
-    }}
-   />
-  )}
+  {validationMail&&(()=>{
+   const nm = normalizeMail(validationMail);
+   const textLower = `${nm.subject || ''} ${nm.body || ''}`.toLowerCase();
+   let deducedType: 'arrete' | 'permis' | 'marche' | 'deliberation' = 'arrete';
+   if (textLower.includes('permis') || textLower.includes('urbanisme') || textLower.includes('ads') || textLower.includes('pc-')) {
+     deducedType = 'permis';
+   } else if (textLower.includes('marché') || textLower.includes('cao') || textLower.includes('consultation') || textLower.includes('mp-')) {
+     deducedType = 'marche';
+   } else if (textLower.includes('délibération') || textLower.includes('delib') || textLower.includes('conseil') || textLower.includes('m57')) {
+     deducedType = 'deliberation';
+   }
+   return (
+    <MayorValidationLaunchModal
+     isOpen={Boolean(validationMail)}
+     onClose={()=>setValidationMail(null)}
+     initialData={{
+       title: nm.subject ? `${nm.subject}` : 'Arrêté municipal · Objet du courriel',
+       applicant: nm.sender || 'Pétitionnaire',
+       fileName: `Courriel_${nm.id || '2026'}.eml`,
+       priority: 'urgent',
+       circuitType: deducedType,
+     }}
+     onLaunch={(newDossier)=>{
+      setValidationMail(null);
+      toast.success(`Circuit « ${newDossier.title} » initialisé depuis le courriel.`);
+      window.location.hash='/workflows';
+     }}
+    />
+   );
+  })()}
   <SourcePreview api={api} sourceId={source?.id??null} returnFocus={source?.focus??null} onClose={()=>setSource(null)}/>
  </Surface>;
 }

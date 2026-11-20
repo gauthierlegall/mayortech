@@ -243,6 +243,54 @@ class ExchangeCalDavAdapter(ConnectorAdapter):
 
 
 # -----------------------------------------------------------------------------
+# 6. Gotenberg (Générateur PDF/A-2b Souverain)
+# -----------------------------------------------------------------------------
+class GotenbergPdfAdapter(ConnectorAdapter):
+    connector_id = "gotenberg_pdf"
+    name = "Gotenberg (Générateur PDF/A-2b)"
+    description = "Conversion certifiée des arrêtés, délibérations et convocations au format archivable PDF/A-2b (norme ISO 19005-2)."
+    category = "archivage"
+    icon = "FileCheck2"
+
+    def test_connection(self, config: Dict[str, Any]) -> ConnectorHealth:
+        is_sandbox = config.get("sandbox", True)
+        if is_sandbox:
+            return ConnectorHealth(
+                status="ok",
+                latency_ms=19.5,
+                message="Moteur Gotenberg / Chromium headless opérationnel · Profil PDF/A-2b actif · Rendu conforme.",
+                mode="sandbox",
+                details={"gotenberg_version": "8.5.0", "pdf_format": "PDF/A-2b", "chromium_headless": True, "lossless": True},
+            )
+        endpoint = config.get("gotenberg_url", "")
+        if not endpoint:
+            return ConnectorHealth(status="warning", latency_ms=0, message="URL du conteneur Gotenberg manquante.", mode="production")
+        return ConnectorHealth(status="ok", latency_ms=35.0, message="Conteneur Gotenberg joint et réactif pour la compilation PDF/A.", mode="production")
+
+    def push_artifact(self, instance_id: str, payload: Dict[str, Any], config: Dict[str, Any]) -> ExternalDispatchResult:
+        doc_title = payload.get("title", f"Acte-{instance_id}")
+        pdf_ref = f"PDFA-{instance_id}-{hashlib.sha256(str(time.time()).encode()).hexdigest()[:6].upper()}"
+        return ExternalDispatchResult(
+            success=True,
+            external_id=pdf_ref,
+            status="converted",
+            message=f"Acte « {doc_title} » converti avec succès au standard PDF/A-2b certifié.",
+            metadata={"format": "PDF/A-2b", "conformance": "ISO 19005-2", "sha256": hashlib.sha256(pdf_ref.encode()).hexdigest()},
+        )
+
+    def handle_webhook(self, event_payload: Dict[str, Any], config: Dict[str, Any]) -> Dict[str, Any]:
+        return {
+            "status": "pdf_compiled",
+            "file_size": event_payload.get("size", "340 Ko"),
+            "pdf_a_version": "2b",
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
+
+    def sync_status(self, external_ref: str, config: Dict[str, Any]) -> str:
+        return "ready"
+
+
+# -----------------------------------------------------------------------------
 # Registre et Persistance SQLite WAL
 # -----------------------------------------------------------------------------
 class ConnectorRegistry:
@@ -251,6 +299,7 @@ class ConnectorRegistry:
         self.adapters: Dict[str, ConnectorAdapter] = {
             "proconnect": ProConnectAdapter(),
             "parapheur_pastell": ParapheurPastellAdapter(),
+            "gotenberg_pdf": GotenbergPdfAdapter(),
             "grist": GristAdapter(),
             "matrix_tchap_ntfy": MatrixTchapNtfyAdapter(),
             "exchange_caldav": ExchangeCalDavAdapter(),

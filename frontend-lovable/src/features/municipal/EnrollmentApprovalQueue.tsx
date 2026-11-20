@@ -140,7 +140,7 @@ export function EnrollmentApprovalQueue() {
 
       {loading && requests.length === 0 ? (
         <div className="py-12 text-center text-slate-500 space-y-2">
-          <Clock className="w-8 h-8 animate-pulse mx-auto text-slate-400" />
+          <Clock className="w-8 h-8  mx-auto text-slate-400" />
           <p className="text-sm font-medium">Chargement de la file d'attente...</p>
         </div>
       ) : requests.length === 0 ? (

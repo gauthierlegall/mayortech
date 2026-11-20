@@ -95,17 +95,38 @@ Les éléments « Travaux » (`CHANTIERS`, `Planning Gantt`, `Suivi terrain`, `C
 
 ## 5. ARCHITECTURE FONCTIONNELLE DÉJÀ EN PLACE (À PRÉSERVER)
 
-1. **Navigation globale épurée** :
-   * Desktop : `Accueil`, `Validations` (badge compteur), `Messagerie`, `Dossiers`, `Tâches & Suivi`, section métier de la commission active, `Absence & Suppléant`, `Paramètres`.
-   * Header : Fil d'Ariane + Barre de recherche universelle `Ctrl+K` (`CommandPaletteModal.tsx`) + bouton unique `Focus Élu`.
-   * Mobile (`390x844`) : barre basse avec accès direct `Accueil`, `À valider` (badge), `Dossiers`, `Messages`, `Tâches`. Aucun chevauchement du FAB `Assistant` sur les boutons d'action.
+1. **Navigation globale épurée & Espace Élu natif par Rôle (Option B)** :
+   * **Vue Agent / Direction** : `Accueil`, `Validations` (badge compteur), `Messagerie`, `Dossiers`, section métier de la commission active, `Paramètres` (avec `Absence & Suppléant` dans le popover profil en bas à gauche). Header épuré avec Fil d'Ariane, Recherche universelle `Ctrl+K`, et accès discret `Assistant` (`MessageSquare`). **Suppression définitive du bouton toggle `Focus Élu` dans le header agent.**
+   * **Espace Élu natif (`role === 'elu'`, profil Dominique Cap)** : montage automatique du layout minimaliste sans distraction `ElectedWorkspaceLayout.tsx` dès qu'un compte élu est actif.
+     * Zéro sidebar technique (pas de Concepteur BPMN, pas de Gantt, pas de Messagerie EML brute, pas de paramètres modules).
+     * Barre supérieure 1 ligne : `MayorTech.` + `Ville de Plougastel-Daoulas` à gauche, 3 onglets sobres au centre (**`À signer (N)`**, **`Séances & Agenda`**, **`Dossiers suivis`**), menu profil à droite **`Dominique Cap · Maire ▾`** (avec `Absence & Suppléant` et bascule démo vers les autres profils — sans bouton gadget `Revenir à la vue complète`).
+     * Onglet `À signer` : feuille éditoriale sobre (`bg-[#FFFEFC]`, bordure stone-200, filet supérieur 2px Encre Marine `#102A4C`), accordéon `Lire l'acte complet` / `Masquer l'acte complet` avec une seule icône Lucide à gauche, visas et dispositif juridiques continus en Serif sans boîtes intérieures, tampon d'intégrité `SHA-256`, et **1 seul CTA plein par document** (`Signer l'acte` en Vert Sceau `#0F766E text-white`).
+     * Onglets `Séances & Agenda` et `Dossiers suivis` : listes épurées à filets fins `divide-y divide-stone-200` sur fond Vélin `#F7F7F5`.
+   * **Mobile (`390x844`)** : adaptation parfaite sans débordement horizontal (`scrollWidth === clientWidth === 390`), onglets et actions accessibles d'un pouce.
 2. **Circuits de validation (`MayorFlowView.tsx` — 3 onglets uniquement + CTA `+ Lancer une validation`)** :
    * **`À valider` (`MayorValidationInbox.tsx`)** : split view, stepper 4 acteurs, acte officiel en serif, historique des visas SHA-256, édition de coquille tracée en ligne (`Corriger une coquille` → v1.1), bandeau de surlignage après renvoi, panneau décision sticky **dynamiquement synchronisé sur l'étape `En cours`** du dossier sélectionné, modale `Renvoyer à une étape` avec option *« Renvoi direct hors boucle standard »* et motif obligatoire, `Mode Parapheur` en rafale.
-   * **`Suivi du circuit` (`PixelFlowCanvas.tsx` sur `@xyflow/react`)** : sélecteur de dossier réel, mode démo/simulation caché derrière un toggle, passerelles `AND` parallèles (CTM + ABF simultanés), rail d'escalade SLA déporté à gauche sans croisement de cartes ni collision de labels, `Arbitrage DGS & Escalade` relié à 2 sorties (`Réaffectation` et `Évocation directe`, zéro deadlock), tiroir latéral propre (`top-[72px]`, 1 seul CTA). Mobile = timeline verticale avec `<select>` compact + barre fixe `Valider & Signer` / `Renvoyer`.
+     - **Comparateur Juridique (`Diff` v1.0 ↔ v1.1)** : sélecteur discret `Texte final` | `Comparatif des modifications` en haut de feuille d'acte, rendu mot-à-mot des suppressions barrées carmin (`bg-[#FFF1F2] text-[#9F1239] line-through`) et ajouts vert sceau (`bg-[#F0FDFA] text-[#0F766E]`) en typographie serif éditoriale, bandeau de décompte des modifications et tampon d'intégrité SHA-256.
+     - **Anonymisation RGPD avant Publication (Ordonnance 2021-1310)** : service Python local déterministe (`src/travaux/anonymizer.py`, tests `tests/test_anonymizer.py`), modale Civic Craft avec checklist des mentions sensibles (noms de particuliers, adresses, courriels, téléphones, IBAN, parcelles cadastrales privées), aperçu en direct de la version publiable et doubles empreintes SHA-256 (original inaltérable au coffre municipal + version certifiée conforme pour affichage légal).
+   * **`Suivi du circuit` (`PixelFlowCanvas.tsx` sur `@xyflow/react`)** : sélecteur de dossier réel, mode démo/simulation caché derrière un toggle, passerelles `AND` parallèles (CTM + ABF simultanés), rail d'escalade SLA déporté à gauche sans croisement de cartes ni collision de labels, `Arbitrage DGS & Escalade` relié à 2 sorties (`Réaffectation` et `Évocation directe`, zéro deadlock), tiroir latéral propre (`top-[72px]`, 1 seul CTA). Mobile = timeline vertical avec `<select>` compact + barre fixe `Valider & Signer` / `Renvoyer`.
    * **`Concepteur` (`MayorWorkflowDesigner.tsx`)** : React Flow unifié + prompt `<textarea rows={2}>` + palette manuelle (`+ Étape`, `+ Passerelle XOR`, `+ Parallèle AND`) + éditeur de champs de formulaire.
-3. **Accueil (`TodayDashboardView.tsx`) & `Mode Focus Élu`** :
-   * `Bonjour [Prénom]` + date sobre + 3 KPIs adaptés à la commission + priorités à traiter (badges référence sur 1 ligne) + activité récente cohérente + prochaines échéances + raccourcis.
-   * `Mode Focus Élu` : 1 seule barre supérieure minimaliste (`À signer`, `Agenda & Séances`, `Dossiers suivis`, `Revenir à la vue complète`), zéro distraction.
+3. **Accueil Agent (`TodayDashboardView.tsx`)** :
+   * `Bonjour [Prénom]` + date sobre + bande métrique fine sur 1 ligne (3 colonnes, chiffres tabular-nums en `#102A4C`) + priorités à traiter épurées (surface unique, divide-y, zéro bouton plein répété, lignes cliquables) + activité récente sobre + prochaines échéances.
+4. **Souveraineté des Données, Chaîne d'Audit SHA-256 & Étanchéité CCAS (Lot v3.4 — Sécurité & Qualité)** :
+   * **Chaîne d'Audit Cryptographique SHA-256 (`src/travaux/audit_chain.py`)** : chaque acte, visa DGS et scellement est chaîné déterministement au bloc précédent (`prev_hash -> entry_hash`). Vérification mathématique d'intégrité de bout en bout (`GET /api/v1/audit/verify`), détection immédiate de toute falsification rétroactive SQLite.
+   * **Export Souverain Anti-Lock-In (`POST /api/v1/organizations/current/sovereign-export`)** : téléchargement en 1 clic d'une archive `.zip` ouverte complète sans intermédiaire (actes en HTML5/PDF, circuits en BPMN 2.0 XML conforme OMG, registres en CSV, chaîne d'audit en JSON vérifié, manifeste `README_REVERSIBILITE.md` ISO/IEC 19510).
+   * **Interface Souveraine (`SovereignExportAuditCard.tsx`)** dans `Paramètres > Organisation` : badge « Anti-Lock-In Garanti », affichage Head Hash SHA-256, bouton d'audit mathématique et export ouvert immédiat.
+   * **Étanchéité Stricte CCAS & Traçabilité RGPD (`tests/test_commission_isolation.py`)** : isolation hermétique des dossiers sensibles Commission 2 (CCAS), 0 fuite vers Commission 1 (Finances) ou Commission 3 (Travaux), et consignation nominative systématique de chaque consultation d'aide sociale dans la chaîne d'audit (RGPD Art. 9 et 30).
+   * **Audit RGAA 4.1 / WCAG 2.1 AA** : moteur `@axe-core/playwright` intégré à l'audit visuel (`audit.mjs`) garantissant 0 violation critique ou sérieuse.
+5. **Mode Terrain Hors-Ligne (PWA), Conflits de Voirie & Suivi Externe (Lot v3.5)** :
+   * **PWA & File Hors-Ligne CTM (`Terrain.tsx`)** : support complet hors-ligne avec file locale `mayortech_terrain_offline_queue`, badge ambre `Mode hors-ligne PWA actif · Sauvegarde locale sécurisée`, resynchronisation automatique ou manuelle en 1 clic dès reconnexion, et bouton de dictée vocale (`Web Speech API` avec transcription automatique et fallback immédiat). Manifest PWA (`web/manifest.json`) conforme (`theme_color: #102A4C`, `background_color: #F7F7F5`).
+   * **Détection & Arbitrage des Conflits de Voirie (`RoadTrafficConflictBanner.tsx`)** : intégration dans le planning de la Commission 3 d'un module de détection automatique des chevauchements d'arrêtés temporaires et chantiers sur un même axe (`Rue des Ajoncs ↔ Quai du Tinduff`), alerte institutionnelle ambre et dialogue d'arbitrage en 1 clic reportant les travaux pour garantir la fluidité du trafic.
+   * **Portail Public « Track & Trace » Pétitionnaire (`TrackAndTracePage.tsx`)** : route publique sans compte (`/suivi/:token`) dédiée aux administrés et entreprises, affichage transparent des 4 étapes d'instruction (`PC-2026-042`), et zone de téléversement sécurisé de pièce manquante (`PCMI4`) avec horodatage et empreinte SHA-256 certifiée.
+   * **Captures d'audit visuel (`C:\Users\Utilisateur\Desktop\AUDIT_V3_5_TERRAIN_EXTERNE\`)** :
+     - `01_mobile_terrain_hors_ligne_dictee.png` (Mobile 390x844)
+     - `02_conflit_voirie_commission_travaux.png` (Desktop 1920x1080)
+     - `03_suivi_externe_petitionnaire_mobile.png` (Mobile 390x844)
+
+> **RÈGLE ANTI-GADGET (ZÉRO ORNEMENT TECH)** : Interdiction stricte d'ajouter des indicateurs de latence (`< 50 ms`), des pastilles vertes de présence/statut décoratives, des animations `animate-pulse`, des mentions `Temps réel` / `Live`, des icônes paillettes (`Sparkles`), ou des slogans UX de remplissage. Toute pastille ou micro-texte doit porter une donnée métier réelle (échéance, statut juridique, compteur).
 
 ---
 
@@ -128,7 +149,8 @@ Ne jamais lancer un lot ci-dessous sans ordre explicite de l'utilisateur :
 À la fin de **chaque** lot de développement, respecter scrupuleusement cette séquence sans aucune exception :
 
 1. **Intégrité** : confirmer que les 5 noyaux souverains n'ont subi aucune régression.
-2. **Build & Packaging** : exécuter `npm run build`, packager le frontend dans FastAPI et redémarrer le serveur local (vérifier qu'aucun ancien bundle n'est servi).
+2. **Discipline Civic Distill (`.agent/skills/civic-distill/SKILL.md`)** : appliquer strictement les 6 règles chiffrées (1 seul bouton plein par vue, zéro boîte imbriquée, divulgation progressive, max 2 badges sobrement formatés par ligne, zéro gadget, test du retrait).
+3. **Build & Packaging** : exécuter `npm run build`, packager le frontend dans FastAPI et redémarrer le serveur local (vérifier qu'aucun ancien bundle n'est servi).
 3. **Audit Playwright bloquant** : exécuter `node .agent/skills/visual-qa/scripts/audit.mjs <URL>` en Desktop (`1920x1080`) et Mobile (`390x844`). Corriger **toute** erreur bloquante :
    * `0` erreur console ou `pageerror`
    * `0` débordement horizontal (`scrollWidth <= innerWidth`)
@@ -148,3 +170,34 @@ Lis intégralement `@CONTEXTE_ANTIGRAVITY_MAYORTECH.md` et applique-le comme ré
 Ta mission unique pour cette session : [DÉCRIRE LE LOT PRÉCIS ICI — ex. Lot A / Lot B / Lot C].
 Ne déborde pas sur les autres lots. À la fin : build, packaging FastAPI, `audit.mjs`, inspection réelle des PNG demandés et compte-rendu factuel court.
 ```
+
+---
+
+## 9. LOT RÉALISÉ : INTELLIGENCE JURIDIQUE & PRODUCTIVITÉ INVISIBLE
+
+Ce lot dote MayorTech de 6 briques métier avancées dans le respect le plus strict du minimalisme Civic Craft (`.agent/skills/civic-distill/SKILL.md`) et de l'architecture par rôle :
+
+1. **Moteur de délégations actives, seuils & suppléance** :
+   * Pivot financier `10 000 € HT` paramétré sur les marchés et engagements (`evaluate_delegation_rule()`).
+   * Notification factuelle sous le stepper : `Seuil > 10 000 € HT · Escalade automatique vers le Maire requise`.
+   * En cas d'absence/suppléance active du Maire (`mayortech_absence_delegation`), réécriture légale automatique du bloc signature :
+     *"Pour le Maire empêché et par délégation, [Nom du suppléant], par délégation (Arrêté municipal n° ARR-2026-DEL-001) · Scellé eIDAS"*.
+2. **Modèles d'actes à variables & Ingestion zéro ressaisie** :
+   * 4 gabarits officiels : `Arrêté temporaire de voirie`, `Permis de Construire (ADS)`, `Attribution Marché Public`, `Délibération budgétaire M57`.
+   * Formulaire à variables dynamiques avec prévisualisation en direct en typographie régalienne `Source Serif 4` et micro-filet tricolore.
+   * Pont Messagerie : bouton sobre `Transformer en circuit` déduisant automatiquement le type d'acte et préremplissant les métadonnées.
+   * Drag-and-Drop universel de PDF sur la vue Validations initialisant un circuit directive.
+3. **Calculateur de délais légaux & Raccourcis clavier purs** :
+   * Calendrier 2026-2027 des jours fériés français avec calcul des jours ouvrés vs calendaires.
+   * État de suspension légale (`Délai suspendu le 12/11/2026 (Pièce manquante)`) et alerte décision tacite (`J-4 avant décision tacite` en Carmin `#9F1239`).
+   * Raccourcis clavier sans souris : `J`/`K` navigation, `V` valider/signer, `R` renvoyer avec focus sur le motif, `P` tiroir pièces, `?` aide-mémoire.
+4. **Export Dossier de Preuve (.zip)** :
+   * Endpoint `GET /api/v1/workflows/{id}/proof-bundle` générant une archive ZIP certifiée avec `01_acte_municipal.html`, `02_journal_audit_visas.html`, `03_manifest_sha256.json`, et pièces justificatives. Accessible via `Autres actions ▾`.
+5. **Registre public des actes & QR Code vectoriel souverain** :
+   * Page autonome `/registre-public` (zéro sidebar, accessible sans authentification).
+   * **Étanchéité CCAS absolue** : filtrage strict de la commission 2 et anonymisation RGPD des données personnelles des particuliers.
+   * Générateur de QR Code 100 % TypeScript pur vectoriel SVG intégré (`qrGenerator.ts`), sans aucune dépendance npm ni API cloud, pour affichage légal physique en mairie.
+6. **Vérification et captures validées** :
+   * 11 tests unitaires et d'intégration validés (`tests/test_intelligence_juridique.py` et `tests/test_commission_isolation.py`).
+   * 0 violations critiques ou sérieuses WCAG 2 AA vérifiées par axe-core (`node scripts/check_axe_nodes.mjs`).
+   * 6 captures d'écran Desktop 1920x1080 générées et inspectées dans `C:\Users\Utilisateur\Desktop\AUDIT_INTELLIGENCE_METIER\`.

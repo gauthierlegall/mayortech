@@ -9,7 +9,7 @@ import {
   Coins,
   Landmark,
   Mail,
-  Sparkles,
+  
   Send,
   ShieldCheck,
   Smartphone,
@@ -33,7 +33,7 @@ const ICON_MAP: Record<string, React.ElementType> = {
   Coins,
   Landmark,
   Mail,
-  Sparkles,
+  
   Send,
   ShieldCheck,
   Smartphone,

@@ -10,7 +10,7 @@ import {WorkProfileChoice} from './WorkProfileChoice';
 /** Authentication stays on the server; this component never stores credentials. */
 export function AuthGate({children}:{children:ReactNode}){
  const hash = typeof window === 'undefined' ? '' : window.location.hash;
- if (hash.includes('quick-sign')) {
+ if (hash.includes('quick-sign') || hash.includes('suivi') || hash.includes('registre-public')) {
    return <Fragment>{children}</Fragment>;
  }
  const {session,api,refresh,workProfile,workProfileLoading}=useWorkspace();

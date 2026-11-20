@@ -1,5 +1,5 @@
 import {lazy,Suspense,useEffect,useRef,useState,type CSSProperties} from 'react';
-import {MessageSquare,Minus,Settings2,Sparkles,X} from 'lucide-react';
+import {MessageSquare,Minus,Settings2,X} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {assistantOpenEvent,openAssistant,type OpenAssistantDetail} from './assistant-events';
 import {widgetViewport} from './assistant-widget-model.mjs';
@@ -26,7 +26,7 @@ export function AssistantWidget({projectId}:{projectId?:string}){
  const style={'--assistant-popup-bottom':`${geometry.bottom}px`,'--assistant-popup-height':`${geometry.height}px`,'--assistant-launcher-bottom':`${geometry.launcherBottom}px`} as CSSProperties;
  return <div className="assistant-widget" style={style} data-keyboard={geometry.keyboard?'true':'false'}>
   {started&&<section ref={panel} hidden={!open} inert={!open} role="dialog" aria-modal="false" id="assistant-popup" aria-labelledby="assistant-popup-title" tabIndex={-1} className="assistant-popup">
-   <header className="assistant-popup-heading"><div><Sparkles size={18}/><h2 id="assistant-popup-title">Assistant</h2></div><div><Button variant="ghost" size="icon" title="Notifications et Telegram" aria-label="Notifications et Telegram" asChild><a href="#/assistant?settings=notifications" onClick={()=>reduce(false)}><Settings2 size={18}/></a></Button><Button variant="ghost" size="icon" aria-label="Fermer le chat" title="Fermer le chat" onClick={()=>reduce()}><X size={18}/></Button></div></header>
+   <header className="assistant-popup-heading"><div><MessageSquare size={18}/><h2 id="assistant-popup-title">Assistant</h2></div><div><Button variant="ghost" size="icon" title="Notifications et Telegram" aria-label="Notifications et Telegram" asChild><a href="#/assistant?settings=notifications" onClick={()=>reduce(false)}><Settings2 size={18}/></a></Button><Button variant="ghost" size="icon" aria-label="Fermer le chat" title="Fermer le chat" onClick={()=>reduce()}><X size={18}/></Button></div></header>
    <div className="assistant-popup-content"><Suspense fallback={<p role="status" className="assistant-popup-loading">Ouverture de votre conversation…</p>}><ConversationBody initialProjectId={requestedProject} suggestedProjectId={projectId||requestedProject} persistent floating onNavigate={()=>reduce(false)}/></Suspense></div>
   </section>}
  </div>;

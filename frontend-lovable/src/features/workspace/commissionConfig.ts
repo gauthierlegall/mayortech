@@ -1,7 +1,7 @@
 export interface SidebarSectionItem {
   label: string;
   to: string;
-  iconName: 'chart' | 'clipboard' | 'calendar' | 'file-text' | 'coins' | 'landmark' | 'users' | 'heart' | 'sparkles' | 'building' | 'map';
+  iconName: 'chart' | 'clipboard' | 'calendar' | 'file-text' | 'coins' | 'landmark' | 'users' | 'heart' | 'messages-square' | 'building' | 'map';
   badge?: string | number;
 }
 
@@ -13,6 +13,7 @@ export interface PinnedItem {
 
 export interface CommissionKpi {
   id: string;
+  shortTitle?: string;
   count: number;
   title: string;
   subtitle: string;
@@ -28,7 +29,9 @@ export interface CommissionShortcut {
 }
 
 export interface CommissionConfig {
-  id: string; // 'all' | 'commission-1' | 'commission-2' | 'commission-3' | 'commission-4'
+  id: string;
+  fullName?: string; // 'all' | 'commission-1' | 'commission-2' | 'commission-3' | 'commission-4' | 'elu-maire'
+  role?: 'agent' | 'direction' | 'elu';
   number: number;
   name: string;
   shortName: string;
@@ -58,6 +61,8 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
   all: {
     id: 'all',
     number: 0,
+    role: 'direction',
+    fullName: 'Laurence Bernard',
     name: '0. Direction Générale (Vue transversale)',
     shortName: 'Direction Générale',
     roleTitle: 'Direction Générale des Services',
@@ -73,7 +78,7 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
       title: 'COORDINATION MUNICIPALE',
       items: [
         { label: 'Arbitrages transversaux', to: '/parametres?section=modules', iconName: 'landmark' },
-        { label: 'Instances & Séances', to: '/agenda', iconName: 'calendar' },
+        { label: 'Instances & Séances', to: '/seances', iconName: 'calendar' },
       ],
     },
     pinnedBlock: {
@@ -84,21 +89,54 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
       ],
     },
     kpis: [
-      { id: 'kpi-1', count: 3, title: 'Actes à signer', subtitle: 'File d’approbation transversale', color: 'blue', filterId: 'pending' },
-      { id: 'kpi-2', count: 1, title: 'Échéance sous 24h', subtitle: 'Visa régalien ou avis technique', color: 'amber', filterId: 'warning' },
-      { id: 'kpi-3', count: 2, title: 'Prochaines séances', subtitle: 'Bureau et Conseil municipal', color: 'purple' },
+      { id: 'kpi-1', count: 3, title: 'Actes à signer', shortTitle: 'À signer', subtitle: 'File d’approbation transversale', color: 'blue', filterId: 'pending' },
+      { id: 'kpi-2', count: 1, title: 'Échéance sous 24h', shortTitle: 'Urgences 24h', subtitle: 'Visa régalien ou avis technique', color: 'amber', filterId: 'warning' },
+      { id: 'kpi-3', count: 2, title: 'Prochaines séances', shortTitle: 'Séances', subtitle: 'Bureau et Conseil municipal', color: 'purple' },
     ],
     shortcuts: [
       { label: '+ Lancer une validation', iconName: 'plus', primary: true, actionHash: '/workflows?launch=1' },
-      { label: 'Mode Focus Élu', iconName: 'eye', actionHash: '/today?focus=1' },
       { label: 'Déclarer une absence', iconName: 'user-check', actionHash: '#open-delegation' },
     ],
+  },
+
+  // Profil Élu · Maire (Dominique Cap) - Espace Élu natif
+  'elu-maire': {
+    id: 'elu-maire',
+    number: 99,
+    role: 'elu',
+    name: 'Élu · Maire (Dominique Cap)',
+    shortName: 'Maire',
+    roleTitle: 'Maire de Plougastel-Daoulas',
+    fullName: 'Dominique Cap',
+    greetingName: 'Dominique',
+    accentColor: '#102A4C',
+    accentBg: 'bg-[#102A4C]/10 text-[#102A4C]',
+    poleLabel: 'Cabinet du Maire & Exécutif',
+    poleSublabel: 'Affaires Générales & Décisions',
+    avatarInitials: 'DC',
+    allowedDossierIds: ['PC-2026-042', 'ARR-2026-019', 'MP-2026-008', 'DELIB-2026-031'],
+    hasChantiers: false,
+    sidebarSection: {
+      title: 'MANDAT & EXÉCUTIF',
+      items: [
+        { label: 'Signatures prioritaires', to: '/workflows', iconName: 'clipboard' },
+        { label: 'Séances & Conseil', to: '/seances', iconName: 'calendar' },
+      ],
+    },
+    kpis: [
+      { id: 'kpi-1', count: 2, title: 'Actes à signer', shortTitle: 'À signer', subtitle: 'Arrêtés et marchés en attente de visa', color: 'blue' },
+      { id: 'kpi-2', count: 2, title: 'Prochaines séances', shortTitle: 'Séances', subtitle: 'Bureau et Conseil municipal', color: 'purple' },
+      { id: 'kpi-3', count: 4, title: 'Dossiers suivis', shortTitle: 'Dossiers', subtitle: 'Grands chantiers communaux', color: 'emerald' },
+    ],
+    shortcuts: [],
   },
 
   // 1. Fonctions supports et transitions - Accent Indigo #3730A3
   'commission-1': {
     id: 'commission-1',
     number: 1,
+    role: 'agent',
+    fullName: 'Valérie Gestin',
     name: '1. Fonctions supports et transitions',
     shortName: 'Finances & Moyens',
     roleTitle: 'DGA Ressources & Finances',
@@ -115,7 +153,7 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
       items: [
         { label: 'Arbitrages M57', to: '/parametres?section=modules', iconName: 'coins', badge: '1' },
         { label: 'Marchés Publics (CAO)', to: '/dossiers', iconName: 'file-text', badge: '3' },
-        { label: 'Séances & Conseil', to: '/agenda', iconName: 'calendar' },
+        { label: 'Séances & Conseil', to: '/seances', iconName: 'calendar' },
       ],
     },
     pinnedBlock: {
@@ -127,14 +165,14 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
       ],
     },
     kpis: [
-      { id: 'kpi-1', count: 2, title: 'Actes financiers à viser', subtitle: 'Marchés et engagements M57', color: 'blue' },
-      { id: 'kpi-2', count: 1, title: 'Arbitrage M57 en attente', subtitle: 'Virement de crédits Chapitre 21', color: 'amber' },
-      { id: 'kpi-3', count: 3, title: 'Marchés en cours', subtitle: 'Procédures CAO & consultations', color: 'purple' },
+      { id: 'kpi-1', count: 2, title: 'Actes financiers à viser', shortTitle: 'À viser', subtitle: 'Marchés et engagements M57', color: 'blue' },
+      { id: 'kpi-2', count: 1, title: 'Arbitrage M57 en attente', shortTitle: 'Arbitrages M57', subtitle: 'Virement de crédits Chapitre 21', color: 'amber' },
+      { id: 'kpi-3', count: 3, title: 'Marchés en cours', shortTitle: 'Marchés', subtitle: 'Procédures CAO & consultations', color: 'purple' },
     ],
     shortcuts: [
       { label: 'Lancer une validation', iconName: 'plus', primary: true, actionHash: '/workflows?launch=1' },
       { label: 'Saisir un arbitrage M57', iconName: 'coins', actionHash: '/parametres?section=modules' },
-      { label: 'Préparer une séance', iconName: 'calendar', actionHash: '/agenda' },
+      { label: 'Préparer une séance', iconName: 'calendar', actionHash: '/seances' },
     ],
   },
 
@@ -142,6 +180,8 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
   'commission-2': {
     id: 'commission-2',
     number: 2,
+    role: 'agent',
+    fullName: 'Nolwenn Péron',
     name: '2. Action sociale, enfance et jeunesse',
     shortName: 'Action Sociale & CCAS',
     roleTitle: 'Directrice du CCAS & Solidarités',
@@ -169,9 +209,9 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
       ],
     },
     kpis: [
-      { id: 'kpi-1', count: 1, title: 'Dossier CCAS confidentiel', subtitle: 'Aide sociale d’urgence requise', color: 'rose' },
-      { id: 'kpi-2', count: 14, title: 'Inscriptions scolaires', subtitle: 'Campagne rentrée 2026-2027', color: 'blue' },
-      { id: 'kpi-3', count: 8, title: 'Calculs QF à valider', subtitle: 'Dossiers familles périscolaire', color: 'purple' },
+      { id: 'kpi-1', count: 1, title: 'Dossier CCAS confidentiel', shortTitle: 'Aides CCAS', subtitle: 'Aide sociale d’urgence requise', color: 'rose' },
+      { id: 'kpi-2', count: 14, title: 'Inscriptions scolaires', shortTitle: 'Inscriptions', subtitle: 'Campagne rentrée 2026-2027', color: 'blue' },
+      { id: 'kpi-3', count: 8, title: 'Calculs QF à valider', shortTitle: 'Calculs QF', subtitle: 'Dossiers familles périscolaire', color: 'purple' },
     ],
     shortcuts: [
       { label: 'Demande de secours CCAS', iconName: 'file-plus', primary: true, actionHash: '/workflows?launch=1' },
@@ -184,6 +224,8 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
   'commission-3': {
     id: 'commission-3',
     number: 3,
+    role: 'agent',
+    fullName: 'Loïc Kerbrat',
     name: '3. Urbanisme, travaux et ports',
     shortName: 'Urbanisme & Travaux',
     roleTitle: 'Directeur des Services Techniques',
@@ -213,9 +255,9 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
       ],
     },
     kpis: [
-      { id: 'kpi-1', count: 2, title: 'Arrêtés & Permis à viser', subtitle: 'ADS et réglementation de voirie', color: 'blue' },
-      { id: 'kpi-2', count: 1, title: 'Échéance sous 24h', subtitle: 'Arrêté voirie Port du Tinduff', color: 'amber' },
-      { id: 'kpi-3', count: 4, title: 'Chantiers actifs', subtitle: 'Opérations et arrêtés de voirie', color: 'emerald' },
+      { id: 'kpi-1', count: 2, title: 'Arrêtés & Permis à viser', shortTitle: 'À viser', subtitle: 'ADS et réglementation de voirie', color: 'blue' },
+      { id: 'kpi-2', count: 1, title: 'Échéance sous 24h', shortTitle: 'Urgences 24h', subtitle: 'Arrêté voirie Port du Tinduff', color: 'amber' },
+      { id: 'kpi-3', count: 4, title: 'Chantiers actifs', shortTitle: 'Chantiers', subtitle: 'Opérations et arrêtés de voirie', color: 'emerald' },
     ],
     shortcuts: [
       { label: 'Lancer une validation', iconName: 'plus', primary: true, actionHash: '/workflows?launch=1' },
@@ -228,6 +270,8 @@ export const COMMISSIONS_CONFIG: Record<string, CommissionConfig> = {
   'commission-4': {
     id: 'commission-4',
     number: 4,
+    role: 'agent',
+    fullName: 'Jean-Luc Le Gall',
     name: '4. Culture, sport et vie associative',
     shortName: 'Culture & Sport',
     roleTitle: 'Directeur Vie Locale & Associations',

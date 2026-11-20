@@ -6,7 +6,7 @@ import {
   UserCheck, 
   KeyRound, 
   FileSpreadsheet, 
-  Sparkles, 
+   
   CheckCircle2, 
   Clock, 
   ShieldCheck, 

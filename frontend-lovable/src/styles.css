@@ -18,3 +18,13 @@
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 
 .native-save-status:empty{display:none}
+.workspace.nav-rail .sidebar{width:64px!important;padding:18px 8px!important;align-items:center}
+.workspace.nav-rail .workspace-main{margin-left:64px!important}
+.workspace.nav-rail .brand span:not(.brand-mark),.workspace.nav-rail .sidebar button>span:not(.sr-only),.workspace.nav-rail .sidebar .profile>div,.workspace.nav-rail .sidebar .profile>svg,.workspace.nav-rail .sidebar .commission-selector,.workspace.nav-rail .sidebar .nav-label,.workspace.nav-rail .sidebar .favorites,.workspace.nav-rail .sidebar a>span,.workspace.nav-rail .sidebar small,.workspace.nav-rail .sidebar .brand-dot{display:none!important}
+.workspace.nav-rail .sidebar .brand{padding:0!important;justify-content:center;margin-bottom:16px}
+.workspace.nav-rail .sidebar .main-nav>a,.workspace.nav-rail .sidebar .settings-link{justify-content:center!important;padding:10px!important;width:44px;height:44px;border-radius:8px}
+.workspace.nav-rail .sidebar .profile{justify-content:center;padding:8px!important}
+
+
+.workspace.nav-rail .brand-title { display: none !important; }
+.workspace.nav-rail .brand { justify-content: center !important; text-align: center !important; }

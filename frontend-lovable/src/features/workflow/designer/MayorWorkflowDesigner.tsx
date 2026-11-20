@@ -15,8 +15,8 @@ import {
 import '@xyflow/react/dist/style.css';
 
 import {
-  Sparkles,
-  Wand2,
+  SlidersHorizontal,
+  GitBranch,
   Play,
   Save,
   CheckCircle2,
@@ -394,7 +394,7 @@ function InnerMayorWorkflowDesigner({ onLaunchSimulation }: MayorWorkflowDesigne
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2.5">
               <div className="w-7 h-7 rounded-lg bg-cyan-50 border border-cyan-200 text-cyan-600 flex items-center justify-center">
-                <Sparkles className="w-3.5 h-3.5" />
+                <SlidersHorizontal className="w-3.5 h-3.5" />
               </div>
               <div>
                 <h2 className="text-sm font-bold text-slate-900">
@@ -430,9 +430,9 @@ function InnerMayorWorkflowDesigner({ onLaunchSimulation }: MayorWorkflowDesigne
                 <Button
                   onClick={() => handleGenerateFromPrompt()}
                   disabled={isGenerating}
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs px-4 flex items-center gap-1.5 shadow-xs shrink-0 cursor-pointer"
+                  className="bg-[#102A4C] hover:bg-[#193D6B] !text-white font-semibold text-xs px-4 flex items-center gap-1.5 shadow-xs shrink-0 cursor-pointer"
                 >
-                  <Wand2 className={`w-3.5 h-3.5 ${isGenerating ? 'animate-spin' : ''}`} />
+                  <GitBranch className={`w-3.5 h-3.5 ${isGenerating ? 'animate-spin' : ''}`} />
                   <span>{isGenerating ? 'Génération...' : 'Générer le circuit'}</span>
                 </Button>
               </div>

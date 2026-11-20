@@ -146,7 +146,7 @@ const DEFAULT_CATALOG: ModuleItem[] = [
     category: 'options',
     locked: false,
     circuits: ['Studio IA'],
-    icon: 'Sparkles',
+    icon: 'MessageSquare',
   },
   {
     key: 'connector_ctes',

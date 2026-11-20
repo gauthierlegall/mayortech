@@ -1,0 +1,16 @@
+{
+  "name": "MayorTech Terrain CTM",
+  "short_name": "MayorTech",
+  "start_url": "/demo.html#/terrain",
+  "display": "standalone",
+  "background_color": "#F7F7F5",
+  "theme_color": "#102A4C",
+  "description": "Cockpit de gestion municipale et suivi terrain CTM hors-ligne",
+  "icons": [
+    {
+      "src": "/web/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

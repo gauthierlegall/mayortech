@@ -9,6 +9,7 @@ import {dayFromGanttDate,loadPlanningProjects,planningMilestones,scheduleOf,sche
 import {projectOf,type ProjectRecord} from './ProjectPanels.types';
 import {PlanningTimeline} from './PlanningTimeline';
 import {PlanningActionDialog} from './PlanningActionDialog';
+import {RoadTrafficConflictBanner} from './RoadTrafficConflictBanner';
 import {SourcePreview} from './SourcePreview';
 import './planning.css';
 
@@ -57,6 +58,7 @@ export function GlobalPlanning(){
   finally{pending.current=false;if(alive.current)setBusy(false);}
  }
  return <main className="content planning-section global-planning"><div className="page-heading"><div><h1>Planning</h1></div><div className="planning-heading-actions"><div className="planning-view-switch" aria-label="Présentation du planning"><Button size="icon" variant={view==='timeline'?'secondary':'ghost'} aria-label="Frise" aria-pressed={view==='timeline'} onClick={()=>setView('timeline')}><ChartGantt size={15}/></Button><Button size="icon" variant={view==='list'?'secondary':'ghost'} aria-label="Liste" aria-pressed={view==='list'} onClick={()=>setView('list')}><List size={15}/></Button></div><Button variant="ghost" size="icon" aria-label="Actualiser le planning" disabled={loading||busy} onClick={()=>void load()}><RefreshCw size={16}/></Button>{canWrite&&actions.length>0&&<Button size="sm" disabled={busy} onClick={()=>{setSelected(null);setFormError('');setDialogOpen(true);}}><CalendarDays size={15}/>Planifier une action</Button>}</div></div>
+  <RoadTrafficConflictBanner/>
   {view==='list'&&<div className="planning-toolbar">{projectFilter}</div>}
   {loading&&<p className="planning-status" role="status">Chargement des plannings enregistrés…</p>}{error&&<div className="form-error" role="alert">{error} <Button variant="link" onClick={()=>void load()}>Réessayer</Button></div>}
   {view==='timeline'&&<PlanningTimeline groups={groups} month={month} onMonth={setMonth} onAction={open} onSource={openSource} canWrite={canWrite} controls={projectFilter} loading={loading} unavailable={Boolean(error)}/>}

@@ -6,6 +6,7 @@ import {useOrganizationModules} from './organization-modules-context';
 import './work-profile.css';
 
 const descriptions:Record<string,string>={
+ 'elu-maire':'Signatures régaliennes, séances du Conseil municipal et dossiers suivis.',
  'commission-1':'Dossiers, arbitrages financiers et échéances.',
  'commission-2':'Actions et dossiers enfance, jeunesse et action sociale.',
  'commission-3':'Urbanisme, suivi des travaux et carte du territoire.',
@@ -27,7 +28,8 @@ export function WorkProfileChoice(){
   if(!req)return true;
   return req.some(modKey=>hasModule(modKey));
  });
- const listToRender=visibleCommissions.length>0?visibleCommissions:commissions;
+ const baseList=visibleCommissions.length>0?visibleCommissions:commissions;
+ const listToRender=baseList.some(c=>c.id==='elu-maire')?baseList:[...baseList,{id:'elu-maire',name:'Élu · Maire (Dominique Cap)',can_edit:true}];
  const [selected,setSelected]=useState(''),[pending,setPending]=useState(false),[error,setError]=useState('');
  const inFlight=useRef(false);
  async function enter(event:FormEvent){

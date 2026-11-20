@@ -376,7 +376,7 @@ export function MunicipalOrganigramCanvas() {
                         cy="16"
                         r="5"
                         fill="#10b981"
-                        className="animate-pulse"
+                        className=""
                       />
                     )}
                   </g>

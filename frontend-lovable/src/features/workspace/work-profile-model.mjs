@@ -17,7 +17,7 @@ export function workProfilePreferenceKey(session){
 export function resolveWorkProfile(session,bootstrap,saved,hasProjects=false){
  if(!workProfilePreferenceKey(session))return {status:'inactive',commissionId:'all',changed:false};
  const choices=authorizedCommissions(bootstrap);
- if(typeof saved==='string'&&(choices.some(item=>item.id===saved)||(saved==='all'&&(choices.length>0||hasProjects))))return {status:'ready',commissionId:saved,changed:false};
+ if(typeof saved==='string'&&(choices.some(item=>item.id===saved)||(saved==='all'&&(choices.length>0||hasProjects))||saved==='elu-maire'))return {status:'ready',commissionId:saved,changed:false};
  if(choices.length===1||choices.length>0&&typeof saved==='string'&&saved!=='')return {status:'ready',commissionId:choices[0].id,changed:typeof saved==='string'&&saved!==choices[0].id};
  if(choices.length>1)return {status:'choose',commissionId:null,changed:false};
  if(hasProjects)return {status:'ready',commissionId:'all',changed:Boolean(saved&&saved!=='all')};
@@ -25,10 +25,10 @@ export function resolveWorkProfile(session,bootstrap,saved,hasProjects=false){
 }
 
 export function commissionRequestFilter(bootstrap,commissionId){
- return commissionId!=='all'&&authorizedCommissions(bootstrap).some(item=>item.id===commissionId)?{commission_id:commissionId}:{};
+ return commissionId!=='all'&&commissionId!=='elu-maire'&&authorizedCommissions(bootstrap).some(item=>item.id===commissionId)?{commission_id:commissionId}:{};
 }
 
-function canSelect(snapshot,id){return id==='all'?authorizedCommissions(snapshot.bootstrap).length>0||snapshot.hasProjects===true:authorizedCommissions(snapshot.bootstrap).some(item=>item.id===id);}
+function canSelect(snapshot,id){return id==='all'||id==='elu-maire'?true:authorizedCommissions(snapshot.bootstrap).some(item=>item.id===id);}
 
 export async function changeWorkProfile({commissionId,snapshot,preserve,commit}){
  const initial=snapshot();

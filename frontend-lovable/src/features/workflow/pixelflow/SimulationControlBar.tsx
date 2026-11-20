@@ -134,11 +134,11 @@ export function SimulationControlBar({
       {/* Telemetry pill & Retro FPS */}
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-1.5 px-2 py-1 bg-slate-900 border border-emerald-500/30 rounded-lg text-emerald-400 text-[11px]">
-          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 " />
           <span className="font-bold">60 FPS</span>
         </div>
         <div className="flex items-center gap-2 bg-slate-900/80 border border-slate-800 px-3 py-1 rounded-lg text-slate-300 text-[11px]">
-          <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+          <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 " />
           <span className="text-slate-500">Nœud Actuel :</span>
           <span className="text-cyan-300 font-semibold truncate max-w-[200px]">{activeStepName}</span>
         </div>

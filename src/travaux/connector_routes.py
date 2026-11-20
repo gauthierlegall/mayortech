@@ -9,10 +9,11 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Optional
-from fastapi import APIRouter, Request, HTTPException, Depends
+from fastapi import APIRouter, Request, HTTPException, Depends, Response
 from pydantic import BaseModel, Field
 
 from .connectors.registry import get_connector_registry, ConnectorRegistry
+from .connectors.pdf_generator import generate_municipal_act_pdf
 
 # Clé secrète souveraine pour HMAC (dérivée de la configuration de l'espace)
 MAGIC_LINK_SECRET = b"mayortech-souverain-hmac-secret-2026-plougastel"
@@ -29,6 +30,13 @@ class SimulateWebhookPayload(BaseModel):
     dossier_id: Optional[str] = "ARR-2026-019"
     action: Optional[str] = "signature_complete"
     extra: Optional[Dict[str, Any]] = None
+
+
+class ParapheurSimulatePayload(BaseModel):
+    dossier_id: Optional[str] = "ARR-2026-019"
+    signer_name: Optional[str] = "Dominique CAP (Maire)"
+    role: Optional[str] = "Maire de Plougastel-Daoulas"
+    prefecture_code: Optional[str] = "29-BREST"
 
 
 class QuickSignPayload(BaseModel):
@@ -129,6 +137,60 @@ def register_connector_and_ux_routes(app, db_path: Path | str, tenant: str, acto
         cfg_dict = registry.get_connector_status(tenant, "grist")
         res = adapter.handle_webhook(payload, cfg_dict.get("config", {}))
         return {"acknowledged": True, "details": res}
+
+    @router.post("/api/v1/connectors/parapheur/simulate-sign")
+    def simulate_parapheur_sign(payload: Optional[ParapheurSimulatePayload] = None, request: Request = None):
+        dossier_id = payload.dossier_id if payload and payload.dossier_id else "ARR-2026-019"
+        signer = payload.signer_name if payload and payload.signer_name else "Dominique CAP (Maire)"
+        now_str = datetime.now(timezone.utc).isoformat()
+        bordereau_id = f"AR-ACTES-2026-{hashlib.sha256((dossier_id + now_str).encode()).hexdigest()[:8].upper()}"
+        return {
+            "status": "success",
+            "action": "signed_and_transmitted",
+            "dossier_id": dossier_id,
+            "signed_by": signer,
+            "timestamp": now_str,
+            "parapheur": "i-Parapheur / Mégalis Bretagne",
+            "certificat": "RGS** (eIDAS Qualifié)",
+            "bordereau_actes": bordereau_id,
+            "prefecture": "29 - Finistère (Sous-Préfecture de Brest)",
+            "teletransmission": {
+                "statut": "Télétransmis et acquitté en Préfecture (@CTES)",
+                "bordereau": bordereau_id,
+                "date_acquittement": now_str,
+                "classification": "4.2 Police Municipale & Voirie",
+            },
+            "message": f"Acte scellé eIDAS et télétransmis avec succès. Récépissé préfectoral @CTES n° {bordereau_id}.",
+        }
+
+    @router.post("/api/v1/connectors/{connector_id}/simulate")
+    def simulate_connector_action(connector_id: str, payload: Optional[SimulateWebhookPayload] = None, request: Request = None):
+        if connector_id in ("parapheur_pastell", "parapheur"):
+            d_id = payload.dossier_id if payload and payload.dossier_id else "ARR-2026-019"
+            return simulate_parapheur_sign(ParapheurSimulatePayload(dossier_id=d_id))
+        adapter = registry.get_connector(connector_id)
+        if not adapter:
+            raise HTTPException(status_code=404, detail=f"Connecteur inconnu : {connector_id}")
+        cfg_dict = registry.get_connector_status(tenant, connector_id)
+        body = payload.model_dump() if payload else {}
+        result = adapter.handle_webhook(body, cfg_dict.get("config", {}))
+        return {
+            "status": "success",
+            "connector_id": connector_id,
+            "webhook_result": result,
+        }
+
+    @router.get("/api/v1/workflows/instances/{instance_id}/export-pdf")
+    def export_instance_pdf(instance_id: str, request: Request = None):
+        pdf_bytes = generate_municipal_act_pdf(instance_id, title=f"Acte Municipal Certifié {instance_id}")
+        return Response(
+            content=pdf_bytes,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f'attachment; filename="{instance_id}_acte_officiel_executoire.pdf"',
+                "X-MayorTech-Conformance": "ISO-19005-2-PDFA-2b",
+            },
+        )
 
     # -------------------------------------------------------------
     # 2. Liens Magiques Élus & Signature Rapide Mobile

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { 
   Users, Shield, UserCheck, UserX, Search, Filter, 
   KeyRound, FileText, CheckCircle2, AlertTriangle, RefreshCw, Building2,
-  Lock, Sparkles, ChevronRight, UserPlus, Eye, ArrowUpRight
+  Lock, ChevronRight, UserPlus, Eye, ArrowUpRight
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { MunicipalJoinSasModal } from './MunicipalJoinSasModal';

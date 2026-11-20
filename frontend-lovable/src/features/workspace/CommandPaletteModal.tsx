@@ -431,7 +431,6 @@ export function CommandPaletteModal({
               <span>Ouvrir</span>
             </span>
           </div>
-          <span className="text-[10px] text-slate-400">Recherche instantanée &lt; 50 ms</span>
         </div>
       </div>
     </div>

@@ -795,6 +795,20 @@ def setup_enfance_sociale_routes(
     def list_project_social_aid_route(project_id: str, current=Depends(actor_dep)):
         require_project_read(project_id, current)
         items = es_repo.list_social_aid_for_project(settings.tenant_id, project_id)
+        if hasattr(app.state, "audit_chain"):
+            import hashlib
+            actor_id = current.get("actor_id") or current.get("sub") or "unknown"
+            actor_name = current.get("display_name") or current.get("email") or "Agent CCAS"
+            app.state.audit_chain.append_entry(
+                tenant_id=settings.tenant_id,
+                actor_id=actor_id,
+                actor_name=actor_name,
+                actor_role=current.get("role") or "agent",
+                action="rgpd_consultation_dossier_ccas",
+                document_ref=f"CCAS-{project_id}",
+                document_sha256=hashlib.sha256(f"CCAS-{project_id}".encode("utf-8")).hexdigest(),
+                details={"project_id": project_id, "category": "RGPD Art. 9 Données Sensibles CCAS"},
+            )
         return {"items": items, "total": len(items)}
 
     @app.post("/api/v1/projects/{project_id}/social-aid")

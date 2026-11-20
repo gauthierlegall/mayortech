@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   X, Shield, KeyRound, Mail, Phone, Building2, User, CheckCircle2, 
-  ExternalLink, ArrowRight, Award, Lock, Sparkles
+  ExternalLink, ArrowRight, Award, Lock
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 

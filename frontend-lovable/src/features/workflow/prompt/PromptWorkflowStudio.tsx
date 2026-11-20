@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, ArrowRight, CheckCircle2, RotateCcw, Box, Layers, Play, Save, AlertCircle } from 'lucide-react';
+import { SlidersHorizontal, ArrowRight, CheckCircle2, RotateCcw, Box, Layers, Play, Save, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface PromptResult {
@@ -125,7 +125,7 @@ export function PromptWorkflowStudio({ onWorkflowSaved, onLaunchSimulation }: Pr
       <div className="bg-white border border-slate-200/90 rounded-2xl p-5 shadow-sm">
         <div className="flex items-center gap-3 mb-2">
           <div className="p-2 rounded-xl bg-blue-50 border border-blue-200 text-blue-600">
-            <Sparkles size={22} />
+            <SlidersHorizontal size={22} />
           </div>
           <div>
             <h2 className="text-base font-bold text-slate-900 tracking-tight">
@@ -197,7 +197,7 @@ export function PromptWorkflowStudio({ onWorkflowSaved, onLaunchSimulation }: Pr
                 disabled={loading}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition active:scale-95 text-xs shadow-sm disabled:opacity-50"
               >
-                <Sparkles size={15} />
+                <SlidersHorizontal size={15} />
                 <span>{loading ? 'Génération en cours…' : 'Générer le Workflow BPMN'}</span>
               </button>
 

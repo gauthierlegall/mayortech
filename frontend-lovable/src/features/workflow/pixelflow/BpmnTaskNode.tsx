@@ -176,7 +176,7 @@ export const BpmnTaskNode: React.FC<NodeProps> = ({ id, data, selected }) => {
             <span>{nodeData.customBadgeText}</span>
           </span>
         ) : isOverdue ? (
-          <span className="bg-rose-50 text-rose-700 border border-rose-300 text-[10px] font-mono px-1.5 py-0.5 rounded font-bold shrink-0 flex items-center gap-1 animate-pulse">
+          <span className="bg-rose-50 text-rose-700 border border-rose-300 text-[10px] font-mono px-1.5 py-0.5 rounded font-bold shrink-0 flex items-center gap-1 ">
             <AlertTriangle className="w-2.5 h-2.5 text-rose-600" />
             <span>{nodeData.overdueLabel || 'DÉPASSÉ'}</span>
           </span>

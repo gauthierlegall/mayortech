@@ -12,7 +12,7 @@ import {
   Coins,
   Landmark,
   Mail,
-  Sparkles,
+  
   Send,
   ShieldCheck,
   Smartphone,
@@ -41,7 +41,7 @@ const ICON_MAP: Record<string, React.ElementType> = {
   Coins,
   Landmark,
   Mail,
-  Sparkles,
+  
   Send,
   ShieldCheck,
   Smartphone,
@@ -596,7 +596,7 @@ export function OrganizationCreationWizardModal({ isOpen, onClose }: Organizatio
         <div className="px-6 py-3.5 border-t border-slate-100 bg-slate-50 flex items-center justify-between shrink-0 text-xs">
           {/* Dynamic Counter */}
           <div className="flex items-center gap-2 font-medium text-slate-600">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-emerald-500" />
             <span>
               <strong className="text-slate-900">{selectedModules.length}</strong> modules actifs
             </span>

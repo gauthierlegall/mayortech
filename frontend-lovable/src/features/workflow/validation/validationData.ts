@@ -54,6 +54,21 @@ export interface ValidationDossier {
     agentResponse: string;
     changedParagraph?: string;
   };
+  originalArticle?: string;
+  anonymizedArticle?: string;
+  anonymizedSha256?: string;
+  isAnonymizedForPublish?: boolean;
+  amountHt?: number;
+  delegationRuleApplied?: string;
+  isLegalSuspended?: boolean;
+  suspendedAt?: string;
+  suspensionReason?: string;
+  isTacitApproaching?: boolean;
+  daysRemaining?: number;
+  tacitDeadline?: string;
+  legalStatusNotice?: string;
+  templateVariables?: Record<string, string>;
+  isPublishedToPublicRegister?: boolean;
 }
 
 export const INITIAL_DOSSIERS: ValidationDossier[] = [
@@ -69,7 +84,11 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
     slaDeadline: '20/11/2026 (Reste 18h)',
     slaStatus: 'warning',
     priority: 'urgent',
-    currentStepIndex: 2, // 0: Agent, 1: CTM, 2: DGS, 3: Maire
+    isLegalSuspended: true,
+    suspendedAt: '12/11/2026',
+    suspensionReason: 'Notification de pièce manquante au pétitionnaire',
+    legalStatusNotice: 'Délai suspendu le 12/11/2026 (Pièce manquante)',
+    currentStepIndex: 3, // 0: Agent, 1: CTM, 2: DGS, 3: Maire
     status: 'pending',
     steps: [
       {
@@ -97,14 +116,17 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
         label: 'Direction Générale (DGS)',
         role: 'Arbitrage Régalien & Légalité',
         actor: 'Marie ROLLAND (DGS)',
-        status: 'active',
+        status: 'completed',
+        signedAt: '20/11/2026 à 08:30',
+        comment: 'Visa de légalité régalien accordé sans réserve. Transmis à M. le Maire pour signature.',
+        sha256: '9f86d081884c7d65',
       },
       {
         id: 'step-maire',
         label: 'Maire de Plougastel',
         role: 'Signature Arrêté Municipal',
         actor: 'Dominique CAP (Maire)',
-        status: 'upcoming',
+        status: 'active',
       },
     ],
     documents: [
@@ -143,6 +165,9 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
       },
     ],
     previewArticle: 'ARTICLE 1ER : Les travaux déclarés sous le formulaire Cerfa 13406*12 numéro PC-2026-042 portant sur la rénovation de toiture en ardoise naturelle et extension de 38 m² sont AUTORISÉS, sous réserve du strict respect des prescriptions de l’Architecte des Bâtiments de France.\n\nARTICLE 2 : Les eaux pluviales devront impérativement être infiltrées à la parcelle conformément au schéma directeur d’assainissement de Brest Métropole.\n\nARTICLE 3 : Le présent arrêté est transmis à la Préfecture du Finistère au titre du contrôle de légalité (@CTES) et certifié exécutoire.',
+    originalArticle: 'ARTICLE 1ER : Les travaux déclarés sous le formulaire Cerfa 13406*12 numéro PC-2026-042 portant sur la rénovation de toiture en bac acier et extension de 32 m² sont AUTORISÉS, sous réserve du respect des prescriptions de l’Architecte des Bâtiments de France.\n\nARTICLE 2 : Les eaux pluviales devront être infiltrées à la parcelle.\n\nARTICLE 3 : Le présent arrêté est transmis à la Préfecture du Finistère au titre du contrôle de légalité (@CTES) et certifié exécutoire.',
+    isEditedInReview: true,
+    editVersion: 'v1.1',
   },
   {
     id: 'ARR-2026-019',
@@ -156,6 +181,10 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
     slaDeadline: '20/11/2026 (Reste 6h)',
     slaStatus: 'warning',
     priority: 'urgent',
+    isTacitApproaching: true,
+    daysRemaining: 4,
+    tacitDeadline: '24/11/2026',
+    legalStatusNotice: 'J-4 avant décision tacite (24 nov. 2026)',
     currentStepIndex: 1, // Chef CTM
     status: 'pending',
     steps: [
@@ -215,6 +244,9 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
       },
     ],
     previewArticle: 'ARTICLE 1ER : La circulation sur le Quai du Tinduff sera régulée par alternat par feux tricolores du 24 novembre au 28 novembre 2026.\n\nARTICLE 2 : Le stationnement de tout véhicule sera interdit sur une distance de 50 mètres de part et d’autre de la zone de chantier jusqu’au 28 novembre 2026 inclus.',
+    originalArticle: 'ARTICLE 1ER : La circulation sur le Quai du Tinduff sera régulée par alternat par feux tricolores du 24 novembre au 28 novembre 2026.\n\nARTICLE 2 : Le stationnement de tout véhicule sera interdit sur une distance de 50 mètres de part et d’autre de la zone de chantier.',
+    isEditedInReview: true,
+    editVersion: 'v1.1',
     returnFeedback: {
       initialReason: 'Préciser la date de fin d’interdiction de stationnement et joindre l’arrêté de voirie complémentaire.',
       agentResponse: 'Date modifiée au 28 novembre 2026 et plan de déviation CTM joint au dossier.',
@@ -233,6 +265,8 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
     slaDeadline: '22/11/2026 (Reste 48h)',
     slaStatus: 'ok',
     priority: 'normal',
+    amountHt: 142500,
+    delegationRuleApplied: 'Seuil > 10 000 € HT · Escalade automatique vers le Maire requise',
     currentStepIndex: 3, // Maire
     status: 'pending',
     steps: [
@@ -316,6 +350,9 @@ export const INITIAL_DOSSIERS: ValidationDossier[] = [
       },
     ],
     previewArticle: 'ARTICLE 1ER : Le marché de travaux pour la réhabilitation énergétique de l’école des Alizés (Lot 2 CVC) est ATTRIBUÉ à la société Armor Climatisation pour un montant de 142 500 € HT.\n\nARTICLE 2 : La dépense sera imputée sur l’opération d’investissement OP-2026-ECOLES du budget principal communal.',
+    originalArticle: 'ARTICLE 1ER : Le marché de travaux pour la réhabilitation énergétique de l’école des Alizés (Lot 2 CVC) est ATTRIBUÉ à la société Armor Thermique pour un montant de 148 000 € HT.\n\nARTICLE 2 : La dépense sera imputée sur l’opération d’investissement OP-2026-ECOLES.',
+    isEditedInReview: true,
+    editVersion: 'v1.1',
   },
   {
     id: 'CCAS-2026-089',

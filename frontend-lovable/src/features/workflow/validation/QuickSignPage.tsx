@@ -145,7 +145,7 @@ export function QuickSignPage({ token: propToken }: QuickSignPageProps) {
       <div className="space-y-2">
         <header className="bg-white border border-slate-200 rounded-2xl p-2.5 shadow-2xs text-center space-y-1 relative">
           <div className="flex items-center justify-center gap-2">
-            <span className="w-6 h-6 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-2xs">
+            <span className="w-6 h-6 rounded-lg bg-[#102A4C] text-white flex items-center justify-center font-bold text-xs shadow-2xs">
               <Landmark className="w-3.5 h-3.5" />
             </span>
             <span className="text-xs font-bold uppercase tracking-wider text-slate-800">
@@ -265,7 +265,7 @@ export function QuickSignPage({ token: propToken }: QuickSignPageProps) {
                 <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
                   Extrait officiel de l’acte
                 </span>
-                <span className="text-[10px] text-blue-600 font-semibold flex items-center gap-1">
+                <span className="text-[10px] text-emerald-700 font-semibold flex items-center gap-1">
                   <ShieldCheck className="w-3 h-3" />
                   Visa CTM Validé
                 </span>
@@ -288,7 +288,7 @@ export function QuickSignPage({ token: propToken }: QuickSignPageProps) {
                     className="flex items-center justify-between p-1.5 rounded-xl bg-slate-50 border border-slate-200/70 text-xs"
                   >
                     <div className="flex items-center gap-1.5 min-w-0">
-                      <FileText className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                      <FileText className="w-3.5 h-3.5 text-[#102A4C] shrink-0" />
                       <div className="min-w-0">
                         <div className="font-semibold text-slate-900 truncate text-[10px]">{doc.name}</div>
                         <div className="text-[9px] text-slate-500">{doc.size} · {doc.status}</div>
@@ -296,7 +296,7 @@ export function QuickSignPage({ token: propToken }: QuickSignPageProps) {
                     </div>
                     <button
                       onClick={() => toast.info(`Aperçu de ${doc.name} prêt pour consultation.`)}
-                      className="p-1 rounded text-slate-400 hover:text-blue-600 cursor-pointer"
+                      className="p-1 rounded text-slate-400 hover:text-[#102A4C] cursor-pointer"
                       title="Consulter"
                     >
                       <Download className="w-3 h-3" />

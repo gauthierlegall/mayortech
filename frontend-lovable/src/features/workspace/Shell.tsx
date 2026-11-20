@@ -1,5 +1,5 @@
 import {Link,useLocation} from '@tanstack/react-router';
-import {Mail,HardHat,CheckCheck,Settings,Star,PanelLeftClose,PanelLeftOpen,Landmark,Menu,X,ShieldCheck,ChevronDown,FlaskConical,CalendarDays,ChartNoAxesGantt,ClipboardCheck,GitBranch,Plus,UserCheck,CheckCircle2,Sun,Search,Sparkles,FileText,Coins,Users,Heart,Building2,MapPin,Map} from 'lucide-react';
+import {Mail,HardHat,Settings,Star,PanelLeftClose,PanelLeftOpen,Landmark,Menu,X,ChevronDown,FlaskConical,CalendarDays,ChartNoAxesGantt,ClipboardCheck,Plus,UserCheck,CheckCircle2,Sun,Search,MessageSquare,FileText,Coins,Users,Heart,Building2,MapPin} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {useWorkspace} from './context';
 import {useEffect,useRef,useState,type ReactNode,type CSSProperties} from 'react';
@@ -14,6 +14,7 @@ import {OrganizationCreationWizardModal} from './OrganizationCreationWizardModal
 import {AbsenceDelegationModal} from './AbsenceDelegationModal';
 import {CommandPaletteModal} from './CommandPaletteModal';
 import {getCommissionConfig} from './commissionConfig';
+import {ElectedWorkspaceLayout} from './ElectedWorkspaceLayout';
 
 const commissionModules:Record<string,string[]>={
  'commission-1':['finances_m57'],
@@ -35,27 +36,30 @@ export function Shell({children}:{children:ReactNode}){
  const [isUserMenuOpen,setIsUserMenuOpen]=useState(false);
  const [isDelegationOpen,setIsDelegationOpen]=useState(false);
  const [isPaletteOpen,setIsPaletteOpen]=useState(false);
- const [isEluFocusMode,setIsEluFocusMode]=useState<boolean>(()=>localStorage.getItem('mayortech_focus_elu_mode')==='true');
  const [delegation,setDelegation]=useState<{active:boolean;delegate:string}>(()=>{
   try{const s=localStorage.getItem('mayortech_absence_delegation');return s?JSON.parse(s):{active:false,delegate:''};}catch{return {active:false,delegate:''};}
  });
  useEffect(()=>{
   const handleDel=(e:Event)=>{if(e instanceof CustomEvent&&e.detail){setDelegation({active:e.detail.active,delegate:e.detail.delegate});}};
-  const handleFocus=(e:Event)=>{if(e instanceof CustomEvent&&typeof e.detail?.active==='boolean'){setIsEluFocusMode(e.detail.active);}};
   const handleOpenPal=()=>setIsPaletteOpen(true);
   const handleOpenDel=()=>setIsDelegationOpen(true);
   window.addEventListener('mayortech:delegation-changed',handleDel);
-  window.addEventListener('mayortech:focus-elu-changed',handleFocus);
   window.addEventListener('mayortech:open-palette',handleOpenPal);
   window.addEventListener('mayortech:open-delegation',handleOpenDel);
   return ()=>{
    window.removeEventListener('mayortech:delegation-changed',handleDel);
-   window.removeEventListener('mayortech:focus-elu-changed',handleFocus);
    window.removeEventListener('mayortech:open-palette',handleOpenPal);
    window.removeEventListener('mayortech:open-delegation',handleOpenDel);
   };
  },[]);
- const viewLocation=useLocation(),path=viewLocation.pathname;const [collapsed,setCollapsed]=useState(false),[mobileOpen,setMobileOpen]=useState(false),[appearance,setAppearance]=useState(getAppearance()),[profilePending,setProfilePending]=useState(false),[profileError,setProfileError]=useState('');const aside=useRef<HTMLElement>(null),menu=useRef<HTMLButtonElement>(null);
+ const viewLocation=useLocation(),path=viewLocation.pathname;
+ const isWorkflows=path.startsWith('/workflows')||path.startsWith('/processus');
+ const [collapsed,setCollapsed]=useState(false);
+ const [railCollapsed,setRailCollapsed]=useState(isWorkflows);
+ useEffect(()=>{
+  setRailCollapsed(path.startsWith('/workflows')||path.startsWith('/processus'));
+ },[path]);
+ const [mobileOpen,setMobileOpen]=useState(false),[appearance,setAppearance]=useState(getAppearance()),[profilePending,setProfilePending]=useState(false),[profileError,setProfileError]=useState('');const aside=useRef<HTMLElement>(null),menu=useRef<HTMLButtonElement>(null);
  const routeProject=/^\/(?:chantiers|project)\/([^/]+)/.exec(path)?.[1];const currentProjectId=state.projects.find(project=>project.id===routeProject)?.id;
  const mailbox=path==='/messagerie'||path.startsWith('/mail');
  const identity=workspaceMailIdentity(session);
@@ -69,48 +73,46 @@ export function Shell({children}:{children:ReactNode}){
  useEffect(()=>{if(mobileOpen)aside.current?.querySelector<HTMLButtonElement>('button')?.focus();const key=(event:KeyboardEvent)=>{if(!mobileOpen)return;if(event.key==='Escape'){setMobileOpen(false);requestAnimationFrame(()=>menu.current?.focus());}if(event.key==='Tab'){const controls=Array.from(aside.current?.querySelectorAll<HTMLElement>('a,button,select')||[]).filter(x=>x.offsetWidth);const first=controls[0],last=controls.at(-1);if(event.shiftKey&&document.activeElement===first){event.preventDefault();last?.focus();}if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus();}}};window.addEventListener('keydown',key);return()=>window.removeEventListener('keydown',key);},[mobileOpen]);
  const palette=palettes.find((p:any)=>p.id===appearance.color)||palettes[0];
  const tokens={'--primary':palette.accent,'--accent':palette.soft,'--green':palette.accent,'--green-deep':palette.hover,'--green-light':palette.soft,'--ink':'var(--foreground)','--line':'var(--border)','--surface':'var(--background)'} as CSSProperties;
- if(path.startsWith('/quick-sign')){return <div className="min-h-screen bg-slate-50 flex items-center justify-center p-2 sm:p-4" style={tokens}>{children}</div>;}
+ if(path.startsWith('/quick-sign')||path.startsWith('/suivi')||path.startsWith('/registre-public')){return <div className="min-h-screen bg-[#F7F7F5] p-0" style={tokens}>{children}</div>;}
  const favorites=state.projects.filter(p=>p.favorite);const shown=favorites.length?favorites:state.projects.slice(0,4);
  const dossierLabel=commissionCfg.hasChantiers?'Chantiers':'Dossiers';
  async function changeProfile(id:string){if(profilePending||id===activeCommissionId)return;setProfilePending(true);setProfileError('');try{await setActiveCommissionId(id);window.location.hash='/';setMobileOpen(false);}catch(cause){setProfileError(cause instanceof Error?cause.message:'Enregistrez vos modifications avant de changer de profil.');}finally{setProfilePending(false);}}
- if(isEluFocusMode){
-  return <div className="min-h-screen bg-[#F7F7F5] text-stone-900 font-sans flex flex-col" style={tokens}>
-   <header className="h-14 bg-white border-b border-stone-200/90 px-4 sm:px-6 flex items-center justify-between shadow-[0_1px_2px_rgba(16,42,76,0.04)] sticky top-0 z-40">
-    <div className="flex items-center gap-3">
-     <Link to="/" className="brand flex items-center gap-2 font-bold text-stone-900 tracking-tight !p-0"><span className="brand-mark bg-[#102A4C] text-white"><Landmark size={20}/></span><span>MayorTech<span className="text-[#102A4C]">.</span></span></Link>
-     <span className="hidden sm:inline-block text-[11px] font-bold text-[#102A4C] bg-stone-100 border border-stone-200 px-2.5 py-0.5 rounded-full">Vue Simplifiée Élu</span>
-    </div>
-    <div className="flex items-center gap-1 sm:gap-2 text-xs">
-     <Link to="/workflows" className={`px-3 py-1.5 rounded-md font-bold flex items-center gap-1.5 transition-colors ${path.startsWith('/workflows')?'bg-[#102A4C] text-white shadow-xs':'text-stone-700 hover:bg-stone-100'}`}><CheckCircle2 size={15}/><span>À signer ({commissionCfg.allowedDossierIds.length})</span></Link>
-     <Link to="/agenda" className={`px-3 py-1.5 rounded-md font-bold flex items-center gap-1.5 transition-colors ${path==='/agenda'?'bg-[#102A4C] text-white shadow-xs':'text-stone-700 hover:bg-stone-100'}`}><CalendarDays size={15}/><span className="hidden sm:inline">Agenda & Séances</span></Link>
-     <Link to="/dossiers" className={`px-3 py-1.5 rounded-md font-bold flex items-center gap-1.5 transition-colors ${path==='/dossiers'||path==='/chantiers'?'bg-[#102A4C] text-white shadow-xs':'text-stone-700 hover:bg-stone-100'}`}><HardHat size={15}/><span className="hidden sm:inline">Dossiers suivis</span></Link>
-    </div>
-    <div className="flex items-center gap-2">
-     <Button variant="outline" size="sm" onClick={()=>{setIsEluFocusMode(false);localStorage.setItem('mayortech_focus_elu_mode','false');window.dispatchEvent(new CustomEvent('mayortech:focus-elu-changed',{detail:{active:false}}));}} className="text-xs font-semibold text-stone-700 rounded-md flex items-center gap-1.5 border-stone-200 hover:bg-stone-100 shadow-3xs cursor-pointer"><PanelLeftOpen size={14}/><span className="hidden sm:inline">Revenir à la vue complète</span><span className="sm:hidden">Quitter</span></Button>
-    </div>
-   </header>
-   <main className="flex-1 p-3 sm:p-6 max-w-7xl w-full mx-auto">{children}</main>
-   <CommandPaletteModal isOpen={isPaletteOpen} onClose={()=>setIsPaletteOpen(false)}/>
-  </div>;
+
+ if(commissionCfg.role==='elu'||activeCommissionId==='elu-maire'){
+  return <ElectedWorkspaceLayout
+   commissionCfg={commissionCfg}
+   activeCommissionId={activeCommissionId}
+   onChangeProfile={changeProfile}
+   onOpenDelegation={()=>setIsDelegationOpen(true)}
+   delegation={delegation}
+   session={session}
+   commissions={visibleCommissions}
+   projects={state.projects}
+  />;
  }
 
- return <div className={`workspace ${collapsed?'nav-collapsed':''} ${mobileOpen?'mobile-open':''}`} style={tokens}>
+ return <div className={`workspace ${collapsed?'nav-collapsed':''} ${railCollapsed?'nav-rail':''} ${mobileOpen?'mobile-open':''}`} style={tokens}>
  {mobileOpen&&<button className="nav-scrim" aria-label="Fermer la navigation" onClick={()=>{setMobileOpen(false);requestAnimationFrame(()=>menu.current?.focus());}}/>}
  <aside ref={aside} className="sidebar flex flex-col h-screen" aria-label="Navigation principale">
   <Button className="close-mobile" variant="ghost" size="icon" aria-label="Fermer la navigation" onClick={()=>{setMobileOpen(false);requestAnimationFrame(()=>menu.current?.focus());}}><X/></Button>
   
   {/* Compact Brand Header with Clickable Commune Subtitle */}
   <div className="px-3 pt-4 pb-2.5 border-b border-stone-200/80 relative">
-   <Link to="/" className="brand !p-0 !text-xl !gap-2 mb-1"><span className="brand-mark bg-[#102A4C] text-white"><Landmark size={18}/></span>MayorTech<span className="brand-dot text-[#102A4C]">.</span></Link>
-   <button
-    type="button"
-    onClick={()=>setIsOrgMenuOpen(!isOrgMenuOpen)}
-    className="w-full text-left flex items-center justify-between text-[11px] font-semibold text-stone-600 hover:text-[#102A4C] transition-colors py-0.5 cursor-pointer select-none truncate"
-    title={organization?.name||state.organization||'Ville de Plougastel-Daoulas'}
-   >
-    <span className="truncate">{organization?.name||state.organization||'Ville de Plougastel-Daoulas'}</span>
-    <ChevronDown size={13} className={`text-stone-400 shrink-0 ml-1 transition-transform ${isOrgMenuOpen ? 'rotate-180' : ''}`}/>
-   </button>
+   <Link to="/" aria-label="MayorTech - Accueil" className={`brand !p-0 !text-xl !gap-2 mb-1 ${railCollapsed ? "justify-center" : ""}`}>
+    <span className="brand-mark bg-[#102A4C] text-white shrink-0"><Landmark size={18}/></span>
+    {!railCollapsed && <span className="brand-title">MayorTech<span className="brand-dot text-[#102A4C]">.</span></span>}
+   </Link>
+   {!railCollapsed && (
+    <button
+     type="button"
+     onClick={()=>setIsOrgMenuOpen(!isOrgMenuOpen)}
+     className="w-full text-left flex items-center justify-between text-[11px] font-semibold text-stone-600 hover:text-[#102A4C] transition-colors py-0.5 cursor-pointer select-none truncate"
+     title={organization?.name||state.organization||'Ville de Plougastel-Daoulas'}
+    >
+     <span className="truncate">{organization?.name||state.organization||'Ville de Plougastel-Daoulas'}</span>
+     <ChevronDown size={13} className={`text-stone-400 shrink-0 ml-1 transition-transform ${isOrgMenuOpen ? 'rotate-180' : ''}`}/>
+    </button>
+   )}
    {isOrgMenuOpen&&(
     <div className="absolute top-full left-2 right-2 mt-1 bg-white border border-stone-200 rounded-lg shadow-lg p-1.5 z-50 text-xs animate-in fade-in duration-100">
      <Link to="/parametres" search={{section:'modules'} as any} className="flex items-center gap-2 p-2 rounded-md hover:bg-stone-50 text-stone-700 font-medium transition-colors" onClick={()=>setIsOrgMenuOpen(false)}>
@@ -124,21 +126,22 @@ export function Shell({children}:{children:ReactNode}){
   </div>
   
   <div className="flex-1 overflow-y-auto pr-0.5 space-y-1">
-   {(commissions.length>0||state.projects.length>0)&&<div className="commission-selector px-3 py-2 border-b border-border/40"><label htmlFor="sidebar-commission-select" className="text-[11px] uppercase tracking-[0.08em] font-semibold text-stone-500 block mb-1">Profil de travail</label><select id="sidebar-commission-select" aria-label="Changer de profil de travail" value={activeCommissionId} disabled={profilePending} onChange={e=>void changeProfile(e.target.value)} style={{borderLeft: `3px solid ${commissionCfg.accentColor}`}} className="w-full text-xs font-semibold bg-white border border-stone-200 rounded-md py-1.5 px-2 text-stone-800 cursor-pointer focus:outline-none focus:ring-1 focus:ring-[#102A4C] whitespace-normal shadow-3xs"><option value="all">0. Direction Générale (Vue transversale)</option>{visibleCommissions.map(c=><option key={c.id} value={c.id}>{c.name}</option>)}</select>{activeCommission&&<div className="flex items-center gap-1.5 mt-1.5 text-[11px]"><span className={`inline-block w-2 h-2 rounded-full ${activeCommission.can_edit?'bg-emerald-500':'bg-amber-500'}`}/><span className="text-stone-500 truncate">{commissionCfg.poleLabel}</span>{!activeCommission.can_edit&&<span className="ml-auto text-[10px] bg-amber-500/15 text-amber-700 font-semibold px-1 py-0.5 rounded">Lecture seule</span>}</div>}{profileError&&<p className="form-error" role="alert">{profileError}</p>}</div>}
+   {(commissions.length>0||state.projects.length>0)&&<div className="commission-selector px-3 py-2 border-b border-border/40"><label htmlFor="sidebar-commission-select" className="text-[11px] uppercase tracking-[0.08em] font-semibold text-stone-500 block mb-1">Profil de travail</label><select id="sidebar-commission-select" aria-label="Changer de profil de travail" value={activeCommissionId} disabled={profilePending} onChange={e=>void changeProfile(e.target.value)} style={{borderLeft: `3px solid ${commissionCfg.accentColor}`}} className="w-full text-xs font-semibold bg-white border border-stone-200 rounded-md py-1.5 px-2 text-stone-800 cursor-pointer focus:outline-none focus:ring-1 focus:ring-[#102A4C] whitespace-normal shadow-3xs"><option value="all">0. Direction Générale (Vue transversale)</option><option value="elu-maire">Élu · Maire (Dominique Cap)</option>{visibleCommissions.map(c=><option key={c.id} value={c.id}>{c.name}</option>)}</select>{profileError&&<p className="form-error" role="alert">{profileError}</p>}</div>}
+   
+   {/* 3 Limpid Pillars + Messagerie (No isolated Tâches & Suivi) */}
    <nav className="main-nav">
-    <Link to="/" className={path==='/'||path==='/today'?'active':''}><Sun size={19}/>Accueil</Link>
-    <Link to="/workflows" className={path.startsWith('/workflows')||path.startsWith('/processus')?'active':''}><CheckCircle2 size={19}/>Validations<span className="nav-count tabular-nums">{commissionCfg.allowedDossierIds.length}</span></Link>
-    {hasModule('messagerie_eml')&&<Link to="/messagerie" className={mailbox?'active':''}><Mail size={19}/>Messagerie<span className="nav-count tabular-nums">{unread||''}</span></Link>}
-    <Link to="/dossiers" className={path==='/dossiers'||path.startsWith('/chantiers')||path.startsWith('/project')?'active':''}>
+    <Link to="/" className={path==='/'||path==='/today'?'active':''} title="Accueil"><Sun size={19}/><span>Accueil</span></Link>
+    <Link to="/workflows" className={path.startsWith('/workflows')||path.startsWith('/processus')?'active':''} title="Validations"><CheckCircle2 size={19}/><span>Validations</span><span className="nav-count tabular-nums">{commissionCfg.allowedDossierIds.length}</span></Link>
+    <Link to="/dossiers" className={path==='/dossiers'||path.startsWith('/chantiers')||path.startsWith('/project')?'active':''} title={dossierLabel}>
      {commissionCfg.hasChantiers ? <HardHat size={19}/> : <FileText size={19}/>}
-     {dossierLabel}
+     <span>{dossierLabel}</span>
      <span className="nav-count tabular-nums">{commissionCfg.hasChantiers ? state.projects.length : commissionCfg.allowedDossierIds.length}</span>
     </Link>
-    <Link to="/actions" className={path==='/actions'||path.startsWith('/review')?'active':''}><CheckCheck size={19}/>Tâches & Suivi</Link>
+    {hasModule('messagerie_eml')&&<Link to="/messagerie" className={mailbox?'active':''} title="Messagerie"><Mail size={19}/><span>Messagerie</span><span className="nav-count tabular-nums">{unread||''}</span></Link>}
     
     <div className="nav-label text-[11px] uppercase tracking-[0.08em] font-semibold text-stone-500">{commissionCfg.sidebarSection.title}</div>
     {commissionCfg.sidebarSection.items.map((item, idx) => (
-     <Link key={idx} to={item.to as any} className={path===item.to?'active':''}>
+     <Link key={idx} to={item.to as any} className={path===item.to?'active':''} title={item.label}>
       {item.iconName==='chart'&&<ChartNoAxesGantt size={19}/>}
       {item.iconName==='clipboard'&&<ClipboardCheck size={19}/>}
       {item.iconName==='calendar'&&<CalendarDays size={19}/>}
@@ -177,7 +180,7 @@ export function Shell({children}:{children:ReactNode}){
    ) : null}
   </div>
 
-  {/* Compact Bottom: Only Settings + User Profile Card with Embedded Popover */}
+  {/* Compact Bottom: Settings + User Profile Card with Embedded Popover */}
   <div className="sidebar-bottom pt-2 border-t border-stone-200 relative">
    {delegation.active && (
     <div className="mx-2 mb-1.5 p-1.5 bg-amber-50 border border-amber-200/80 rounded-md text-[10px] text-amber-900 font-semibold flex items-center gap-1.5 shadow-3xs">
@@ -185,7 +188,7 @@ export function Shell({children}:{children:ReactNode}){
      <span className="truncate">Suppléance: {delegation.delegate.split('·')[0].trim()}</span>
     </div>
    )}
-   <Link to="/parametres" className={path.includes('parametres')||path.includes('settings')?'settings-link active':'settings-link'}><Settings size={18}/>Paramètres</Link>
+   <Link to="/parametres" className={path.includes('parametres')||path.includes('settings')?'settings-link active':'settings-link'} title="Paramètres"><Settings size={18}/><span>Paramètres</span></Link>
    
    {/* Popover on user card click */}
    {isUserMenuOpen && (
@@ -219,13 +222,14 @@ export function Shell({children}:{children:ReactNode}){
    <button
     type="button"
     onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
+    aria-label={`Profil utilisateur · ${commissionCfg.fullName || commissionCfg.greetingName}`}
     className="profile w-full flex items-center gap-2.5 p-2 border-t border-stone-200 hover:bg-stone-50 transition-colors text-left cursor-pointer"
    >
     <span className="avatar small font-bold shrink-0" style={{backgroundColor: commissionCfg.accentColor + '18', color: commissionCfg.accentColor}}>
      {commissionCfg.avatarInitials}
     </span>
     <div className="min-w-0 flex-1">
-     <strong className="text-xs font-semibold text-stone-900 block truncate">{commissionCfg.greetingName} ({commissionCfg.shortName})</strong>
+     <strong className="text-xs font-semibold text-stone-900 block truncate">{commissionCfg.fullName || commissionCfg.greetingName}</strong>
      <small className="text-[10px] text-stone-500 block truncate">{commissionCfg.poleLabel}</small>
     </div>
     <ChevronDown size={14} className={`text-stone-400 shrink-0 transition-transform ${isUserMenuOpen ? 'rotate-180' : ''}`} />
@@ -237,10 +241,19 @@ export function Shell({children}:{children:ReactNode}){
   <header className="topbar">
    <div className="breadcrumb">
     <Button ref={menu} className="mobile-menu" variant="ghost" size="icon" aria-label="Ouvrir la navigation" aria-expanded={mobileOpen} onClick={()=>setMobileOpen(true)}><Menu/></Button>
-    <Button className="collapse-menu" variant="ghost" size="icon" aria-label={collapsed?'Afficher la navigation':'Réduire la navigation'} onClick={()=>setCollapsed(!collapsed)}><PanelLeftClose/></Button>
-    <span>{activeCommission?(activeCommission.name.split('.')[1]?.trim()||activeCommission.name):'Travaux'}</span>
+    <Button
+      className="collapse-menu"
+      variant="ghost"
+      size="icon"
+      aria-label={railCollapsed ? 'Agrandir la navigation' : 'Réduire en rail'}
+      title={railCollapsed ? 'Agrandir la navigation' : 'Réduire en rail d’icônes'}
+      onClick={() => setRailCollapsed(!railCollapsed)}
+    >
+      {railCollapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}
+    </Button>
+    <span className="text-stone-700 font-medium">{activeCommission?(activeCommission.name.split('.')[1]?.trim()||activeCommission.name):'Travaux'}</span>
     <span className="crumb-separator">/</span>
-    <strong>{path==='/'||path==='/today'?'Accueil':mailbox?'Messagerie':path.startsWith('/workflows')||path.startsWith('/processus')?'Circuits de validation':path==='/planning'?'Planning':path==='/terrain'?'Suivi terrain':path==='/agenda'?'Agenda':path==='/assistant'?'Assistant':path==='/connexion'?'Première connexion':path==='/connexions'?'Connexions':path==='/actions'?'Tâches & Suivi':path.includes('parametres')||path.includes('settings')?'Paramètres':path.startsWith('/review')?'Tâches & Suivi':dossierLabel}</strong>
+    <strong>{path==='/'||path==='/today'?'Accueil':mailbox?'Messagerie':path.startsWith('/workflows')||path.startsWith('/processus')?'Circuits de validation':path==='/planning'?'Planning':path==='/terrain'?'Suivi terrain':path==='/agenda'?'Agenda':path==='/assistant'?'Assistant':path==='/connexion'?'Première connexion':path==='/connexions'?'Connexions':path.includes('parametres')||path.includes('settings')?'Paramètres':dossierLabel}</strong>
     {activeCommission&&!activeCommission.can_edit&&<span className="ml-2 inline-flex items-center text-xs bg-amber-500/15 text-amber-700 dark:text-amber-300 font-medium px-2 py-0.5 rounded border border-amber-500/25">Lecture seule</span>}
    </div>
 
@@ -262,20 +275,10 @@ export function Shell({children}:{children:ReactNode}){
     </button>
    </div>
 
-   {/* Topbar End: Focus Élu + Assistant (No duplicate ST avatar, no FAB) */}
+   {/* Topbar End: Universal search + Assistant (No duplicate ST avatar, no FAB) */}
    <div className="topbar-end">
     <Button variant="ghost" size="icon" className="md:hidden text-stone-600 mr-1" onClick={()=>setIsPaletteOpen(true)} aria-label="Recherche rapide"><Search size={17}/></Button>
     
-    <Button
-      variant="ghost"
-      size="sm"
-      onClick={()=>{setIsEluFocusMode(true);localStorage.setItem('mayortech_focus_elu_mode','true');window.dispatchEvent(new CustomEvent('mayortech:focus-elu-changed',{detail:{active:true}}));}}
-      className="hidden sm:flex items-center gap-1.5 text-xs text-stone-800 bg-stone-100 hover:bg-stone-200 border border-stone-200 rounded-lg mr-1 font-semibold cursor-pointer"
-    >
-      <Sparkles size={13} className="text-amber-500"/>
-      <span>Focus Élu</span>
-    </Button>
-
     <Button
       variant="ghost"
       size="sm"
@@ -283,7 +286,7 @@ export function Shell({children}:{children:ReactNode}){
       className="flex items-center gap-1.5 text-xs text-stone-800 bg-stone-100 hover:bg-stone-200 border border-stone-200 rounded-lg mr-2 font-semibold cursor-pointer"
       title="Ouvrir l'Assistant IA"
     >
-      <Sparkles size={13} className="text-[#102A4C]"/>
+      <MessageSquare size={14} className="text-[#102A4C]"/>
       <span className="hidden sm:inline">Assistant</span>
     </Button>
    </div>
@@ -291,7 +294,7 @@ export function Shell({children}:{children:ReactNode}){
   {workProfileNotice&&<p className="work-profile-notice" role="status">{workProfileNotice}</p>}
   {children}
   
-  {/* Mobile Bottom Navigation (Synchronized count & #102A4C badge) */}
+  {/* Mobile Bottom Navigation (Synchronized count & #102A4C badge, 3 pillars + messages) */}
   <nav className="mobile-nav" aria-label="Navigation rapide">
    <Link to="/"><Sun size={20}/><span>Accueil</span></Link>
    <Link to="/workflows" className="relative">
@@ -301,9 +304,8 @@ export function Shell({children}:{children:ReactNode}){
       {commissionCfg.allowedDossierIds.length}
     </span>
    </Link>
-   <Link to="/dossiers"><HardHat size={20}/><span>{dossierLabel}</span></Link>
+   <Link to="/dossiers">{commissionCfg.hasChantiers ? <HardHat size={20}/> : <FileText size={20}/>}<span>{dossierLabel}</span></Link>
    {hasModule('messagerie_eml')&&<Link to="/messagerie"><Mail size={20}/><span>Messages</span></Link>}
-   <Link to="/actions"><CheckCheck size={20}/><span>Tâches</span></Link>
   </nav>
  </div>
  {hasModule('ai_assistant')&&<AssistantWidget projectId={currentProjectId}/>}

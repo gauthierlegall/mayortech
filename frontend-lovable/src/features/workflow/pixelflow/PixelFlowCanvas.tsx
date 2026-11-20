@@ -1205,7 +1205,7 @@ function InnerPixelFlowCanvas({
                   {/* Step Dot on continuous line */}
                   <div className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-2 border-2 ${
                     isCurrent
-                      ? 'bg-blue-600 border-blue-400 ring-4 ring-blue-300/40 text-white animate-pulse'
+                      ? 'bg-blue-600 border-blue-400 ring-4 ring-blue-300/40 text-white '
                       : isCompleted
                       ? 'bg-emerald-500 border-emerald-300 text-white'
                       : 'bg-white border-slate-300 text-slate-400'
@@ -1235,7 +1235,7 @@ function InnerPixelFlowCanvas({
                           <span>Validé</span>
                         </span>
                       ) : isCurrent ? (
-                        <span className="bg-blue-50 text-blue-700 border border-blue-300 text-[9px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5 shrink-0 animate-pulse">
+                        <span className="bg-blue-50 text-blue-700 border border-blue-300 text-[9px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5 shrink-0 ">
                           <span>En cours</span>
                         </span>
                       ) : (

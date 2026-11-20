@@ -15,4 +15,5 @@ test-civic-run/
 test-ux-run/
 test-interop-run/
 temp_run/
-.agent/
+.agent/tmp/
+.agent/.agent/

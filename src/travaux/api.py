@@ -194,6 +194,8 @@ def request_permission(method: str, path: str):
     if area in {"organization", "organizations"}:
         if count == 3 and tail[1] == "current" and tail[2] == "modules":
             return "organization", "read" if read else "write"
+        if count == 3 and tail[1] == "current" and tail[2] == "sovereign-export" and method == "POST":
+            return "organization", "read"
         if count == 1 and method == "POST":
             return "organization", "write"
         if count == 3 and tail[1] == "members" and method == "PATCH":
@@ -204,6 +206,8 @@ def request_permission(method: str, path: str):
             return tail[1], "read"
         if count >= 2 and tail[1] == "join-requests":
             return "organization", "read" if read else "write"
+    if area == "audit" and count in {1, 2} and read:
+        return "audit", "read"
     if area == "settings" and count == 1:
         return "organization", "read" if read else "write"
     if area == "mailbox" and count >= 2:
@@ -282,7 +286,7 @@ def request_permission(method: str, path: str):
             return "workspace", "read"
         if count == 4 and tail[3] == "decision" and method == "POST":
             return "workspace", "write"
-    if area in {"sessions", "instances"}:
+    if area in {"sessions", "instances", "council-sessions"}:
         return "workspace", "read" if read else "write"
     if area == "jobs" and (count == 2 or (count == 3 and tail[2] == "retry")):
         return "workspace", "read" if read else "write"
@@ -292,7 +296,7 @@ def request_permission(method: str, path: str):
         return "workspace", "read" if read else "write"
     if area == "connectors":
         return "organization", "read" if read else "write"
-    if area == "validation":
+    if area in {"validation", "anonymizer"}:
         return "workspace", "read" if read else "write"
     return None
 
@@ -319,6 +323,9 @@ def create_app(settings: Settings | None = None):
     urbanisme_ports = repo.urbanisme_ports = UrbanismePortsRepository(repo)
     enfance_sociale = repo.enfance_sociale = EnfanceSocialeRepository(repo)
     seances_instances = repo.seances_instances = SeancesInstancesRepository(repo)
+    from .council_sessions import CouncilSessionsRepository, register_council_sessions_routes
+    council_sessions = repo.council_sessions = CouncilSessionsRepository(repo)
+    council_sessions.seed_default_council_session(settings.tenant_id)
     municipal_directory = repo.municipal_directory = MunicipalDirectoryRepository(repo)
     municipal_directory.seed_default_directory(settings.tenant_id)
     from .organigram_engine import MunicipalOrganigramEngine, register_organigram_routes
@@ -351,6 +358,7 @@ def create_app(settings: Settings | None = None):
     app.state.urbanisme_ports = urbanisme_ports
     app.state.enfance_sociale = enfance_sociale
     app.state.seances_instances = seances_instances
+    app.state.council_sessions = council_sessions
     app.state.municipal_directory = municipal_directory
     app.state.organigram = organigram
     app.state.workflow_engine = workflow_engine
@@ -426,7 +434,7 @@ def create_app(settings: Settings | None = None):
                 raise DomainError("forbidden", "Le module Enfance & CCAS est désactivé pour cette collectivité.")
             if req_path.startswith("/api/v1/finance") and not repo_mod.is_module_enabled(tenant, "finances_m57"):
                 raise DomainError("forbidden", "Le module Finances M57 est désactivé pour cette collectivité.")
-            if (req_path.startswith("/api/v1/sessions") or req_path.startswith("/api/v1/instances")) and not repo_mod.is_module_enabled(tenant, "conseil_seances"):
+            if (req_path.startswith("/api/v1/sessions") or req_path.startswith("/api/v1/instances") or req_path.startswith("/api/v1/council-sessions")) and not repo_mod.is_module_enabled(tenant, "conseil_seances"):
                 raise DomainError("forbidden", "Le module Séances du Conseil est désactivé pour cette collectivité.")
             if req_path.startswith("/api/v1/mailbox") and not repo_mod.is_module_enabled(tenant, "messagerie_eml"):
                 raise DomainError("forbidden", "Le module Messagerie municipale est désactivé pour cette collectivité.")
@@ -457,6 +465,8 @@ def create_app(settings: Settings | None = None):
     register_municipal_directory_routes(app, repo, tenant, actor, municipal_directory)
     register_organigram_routes(app, repo, tenant, actor, organigram)
     register_workflow_routes(app, repo, tenant, actor, workflow_engine)
+    from .intelligence_routes import register_intelligence_routes
+    register_intelligence_routes(app, repo, tenant, actor, workflow_engine)
     from .organization_modules import register_organization_modules_routes
     app.state.organization_modules_repo = register_organization_modules_routes(app, settings.db_path, tenant, actor)
     from .connector_routes import register_connector_and_ux_routes
@@ -505,6 +515,13 @@ def create_app(settings: Settings | None = None):
         _require_proj_write,
         _require_proj_read,
     )
+    register_council_sessions_routes(
+        app,
+        repo,
+        settings,
+        council_sessions,
+        actor,
+    )
     from .mailbox import register_mailbox_routes
     app.state.mailbox = register_mailbox_routes(app, repo, tenant, actor, settings)
     from .assistant_dossier import register_assistant_routes
@@ -517,6 +534,10 @@ def create_app(settings: Settings | None = None):
     app.state.field_reports = register_field_report_routes(app, repo, tenant, actor, settings)
     from .connection_hub import register_connection_routes
     app.state.connections = register_connection_routes(app, repo, tenant, actor, settings)
+    from .anonymizer import register_anonymizer_routes
+    app.state.anonymizer = register_anonymizer_routes(app, repo, tenant, actor, settings)
+    from .audit_chain import register_audit_chain_routes
+    app.state.audit_chain = register_audit_chain_routes(app, repo, tenant, actor, settings)
     from .mail_oauth import register_mail_oauth_routes
     app.state.mail_oauth = register_mail_oauth_routes(app, repo, tenant, actor, settings, hub=app.state.connections, governance=app.state.governance)
     from .mail_backfill import register_mail_backfill_routes

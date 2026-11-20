@@ -210,7 +210,7 @@ ${edges.map((e) => `    <bpmn:sequenceFlow id="${e.id}" sourceRef="${e.sourceRef
             disabled={!selectedNode}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold transition ${
               connectingFrom
-                ? 'bg-blue-50 text-blue-700 border-blue-400 animate-pulse'
+                ? 'bg-blue-50 text-blue-700 border-blue-400 '
                 : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100 disabled:opacity-40'
             }`}
           >

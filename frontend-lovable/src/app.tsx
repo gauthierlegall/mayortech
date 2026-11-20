@@ -20,6 +20,7 @@ import './integration.css';
 
 const queryClient=new QueryClient({defaultOptions:{queries:{retry:1,refetchOnWindowFocus:false}}});
 const Agenda=lazy(()=>import('./features/workspace/Agenda').then(module=>({default:module.Agenda})));
+const CouncilSessionView=lazy(()=>import('./features/seances/CouncilSessionView').then(module=>({default:module.CouncilSessionView})));
 const GlobalPlanning=lazy(()=>import('./features/workspace/GlobalPlanning').then(module=>({default:module.GlobalPlanning})));
 const Terrain=lazy(()=>import('./features/workspace/Terrain').then(module=>({default:module.Terrain})));
 const ConversationPage=lazy(()=>import('./features/workspace/Conversation').then(module=>({default:module.ConversationPage})));
@@ -27,7 +28,9 @@ const ConnectionsPage=lazy(()=>import('./features/workspace/Connections').then(m
 const OnboardingPage=lazy(()=>import('./features/workspace/Connections').then(module=>({default:module.OnboardingPage})));
 const MayorFlowPage=lazy(()=>import('./features/workflow/MayorFlowView').then(module=>({default:module.MayorFlowView})));
 const QuickSignPage=lazy(()=>import('./features/workflow/validation/QuickSignPage').then(module=>({default:module.QuickSignPage})));
+const TrackAndTracePage=lazy(()=>import('./features/workspace/TrackAndTracePage').then(module=>({default:module.TrackAndTracePage})));
 const TodayDashboardView=lazy(()=>import('./features/workspace/TodayDashboardView').then(module=>({default:module.TodayDashboardView})));
+const PublicRegisterPage=lazy(()=>import('./features/workspace/PublicRegisterPage').then(module=>({default:module.PublicRegisterPage})));
 function Root(){return <QueryClientProvider client={queryClient}><Suspense fallback={<main className="content"><p role="status">Ouverture de l’espace travaux…</p></main>}><WorkspaceProvider><OrganizationModulesProvider><AuthGate><FirstConnectionGuide/><Shell><div id="main-content" tabIndex={-1}><Outlet/></div></Shell></AuthGate><Toaster position="bottom-right" richColors/></OrganizationModulesProvider></WorkspaceProvider></Suspense></QueryClientProvider>;}
 const root=createRootRoute({component:Root,errorComponent:({error})=><main className="content"><h1>La page n’a pas pu être ouverte</h1><p>{error instanceof Error?error.message:'Rechargez cette page.'}</p><a href="#/">Revenir aux chantiers</a></main>});
 const route=(path:string,component:()=>React.ReactNode)=>createRoute({getParentRoute:()=>root,path,beforeLoad:async()=>{await preservePanels();},component});
@@ -47,11 +50,15 @@ const oldSummaryPlural=route('/summaries/$id',()=>{const {id}=oldSummaryPlural.u
 const oldSummaryFrench=route('/recapitulatifs/$id',()=>{const {id}=oldSummaryFrench.useParams();return <LegacySummaryRedirect id={id}/>;});
 const overview=route('/overview',Projects),oldProjects=route('/projects',Projects),actions=route('/actions',AllActions);
 const planning=route('/planning',()=> <GlobalPlanning/>),terrain=route('/terrain',()=> <Terrain/>);
-const agenda=route('/agenda',()=> <Agenda/>),assistant=route('/assistant',()=> <ConversationPage/>),connections=route('/connexions',()=> <ConnectionsPage/>),onboarding=route('/connexion',()=> <OnboardingPage/>);
+const agenda=route('/agenda',()=> <Agenda/>),seances=route('/seances',()=> <CouncilSessionView/>),assistant=route('/assistant',()=> <ConversationPage/>),connections=route('/connexions',()=> <ConnectionsPage/>),onboarding=route('/connexion',()=> <OnboardingPage/>);
 const workflows=route('/workflows',()=> <MayorFlowPage/>),oldWorkflows=route('/processus',()=> <MayorFlowPage/>);
 const quickSign=route('/quick-sign/$token',()=>{const {token}=quickSign.useParams();return <QuickSignPage token={token}/>;});
 const quickSignBase=route('/quick-sign',()=> <QuickSignPage/>);
-const router=createRouter({history:createHashHistory(),routeTree:root.addChildren([home,today,dossiers,project,oldProject,mail,oldMail,mailMessage,settings,oldSettings,settingsSection,review,reviewId,summaries,recapitulatifs,summary,oldSummaryPlural,oldSummaryFrench,overview,oldProjects,actions,planning,terrain,agenda,assistant,connections,onboarding,workflows,oldWorkflows,quickSign,quickSignBase]),defaultPreload:false});
+const suiviToken=route('/suivi/$token',()=>{const {token}=suiviToken.useParams();return <TrackAndTracePage token={token}/>;});
+const suiviBase=route('/suivi',()=> <TrackAndTracePage/>);
+const publicRegister=route('/registre-public',()=> <PublicRegisterPage/>);
+const publicRegisterRef=route('/registre-public/$ref',()=>{const {ref}=publicRegisterRef.useParams();return <PublicRegisterPage initialRef={ref}/>;});
+const router=createRouter({history:createHashHistory(),routeTree:root.addChildren([home,today,dossiers,project,oldProject,mail,oldMail,mailMessage,settings,oldSettings,settingsSection,review,reviewId,summaries,recapitulatifs,summary,oldSummaryPlural,oldSummaryFrench,overview,oldProjects,actions,planning,terrain,agenda,seances,assistant,connections,onboarding,workflows,oldWorkflows,quickSign,quickSignBase,suiviToken,suiviBase,publicRegister,publicRegisterRef]),defaultPreload:false});
 // Keep editor/draft data safe when following native links that do not use React.
 document.addEventListener('click',event=>{const anchor=(event.target as Element)?.closest?.('a[href^="#/"]') as HTMLAnchorElement|null;if(!anchor||event.defaultPrevented||event.ctrlKey||event.metaKey||event.shiftKey)return;event.preventDefault();void preservePanels().then(()=>{location.hash=anchor.hash;}).catch(()=>{});},true);
 window.addEventListener('beforeunload',event=>{if(document.querySelector('[data-unsaved="true"]')){event.preventDefault();event.returnValue='';}});
